@@ -1,0 +1,135 @@
+{
+  "version": "v0.1.0",
+  "mode": "public",
+  "sourceRepository": "1337816143/My-Evolution",
+  "sourceCommit": "c0ea5c877c97db890f0a2feebf1e3313f36193de",
+  "generatedAt": "2026-07-29T11:15:02Z",
+  "modules": [
+    "01-identity",
+    "02-career-education",
+    "03-knowledge-learning",
+    "04-health-energy",
+    "05-relationships-family",
+    "06-finance-assets",
+    "07-projects-products",
+    "08-ai-digital-systems",
+    "09-communication-language",
+    "10-creativity-design",
+    "11-travel-experience",
+    "12-habits-productivity",
+    "13-values-meaning",
+    "14-network-reputation",
+    "15-review-evolution"
+  ],
+  "pages": [
+    "06-finance-assets",
+    "10-creativity-design",
+    "15-review-evolution",
+    "09-communication-language",
+    "05-relationships-family",
+    "13-values-meaning",
+    "04-health-energy",
+    "11-travel-experience",
+    "14-network-reputation",
+    "01-identity",
+    "12-habits-productivity",
+    "architecture",
+    "07-projects-products",
+    "privacy",
+    "03-knowledge-learning",
+    "career-decision-method",
+    "02-career-education",
+    "08-ai-digital-systems",
+    "index"
+  ],
+  "files": [
+    {
+      "path": ".nojekyll",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "assets/style.css",
+      "sha256": "85088cb2bf382cb137f0649a90f5b2dcb5d8d06eeece8a8774db035652346e7b"
+    },
+    {
+      "path": "data/release-manifest.json",
+      "sha256": "c1a1976d9fea5eab8a7e72dd618d60ea7b333bb45ec15a66eaa0f2c1c9cbac48"
+    },
+    {
+      "path": "index.html",
+      "sha256": "071702e17e6169959c6b7d11e451de7bbd27f7d063b10403db245497eceba2fc"
+    },
+    {
+      "path": "pages/01-identity.html",
+      "sha256": "c911c15d7601ee847e4882576e3e5faebf33e5bc54c8af5ca8b04a95f725a45b"
+    },
+    {
+      "path": "pages/02-career-education.html",
+      "sha256": "a847349cdb4e548fe429dd910c6033a1a40fdba93afb6bf05759cacefd80efa4"
+    },
+    {
+      "path": "pages/03-knowledge-learning.html",
+      "sha256": "0f2c0b96fe6c82a07af651481d81950818cf57229f40c491335754da8c21ec7b"
+    },
+    {
+      "path": "pages/04-health-energy.html",
+      "sha256": "0325bc9760361b80d852bce83610f94dfccb4c1b762b210f7f51df1b8ec944df"
+    },
+    {
+      "path": "pages/05-relationships-family.html",
+      "sha256": "d46ad89cc7c43e2c5bffa4c5d8c52ec572e7e6d2937d8b2c515c62eccb54f6da"
+    },
+    {
+      "path": "pages/06-finance-assets.html",
+      "sha256": "97ce898c999195f61419569d8fde421585da6d7b3bc461be97914efa49193495"
+    },
+    {
+      "path": "pages/07-projects-products.html",
+      "sha256": "a29cbedd0ba62126f2b5ac0b0b13313b39b6ef8ffcbae2400968811bc7c44ea1"
+    },
+    {
+      "path": "pages/08-ai-digital-systems.html",
+      "sha256": "baa85ccc2002ad972c45cd6f2078a7621ffebde9683520ddcee1a9d49d798988"
+    },
+    {
+      "path": "pages/09-communication-language.html",
+      "sha256": "21a417753ac9be599fef7048652caabcc77497b9bc18e62cce56901cd5ab34af"
+    },
+    {
+      "path": "pages/10-creativity-design.html",
+      "sha256": "5e5b8febb2c4ecd5204a0cf05c81911eedce232a8756710ddcc0d016f64ba630"
+    },
+    {
+      "path": "pages/11-travel-experience.html",
+      "sha256": "2cc5a202c7e8f19198e7d17efaa60d86c0856d0f3797ee39d4281211e5da7b7d"
+    },
+    {
+      "path": "pages/12-habits-productivity.html",
+      "sha256": "35449330b2556159ea49bb0e6175d502915a6398cb106330fe50ee5117d6b499"
+    },
+    {
+      "path": "pages/13-values-meaning.html",
+      "sha256": "b5f4f9f2244d7674ee2b7f764193510367397daeef2adf89050f8284a6ce41a9"
+    },
+    {
+      "path": "pages/14-network-reputation.html",
+      "sha256": "d8db730ecec201d7b9c82ddce5a2063859413d1e1f383c314db3d369f2e360cc"
+    },
+    {
+      "path": "pages/15-review-evolution.html",
+      "sha256": "87238b7f2dd8689a7ea91d9fbd407f530de8817b0e00bea2b5ea8752697fe998"
+    },
+    {
+      "path": "pages/architecture.html",
+      "sha256": "6e3a8cd3758c71e8bfc0b965b7b4d14f6ed50fff89bc94c601e00c3a4fd6703a"
+    },
+    {
+      "path": "pages/career-decision-method.html",
+      "sha256": "ff42086eeb2ed04fe6a3fd2e728cd66c533a0b7d5104bca6170ae9662f50aba0"
+    },
+    {
+      "path": "pages/privacy.html",
+      "sha256": "6c41fb71ba1624d0cb4ca11b178a93212ce2c1a9bbd23bf0d701285a4404e83d"
+    }
+  ]
+}
