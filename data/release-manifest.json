@@ -1,9 +1,9 @@
 {
-  "version": "release-71d909d8d142",
+  "version": "release-e79b67d2047e",
   "mode": "site",
   "sourceRepository": "1337816143/My-Evolution",
-  "sourceCommit": "71d909d8d14281bbf4aeab8007d82bc9d8f1eb4f",
-  "generatedAt": "2026-07-31T11:09:25+08:00",
+  "sourceCommit": "e79b67d2047e3ba92d654f7890f864b1b152f38b",
+  "generatedAt": "2026-07-31T15:32:30+08:00",
   "modules": [
     "01-identity",
     "02-career-education",
@@ -51,6 +51,10 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
+      "path": "AGENTS.md",
+      "sha256": "5cc16f4ec5d13c43044680fa3aa3a86b2bb22da894027902071a0556b56ed857"
+    },
+    {
       "path": "assets/app.js",
       "sha256": "3a35ae2300b9409d075acae1743b58b4bdb9e138db88b153bb067f0655e3c4d1"
     },
@@ -60,91 +64,91 @@
     },
     {
       "path": "data/release-manifest.json",
-      "sha256": "f6bb6e2f7ef0ccb5b0f2461ca3fc5e1f4fffd1efa277541ac603628256ab8807"
+      "sha256": "71d2c9b18c7a72daccf2d1aa71e1e8948d731fbb4c99c5c03061d12d6724c997"
     },
     {
       "path": "index.html",
-      "sha256": "251a98fa0b8dbd44367d666e2fc4c794456ead3d09b4e6480c2baa309c9866bd"
+      "sha256": "3e56f0e02f46fdcae14c15455478a2cc1517487d8b694dc50d776b3817a74585"
     },
     {
       "path": "pages/01-identity.html",
-      "sha256": "200e65a969c8deccf4564fd88c9ea3705227fbff51b9133b159b8c8dc1dc0af5"
+      "sha256": "5cb7f544cbeda2b5635827f191701e3e147123225bf002882de433aa1a7bd2b0"
     },
     {
       "path": "pages/02-career-education.html",
-      "sha256": "5b3b3258b1916d0579984e7230145d4550578c5471952f118556cacde25e0790"
+      "sha256": "800cc700a0445df5ffeebe479cfbeea88ce99f957cc95dd42a589790539234bb"
     },
     {
       "path": "pages/03-knowledge-learning.html",
-      "sha256": "1622ef1835ac824a75a0b2ee90dfd3dab96da868eeddc95dccb4071c5f316db4"
+      "sha256": "6879f4d785db246e62e0580913ed0158c2963f7736d8fb4f6597062a85cca39b"
     },
     {
       "path": "pages/04-health-energy.html",
-      "sha256": "006e5bcb30c2cb35c76d172b77750681148a9778306519424602535e880276fc"
+      "sha256": "1a6a2e1ccdcc7d1a9a1f5a7c51a319963f09bafd1ae8a35b3497014cfb253072"
     },
     {
       "path": "pages/05-relationships-family.html",
-      "sha256": "77c50c0e6f911bf849be7cbcad1488f5b634e8d1064fcf964c4ca5c721e0af0d"
+      "sha256": "6f0c9ebd678c472c26b3680d646639394b27e8bab9b3134f275356c239258a51"
     },
     {
       "path": "pages/06-finance-assets.html",
-      "sha256": "91f4629e6577922cb9382abef9f03fba691f7749ac48c677f7207a06e745dea7"
+      "sha256": "84bca44195394b37fba15fb023b43fbc1737124727390bc46b5a7d7306509943"
     },
     {
       "path": "pages/07-projects-products.html",
-      "sha256": "969348e64c359acb3a669b408a00588dc24402ec196e9b4b67643544628aaf15"
+      "sha256": "adff5d7eb99f308e5a498c6f06038a3991eb822b5aeb701ce7d1f9aadfb2ae46"
     },
     {
       "path": "pages/08-ai-digital-systems.html",
-      "sha256": "7c76fb87c675adaa8e2e284e4c3f37244f32bf6affa806c5c260f547bb2f6b24"
+      "sha256": "0e9f4e77e32a11f96049bfa85178bdd549171a21d768791bab4696c740cb586e"
     },
     {
       "path": "pages/09-communication-language.html",
-      "sha256": "ba73b1197e294e701688c1a42a0d836c35ed8650f7ee693a313583140e23e683"
+      "sha256": "0f6465ce8ba20d0282a32afab70b2a0bc1fd4a4397c9e48a6efcdbd0b26b99f8"
     },
     {
       "path": "pages/10-creativity-design.html",
-      "sha256": "2be0877ec55ba0ce73c140493d19acf3ac5a56796eee7afaac50f3595cc820b3"
+      "sha256": "5f57d699f2245e8cefbc28b348c033fdebf4d6214e11bf615f042dd4824dfbbf"
     },
     {
       "path": "pages/11-travel-experience.html",
-      "sha256": "8576670f88223d56cac21866f9465e27bc5a3f661d9bed3ca04cefd2f656a1e0"
+      "sha256": "5246000ce207b2274c6b8ed9fa1b5cd2e15ee3397ffe4fba9347c5f1d2575725"
     },
     {
       "path": "pages/12-habits-productivity.html",
-      "sha256": "c8f21aa2f76d5acdb019ecb9906734105664ccf5f15ca5f802139ef63a7cf761"
+      "sha256": "b110b9dab4560f37df719438777bb4220204ba2a6bd6b2fdb7add8855aac56fa"
     },
     {
       "path": "pages/13-values-meaning.html",
-      "sha256": "b231b8121942ff7440b6c4d4d1529ed2bb3fc121fe07380a64e27c087d34dc2e"
+      "sha256": "04c0669aa8808d784f5bde264cf96995bdb20720347a7a476e9f1f1918e039c2"
     },
     {
       "path": "pages/14-network-reputation.html",
-      "sha256": "07950d47193dedafec6f80beff49325baf037d2f4bb8b17d1dd254462a307290"
+      "sha256": "3caeb80ff909591b075e368e0874dc543a4d2604239f2d6c6488216b589117f8"
     },
     {
       "path": "pages/15-review-evolution.html",
-      "sha256": "2bb2b590284a57a33fdb12dc71fc9393c4304e3d9ef46bb31d17a5e22ac7ce8f"
+      "sha256": "d452390864cb60eb359c85dd5a62cb289574f392faf948576553fb2a19cc503b"
     },
     {
       "path": "pages/architecture.html",
-      "sha256": "afca608abeb8bdd8f7918bd3f14afe43dce4791084c1c5075a39c875f61e312c"
+      "sha256": "45e09361b3855a82735ea431499e076e2693ef28973275d13fda17c3a285fff0"
     },
     {
       "path": "pages/career-decision-method.html",
-      "sha256": "0557dfc8c814fbdebfe5af68e7e224f92431b622da0c51f76ff482b1b9098d56"
+      "sha256": "bf6a7ad809ea0a327c295bff35a12e3cc943d0f7de5e1dc89f2b2f9fbc8a3c83"
     },
     {
       "path": "pages/career-workbench.html",
-      "sha256": "6cc5c40f65348ff47fb7a4b10983a8cbe0462c6cf643da26ba39d82af5f54614"
+      "sha256": "7f480496d98aacd89e0c343efe180873df39fc5ae3fe4eedcbfabd7d823d769a"
     },
     {
       "path": "pages/privacy.html",
-      "sha256": "977fc0a695206bce7c6e99a9f0cd90d1be111bcb3f9cd33b8dc2dbe252bc54ad"
+      "sha256": "12c7a8c9ad7c411fa822d269360fb27abbe00286636c2764804527d126d464c2"
     },
     {
       "path": "pages/system-dashboard.html",
-      "sha256": "34d7b77f22be9f2908332376a2b7f06a3d9a5502a7beda72bf4b3221a1e0b240"
+      "sha256": "3ba0b76cf5374765f69417ec1b1ab27bce07d9341ecb60d5a3fc1396832dc911"
     },
     {
       "path": "reports/career-path.html",
