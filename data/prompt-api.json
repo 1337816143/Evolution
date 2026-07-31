@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "read": {
+    "catalog": "../data/prompts.json",
+    "schema": "../data/prompt.schema.json"
+  },
+  "write": {
+    "enabled": false,
+    "baseUrl": "",
+    "authentication": "server-session",
+    "endpoints": {
+      "create": "POST /v1/prompts",
+      "update": "PUT /v1/prompts/{id}",
+      "archive": "DELETE /v1/prompts/{id}",
+      "bulk": "POST /v1/prompts:batch"
+    }
+  },
+  "agent": {
+    "repository": "1337816143/My-Evolution",
+    "workflow": ".github/workflows/prompt-upsert.yml",
+    "command": "node scripts/prompt-upsert.mjs --file=prompt.json",
+    "contract": "evolution.prompt.upsert.v1"
+  }
+}

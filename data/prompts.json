@@ -1,0 +1,243 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-07-31T17:36:42+08:00",
+  "sourceRepository": "1337816143/My-Evolution",
+  "sourceCommit": "4e0d20e3428062c0b8b53a6d9ebe3d24eb54d340",
+  "count": 4,
+  "categories": [
+    "写作与表达",
+    "研究与调研",
+    "Agent与自动化",
+    "Prompt工程"
+  ],
+  "models": [
+    "ChatGPT",
+    "Claude",
+    "Claude Code",
+    "Codex",
+    "Gemini",
+    "Hermes"
+  ],
+  "prompts": [
+    {
+      "id": "prompt-20260731-agent-task",
+      "title": "Agent执行任务规范",
+      "summary": "用于让编程或自动化Agent直接完成任务，同时保留检查、测试、隐私和回滚要求。",
+      "content": "请直接在「{{目标项目}}」中完成以下任务：\n\n任务目标：{{任务目标}}\n必须保留：{{必须保留}}\n禁止事项：{{禁止事项}}\n验收标准：{{验收标准}}\n\n执行规则：\n1. 先读取仓库中的 AGENTS.md、README、工作流和现有架构；\n2. 不要只给方案，直接实现；\n3. 不覆盖无关改动，不强制推送，不绕过测试；\n4. 涉及公开发布时先识别隐私边界；\n5. 修改后运行现有测试、构建、链接和安全检查；\n6. 发现问题时先查明原因再修复，避免让我反复执行未经验证的步骤；\n7. 最终报告实际改动、测试结果、剩余限制和下一步。",
+      "category": "Agent与自动化",
+      "subcategory": "任务下达",
+      "tags": [
+        "Agent",
+        "Codex",
+        "仓库任务",
+        "验收"
+      ],
+      "modelCompatibility": [
+        "Codex",
+        "Claude Code",
+        "Hermes",
+        "ChatGPT"
+      ],
+      "variables": [
+        {
+          "name": "目标项目",
+          "description": "仓库或项目名称",
+          "required": true,
+          "default": ""
+        },
+        {
+          "name": "任务目标",
+          "description": "需要完成的工作",
+          "required": true,
+          "default": ""
+        },
+        {
+          "name": "必须保留",
+          "description": "不能被覆盖的现有功能或改动",
+          "required": false,
+          "default": ""
+        },
+        {
+          "name": "禁止事项",
+          "description": "明确不允许做的事",
+          "required": false,
+          "default": ""
+        },
+        {
+          "name": "验收标准",
+          "description": "判定任务完成的条件",
+          "required": false,
+          "default": "测试通过并给出实际结果"
+        }
+      ],
+      "language": "zh-CN",
+      "status": "active",
+      "favorite": true,
+      "qualityScore": 92,
+      "notes": "适合直接交给Codex、Claude Code和其他具备工具权限的Agent。",
+      "privacy": "public",
+      "publish": true,
+      "revision": 1,
+      "createdAt": "2026-07-31T08:00:00.000Z",
+      "updatedAt": "2026-07-31T08:00:00.000Z",
+      "source": {
+        "type": "repository",
+        "agent": "ChatGPT"
+      },
+      "sourceFile": "08-ai-digital-systems/prompts/library/prompt-20260731-agent-task.json"
+    },
+    {
+      "id": "prompt-20260731-deep-research",
+      "title": "深度网络调研任务",
+      "summary": "用于要求AI基于高质量来源开展系统性网络调研，并清晰区分事实、推断与建议。",
+      "content": "你是一名高级研究顾问。请围绕「{{研究主题}}」开展深度调研。\n\n要求：\n1. 优先使用官方机构、原始论文、权威数据库和一手资料；\n2. 对可能变化的信息核对最新日期；\n3. 将事实、来源观点、你的推断和建议分开；\n4. 对来源冲突进行比较，不回避不确定性；\n5. 输出结构：执行摘要、核心发现、证据表、争议与限制、结论、行动建议；\n6. 每个关键结论给出来源；\n7. 不得编造没有查到的信息。\n\n背景与约束：{{背景与约束}}\n重点问题：{{重点问题}}\n期望输出形式：{{输出形式}}",
+      "category": "研究与调研",
+      "subcategory": "网络深度调研",
+      "tags": [
+        "深度研究",
+        "证据",
+        "来源核验"
+      ],
+      "modelCompatibility": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "variables": [
+        {
+          "name": "研究主题",
+          "description": "需要调研的核心主题",
+          "required": true,
+          "default": ""
+        },
+        {
+          "name": "背景与约束",
+          "description": "个人背景、范围、时间或地域约束",
+          "required": false,
+          "default": ""
+        },
+        {
+          "name": "重点问题",
+          "description": "必须回答的关键问题",
+          "required": false,
+          "default": ""
+        },
+        {
+          "name": "输出形式",
+          "description": "报告、HTML、表格等",
+          "required": false,
+          "default": "结构化研究报告"
+        }
+      ],
+      "language": "zh-CN",
+      "status": "active",
+      "favorite": true,
+      "qualityScore": 88,
+      "notes": "适合政策、职业、技术、市场和学术主题；高风险主题应增加官方来源和交叉核验要求。",
+      "privacy": "public",
+      "publish": true,
+      "revision": 1,
+      "createdAt": "2026-07-31T08:00:00.000Z",
+      "updatedAt": "2026-07-31T08:00:00.000Z",
+      "source": {
+        "type": "repository",
+        "agent": "ChatGPT"
+      },
+      "sourceFile": "08-ai-digital-systems/prompts/library/prompt-20260731-deep-research.json"
+    },
+    {
+      "id": "prompt-20260731-natural-english",
+      "title": "自然清晰英文改写",
+      "summary": "把中文或生硬英文改成自然、清晰、专业且适合非母语者开口的英文。",
+      "content": "请将下面内容改写为自然、清晰、专业的英文。\n\n要求：\n1. 不使用不必要的生僻词；\n2. 避免过长句子和过度书面化；\n3. 保留专业性、原意和重要细节；\n4. 优先使用非英语母语者容易理解和开口的表达；\n5. 不擅自增加事实；\n6. 如用于口头表达，句子要有自然停顿和清楚重音。\n\n使用场景：{{使用场景}}\n目标语气：{{目标语气}}\n原文：\n{{原文}}",
+      "category": "写作与表达",
+      "subcategory": "英文改写",
+      "tags": [
+        "英文",
+        "自然表达",
+        "非母语者"
+      ],
+      "modelCompatibility": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "variables": [
+        {
+          "name": "使用场景",
+          "description": "PPT、邮件、面试、论文或日常沟通",
+          "required": false,
+          "default": "通用专业表达"
+        },
+        {
+          "name": "目标语气",
+          "description": "正式、自然、口语化等",
+          "required": false,
+          "default": "自然、清晰、专业"
+        },
+        {
+          "name": "原文",
+          "description": "需要改写的中文或英文",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "language": "zh-CN",
+      "status": "active",
+      "favorite": false,
+      "qualityScore": 90,
+      "notes": "符合长期英文助手偏好：通顺、自然、避免刻意复杂化。",
+      "privacy": "public",
+      "publish": true,
+      "revision": 1,
+      "createdAt": "2026-07-31T08:00:00.000Z",
+      "updatedAt": "2026-07-31T08:00:00.000Z",
+      "source": {
+        "type": "repository",
+        "agent": "ChatGPT"
+      },
+      "sourceFile": "08-ai-digital-systems/prompts/library/prompt-20260731-natural-english.json"
+    },
+    {
+      "id": "prompt-20260731-prompt-refine",
+      "title": "提示词整理与升级",
+      "summary": "把零散需求整理成结构清晰、可执行、可复用的高质量Prompt，并补足缺失约束。",
+      "content": "请把下面的零散需求整理成一条高质量、可直接使用的提示词。\n\n原始需求：\n{{原始需求}}\n\n处理要求：\n1. 识别真实目标、使用场景、输入、输出和验收标准；\n2. 去掉重复、冲突和无效表述；\n3. 补充必要的角色、步骤、约束、错误处理和质量标准；\n4. 不把提示词写得机械或冗长；\n5. 将可变化内容改成双花括号占位变量；\n6. 输出：最终提示词、变量说明、适用场景、使用注意事项；\n7. 不改变用户明确提出的核心要求。",
+      "category": "Prompt工程",
+      "subcategory": "提示词优化",
+      "tags": [
+        "Prompt工程",
+        "整理",
+        "模板化"
+      ],
+      "modelCompatibility": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "variables": [
+        {
+          "name": "原始需求",
+          "description": "杂乱的想法、旧提示词或任务说明",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "language": "zh-CN",
+      "status": "active",
+      "favorite": false,
+      "qualityScore": 86,
+      "notes": "可用于把聊天中的临时要求沉淀为提示词库资产。",
+      "privacy": "public",
+      "publish": true,
+      "revision": 1,
+      "createdAt": "2026-07-31T08:00:00.000Z",
+      "updatedAt": "2026-07-31T08:00:00.000Z",
+      "source": {
+        "type": "repository",
+        "agent": "ChatGPT"
+      },
+      "sourceFile": "08-ai-digital-systems/prompts/library/prompt-20260731-prompt-refine.json"
+    }
+  ]
+}
