@@ -1,1 +1,202 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>隐私边界</title><link rel="stylesheet" href="../assets/style.css"></head><body><header><nav><strong>Evolution</strong><a href="../index.html">首页</a><a href="../pages/architecture.html">架构</a><a href="../pages/privacy.html">隐私</a></nav></header><main><article class="hero"><span class="tag">public</span><h1>隐私边界</h1><p class="meta">公开内容必须显式授权并通过自动扫描。</p><p>默认私有；无法判断时不公开。</p><p>公开构建不会读取private目录。</p><p>公开仓库不保存原始资料或独立内容源。</p></article></main><footer>版本 release-1af0e53edb7f · 来源 1af0e53edb7f · public</footer></body></html>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="长期个人进化、决策与知识管理系统">
+  <title>隐私边界 · Evolution</title>
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <div class="app-shell">
+    
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <span class="brand-mark">E</span>
+        <span><b>Evolution</b><small>Personal operating system</small></span>
+      </div>
+      <a class="side-home " href="../index.html">
+        <span>⌂</span><b>系统总览</b>
+      </a>
+      <div class="side-search">
+        <span>⌕</span>
+        <input type="search" data-module-search placeholder="搜索15个模块" aria-label="搜索模块">
+      </div>
+      <p class="side-label">成长领域</p>
+      <nav class="side-nav">
+        <a class="side-link "
+           data-side-module
+           data-search-text="身份与自我认知 Identity and self-understanding 基础层"
+           href="../pages/01-identity.html">
+          <span class="side-icon">◉</span>
+          <span><b>身份与自我认知</b><small>基础层</small></span>
+        </a>
+        <a class="side-link "
+           data-side-module
+           data-search-text="职业与教育 Career and education 发展层"
+           href="../pages/02-career-education.html">
+          <span class="side-icon">↗</span>
+          <span><b>职业与教育</b><small>发展层</small></span>
+        </a>
+        <a class="side-link "
+           data-side-module
+           data-search-text="知识与学习 Knowledge and learning 发展层"
+           href="../pages/03-knowledge-learning.html">
+          <span class="side-icon">⌁</span>
+          <span><b>知识与学习</b><small>发展层</small></span>
+        </a>
+        <a class="side-link "
+           data-side-module
+           data-search-text="健康与精力 Health and energy 生命层"
+           href="../pages/04-health-energy.html">
+          <span class="side-icon">✦</span>
+          <span><b>健康与精力</b><small>生命层</small></span>
+        </a>
+        <a class="side-link "
+           data-side-module
+           data-search-text="关系与家庭 Relationships and family 生命层"
+           href="../pages/05-relationships-family.html">
+          <span class="side-icon">♡</span>
+          <span><b>关系与家庭</b><small>生命层</small></span>
+        </a>
+        <a class="side-link "
+           data-side-module
+           data-search-text="财务与资产 Finance and assets 资产层"
+           href="../pages/06-finance-assets.html">
+          <span class="side-icon">¥</span>
+          <span><b>财务与资产</b><small>资产层</small></span>
+        </a>
+        <a class="side-link "
+           data-side-module
+           data-search-text="项目与产品 Projects and products 资产层"
+           href="../pages/07-projects-products.html">
+          <span class="side-icon">▣</span>
+          <span><b>项目与产品</b><small>资产层</small></span>
+        </a>
+        <a class="side-link "
+           data-side-module
+           data-search-text="AI与数字系统 AI and digital systems 发展层"
+           href="../pages/08-ai-digital-systems.html">
+          <span class="side-icon">⌘</span>
+          <span><b>AI与数字系统</b><small>发展层</small></span>
+        </a>
+        <a class="side-link "
+           data-side-module
+           data-search-text="沟通与语言 Communication and language 发展层"
+           href="../pages/09-communication-language.html">
+          <span class="side-icon">Aa</span>
+          <span><b>沟通与语言</b><small>发展层</small></span>
+        </a>
+        <a class="side-link "
+           data-side-module
+           data-search-text="创造力与设计 Creativity and design 发展层"
+           href="../pages/10-creativity-design.html">
+          <span class="side-icon">◇</span>
+          <span><b>创造力与设计</b><small>发展层</small></span>
+        </a>
+        <a class="side-link "
+           data-side-module
+           data-search-text="旅行与体验 Travel and experience 生命层"
+           href="../pages/11-travel-experience.html">
+          <span class="side-icon">✈</span>
+          <span><b>旅行与体验</b><small>生命层</small></span>
+        </a>
+        <a class="side-link "
+           data-side-module
+           data-search-text="习惯与效率 Habits and productivity 治理层"
+           href="../pages/12-habits-productivity.html">
+          <span class="side-icon">✓</span>
+          <span><b>习惯与效率</b><small>治理层</small></span>
+        </a>
+        <a class="side-link "
+           data-side-module
+           data-search-text="价值观与意义 Values and meaning 基础层"
+           href="../pages/13-values-meaning.html">
+          <span class="side-icon">∞</span>
+          <span><b>价值观与意义</b><small>基础层</small></span>
+        </a>
+        <a class="side-link "
+           data-side-module
+           data-search-text="人脉与声誉 Network and reputation 资产层"
+           href="../pages/14-network-reputation.html">
+          <span class="side-icon">◎</span>
+          <span><b>人脉与声誉</b><small>资产层</small></span>
+        </a>
+        <a class="side-link "
+           data-side-module
+           data-search-text="复盘与进化 Review and evolution 治理层"
+           href="../pages/15-review-evolution.html">
+          <span class="side-icon">↻</span>
+          <span><b>复盘与进化</b><small>治理层</small></span>
+        </a></nav>
+      <p class="side-label">系统</p>
+      <nav class="side-nav side-nav-small">
+        <a class="side-link " href="../pages/career-decision-method.html"><span class="side-icon">◆</span><span><b>职业路线研究</b><small>当前重点</small></span></a>
+        <a class="side-link " href="../pages/architecture.html"><span class="side-icon">⌘</span><span><b>系统架构</b><small>发布与维护</small></span></a>
+        <a class="side-link active" href="../pages/privacy.html"><span class="side-icon">◈</span><span><b>隐私边界</b><small>默认私有</small></span></a>
+      </nav>
+      <div class="side-foot">
+        <span class="mode-dot"></span>
+        <span>公开展示模式</span>
+      </div>
+    </aside>
+    <div class="page-shell">
+      <header class="mobile-bar">
+        <button class="icon-button" data-sidebar-toggle aria-label="打开导航">☰</button>
+        <a class="mobile-brand" href="../index.html">Evolution</a>
+        <span class="mode-pill">PUBLIC</span>
+      </header>
+      <main class="page-content">
+    <div class="page-head"><a class="breadcrumb" href="../index.html">系统总览</a><span>/</span><span>隐私边界</span></div>
+    <section class="report-hero">
+      <span class="eyebrow">EVOLUTION SYSTEM</span>
+      <h1>隐私边界</h1>
+      <p>默认私有、显式授权、最小公开和自动检查是整个系统的基础规则。</p>
+      
+      
+    </section>
+    <section class="process-line"><div><span>1</span><p>内容先进入私有仓库</p></div><div><span>2</span><p>人工判断公开边界</p></div><div><span>3</span><p>设置公开元数据</p></div><div><span>4</span><p>构建时自动过滤</p></div><div><span>5</span><p>扫描通过后发布</p></div></section>
+    <section class="report-stack">
+        <article class="report-section">
+          <div class="report-index">01</div>
+          <div>
+            <h2>默认私有</h2>
+            <p>无法明确判断是否适合公开时，一律留在私有仓库。个人资料、原始聊天、财务数据、关系记录、健康记录和完整决策证据不进入公开构建。</p>
+            
+          </div>
+        </article>
+        <article class="report-section">
+          <div class="report-index">02</div>
+          <div>
+            <h2>显式发布</h2>
+            <p>只有同时满足 privacy = public 与 publish = true 的内容才能进入公开网站。目录名称或文件位置不能替代元数据授权。</p>
+            
+          </div>
+        </article>
+        <article class="report-section">
+          <div class="report-index">03</div>
+          <div>
+            <h2>最小公开</h2>
+            <p>公开站优先展示方法、结构、成果摘要和已经确认可公开的作品，不复制无必要的个人细节。</p>
+            
+          </div>
+        </article>
+        <article class="report-section">
+          <div class="report-index">04</div>
+          <div>
+            <h2>自动检查</h2>
+            <p>发布前扫描手机号、身份证号、邮箱、本地路径、私有标记和禁止目录；任何命中都会终止部署。</p>
+            
+          </div>
+        </article></section></main>
+      <footer class="site-footer">
+        <span>Evolution release-2199cd06ad67</span>
+        <span>源提交 2199cd06ad67</span>
+        <span>public</span>
+      </footer>
+    </div>
+  </div>
+  <div class="sidebar-backdrop" data-sidebar-toggle></div>
+  <script src="../assets/app.js" defer></script>
+</body>
+</html>
