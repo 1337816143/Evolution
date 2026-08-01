@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "relationshipVersion": "v1.1",
+  "sourceRepository": "1337816143/My-Intimate-Relationship-Mentor",
+  "sourceCommit": "71830f07f6b4fd19963894ffe979f684f1a292f2",
+  "pagesRepository": "1337816143/My-Intimate-Relationship-Mentor-Pages",
+  "pagesCommit": "5b291c445e87500d52c88c82c9cbbe6e916970ec",
+  "dataRange": {
+    "from": "2025-11-10",
+    "through": "2026-07-27"
+  },
+  "messageCount": 234041,
+  "scenarioCount": 50,
+  "publicationMode": "client-encrypted",
+  "files": {
+    "index.html": "0a95d5c8abf797156aed009568ccbcd867134e801892e4c69d7f7592a0d22a3a",
+    "app.js": "d792318ef0633e796f0237cb13a829c5f71af719214ef74af5be0154ff5be459",
+    "styles.css": "cb892b5fc94f388cf45ae29ad0f9f8029a8beace166d6907d17e9fc3b9e912d9",
+    "assets/private-content.enc.json": "573c184cfd9b1cbe3a387bf861a2484f46457dbe243e555f15eb119ad974c443"
+  }
+}
