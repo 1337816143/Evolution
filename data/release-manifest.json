@@ -144,7 +144,7 @@
     },
     {
       "path": "data/search-index.json",
-      "sha256": "164865947a4c34322f4c854389cdef4f16260fc428f801497ff90ed8ec6d3371"
+      "sha256": "cadb03c5caf5d26a35d8bf6d3036ab31be2483c3ba480df9540d11454ddb965a"
     },
     {
       "path": "data/smartdrop-project.json",
