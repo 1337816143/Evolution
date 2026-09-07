@@ -1,0 +1,323 @@
+{
+  "schema": "evolution.conversation-archive.v1",
+  "privacy": "public",
+  "version": "2026-09-07.1",
+  "asOf": "2026-09-07",
+  "privateRecordCount": 33,
+  "visibleConversationThreads": 30,
+  "completeTranscript": false,
+  "sources": [
+    {
+      "id": "P01",
+      "title": "归档方法与发布约定",
+      "locator": "本轮编写的通用方法；遵循My-Evolution既有维护契约，不包含个人档案正文。"
+    }
+  ],
+  "records": [
+    {
+      "id": "P01",
+      "title": "重大选择：保留决策发生时的条件",
+      "category": "身份与职业",
+      "date": "2026-09-07",
+      "status": "公开方法",
+      "summary": "不要只存最后一句选择；记录选项、约束、证据及条件变化。",
+      "requirements": [
+        "把个人偏好、正式规则与他人观点分开。"
+      ],
+      "process": [
+        "按日期记录新增条件、推翻的假设、证据与选择。"
+      ],
+      "decisions": [
+        "完整个人背景、原始聊天和未确认可公开材料留在私有目录。"
+      ],
+      "results": [
+        "保留历史报告，不将情景估算写成事实。"
+      ],
+      "openQuestions": [],
+      "artifacts": [],
+      "sources": [
+        "P01"
+      ],
+      "href": "../pages/career-workbench.html"
+    },
+    {
+      "id": "P02",
+      "title": "申请流程：从问题到凭证",
+      "category": "升学与申请",
+      "date": "2026-09-07",
+      "status": "公开方法",
+      "summary": "把咨询、草稿、正式文件、提交和办结视为不同状态。",
+      "requirements": [
+        "每个字段须有来源；签名与授权不混淆。"
+      ],
+      "process": [
+        "记录截止日、责任方、文件版本与回执；未核实不填完成。"
+      ],
+      "decisions": [
+        "完整个人背景、原始聊天和未确认可公开材料留在私有目录。"
+      ],
+      "results": [
+        "档案中的进度可追溯到文件，而不是聊天承诺。"
+      ],
+      "openQuestions": [],
+      "artifacts": [],
+      "sources": [
+        "P01"
+      ]
+    },
+    {
+      "id": "P03",
+      "title": "研究文档：每一轮为什么修改",
+      "category": "研究与文档",
+      "date": "2026-09-07",
+      "status": "公开方法",
+      "summary": "保存原版、修改理由、用户纠正、最终稿与签字状态。",
+      "requirements": [
+        "他人模板只作排版参考，不混入个人资料。"
+      ],
+      "process": [
+        "把修改点、参考文献、图表和附件链接到对应版本。"
+      ],
+      "decisions": [
+        "完整个人背景、原始聊天和未确认可公开材料留在私有目录。"
+      ],
+      "results": [
+        "最终稿存在与已正式提交分别验收。"
+      ],
+      "openQuestions": [],
+      "artifacts": [],
+      "sources": [
+        "P01"
+      ]
+    },
+    {
+      "id": "P04",
+      "title": "语言练习：让偏好持续生效",
+      "category": "语言与表达",
+      "date": "2026-09-07",
+      "status": "公开方法",
+      "summary": "把可复用表达、常见错误与输出偏好沉淀为练习资产。",
+      "requirements": [
+        "自然、清晰；围绕当前句子纠错。"
+      ],
+      "process": [
+        "将原句、修正句、适用语境和复习点一起记录。"
+      ],
+      "decisions": [
+        "完整个人背景、原始聊天和未确认可公开材料留在私有目录。"
+      ],
+      "results": [
+        "图片或音频缺失时不补造发音评估。"
+      ],
+      "openQuestions": [],
+      "artifacts": [],
+      "sources": [
+        "P01"
+      ]
+    },
+    {
+      "id": "P05",
+      "title": "SmartDrop：设计与实测分开记账",
+      "category": "创造与产品",
+      "date": "2026-09-07",
+      "status": "公开方法",
+      "summary": "需求、候选路线、动作解释、成本和实体证据保留在同一项目中。",
+      "requirements": [
+        "不因更换方案而删除旧路线。"
+      ],
+      "process": [
+        "按数字设计、小样、实测和放行关卡记录。"
+      ],
+      "decisions": [
+        "完整个人背景、原始聊天和未确认可公开材料留在私有目录。"
+      ],
+      "results": [
+        "动画不是实测；已有独立项目页可继续查看。"
+      ],
+      "openQuestions": [],
+      "artifacts": [],
+      "sources": [
+        "P01"
+      ],
+      "href": "../pages/smartdrop.html"
+    },
+    {
+      "id": "P06",
+      "title": "交互VFX：代码完成与设备验收",
+      "category": "创造与产品",
+      "date": "2026-09-07",
+      "status": "公开方法",
+      "summary": "摄像头、追踪、渲染、录制和性能各自保留验证状态。",
+      "requirements": [
+        "保留用户故障反馈，不以编译成功关闭实机问题。"
+      ],
+      "process": [
+        "记录仓库版本、设备、浏览器、错误与复测结果。"
+      ],
+      "decisions": [
+        "完整个人背景、原始聊天和未确认可公开材料留在私有目录。"
+      ],
+      "results": [
+        "没有设备数据，不虚构性能指标。"
+      ],
+      "openQuestions": [],
+      "artifacts": [],
+      "sources": [
+        "P01"
+      ]
+    },
+    {
+      "id": "P07",
+      "title": "AI 3D与游戏：工具链、Prompt和成本",
+      "category": "创造与产品",
+      "date": "2026-09-07",
+      "status": "公开方法",
+      "summary": "把建模、资产处理、引擎衔接和成本组织成可复用实验。",
+      "requirements": [
+        "提示词来源与资产许可可追溯。"
+      ],
+      "process": [
+        "保存软件连接方式、失败样例、参数与可运行成果。"
+      ],
+      "decisions": [
+        "完整个人背景、原始聊天和未确认可公开材料留在私有目录。"
+      ],
+      "results": [
+        "已有AI 3D实验室；价格与授权使用前复核。"
+      ],
+      "openQuestions": [],
+      "artifacts": [],
+      "sources": [
+        "P01"
+      ],
+      "href": "../pages/ai-3d-lab.html"
+    },
+    {
+      "id": "P08",
+      "title": "科研与数据工具：保住完整基线",
+      "category": "科研与数据",
+      "date": "2026-09-07",
+      "status": "公开方法",
+      "summary": "记录输入数据、检查规则、实现、测试和已知局限。",
+      "requirements": [
+        "不拿缩略演示替代完整工具。"
+      ],
+      "process": [
+        "保留功能对照与回归样本；指标追溯计算方法。"
+      ],
+      "decisions": [
+        "完整个人背景、原始聊天和未确认可公开材料留在私有目录。"
+      ],
+      "results": [
+        "展示材料中的数字不自动等于重现成功。"
+      ],
+      "openQuestions": [],
+      "artifacts": [],
+      "sources": [
+        "P01"
+      ]
+    },
+    {
+      "id": "P09",
+      "title": "旅行资料：计划、实际与时效",
+      "category": "旅行与生活",
+      "date": "2026-09-07",
+      "status": "公开方法",
+      "summary": "行程、来源、待核事项、实际体验和历史版本分开保存。",
+      "requirements": [
+        "地图示意不代替导航；过期班次不当作当前建议。"
+      ],
+      "process": [
+        "保留日期、交通替代方案和实际发生的变更。"
+      ],
+      "decisions": [
+        "完整个人背景、原始聊天和未确认可公开材料留在私有目录。"
+      ],
+      "results": [
+        "个人行程不自动公开；通用方法可复用。"
+      ],
+      "openQuestions": [],
+      "artifacts": [],
+      "sources": [
+        "P01"
+      ]
+    },
+    {
+      "id": "P10",
+      "title": "工具与消费：比较的是总成本",
+      "category": "工具与成本",
+      "date": "2026-09-07",
+      "status": "公开方法",
+      "summary": "同时记录硬约束、价格基准、使用量、真实体验与最后选择。",
+      "requirements": [
+        "不根据宣传语直接下稳定性或性价比结论。"
+      ],
+      "process": [
+        "把报价日期、试用、退款与潜在风险列入比较。"
+      ],
+      "decisions": [
+        "完整个人背景、原始聊天和未确认可公开材料留在私有目录。"
+      ],
+      "results": [
+        "需求已登记，不代表已购买或已找到最佳方案。"
+      ],
+      "openQuestions": [],
+      "artifacts": [],
+      "sources": [
+        "P01"
+      ]
+    },
+    {
+      "id": "P11",
+      "title": "提示词资产：公开通用版与私密上下文",
+      "category": "系统与治理",
+      "date": "2026-09-07",
+      "status": "公开方法",
+      "summary": "完整Prompt、用途、变量、版本与来源一起维护。",
+      "requirements": [
+        "私人上下文不得直接进入公开Prompt库。"
+      ],
+      "process": [
+        "本机草稿经明确同步后才标记写入仓库。"
+      ],
+      "decisions": [
+        "完整个人背景、原始聊天和未确认可公开材料留在私有目录。"
+      ],
+      "results": [
+        "现有提示词事实源与全站搜索继续复用。"
+      ],
+      "openQuestions": [],
+      "artifacts": [],
+      "sources": [
+        "P01"
+      ]
+    },
+    {
+      "id": "P12",
+      "title": "归档治理：先讲清覆盖了什么",
+      "category": "系统与治理",
+      "date": "2026-09-07",
+      "status": "公开方法",
+      "summary": "明确可读来源、缺失原文、附件状态与验证边界。",
+      "requirements": [
+        "只维护私有源仓库；公开镜像由标准工作流生成。"
+      ],
+      "process": [
+        "以主题合并重复对话；保留每轮纠正与未完成项。"
+      ],
+      "decisions": [
+        "完整个人背景、原始聊天和未确认可公开材料留在私有目录。"
+      ],
+      "results": [
+        "本次为有来源的主题整理，不是账号全量聊天备份。"
+      ],
+      "openQuestions": [],
+      "artifacts": [],
+      "sources": [
+        "P01"
+      ],
+      "href": "../pages/architecture.html"
+    }
+  ],
+  "publish": true
+}
