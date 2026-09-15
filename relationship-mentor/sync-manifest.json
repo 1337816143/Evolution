@@ -1,21 +1,26 @@
 {
-  "schemaVersion": 1,
-  "relationshipVersion": "v1.1",
+  "schemaVersion": 2,
+  "relationshipVersion": "v1.2",
   "sourceRepository": "1337816143/My-Intimate-Relationship-Mentor",
-  "sourceCommit": "71830f07f6b4fd19963894ffe979f684f1a292f2",
+  "sourceCommit": "1bbcdb9319ef5e6533c2619dd62035684e3d3259",
   "pagesRepository": "1337816143/My-Intimate-Relationship-Mentor-Pages",
-  "pagesCommit": "5b291c445e87500d52c88c82c9cbbe6e916970ec",
-  "dataRange": {
+  "pagesCommit": "7cdd1946b0942ad349ff8315464570ef528ae269",
+  "baselineDataRange": {
     "from": "2025-11-10",
     "through": "2026-07-27"
   },
-  "messageCount": 234041,
+  "baselineMessageCount": 234041,
+  "latestIncident": {
+    "date": "2026-09-15",
+    "messageCount": 305,
+    "summary": "技术求助冲突：问题定义错位与道歉后复盘的第二轮再触发"
+  },
   "scenarioCount": 50,
   "publicationMode": "client-encrypted",
   "files": {
     "index.html": "0a95d5c8abf797156aed009568ccbcd867134e801892e4c69d7f7592a0d22a3a",
     "app.js": "d792318ef0633e796f0237cb13a829c5f71af719214ef74af5be0154ff5be459",
     "styles.css": "cb892b5fc94f388cf45ae29ad0f9f8029a8beace166d6907d17e9fc3b9e912d9",
-    "assets/private-content.enc.json": "573c184cfd9b1cbe3a387bf861a2484f46457dbe243e555f15eb119ad974c443"
+    "assets/private-content.enc.json": "8d14a54cef4e11e98aa9fd484caf7ca6783b3dfdc8b196f7a456f2c0b4ca39aa"
   }
 }
