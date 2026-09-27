@@ -1,9 +1,14 @@
 {
-  "version": "db0e530acb1b",
-  "sourceCommit": "c2e5a937ecfdaad2e47c00a2d9cd882f21026ee2",
+  "version": "0396fc76c279",
+  "sourceCommit": "11e6e91ac31d7b1b1eccf921efd25a17d775508c",
   "updated": "2026-09-28",
-  "documents": 45,
+  "documents": 46,
   "paperEntries": 21,
   "methodEntries": 18,
-  "externalPDFsCached": false
+  "externalPDFsCached": true,
+  "reader": "reflow-v2",
+  "originalResourcesIncludedInFullCache": true,
+  "archivedOriginals": 12,
+  "pendingOriginals": 11,
+  "originalBytes": 223843180
 }

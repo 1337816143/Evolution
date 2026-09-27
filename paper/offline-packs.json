@@ -1,0 +1,21 @@
+{
+  "base": "downloads/Paper-Lab-offline.zip",
+  "parts": [
+    {
+      "name": "Paper-Originals-01.zip",
+      "bytes": 59557929
+    },
+    {
+      "name": "Paper-Originals-02.zip",
+      "bytes": 51244894
+    },
+    {
+      "name": "Paper-Originals-03.zip",
+      "bytes": 61587671
+    },
+    {
+      "name": "Paper-Originals-04.zip",
+      "bytes": 34520959
+    }
+  ]
+}
