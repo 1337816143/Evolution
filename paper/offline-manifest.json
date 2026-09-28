@@ -48,7 +48,9 @@
     "./read/q-method.html",
     "./read/qu-2025.html",
     "./read/rda.html",
+    "./read/reader-guide.html",
     "./read/reader-offline-update.html",
+    "./read/reader-workspace-20260928.html",
     "./read/research-framework.html",
     "./read/rotation.html",
     "./read/session-2026-09-28.html",
@@ -76,7 +78,9 @@
     "./translation-worker.js",
     "./vendor/pdfjs/LICENSE",
     "./vendor/pdfjs/pdf.mjs",
-    "./vendor/pdfjs/pdf.worker.mjs"
+    "./vendor/pdfjs/pdf.worker.mjs",
+    "./workspace.css",
+    "./workspace.js"
   ],
   "library": [
     "./downloads/Paper-Lab-offline.html",
@@ -997,5 +1001,5 @@
       "./vendor/translation/wasm/ort-wasm-simd-threaded.wasm"
     ]
   },
-  "bytes": 381396803
+  "bytes": 381652599
 }
