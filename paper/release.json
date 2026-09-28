@@ -1,6 +1,6 @@
 {
-  "version": "8a1be3401244",
-  "sourceCommit": "bb9558b6221a0c6021eca7d487b4b4a597ebc37a",
+  "version": "9e6ff7ba2d67",
+  "sourceCommit": "ada0254f1568c60fe924a63b85158a5a7cef91df",
   "updated": "2026-09-28",
   "documents": 48,
   "paperEntries": 21,
@@ -22,7 +22,8 @@
   },
   "math": {
     "sourceEquationGroups": 50,
-    "mathmlTranscriptions": 3,
+    "mathmlGroups": 3,
+    "mathmlTranscriptions": 4,
     "sourceTextUnchanged": true
   }
 }
