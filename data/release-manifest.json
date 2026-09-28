@@ -1,9 +1,9 @@
 {
-  "version": "release-4cf26bc2b528",
+  "version": "release-722e3191d5c2",
   "mode": "site",
   "sourceRepository": "1337816143/My-Evolution",
-  "sourceCommit": "4cf26bc2b528a9a099bb5eefeb7449a61344d3f2",
-  "generatedAt": "2026-09-28T07:03:41+08:00",
+  "sourceCommit": "722e3191d5c299c867711f51a634415572c74958",
+  "generatedAt": "2026-09-28T13:22:25+08:00",
   "modules": [
     "01-identity",
     "02-career-education",
@@ -87,12 +87,14 @@
   },
   "paper": {
     "repository": "1337816143/Paper",
-    "sourceCommit": "11e6e91ac31d7b1b1eccf921efd25a17d775508c",
-    "version": "0396fc76c279",
-    "documents": 46,
+    "sourceCommit": "bb9558b6221a0c6021eca7d487b4b4a597ebc37a",
+    "version": "8a1be3401244",
+    "documents": 48,
     "route": "paper/index.html",
-    "reader": "reflow-v2",
-    "archivedOriginals": 12
+    "reader": "reflow-study-v3",
+    "archivedOriginals": 12,
+    "studyFrameworks": 21,
+    "glossaryTerms": 66
   },
   "promptLibrary": {
     "count": 16,
@@ -196,11 +198,11 @@
     },
     {
       "path": "data/prompts.json",
-      "sha256": "d25c2cc0535896c5f889b73354b1053f70c69342d474da9791bc1d09f5cb60ae"
+      "sha256": "2e606a1fe199e1b0f3d95cfa252ff4bef243fb438febaf20acbba00f381b53cd"
     },
     {
       "path": "data/search-index.json",
-      "sha256": "023a6f74521306bb8b993551c8d642626be96a0d755ec1ff3a3b8c4d6d4655a3"
+      "sha256": "0c6929aa2568c9a23051ef589d7e03dc89086b7b311c16271189218455b0e5ec"
     },
     {
       "path": "data/smartdrop-project.json",
@@ -216,107 +218,107 @@
     },
     {
       "path": "index.html",
-      "sha256": "87a9c1735db0d2fe57a542433eb0a0e6d7955a5027fe01cd41f0f8433c3cb060"
+      "sha256": "785cabce27aef36eadae21b7398593b9687850d1b19e5f74d48d21fe97f11f92"
     },
     {
       "path": "pages/01-identity.html",
-      "sha256": "959be55c7fb9d714e1d7dde9ec7b1d063d97a63a6b8df2e702178d2b7b71117e"
+      "sha256": "2f40be2d3291747e9fed512fe141ee88a8b64b87bb2c6f0a373d69eb89e0dfcd"
     },
     {
       "path": "pages/02-career-education.html",
-      "sha256": "063d09d8291cdcaa4af7206c12550b16fa12914da12fd61e9f2e2e1ade829fbf"
+      "sha256": "bfc93ef59e315c08d7a2d3541d384608d966ae0813580bebefb06e91ec32592e"
     },
     {
       "path": "pages/03-knowledge-learning.html",
-      "sha256": "605099154e44185405107d27be91d194fd188155b90ded1fd87dcd69005f1f85"
+      "sha256": "04b06752934c9aa71a300cbf77cefa9ba42cc647bc596c2d76122c0bc5a1b517"
     },
     {
       "path": "pages/04-health-energy.html",
-      "sha256": "dfab7dc2091aba6d840fbbd7da0ce7455256ed8c500192a1192b5efa36f3feb9"
+      "sha256": "2d4ee6a0ecebbf989da1e33eefdc549c69d810e163c09c2fc297f8f756b8a6c7"
     },
     {
       "path": "pages/05-relationships-family.html",
-      "sha256": "adde12b4dba49a94d6d1e6772f7626e1ad56d940dfd2ebdfb3ea93020796f4ab"
+      "sha256": "2c35e37252287373da9a3230d2b237541e55984ccfeb7b038ae7ff27a9ac62b9"
     },
     {
       "path": "pages/06-finance-assets.html",
-      "sha256": "a853b333cef7e76f74418f44b3e917bb06532825e620a7ae617cdee033b8fdf4"
+      "sha256": "1d15fdfefce5115ea539d494f848aecddac0645c56ba9b7a90bcfb80fe1a2a7a"
     },
     {
       "path": "pages/07-projects-products.html",
-      "sha256": "13be9df01bc3ec850cde938af19f8493d730d5c12103f3fb293c3a90261a166f"
+      "sha256": "e44ec74fe27ce1c580f4dcdda34fbc4ad76df7e909a2537e87b0f9869edce83c"
     },
     {
       "path": "pages/08-ai-digital-systems.html",
-      "sha256": "789c961298c79a9ca95d0ace6d5a0e3601b40dbb7aab9061e17c277f56a36837"
+      "sha256": "4b5107279c034217cfaad71d126c0bd473c5c1429df8c3837354416a5eed55d7"
     },
     {
       "path": "pages/09-communication-language.html",
-      "sha256": "7c0471b8dc5d97841e403bd36ab0d9ca246e208236955198ed19295fabddd339"
+      "sha256": "a96dfe1eb1d586b5ea0ddff9437a5285a187046c5d9ab872800f36c2177d57cc"
     },
     {
       "path": "pages/10-creativity-design.html",
-      "sha256": "88d01bbc5aca42ae9a5e637314519c4f31394c37e47cf3264b6a6386f7945fbb"
+      "sha256": "f1c05b64b689cba3bd86332ca4b0ce81757badb59dc2883ceafc4940c9810b45"
     },
     {
       "path": "pages/11-travel-experience.html",
-      "sha256": "bef6ced7ba1f0f7d473eedcf76a3ebb4f161bfdcfcc8bd746e5bdb33e75bc214"
+      "sha256": "05af812d936375208a4c2342774bca65b394e5ebdb59033809ab7b85365a68d6"
     },
     {
       "path": "pages/12-habits-productivity.html",
-      "sha256": "fb1d42ee30d66141c093b2df7919b130def56e6530206e90364d32562f88ccb0"
+      "sha256": "2770ff6e77cc5916ebcbc224bdea31d94d98fe47893bd3dbfe6d999c49945c60"
     },
     {
       "path": "pages/13-values-meaning.html",
-      "sha256": "af4b29597b799ef7576c9ef3b3e61a96033168410af3d804481e01cf2485f238"
+      "sha256": "c8db018c4d11511c5f9dab2a408804ff452d818b7c08841d49b5a55b33ff3ca5"
     },
     {
       "path": "pages/14-network-reputation.html",
-      "sha256": "c6384d4eff2a1cd3a08e206c774d4c829758b7e62016fea5acdcc78af7afcad3"
+      "sha256": "fc8e36d26e10572ba4db8ab25cc5fc18475acd9c40c46686a33ac85b4c563b7b"
     },
     {
       "path": "pages/15-review-evolution.html",
-      "sha256": "44126c8896f784a6560588ae9a994bc8e32173d85ef9e1cfe9d277ec1786ed3d"
+      "sha256": "5d4fb01888332f57df700475a8aac60a4c0586406584486ef4944f3b4765e7cb"
     },
     {
       "path": "pages/ai-3d-lab.html",
-      "sha256": "384df81f396f70003736c51b78189da5f18367bddd9f7489f9fe1faaf6922ea8"
+      "sha256": "f8547ee3c3db5233e7ad61ade8520265d1d86f5cec81e297720059472e6f3592"
     },
     {
       "path": "pages/architecture.html",
-      "sha256": "39163c80f1f64c08b41d810ed95753bb53ea60936a1a53cfee53d06d613ea990"
+      "sha256": "83ca732acba6afe9df296d118550bc33f9a2d6611570b0f40d574d702818f974"
     },
     {
       "path": "pages/career-decision-method.html",
-      "sha256": "ee9b9aeda5259075670aee97719455846255bcb72ae435142ad3cd0bcbb4f871"
+      "sha256": "b8211ae5ccac395c037d73a18da3c4dd29da1700f3ded2ef4c8d759ef1504940"
     },
     {
       "path": "pages/career-workbench.html",
-      "sha256": "d17eec93ea84451118536cd98008d634276025e8bc371c1a5b61ac8ad5b114d2"
+      "sha256": "de3487270d15f74c09354f474b6827eb8783b7cebaed40fa40c10ae50daf95b3"
     },
     {
       "path": "pages/conversation-archive.html",
-      "sha256": "4bc073618eca055de2ae5193b2d8a02ccf40d5bb1684b0b2ff573373a442300a"
+      "sha256": "35ab853aef9a4d90682190ff5039f5af2be7b09c375ef3b0edf97c65a117b885"
     },
     {
       "path": "pages/my-prompts.html",
-      "sha256": "a43c0446eee613b02b4f1041a2ece82120a5c5578f8eb28b9d80912ab34a2a9e"
+      "sha256": "52ef96a8c7944f925d46cebc7acb13956b115be23c3735dae1dd089b164db26b"
     },
     {
       "path": "pages/privacy.html",
-      "sha256": "6068c87e2570978083b746290a18457a0be313c5074ef1d16c0b6b53e83f7c45"
+      "sha256": "9be5bbad4f1aa8a21461013a6f8466af1c7852b166e45b9532d9fd1c80c2adb9"
     },
     {
       "path": "pages/real-time-vector-keyframe.html",
-      "sha256": "dbb970ae6a4abb5bace9b82e7c96860355ed7015bd1313af3e61e321d5820a45"
+      "sha256": "03576abc365af19916d6383643b27302fd3ddc810aa58c01514e10c63fa7cccd"
     },
     {
       "path": "pages/smartdrop.html",
-      "sha256": "6e31d04d9a2fe9350dbbaeb576486a5a567f39d010cf4ff80260a2a32d18529b"
+      "sha256": "c73306881b16458988aba4a993e0077d532c63fad291f5e7163b484dc1f0f038"
     },
     {
       "path": "pages/system-dashboard.html",
-      "sha256": "be77148bbaebc9f898b89f935b8c4242c9a8c7a43f1baa52a6dca5270c91385d"
+      "sha256": "7d2fc236dbd7f870992a6091fe5be4acc35340396a96c7787942efc75b3a9cb6"
     },
     {
       "path": "paper/.nojekyll",
@@ -324,43 +326,55 @@
     },
     {
       "path": "paper/app.js",
-      "sha256": "ed3e4d79624fe610ea0633737b605f2a5af08059ffb970cac68192eb12f41945"
+      "sha256": "0b797a9b843167dc38d3fc30d786752ac0c9cf968426fdcf4f7525e578de86b4"
     },
     {
       "path": "paper/data.js",
-      "sha256": "35bf124a8ad491a58a9d29a198762c6fea7051dfb65dbdee7bcd7d9692925272"
+      "sha256": "6f6b474b932315c340eaf747cf782f3a790295007d5572a10e64148a3dc9624e"
     },
     {
       "path": "paper/data.json",
-      "sha256": "0c4ac77860dfd18d5caaf6eaf5eb83391f83517dd522051753744d337dce8320"
+      "sha256": "89d5cc8051a16e98a8d43c009f6b00c0c4cb2bb69fc3538ba073bf39d3646cbf"
     },
     {
       "path": "paper/downloads/index.html",
-      "sha256": "71558433f93476c3886d36805d863119c1f3e2c59fbd91bf0dea7d45a443c36b"
+      "sha256": "23ef502238144faf3b324d6f2fe68a5cc69755d8d5155b83aa8ec5ea6d6059f8"
     },
     {
       "path": "paper/downloads/Paper-Lab-offline.html",
-      "sha256": "de76e67b853c4b70660eaf20355354e446f902620dd4d3ecee567c02a0c9e983"
+      "sha256": "bd728cc8083a44ea4ffcf4e9f62fc35aec2bb02419deb8ffb01af614fdbdb085"
     },
     {
       "path": "paper/downloads/Paper-Lab-offline.zip",
-      "sha256": "3351a7b0c9593ef94a85748b0477727479f63b441f22cc9e16541a93db04ba35"
+      "sha256": "e2acb8e293d130c78ecb2c1719acd1c763180df956694c84f12f1d81e233ce9c"
     },
     {
       "path": "paper/downloads/Paper-Originals-01.zip",
-      "sha256": "83e465bde9fbb3ffe11c0c2a4ed7c454f5603655931e8d08b4b8044940242ad3"
+      "sha256": "5b739eb47c246c473c4f928a0f001499b28968b0f0179a9df4d9dcb8ec6f1626"
     },
     {
       "path": "paper/downloads/Paper-Originals-02.zip",
-      "sha256": "f3b2179f69ef35b89196aad63078aaf2970c339ded0d7df18a7fb2095cde3fd9"
+      "sha256": "5bab7ff927fd090c46d29f519da67e32f7b143d29d868b766500c4d84c7a0538"
     },
     {
       "path": "paper/downloads/Paper-Originals-03.zip",
-      "sha256": "326cd4411105ad161cc45d99efb696559e37746380699239551cad7033e9b552"
+      "sha256": "b60f03b585b724b1ddf5af76b5ffbe219e525651835ef916a1ed5c35b17b7234"
     },
     {
       "path": "paper/downloads/Paper-Originals-04.zip",
-      "sha256": "062e6e51701641ac0a796c54e4346ee6927a931ac77ffa9b9a8244c3be6dc255"
+      "sha256": "a58293f89ed3b7e3d15bbe24b1a1c5ea1f9895741ef330a5b3bd7e997a19d863"
+    },
+    {
+      "path": "paper/downloads/Paper-Translation-01.zip",
+      "sha256": "d2675482c17549a6687127bc1acd6da17d58a2fe6a7f600da37f78a5dc5151ae"
+    },
+    {
+      "path": "paper/downloads/Paper-Translation-02.zip",
+      "sha256": "7378f34c28afc4cfee1e2d06debddb1179cc9a40c05c4a4808e837e9b5532feb"
+    },
+    {
+      "path": "paper/downloads/Paper-Translation-03.zip",
+      "sha256": "8de1c5504b5f8960e2e889f3a130864b5b65837af30a79f9ccd26fdf5120cbb3"
     },
     {
       "path": "paper/examples/data_dictionary.csv",
@@ -400,7 +414,7 @@
     },
     {
       "path": "paper/index.html",
-      "sha256": "b31dcea6324bf9ee68ff2c17eff65345261360d47eca916ae23fc8d10d355147"
+      "sha256": "9901a10bc9d6d9cb8364b315f5eea62d7d143466ce871e1c7966f5ce7d289d24"
     },
     {
       "path": "paper/library/breure-2024/766abe34a78e/article.epub",
@@ -409,6 +423,30 @@
     {
       "path": "paper/library/breure-2024/766abe34a78e/book.json",
       "sha256": "22897691990610342085c66f92a6beb8fb0dd02842d284af1a7edf2bd3447523"
+    },
+    {
+      "path": "paper/library/breure-2024/766abe34a78e/math-v3-07c8569a6799.png",
+      "sha256": "a698183f01e0022103fbd385f2db7ff159d69eecd9faa2cf78aa41d40d01108c"
+    },
+    {
+      "path": "paper/library/breure-2024/766abe34a78e/math-v3-2a7390dda62c.png",
+      "sha256": "4afcf90c100bc3b5d99bc3563929badd0467ac020fb07cddb5f6db3058a9db23"
+    },
+    {
+      "path": "paper/library/breure-2024/766abe34a78e/math-v3-8f6b0a9f448c.png",
+      "sha256": "7374761b5c932c8c2e6c592618f4be2de55bcaf587804072f64e4ae3f2bfe5c8"
+    },
+    {
+      "path": "paper/library/breure-2024/766abe34a78e/math-v3-af490ddcded5.png",
+      "sha256": "c6515e1e303858fd42b99b98c57b760f5fd61a22107059c19eed7d02c5868590"
+    },
+    {
+      "path": "paper/library/breure-2024/766abe34a78e/math-v3-afcc8b374e55.png",
+      "sha256": "72c39c6d593211eec837307298e01a18877d6323c6671a0b5f800adb030253b9"
+    },
+    {
+      "path": "paper/library/breure-2024/766abe34a78e/math-v3-cf00dc73cb40.png",
+      "sha256": "658fd0a75bcb70e3ace400433a3f58a4ba88288f09f1c3eae1a1d14f53cebc2e"
     },
     {
       "path": "paper/library/breure-2024/766abe34a78e/p11-figure1.png",
@@ -779,6 +817,66 @@
       "sha256": "4ff5ede273310daf6314d8c3079b2d4163831dcda4e05468a58a41bb739edb4e"
     },
     {
+      "path": "paper/library/liang-2022/bfbde3ef50d6/math-v3-0a4fc02ffbab.png",
+      "sha256": "26257bad0c8aa52b79f51cb18cce1810a2539f2e2f6ce3f470c5fc604a7bd212"
+    },
+    {
+      "path": "paper/library/liang-2022/bfbde3ef50d6/math-v3-49821bf5da5e.png",
+      "sha256": "973c3962aa592060e7e56e55397233ca35bb8a67e1c83db41c9a3090abe15091"
+    },
+    {
+      "path": "paper/library/liang-2022/bfbde3ef50d6/math-v3-55bda7df841c.png",
+      "sha256": "fc23ef9d13973b0079bf12e7dc8e40399a5ce46f86b2505d58d1a41972e820c3"
+    },
+    {
+      "path": "paper/library/liang-2022/bfbde3ef50d6/math-v3-585dfc7d97f5.png",
+      "sha256": "f9e106f541b09f9bd324e7a6f08735027ce271ba2e8aec776f7db109e95afbf8"
+    },
+    {
+      "path": "paper/library/liang-2022/bfbde3ef50d6/math-v3-86c3737ddae0.png",
+      "sha256": "3fb506ed294b35294b2a7489f708ed7398321af54ffda4be72a8ba7aff32faaf"
+    },
+    {
+      "path": "paper/library/liang-2022/bfbde3ef50d6/math-v3-919bf9ed4b52.png",
+      "sha256": "3d939e60cd79b32ab143d3bc00a66910e2b853ba499160eb617094b873fc121d"
+    },
+    {
+      "path": "paper/library/liang-2022/bfbde3ef50d6/math-v3-b0894af981c3.png",
+      "sha256": "fc7cf060ff7161c1524205dec1789b76454f9d433d1fcd84c20662f65b69c0aa"
+    },
+    {
+      "path": "paper/library/liang-2022/bfbde3ef50d6/math-v3-b9efd2ac21d2.png",
+      "sha256": "ad882f97a4a8ac35ea17e67c3b023a08718cbd99f870934f43d524cc9a919815"
+    },
+    {
+      "path": "paper/library/liang-2022/bfbde3ef50d6/math-v3-bdb5d6d25805.png",
+      "sha256": "c66edb405fa3cfd50bddfe2b03e128df8f94f8eef8272f7fe4355d7d9b2494fa"
+    },
+    {
+      "path": "paper/library/liang-2022/bfbde3ef50d6/math-v3-d7ee6e2c88a8.png",
+      "sha256": "1eee2db5c1363b6fae1277e117da1cc5e0b3adeae3c5d0f9fb26352da7f52bcd"
+    },
+    {
+      "path": "paper/library/liang-2022/bfbde3ef50d6/math-v3-e0bc0e6b5ce7.png",
+      "sha256": "16619873edcb05024c6867c97f47a9568f72439d09b1a91d29e2bc4401406077"
+    },
+    {
+      "path": "paper/library/liang-2022/bfbde3ef50d6/math-v3-e4f48c575ce0.png",
+      "sha256": "bb531b7ed039b71347c1611cb3ac225e32dd2add226286d77b7adfc052d03637"
+    },
+    {
+      "path": "paper/library/liang-2022/bfbde3ef50d6/math-v3-e5e537cbf9e1.png",
+      "sha256": "f264630c103a8af6b3f9b72a7130822bcd26dfca49686e68789b77fdd4669c3f"
+    },
+    {
+      "path": "paper/library/liang-2022/bfbde3ef50d6/math-v3-edca96a26d4c.png",
+      "sha256": "73cde18323eb781996d2b1e6ecbd53e6ef9087e86a0c83d667d817f61d5e683a"
+    },
+    {
+      "path": "paper/library/liang-2022/bfbde3ef50d6/math-v3-ef403a3780d1.png",
+      "sha256": "660312954e11c047ea444e4a4b44c20d3f9be63eadac791a8618964e1e102d1a"
+    },
+    {
       "path": "paper/library/liang-2022/bfbde3ef50d6/p1-figure1.png",
       "sha256": "496f9a8d8653649fa050017d2523a8b8111c46954724a4b052555f9a615ecf18"
     },
@@ -949,6 +1047,50 @@
     {
       "path": "paper/library/liang-2023/9fa29543ce29/book.json",
       "sha256": "b00e2b84ee07cd08b4359b3d6df724865aaf6f6be2ae494835fbe22d15e32dc5"
+    },
+    {
+      "path": "paper/library/liang-2023/9fa29543ce29/math-v3-274d0b60f6fb.png",
+      "sha256": "9e2931f9edd64fb51fbdf4396e7df86237c12b77f1ce234532d51036a86aeec9"
+    },
+    {
+      "path": "paper/library/liang-2023/9fa29543ce29/math-v3-2da1505950d2.png",
+      "sha256": "25186724e2a9b5c94caff74e38195fb471eff63e3accb3051ad9f7da710e3053"
+    },
+    {
+      "path": "paper/library/liang-2023/9fa29543ce29/math-v3-4631a87a5c40.png",
+      "sha256": "b10e4e036fde6c28458da6cd90ec2861cca3cb5e8047f8eed1a02092de181ab7"
+    },
+    {
+      "path": "paper/library/liang-2023/9fa29543ce29/math-v3-5ae7c747ed7e.png",
+      "sha256": "6fe59a142a6e9cd4f0b27bd3a494bd4d0565be92036845a9746fcaadb17fa489"
+    },
+    {
+      "path": "paper/library/liang-2023/9fa29543ce29/math-v3-b9dd446065f2.png",
+      "sha256": "9d160369e751c6136211b9d23f00f928798134b9463f3709ad6e5b29ed6b88a9"
+    },
+    {
+      "path": "paper/library/liang-2023/9fa29543ce29/math-v3-d5557fa47b5c.png",
+      "sha256": "b3eef21fb501b1e6c55b1e5195bd465f78b00a5137eb123227558af934dd8f13"
+    },
+    {
+      "path": "paper/library/liang-2023/9fa29543ce29/math-v3-dc8a4c17939d.png",
+      "sha256": "906b904937300049458024579f487a98e42f7694073de8cd4751a668c325172d"
+    },
+    {
+      "path": "paper/library/liang-2023/9fa29543ce29/math-v3-e2399620d59e.png",
+      "sha256": "f5004e05a6d0bd6fd952c1886ba18339b4184f1f00f66e5386d7ed0dae216441"
+    },
+    {
+      "path": "paper/library/liang-2023/9fa29543ce29/math-v3-e5010ac807e2.png",
+      "sha256": "8f61b1b8f943dc704742511ccfd7bab3216f8a6e14b6d6ef16872eb01d3a1362"
+    },
+    {
+      "path": "paper/library/liang-2023/9fa29543ce29/math-v3-e6410776af1a.png",
+      "sha256": "dd7b0bef874242fec5199b4385959849b577faa3a230952d6ac93aa23707275b"
+    },
+    {
+      "path": "paper/library/liang-2023/9fa29543ce29/math-v3-ee96f4555e1a.png",
+      "sha256": "30ea68ce85d7d361a6d2c0394cf365add06a13c5d72e0360942f3353ed2b1941"
     },
     {
       "path": "paper/library/liang-2023/9fa29543ce29/p1-figure1.png",
@@ -1139,6 +1281,18 @@
       "sha256": "9ff01ecd27c0d60a2525379a18414de7c0af76e1764c84dead7925af8eb7b661"
     },
     {
+      "path": "paper/library/novotny-2024/3549e6d02b39/math-v3-18fd83fa441f.png",
+      "sha256": "d4bc324c6e86a511db96dd9cde6f78a424a57a90b2f6299b80cabd3fbf5803f6"
+    },
+    {
+      "path": "paper/library/novotny-2024/3549e6d02b39/math-v3-2f8538bc8d69.png",
+      "sha256": "2f3a3921b54ed177e2e384ef62669ae442aa78c4af4710c415fe9e25707b1797"
+    },
+    {
+      "path": "paper/library/novotny-2024/3549e6d02b39/math-v3-95eba54f78ce.png",
+      "sha256": "55c4f203a103372c9e6cb90dc7bdaba2d321462f74bc0a649a70cc20f2c905ff"
+    },
+    {
       "path": "paper/library/novotny-2024/3549e6d02b39/p1-figure1.png",
       "sha256": "496f9a8d8653649fa050017d2523a8b8111c46954724a4b052555f9a615ecf18"
     },
@@ -1279,6 +1433,14 @@
       "sha256": "af0c918095a5e687e7b2aaa5d2d9e6f6553023e1558dae7baf78c5be42608251"
     },
     {
+      "path": "paper/library/qu-2025/7e69eb40dc23/math-v3-0113faad9327.png",
+      "sha256": "748848d36ac2384bd0eabc832dda548118ede8158723bb19a8ffc5c1b3f1be17"
+    },
+    {
+      "path": "paper/library/qu-2025/7e69eb40dc23/math-v3-e5b41ed43620.png",
+      "sha256": "ab4ebf719e50ed45af91cfe79a9651842148d745eb86f97438646333c1aa0270"
+    },
+    {
       "path": "paper/library/qu-2025/7e69eb40dc23/p1-figure1.png",
       "sha256": "ab034504dc74ddab3705d6fd6c2054be5ba6ae9723baef2f76a581e8bf3b068d"
     },
@@ -1369,6 +1531,18 @@
     {
       "path": "paper/library/toorop-2023/e4c7cc912b38/book.json",
       "sha256": "2eebe4a05ce09faa18527b4405c83a22a95d367abea8b626ab187491486c0254"
+    },
+    {
+      "path": "paper/library/toorop-2023/e4c7cc912b38/math-v3-5e78aec09dae.png",
+      "sha256": "971053d3501711aade04363f7712f4d2641d236cf3eedf0ad6b4c108025f4148"
+    },
+    {
+      "path": "paper/library/toorop-2023/e4c7cc912b38/math-v3-b3a6169b1991.png",
+      "sha256": "8f12454142bedb8d2fd2d805d379f95f8d428c6e153e43e7250697e54d38bf95"
+    },
+    {
+      "path": "paper/library/toorop-2023/e4c7cc912b38/math-v3-e626ae37d4ad.png",
+      "sha256": "ab130e9b2f8ae566427e4186f782a031685e389d7d2cdef64a5d28cc5fcd847b"
     },
     {
       "path": "paper/library/toorop-2023/e4c7cc912b38/p1-figure1.png",
@@ -1655,6 +1829,38 @@
       "sha256": "141f7c1f0c29c46588264c3b1166a78bf09180993f2e68f9dbbdaba7bfdba8c9"
     },
     {
+      "path": "paper/library/xu-2024/5c1568888f1c/math-v3-0ec9e552388e.png",
+      "sha256": "53dbc1c93820dd719a3179bc1208598fef0e47c069ae66665b9c138ccd35ddac"
+    },
+    {
+      "path": "paper/library/xu-2024/5c1568888f1c/math-v3-5139f618612b.png",
+      "sha256": "03a2d113cebdc813463eaeb6ce59eb6af14e36b3e97e2a4e887b79a52f2eddc3"
+    },
+    {
+      "path": "paper/library/xu-2024/5c1568888f1c/math-v3-680afb27c60f.png",
+      "sha256": "e58a26e80ab8bc3b40799c7f3c0f1f4047ffc737f972ce2567e7c890a751a4c6"
+    },
+    {
+      "path": "paper/library/xu-2024/5c1568888f1c/math-v3-8b28caa972ab.png",
+      "sha256": "df12f2e1333f08cfdd6fb4473584e3da18127b2b5cf68dadb42cd55cda87fc5b"
+    },
+    {
+      "path": "paper/library/xu-2024/5c1568888f1c/math-v3-b3b4310d8b79.png",
+      "sha256": "250e8d05f96ef1f2e2c96795f7d231162a0f81859bdb22783e7c9a058f816aa7"
+    },
+    {
+      "path": "paper/library/xu-2024/5c1568888f1c/math-v3-b634c0135170.png",
+      "sha256": "bd5d7e3ec3d8390058a937cee6dd73d0c6f8d82efb6eaa35a2cac28fdc016571"
+    },
+    {
+      "path": "paper/library/xu-2024/5c1568888f1c/math-v3-e49232ea057b.png",
+      "sha256": "806b3ef9f567f7bd11d224080b8e31ab8dbb5df6b98d17698f765ff06f10cb48"
+    },
+    {
+      "path": "paper/library/xu-2024/5c1568888f1c/math-v3-efa809bb9f19.png",
+      "sha256": "b93cf29a4ba7e7faf635b79d8f74acec3874160d676ded79069ada3182942791"
+    },
+    {
       "path": "paper/library/xu-2024/5c1568888f1c/p1-figure1.png",
       "sha256": "496f9a8d8653649fa050017d2523a8b8111c46954724a4b052555f9a615ecf18"
     },
@@ -1791,6 +1997,14 @@
       "sha256": "0a4923c60303e91be4c13f892c662247ae43d320fb5b38fa7767b12ebd9188e4"
     },
     {
+      "path": "paper/library/xu-data-2024/962a50daab8d/math-v3-8d1a00b61bdd.png",
+      "sha256": "26c91d8136176fa4a541e75f09b2a4933eafa1fb178dcb760d8e045a76f3fb12"
+    },
+    {
+      "path": "paper/library/xu-data-2024/962a50daab8d/math-v3-907a516c80fc.png",
+      "sha256": "8918fc7e254f3470fff2329b30d725871ec810210465bdcdc345ae355d726b78"
+    },
+    {
       "path": "paper/library/xu-data-2024/962a50daab8d/p1-figure1.png",
       "sha256": "82a7e3a18726f271d3850cedff59700601c696fec100675942653d1d9fef4b80"
     },
@@ -1916,11 +2130,11 @@
     },
     {
       "path": "paper/offline-manifest.json",
-      "sha256": "c4b938ab8e3c55b5587de5e463493aab5b8a419344510de23e54975d74d3d384"
+      "sha256": "55c65e14d02c6844bd70a35d7dd0909458231642bc021d5d663b76c34fa82808"
     },
     {
       "path": "paper/offline-packs.json",
-      "sha256": "78c23cea255ac2c173972c165b180c8faf66556e8841ceb2cd607f5cddcde946"
+      "sha256": "a0594c2ac519f8c392436db501ed787f7e64cac76f6ed861029ef0cff14595a6"
     },
     {
       "path": "paper/read/breure-2024.html",
@@ -1984,7 +2198,7 @@
     },
     {
       "path": "paper/read/index.html",
-      "sha256": "3b6a91ba7b059ae0f8cdcfe6ab51c109adc12c7ec54c14f4d344138d223de76a"
+      "sha256": "e74474369e8470ff84e9b9c7ef7819e2309df3dcb49ce6abc54722bcb976c723"
     },
     {
       "path": "paper/read/indicators.html",
@@ -2059,6 +2273,10 @@
       "sha256": "2e332bbaa023623367c25d51a3a0f7bc94e4d9d583e2441dce1b573c1b4691f8"
     },
     {
+      "path": "paper/read/research-framework.html",
+      "sha256": "ed9e713d47bdcbce401a3e4933a502e782e868269df6881a17424cdb563f77a6"
+    },
+    {
       "path": "paper/read/rotation.html",
       "sha256": "eff80c23c4310a1c9fb91fd17e62b29c46beb931438ddfeb55a4e02cfa69f40d"
     },
@@ -2069,6 +2287,10 @@
     {
       "path": "paper/read/spatial-design.html",
       "sha256": "a10e7506687c9b9fb872585b4a27c0d22176cc0ff00a77e465e90d147fd0cf11"
+    },
+    {
+      "path": "paper/read/study-bilingual-framework-2026-09-28.html",
+      "sha256": "d82d3f03b8b5fc81276fb88e9c2ee5e35a11e5f55c75402f47a58627827f2fac"
     },
     {
       "path": "paper/read/survey.html",
@@ -2116,15 +2338,31 @@
     },
     {
       "path": "paper/reader.js",
-      "sha256": "3cd8680158a640596d9daf63460f4fd203df24683ee36c48e46aa9899d7d6e73"
+      "sha256": "7d0bd9d241823f24455b2412af2bea54792740e8e7bf833db51d477c329630bd"
     },
     {
       "path": "paper/release.json",
-      "sha256": "0739ae42209bb8f1d258fecbb1adeeeab42e61f9ca13b0f4a876f479867924e3"
+      "sha256": "7b5c3ad4090576525dbf823257d46942df7b58ba7ae9f7d588068437a4c0db57"
     },
     {
       "path": "paper/resources.js",
       "sha256": "3dfef1c7020fbf35ba3a7ed3926257cfb8113d4250ef30682b8ff86af340c347"
+    },
+    {
+      "path": "paper/study-data.js",
+      "sha256": "86a218ea517cafd00c2dced0a72994db906688b141eea775e720d7313269f6d7"
+    },
+    {
+      "path": "paper/study-layouts.js",
+      "sha256": "38832500a27f0ce90ce34daa1629f40c5c828707d18249621ef7f34b7110e3be"
+    },
+    {
+      "path": "paper/study.css",
+      "sha256": "cb38d7541b14a967d76c56a0f9ce5ac5a4afbe361c10455bae12d618eac39a89"
+    },
+    {
+      "path": "paper/study.js",
+      "sha256": "9dc53cd67a0c01c9f21431dd63bdbc0f5518f6dd4e386d77adcb2e858ff9981e"
     },
     {
       "path": "paper/style.css",
@@ -2132,7 +2370,11 @@
     },
     {
       "path": "paper/sw.js",
-      "sha256": "0b0901eb7b95c4d0d01b978df3b8b66d07e8abaf48508b7c1c3cde5021fb5f21"
+      "sha256": "65dbb3d4b4dacba2f4391b7dad434060cafed01fceb2923a2026dd819e512cc0"
+    },
+    {
+      "path": "paper/translation-worker.js",
+      "sha256": "f3a04686bc6f78fac08e110308c1fb6d6b6778388cb0246554c59ff569784168"
     },
     {
       "path": "paper/vendor/pdfjs/LICENSE",
@@ -2145,6 +2387,74 @@
     {
       "path": "paper/vendor/pdfjs/pdf.worker.mjs",
       "sha256": "00ad4b876b23bb36ef48fd9d8c7208b630538b12739bb76e300af8bc00e8c394"
+    },
+    {
+      "path": "paper/vendor/translation/BASE-MODEL-CARD.md",
+      "sha256": "83eee2a6598751f746a057e10d5c9dfd71d6b0cf0146f9e6c1bb3ebd6e90959b"
+    },
+    {
+      "path": "paper/vendor/translation/manifest.json",
+      "sha256": "a49d9469093893815c2971787b2c853e583ad1d31bab0704049a7e3405cdd790"
+    },
+    {
+      "path": "paper/vendor/translation/MODEL-CARD.md",
+      "sha256": "4aeb4d31c2b0ab8dd06aaa6c8705f8bdada6869ca67def9c2e1f5475ff007530"
+    },
+    {
+      "path": "paper/vendor/translation/MODEL-LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "paper/vendor/translation/models/opus-mt-en-zh/config.json",
+      "sha256": "4727d1229a04f95bf6f39abf949d8080615433d99d6ebd85f81c09edd247d5fa"
+    },
+    {
+      "path": "paper/vendor/translation/models/opus-mt-en-zh/generation_config.json",
+      "sha256": "b743baabb7da4c1a2f19fe558bd6b4c0c7c3b0762fcb5ca7a48fe5a2c2219803"
+    },
+    {
+      "path": "paper/vendor/translation/models/opus-mt-en-zh/onnx/decoder_model_merged_quantized.onnx",
+      "sha256": "023be4f841f4c47cd65fffcbaa81c0d99d7f7e0138f7ba0e03fa220a4e688aff"
+    },
+    {
+      "path": "paper/vendor/translation/models/opus-mt-en-zh/onnx/encoder_model_quantized.onnx",
+      "sha256": "d3b7912bf6a9bd27e4c074c2df91d4ff3d5b4bc5f7f6c8d7cc9c805c98fbafee"
+    },
+    {
+      "path": "paper/vendor/translation/models/opus-mt-en-zh/special_tokens_map.json",
+      "sha256": "5e4d1f5e759d74cb1c2fe1d165cfc62b5237aa904de759380cd6f43042eec723"
+    },
+    {
+      "path": "paper/vendor/translation/models/opus-mt-en-zh/tokenizer_config.json",
+      "sha256": "a914596e6bff113a8428d4793b586da87cd0b95697a0e72aba90cc1d95858481"
+    },
+    {
+      "path": "paper/vendor/translation/models/opus-mt-en-zh/tokenizer.json",
+      "sha256": "d0c7da27056e8f42adce9e76d8e792e5daa64e15f5acd2e7aabf0121877dd4c1"
+    },
+    {
+      "path": "paper/vendor/translation/TRANSFORMERS-LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "paper/vendor/translation/transformers.web.min.js",
+      "sha256": "b642c0b08a3f132e4eaed1448c3eb0886826cbe31f41dfbbf785274d6917d098"
+    },
+    {
+      "path": "paper/vendor/translation/wasm/ort-wasm-simd-threaded.jsep.mjs",
+      "sha256": "08fb86ec433c78bfb032c5d84a68b8e8e5a8d81268fa39e24314179a5767a5b9"
+    },
+    {
+      "path": "paper/vendor/translation/wasm/ort-wasm-simd-threaded.jsep.wasm",
+      "sha256": "c46655e8a94afc45338d4cb2b840475f88e5012d524509916e505079c00bfa39"
+    },
+    {
+      "path": "paper/vendor/translation/wasm/ort-wasm-simd-threaded.mjs",
+      "sha256": "43c25054b6b9ac000f786c65545ff83a45f871e0e310e8c2f4d48a363bb66db4"
+    },
+    {
+      "path": "paper/vendor/translation/wasm/ort-wasm-simd-threaded.wasm",
+      "sha256": "f061472c6e77d6d50d079aacdc0ff9b63fee287ddd2cbf46cf62438d3891de2b"
     },
     {
       "path": "relationship-mentor/app.js",
@@ -2172,7 +2482,7 @@
     }
   ],
   "searchIndex": {
-    "count": 94,
+    "count": 96,
     "types": [
       "module",
       "page",

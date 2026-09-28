@@ -3,19 +3,38 @@
   "parts": [
     {
       "name": "Paper-Originals-01.zip",
-      "bytes": 59557929
+      "bytes": 59361688,
+      "kind": "原文与公式"
     },
     {
       "name": "Paper-Originals-02.zip",
-      "bytes": 51244894
+      "bytes": 51680937,
+      "kind": "原文与公式"
     },
     {
       "name": "Paper-Originals-03.zip",
-      "bytes": 61587671
+      "bytes": 61622420,
+      "kind": "原文与公式"
     },
     {
       "name": "Paper-Originals-04.zip",
-      "bytes": 34520959
+      "bytes": 34570226,
+      "kind": "原文与公式"
+    },
+    {
+      "name": "Paper-Translation-01.zip",
+      "bytes": 42580800,
+      "kind": "本机离线翻译引擎"
+    },
+    {
+      "name": "Paper-Translation-02.zip",
+      "bytes": 38435756,
+      "kind": "本机离线翻译引擎"
+    },
+    {
+      "name": "Paper-Translation-03.zip",
+      "bytes": 7927325,
+      "kind": "本机离线翻译引擎"
     }
   ]
 }
