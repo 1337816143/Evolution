@@ -1,9 +1,9 @@
 {
-  "version": "release-b067bbf2fc81",
+  "version": "release-962c90ebbb76",
   "mode": "site",
   "sourceRepository": "1337816143/My-Evolution",
-  "sourceCommit": "b067bbf2fc815e3e6f43114a832dca2b0dc73955",
-  "generatedAt": "2026-09-28T23:29:30+08:00",
+  "sourceCommit": "962c90ebbb76e20eef8a425ae6706670baa2de85",
+  "generatedAt": "2026-09-28T23:40:41+08:00",
   "modules": [
     "01-identity",
     "02-career-education",
@@ -87,8 +87,8 @@
   },
   "paper": {
     "repository": "1337816143/Paper",
-    "sourceCommit": "54ddf871938c0ea7f9c1995ab3a5fbf92c6c35b1",
-    "version": "c328dfa07253",
+    "sourceCommit": "7a3ce22abab9d58a3e59febe221d4e092158b5f2",
+    "version": "df1eaa5d5196",
     "documents": 50,
     "route": "paper/index.html",
     "reader": "reflow-study-v3",
@@ -199,11 +199,11 @@
     },
     {
       "path": "data/prompts.json",
-      "sha256": "cd9191a023cbff3e512acf86bdd6e6a4344a52c8e70e13f0becb721f30225188"
+      "sha256": "a9f399e53ec9b73189a7796afd45900db5e660d6a92bacd043d62f81df1e1473"
     },
     {
       "path": "data/search-index.json",
-      "sha256": "d20ade60996db752f66e98571b20ea72521a2db0aa6375e15a3696f4f98b3cca"
+      "sha256": "9351571a74056e2d015dc98f2c6731a71b6b0a02ca929f1d315f4b61e3848592"
     },
     {
       "path": "data/smartdrop-project.json",
@@ -219,107 +219,107 @@
     },
     {
       "path": "index.html",
-      "sha256": "0539d02aa41ee2878243e41a276657e9f733698025dd76b857d0fa8be74f2d71"
+      "sha256": "80dd306fffb2628bacea8961bf70792683b3f4b25238bd4b7915f01fdc388d56"
     },
     {
       "path": "pages/01-identity.html",
-      "sha256": "0e685e611efad618fab0b814d6e7a1d197d73f3bfb121763aee840dc8fd1ba29"
+      "sha256": "0c71a60ad495eeb8f61d1e4b714272c065a86221f1e44bd1498364f7ed0d1981"
     },
     {
       "path": "pages/02-career-education.html",
-      "sha256": "3ad48b1260bd9c69c6a677379c13f04fa6808f4201356c62220e8179de05b35d"
+      "sha256": "ec5193825ac72b4792bcec8ad03a38db5cf8efc4b9f86abe9d742382c4399080"
     },
     {
       "path": "pages/03-knowledge-learning.html",
-      "sha256": "2dbe46ef279e89405430f6c0f58abef0b1aa3d0a8dbe765159aa2984f6ab09d7"
+      "sha256": "1285adc5f35da5d899f22021066f1f5006ed43831090c3a430019513dec364ac"
     },
     {
       "path": "pages/04-health-energy.html",
-      "sha256": "c14984d3ac61736e6835e704d75502ca8780ec7588ffb8875e2166e5327fda94"
+      "sha256": "58c03df6db9e67666173d3f6ab86a0bd802e335834e2b2217505a0796d079f40"
     },
     {
       "path": "pages/05-relationships-family.html",
-      "sha256": "38e4ae8e5a7c914a479adbf23077b5af71371c9bb697e5159cca8653118e7df8"
+      "sha256": "b1fd89e593954b4363c8ab8d8fc833cdac5b71d5af08617bcb7a71b688d49a4b"
     },
     {
       "path": "pages/06-finance-assets.html",
-      "sha256": "7bd8b5c7ee4ff7f3331fe536fd5541e993adf0359d1eb0dbd8e203fc97cdb81b"
+      "sha256": "abd7fecfac6ea48c4ac32fe8986ed2bf9c43fed913249eac203e6e5d1338b0e4"
     },
     {
       "path": "pages/07-projects-products.html",
-      "sha256": "85f91d0a16a129c26f3118c2460ff8361303428420219511c10e6cf7baf9ecdb"
+      "sha256": "b019e3229d51215b301232c646d9e984d19fb86524863072ec50df00a04f9722"
     },
     {
       "path": "pages/08-ai-digital-systems.html",
-      "sha256": "3c86067b42e3072be098b63adf12c26d460db7b5baa08bc90e12d8374af444bc"
+      "sha256": "eaa102e40cb5b1ecf56c183bcc6466a4e5d84347a9bf611062262b611717a1fd"
     },
     {
       "path": "pages/09-communication-language.html",
-      "sha256": "7f80dd050b634e67247f07b76a5956e0c09fa43c3b890f4e4a6f2c8a0acd50b0"
+      "sha256": "e34259b37ec86cbaaa76cb4db2849e37ba18a674f7238a4a20855b34822dd842"
     },
     {
       "path": "pages/10-creativity-design.html",
-      "sha256": "2471794e3328e399a6593463204fcd5161c4ad43c84cd7c0871060ccad01dce0"
+      "sha256": "3f3c24a4586792a639539c4d23e609ddfe94507e3680ea6994729b302ec0626c"
     },
     {
       "path": "pages/11-travel-experience.html",
-      "sha256": "74a7c801d5e40b0b53c5266c4549dc2057e30b750e9160f0bc903c869cb79b81"
+      "sha256": "df2edeed437dc3414860cec737d3a59d357f9fb7119564d4b9ffa674b5b51521"
     },
     {
       "path": "pages/12-habits-productivity.html",
-      "sha256": "458e60b16a59095eb469a4aec0ab7eae55f63254fdd1576b35e0886bccde58fa"
+      "sha256": "a7d0a4846dd505ca728f601ce640e27b11b7c2add2392e5b606669e3a3cf4e6e"
     },
     {
       "path": "pages/13-values-meaning.html",
-      "sha256": "9f6985550fa69c6128d97692aa498ce8f6775899480416187bf4d93729131f1c"
+      "sha256": "61c2da580d257595d839777f767b31e016332a65425340ac3ec564b7c8e5d1c3"
     },
     {
       "path": "pages/14-network-reputation.html",
-      "sha256": "488334850257c126debfd96aa52979c0e951766b4f3843a8b3a67411c4471432"
+      "sha256": "1ff28df4b099971e64499884149e69aa2764bab508c992afb727e97bcb32086c"
     },
     {
       "path": "pages/15-review-evolution.html",
-      "sha256": "1a94e93d7c3f01ddb256c697eb04d414a33116601b20fad073a4d8ecb7980ad9"
+      "sha256": "8e1762427141e2dac94776297a16c8eeebb30b3a6e9aa52bfcba0e7c67a8b818"
     },
     {
       "path": "pages/ai-3d-lab.html",
-      "sha256": "83f00b99cb55198a11a1634b782e28b8302ba007b138b2ebb03be6f6f5ce04ff"
+      "sha256": "96feafe9ed86d2385357b366d980dd9e0cacbb7ee2f3aaa620d9f69e376eb3d5"
     },
     {
       "path": "pages/architecture.html",
-      "sha256": "1a9da384927897d7f0ead709609303c665de2f54a526312708fa35d1b8615bad"
+      "sha256": "d1820e82a50fff98f86e68ad4e3c11211697c3641259d17f870928c8c87b6b0d"
     },
     {
       "path": "pages/career-decision-method.html",
-      "sha256": "e7163763978382dc7448d91c3982bd775d84dc09cbe22a032c85f269a2d5cc61"
+      "sha256": "d56963b2459618fed09b56e0decb37cf9102389183f87f2df86f53c61ff34c6e"
     },
     {
       "path": "pages/career-workbench.html",
-      "sha256": "50298bdf77c6a15bd9ad6cbe605e204b59da904c583574c5a0eaaf5501ab5be3"
+      "sha256": "e1c97383c990befe47477b1554c9154ac1920b6375fd5ce728b7ef827973b493"
     },
     {
       "path": "pages/conversation-archive.html",
-      "sha256": "86d66151b3f86bf23491e20205b7fff38bdb8f9e776f23f7e88c647a38113649"
+      "sha256": "0831776edfd2462677f7451190a9db5a4fe7bd0e370ab3fb764552b562276147"
     },
     {
       "path": "pages/my-prompts.html",
-      "sha256": "6b3a246ce5d8ee3d5008c621d252f8ed5715780b05ffb5e9387c4f009ba9277e"
+      "sha256": "f8846cf4edb50c824c139fb7453c1e84c28bba91806084f043d507c71abe6529"
     },
     {
       "path": "pages/privacy.html",
-      "sha256": "67db3b68d9a5cf2fc9d85f961a5b75b70574bd7b1895d12bd8a6bee97fa09bf2"
+      "sha256": "36f05fea1f16a9d393bd37f8e289c70808bc94c7b1dd6cb8a1a3e51ce4e1da95"
     },
     {
       "path": "pages/real-time-vector-keyframe.html",
-      "sha256": "09f7fe899e896ad73969b5cf64b4fea76d3298ea016863941ffd8f0f9c70b516"
+      "sha256": "1eebd7e0886ed458c7fffb8990c453ddc390b40b9c50417a708f1d43fe38e86f"
     },
     {
       "path": "pages/smartdrop.html",
-      "sha256": "e7c7fae2483ab28298746c27b1d3b37bbaa31d898b44990ca6e6a03871f2d306"
+      "sha256": "c2f1b8d18fd0f30d6feee7fdf4311fcf43beac60f5efea057436c472a522d5b7"
     },
     {
       "path": "pages/system-dashboard.html",
-      "sha256": "21c84815c6266d0366d644871e37293dbe6e1e368949de650fc6965865664dd3"
+      "sha256": "cac910da6a521bf522bcb67be2d06a21b7a2f8ca7e4fb60cefc68eb57989b47d"
     },
     {
       "path": "paper/.nojekyll",
@@ -331,11 +331,11 @@
     },
     {
       "path": "paper/data.js",
-      "sha256": "a0fb43d0d92f1d1b25f982a297932d2de524e12ac17de04db8da32144133008e"
+      "sha256": "e3d957584d0e77debb23d699dea5cc10dc38a65476a3904cb0cb44a7d7954f4f"
     },
     {
       "path": "paper/data.json",
-      "sha256": "fc8d0cb0d3a45a88dbf1a270528a8dac247aa2b8db550fb739c3928c0a3818ff"
+      "sha256": "600193aafa53195e12628845a779f650fe19dc90d831558798fa855252505d31"
     },
     {
       "path": "paper/downloads/index.html",
@@ -343,11 +343,11 @@
     },
     {
       "path": "paper/downloads/Paper-Lab-offline.html",
-      "sha256": "d164787aa0e5af9520f4293cfcaaddb357a3247b7794cc4fbac66a4908d66020"
+      "sha256": "01cfcdec7124c85dbc077181cc54e4021ef342470e9a1f56e330cdf23fa2f0a7"
     },
     {
       "path": "paper/downloads/Paper-Lab-offline.zip",
-      "sha256": "84789caaaf82eba58a593c21dd4df077bb7c03981b34d0b4bcc95fc5cdaf9fc3"
+      "sha256": "96277035b0fc948783ced2d4ab4004c3c8595539ed6fc4d7460e7b3bb776c705"
     },
     {
       "path": "paper/downloads/Paper-Originals-01.zip",
@@ -2131,7 +2131,7 @@
     },
     {
       "path": "paper/offline-manifest.json",
-      "sha256": "61e60873f64cfb52432cdbccc4c182bdc491b6169ccf951b784df38b93daf1b9"
+      "sha256": "a2f94f4b044d28cf640f2cd5fd221370b9bea665d5bd63b8a50c7a121b70ad52"
     },
     {
       "path": "paper/offline-packs.json",
@@ -2347,11 +2347,11 @@
     },
     {
       "path": "paper/reader.js",
-      "sha256": "8f4df49f4831febcf9e46296a95425f5fcf66302b606cffe7128e1b5505a508d"
+      "sha256": "73d6880ba0af97a0560483c8371ee4792055abbd1c076c9267a6e699699ba12a"
     },
     {
       "path": "paper/release.json",
-      "sha256": "28311031c7dca5faa561f6c80bcc541c15d13a3f32dbbe35774cb3d586716b24"
+      "sha256": "356bf5842f9780823ab1faa8b4089ae01c48f523a7e4de8afb37192f3344b36d"
     },
     {
       "path": "paper/resources.js",
@@ -2379,7 +2379,7 @@
     },
     {
       "path": "paper/sw.js",
-      "sha256": "21aa91c5abb2eda62bf35117169e9bc15b25a25f8ff5708aee303bedfee00e10"
+      "sha256": "848df33dc38b0d6aa3fbf513d74c16e31050bc48729a4afe826af10109d8c843"
     },
     {
       "path": "paper/translation-worker.js",
@@ -2471,7 +2471,7 @@
     },
     {
       "path": "paper/workspace.js",
-      "sha256": "671935eb9a05dbd4d46a0b95c5bc19796f9393534761685b1c8f16828e7f63c6"
+      "sha256": "b2bcb69b8dd97edbc971f32e2d0b2e6ca6b4f311af12fb509d597dcbbbcf92a4"
     },
     {
       "path": "relationship-mentor/app.js",
