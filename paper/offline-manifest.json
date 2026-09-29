@@ -4,6 +4,7 @@
     "./comfort.css",
     "./comfort.js",
     "./data.js",
+    "./downloads/Paper-Lab-offline.html",
     "./downloads/index.html",
     "./examples/README.md",
     "./examples/data_dictionary.csv",
@@ -53,6 +54,8 @@
     "./read/reader-guide.html",
     "./read/reader-offline-update.html",
     "./read/reader-workspace-20260928.html",
+    "./read/reading-proof-workflow.html",
+    "./read/release-510.html",
     "./read/research-framework.html",
     "./read/rotation.html",
     "./read/session-2026-09-28.html",
@@ -67,10 +70,13 @@
     "./read/verdouw-2021.html",
     "./read/whole-farm.html",
     "./read/xu-2024.html",
+    "./read/xu-chapter4.html",
     "./read/xu-data-2024.html",
     "./read/xu-thesis.html",
     "./reader.css",
     "./reader.js",
+    "./release.css",
+    "./release.js",
     "./release.json",
     "./resources.js",
     "./study-data.js",
@@ -87,7 +93,6 @@
     "./workspace.js"
   ],
   "library": [
-    "./downloads/Paper-Lab-offline.html",
     "./library/breure-2024/766abe34a78e/article.epub",
     "./library/breure-2024/766abe34a78e/book.json",
     "./library/breure-2024/766abe34a78e/math-v3-07c8569a6799.png",
@@ -1005,5 +1010,5 @@
       "./vendor/translation/wasm/ort-wasm-simd-threaded.wasm"
     ]
   },
-  "bytes": 381811876
+  "bytes": 381902891
 }

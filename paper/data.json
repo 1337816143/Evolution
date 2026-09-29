@@ -1,6 +1,6 @@
 {
-  "version": "7ab2315fea56",
-  "sourceCommit": "cb7f8d94db5379f4d089c1fe8694015165dedec8",
+  "version": "9a23d6e568bc",
+  "sourceCommit": "73e12207e57d50d4c3dd3d7f4781dd897bb0fbc9",
   "updated": "2026-09-29",
   "documents": [
     {
@@ -1278,14 +1278,14 @@
       "citation": "Xu, Z. (2025). PhD thesis, Wageningen University. Awarded 4 September 2025.",
       "url": "https://doi.org/10.18174/681150",
       "pdf": "https://edepot.wur.nl/681150",
-      "evidence": "WUR官方摘要和学位记录核实；全文章节方法待核读",
+      "evidence": "完整322页PDF已在私有库校验；本轮核读目录、第4章方法及相关结果/讨论文字，未逐图核对所有附录或运行作者数据。",
       "minutes": 25,
       "tags": [
         "Thesis",
         "Typology",
         "FarmDESIGN"
       ],
-      "summary": "连接梁与程路线的桥梁：先认清农场不同，再做针对性的系统设计。",
+      "summary": "已从官方摘要导航推进至第4章正文方法带读：类型→同类优秀实践→FarmDESIGN配置与管理情景；完整原件保留私有。",
       "sections": [
         [
           "官方摘要给出的主线",
@@ -1300,10 +1300,16 @@
           "教学解释"
         ],
         [
-          "阅读入口与尚缺材料",
+          "上版路线记录（现已有正文补充）",
           "阅读导航",
-          "先完成[[xu-data-2024|数据文章]]和[[xu-2024|可持续性比较]]，再借助[[typology|类型构建]]及[[farmdesign-2012|FarmDESIGN]]读懂框架。全文取得前不猜测具体章号、代表案例选择算法和参数范围。",
+          "以下保留此前仅有摘要时的阅读路线，证据状态已更新，请接着看后面的正文核读入口。\n\n先完成[[xu-data-2024|数据文章]]和[[xu-2024|可持续性比较]]，再借助[[typology|类型构建]]及[[farmdesign-2012|FarmDESIGN]]读懂框架。全文取得前不猜测具体章号、代表案例选择算法和参数范围。",
           "证据边界"
+        ],
+        [
+          "2026-09-29正文核读更新",
+          "原文依据",
+          "目录现已核对：第2章印刷页35、第3章101、第4章163、第5章267。第4章题页在该博士版本中注明拟投稿，不把它虚构成已核实有独立DOI的论文。\n\n进入[[xu-chapter4|第4章完整方法链带读]]：分清SC1/SC2现实参照与SC3/SC4模型情景；注意共评价8个指标，但实际优化器包含7个目标，作物多样性在生成后评价。这一差别见§4.2.3.4，不能仅依摘要概括。",
+          "Xu 2025博士论文目录（PDF第9页）、第4章印刷页163、175–176；完整PDF有322页"
         ]
       ],
       "quiz": [
@@ -1316,7 +1322,8 @@
         "xu-data-2024",
         "xu-2024",
         "typology",
-        "farmdesign-2012"
+        "farmdesign-2012",
+        "xu-chapter4"
       ]
     },
     {
@@ -2828,6 +2835,201 @@
       "related": [
         "research-framework"
       ]
+    },
+    {
+      "id": "release-510",
+      "type": "guide",
+      "title": "v5.1.0：版本号与保护笔记的自动更新",
+      "stage": "更新记录",
+      "minutes": 4,
+      "summary": "程序更新不等于私人数据已同步；默认自动检查，正在编辑或连接同步时延后刷新。",
+      "sections": [
+        [
+          "看懂三个状态",
+          "使用说明",
+          "页头v5.1.0是程序版本；内容校验值用于辨认准确构建；顶部云端状态表示私人数据是否已获GitHub确认，三者不能互相替代。"
+        ],
+        [
+          "自动更新如何保护阅读",
+          "使用说明",
+          "新版本先下载核心资源，再询问同一站点的所有标签页是否可以切换。输入、选字、导入、翻译或当前GitHub会话未结束时，不强制刷新。已经做过完整离线缓存的设备，更新后自动补齐新增资源；失败时保留旧数据。"
+        ],
+        [
+          "授权处理边界",
+          "使用说明",
+          "免填令牌的长期登录需要受保护的服务端。目前仍等待安全托管连接，不能宣称已配置或把共享密钥放进网页。已有手动会话同步保留可用。"
+        ],
+        [
+          "继续完善的带读",
+          "学习建议",
+          "进入[[reading-proof-workflow|完整论文带读验收]]，先完成从问题到证据的整篇论证，再进入术语和方法细节。"
+        ],
+        [
+          "徐展博士论文补读",
+          "原文核对",
+          "完整PDF已在私有库校验。新增[[xu-chapter4|第4章方法链]]与章节定位，明确8项评价与7项优化目标的区别；不把正文核读说成全部附录、图表和作者代码已经复现。",
+          "依据原件目录及§4.2.3.4"
+        ]
+      ],
+      "related": [
+        "research-framework",
+        "reading-proof-workflow",
+        "xu-chapter4"
+      ]
+    },
+    {
+      "id": "reading-proof-workflow",
+      "type": "guide",
+      "title": "把一篇论文完整读通：从研究问题到可以复述、检验和迁移",
+      "stage": "体系化带读",
+      "minutes": 45,
+      "summary": "先建立整篇研究的因果与论证顺序，再理解工具。以下是本站教学组织，不替代论文目录；数字案例均为自编。",
+      "sections": [
+        [
+          "第一遍：只抓住作者为什么非得做这项研究",
+          "教学带读",
+          "先不要打开软件，也不要遇见缩写就立即跳走。读题名、摘要、引言末段和结论，各写一句话：现实中的矛盾是什么，已有工作缺什么，本文具体补什么，最后拿什么证据回答。四句话应指向同一个问题。若摘要谈多功能农场，你却把问题写成‘比较一种肥料效果’，需要回到系统边界重新判断。\n\n以[[liang-2022|梁2022]]为例，主线不是证明某一项技术普遍最好，而是从已观察系统中寻找多指标表现突出的案例。因此研究首先需要一个可比较的案例集合。先把这个前提抓稳，再进入指标和算法，才知道每个技术步骤为什么存在。",
+          "研究范围见对应论文带读中的原文出处；本节为学习组织"
+        ],
+        [
+          "第二遍：弄清每一行数据究竟代表谁",
+          "教学带读",
+          "接着查Methods的研究区、抽样、时间和数据处理。把一行究竟是人、家庭、农场、地块、村庄，还是模型生成的方案写出来，并给每个数字注明所在层级。[[xu-data-2024|曲周数据论文]]的访问数、有效家庭数和作物活动记录数并不属于同一张表；[[cheng-2023|程2023]]的调查人数也不等于RDA的分析行数。\n\n现在画一个简单的数据关系：村庄包含农场，农场包含地块，地块在不同时间包含生产活动。同一个farm_id出现多次可能是合法的一对多，不能凭重复ID删行。完成这一步以后，你才有资格讨论样本大小、独立性和代表性。",
+          "对应数据与调查论文Methods；关系图为教学表达"
+        ],
+        [
+          "第三遍：每个方法只能回答一个明确的子问题",
+          "教学带读",
+          "不要把Methods抄成‘Pareto、PCA、聚类、优化’四个名词。改写成输入→操作→输出→为什么还需要下一步。比如：指标矩阵输入非支配排序，得到互不全面压倒的方案；这些方案仍可能有很不同的优势结构，所以再分类；分类只能整理差异，不能自动证明某一类最适合所有人。\n\n到[[liang-2023|梁2023]]时，要另外加入候选生成环节。规则生成器决定哪些方案被允许进入比较，评价模块决定怎样描述好坏，筛选模块决定留下哪些，解释模块把大量结果整理成可讨论的选择。到[[farmsteps-2026|FarmSTEPS]]，则继续问：单块地可行以后，整个农场是否在同一时期还有足够水和劳动？每一步都应能接上前一步留下的问题。",
+          "方法链分别以三篇论文为依据；不得把不同论文的具体参数混用"
+        ],
+        [
+          "用一个贯穿例子理解支配、约束和最终选择",
+          "自编教学例子",
+          "以下三个农场完全虚构，利润越高越好，用水和劳动越低越好。A的利润100、用水30、劳动60；B为80、40、80；C为120、50、50。A在三项上都好于B，所以B被A支配。A与C则各有优势，互不支配。\n\n现在加入水资源上限40，C先因不可行被排除，而不是因为‘综合得分不够高’。如果水上限放宽到60，但家庭劳动最多55，A又不可行，C可以。这个例子说明：非支配排序、可行性与人的选择是不同环节。不能把一个前沿点直接称为现实最优处方。\n\n再假设C的市场价格容易下降。你需要先定义情景，再比较风险，不是简单在表后加上‘适应性强’。进入[[lab|交互实验室]]时，带着这条完整逻辑改数值，而不是随便拖动几个参数观察漂亮图形。",
+          "本站原创，不是任何论文的原始数据、单位或研究结论"
+        ],
+        [
+          "第四遍：一张结果图要读出问题、答案和边界",
+          "教学带读",
+          "看到一张图，先读图题与坐标，再确认点、线、颜色和误差条分别代表什么。问它对应研究链的哪个子问题。Pareto散点图展示的是指标之间的取舍，不自动证明因果；PCA图展示特定变量和标准化下的主要差异，不自动给出可持续性总分；Q方法中的典型排序是共同观点，不是整个人口的概率分布。\n\n把图中的一个结论改写为带限定词的句子：‘在这个样本内’、‘在给定模型和约束下’、‘在这些情景中’。然后回Methods检查这个限定是否足够。遇到公式或表格排版不可靠时，使用原图核对，不根据被拆散的字符猜测上下标。",
+          "结合[[breure-2024|权衡分析综述]]与对应论文；读图步骤为教学整理"
+        ],
+        [
+          "第五遍：理解了原文以后，才讨论海南迁移",
+          "研究迁移建议",
+          "先写本文实际做了什么，再另写自己准备借用什么，两栏不能混在一起。例如可以借鉴[[cheng-2025|Q方法]]表达相对优先级，但不能因此声称它已经预测农户会采用哪项技术；可以借[[farmdesign-2012|年度全农场模型]]整理养分与经济平衡，但不能把它直接当成每日作物过程模拟。\n\n对于海南PhD2，先确认土地、养分、水和劳动的边界以及作物、牲畜、水产的必要联系。工具是否适用，取决于科学问题、数据和可实现的模型结构，而不是论文用了哪个热门软件。迁移表至少写清：保留的机制、必须重估的参数、需要新增的约束、无法验证的假设，以及与PhD1交换什么信息。",
+          "迁移建议不是项目新增硬任务，以导师确认的研究范围为准"
+        ],
+        [
+          "完成标准：给自己做一次闭卷复述",
+          "学习验收",
+          "不用论文和本站，连续讲五分钟：为什么研究、研究谁、如何把数据变成证据、各步骤为何相连、最重要的结果及限制。不能只列工具名。随后手算一个小例子，指出哪些输入一改就会改变结论，最后列出完整复现还缺哪些作者数据、脚本和参数。\n\n把这段复述写到[[workbook|带读工作表]]中，再回到原文核对。若只卡在一个词，点术语解释；若不能说明前后两步的关系，回到整篇框架。最终目标不是‘看过全文’，而是能正确复述、有依据地检验，并知道哪里还没有掌握。",
+          "该验收为本站教学设计，不承诺固定天数即可掌握全部理论与工具"
+        ]
+      ],
+      "quiz": [
+        [
+          "为什么不能把Methods理解为一组工具名称？",
+          "工具只完成研究链的一部分。需要交代每一步接收什么、解决哪个子问题、产生什么，以及为什么还要下一步。"
+        ],
+        [
+          "在教学例子中，为什么水上限40时C不能因利润高而保留？",
+          "它违反硬性水资源约束。可行性筛选与偏好权衡不同，不能让收益抵消未允许违反的约束。"
+        ],
+        [
+          "还没取得作者数据，能否声称复现了论文全部结果？",
+          "不能。可以进行清楚标记的机制练习，但结果复现还需要相应原始数据、清洗规则、参数和运行设定。"
+        ]
+      ],
+      "related": [
+        "research-framework",
+        "course",
+        "liang-2022",
+        "liang-2023",
+        "cheng-2025",
+        "hainan-map",
+        "validation",
+        "xu-chapter4"
+      ]
+    },
+    {
+      "id": "xu-chapter4",
+      "type": "guide",
+      "title": "徐展博士论文第4章：把农场差异、优秀实践和系统优化真正接起来",
+      "stage": "博士论文章节带读",
+      "minutes": 65,
+      "citation": "Xu, Z. (2025). Exploring options for a more sustainable crop production on the North China Plain. Chapter 4, printed pp. 163–204; supplementary material starts on p. 205. DOI: 10.18174/681150.",
+      "url": "https://doi.org/10.18174/681150",
+      "evidence": "完整322页PDF已在私有库校验。本页已核读目录、第4章正文方法及相关结果/讨论文字；本轮没有逐图检查全部附录，亦未运行作者数据。章节题页当时注明拟投稿，不据此判断今日期刊发表状态。",
+      "summary": "先分类，再寻找同类优秀案例，再用FarmDESIGN比较重新配置与改进管理的不同作用。特别区分：8个评价指标，并非8个同时进入优化器的目标。",
+      "sections": [
+        [
+          "先把整本博士的逻辑放在眼前",
+          "原文目录与教学组织",
+          "这本论文的目录不是四个互不相关的工具展示。第1章为总引言；第2章研究华北平原粮食主导地区种植系统的多样性与可持续性，印刷页35起；第3章比较小农与经营型农场，页101起；第4章考察社区内已有优秀实践怎样改善小农生产，页163起；第5章为综合讨论，页267起。第4章补充材料从页205开始。\n\n全文文件有322个PDF页面，而书内印刷页码、前置页和目录书目页数不是同一个量。阅读时优先按章号、小节和书内印刷页定位。本页把第4章当作连接‘认识差异’与‘设计改进’的环节，不把它伪装成已经核实有独立DOI的期刊论文。",
+          "PDF第9页目录；第173页为第4章题页，注明 This chapter will be submitted for publication；引文只用于版本状态说明"
+        ],
+        [
+          "为什么先分类，而不是直接找全县最优农场",
+          "原文依据与教学解释",
+          "第4章使用486个小农场数据，不把19个经营型农场混进同一组来寻找小农优秀案例。作者先根据农户、家庭和农场的11项属性构建类型，再在各类型内部评价和寻找正向案例。PCA保留特征值大于1的成分，随后采用Ward.D2层次聚类，并结合肘部图判断类别数。结果保留4个主成分、解释67%的变异，得到省工型260户、全职型204户和资源较充裕型22户。\n\n这样做的逻辑是：投入农场劳动的家庭和主要依靠非农工作的家庭，现实资源约束不同。把它们直接放在同一条排行榜上，会混淆‘管理更好’与‘能投入更多资源’。分类是为解释和设计服务，并不是把人固定贴成永久不变的类别。作者也指出类型是某一时期的截面。",
+          "§4.2.2、§4.2.3.1、§4.3.1及§4.4.1；印刷页169–171、177–178、190–191"
+        ],
+        [
+          "同类中的优秀案例为什么还要筛两次",
+          "原文依据",
+          "作者对每类农场计算8项年度指标，涵盖氮盈余、灌溉、农药施用频次、作物多样性、毛利、劳动、膳食能量和维生素C供给。先用R的eaf包进行Pareto排序，保留第一前沿；再聚类，并用MIDIP、HDIP判断哪些群组在各维度之间较为均衡。理想点按同一农场类型内部各指标的最好值构成。\n\n第一前沿不等于所有指标都很好。作者需要第二层筛选，正因为很多目标下可能出现大量互不支配的系统。研究中被选群组的MIDIP和HDIP均较低，但作者在讨论中同时承认：优秀系统并没有在所有指标上都显著胜过其他系统，尤其小类样本较少。不要把‘被选为优秀’改写成‘所有绩效已得到因果验证的全面优势’。",
+          "§4.2.3.2–4.2.3.3，印刷页172–174；§4.4.2，页191–193"
+        ],
+        [
+          "四个情景是在拆开两种改进机制",
+          "原文依据与教学解释",
+          "SC1是各农场类型的平均基线。SC2是同类型优秀系统的平均种植配置和管理。SC3使用基线平均投入产出系数，让FarmDESIGN重新配置种植系统面积。SC4在重新配置的同时，优先采用优秀系统中的投入产出系数；某种种植系统没有对应优秀实践时，仍使用原来的平均系数。\n\n因此，SC3主要问‘不改变活动绩效参数，换组合有没有机会’，SC4进一步问‘组合变化与已有较佳管理一起使用，机会空间会怎样变化’。SC2则提供现实优秀系统参照。不能把四者都称作优化算法生成的情景，也不能说SC4给所有活动都换上了经过验证的最佳技术。\n\n这是本章最值得迁移的一步：明确每个情景改变了什么、没改变什么。这样结果差异才能对应清楚的研究问题，而不是把面积、投入与目标同时乱改后只比较总分。",
+          "§4.2.3.4，印刷页174–177；详细参数与变量范围指向原文补充方法S4.7、S4.8，本轮未逐表核对"
+        ],
+        [
+          "重要核对：8项评价，不等于8项都进优化器",
+          "原文方法细节",
+          "本章摘要和前文概括8项可持续性目标，但§4.2.3.4后半明确说明：实际优化模型包含7个目标，作物多样性是在生成方案之后再评价。正确理解应同时保留这两个层次，不能只读摘要就写成‘优化器同时优化8个目标’。\n\n作者采用Pareto-based Differential Evolution。每个类型与情景设置4000次迭代，得到2000个候选农场配置，报告F=0.15和CR=0.85。生成之后再次用PCA、聚类与理想点距离选择折中配置。这里的计算参数属于这一章，不能套给FarmSTEPS的枚举流程。启发式搜索得到的方案，也不能据此宣称已数学证明现实全局最优。",
+          "§4.2.3.4，印刷页175–176；最后一句为教学边界说明"
+        ],
+        [
+          "怎样读结果而不夸大全县推广效果",
+          "原文依据与局限",
+          "作者的主要结果是：种植系统重新配置与较佳管理结合，可以在模型分析中改善多项指标，但劳动需求会增加，且不同类型的可行调整不一样。SC4在部分生产、经济和养分指标上表现突出，SC3、SC2或基线则可能在多样性、灌溉或劳动等指标上更好，没有一个情景同时最大化所有目标。\n\n汇总时使用的是样本内各农场类型的面积权重。作者明确写明，这反映所调查小农的聚合潜力，不是拥有全县各类型面积统计支持的全县精确预测。原研究对非等比例抽样作了重抽样敏感性分析，但这不把条件性模型结果变成已经实施后的社会经济收益。\n\n原图尚未在本轮逐像素复核；阅读Fig.4.5和4.6时应回原件检查种植组成、归一化方向、比较基准及图注，不仅依靠这里的文字概括。",
+          "§4.3.4，印刷页187–189；§4.4相关讨论；图形仍须原件核对"
+        ],
+        [
+          "用一个小练习检验你是否理解SC3和SC4",
+          "自编教学练习",
+          "假设农场只有粮食和蔬菜两种活动，土地与劳动上限固定。第一轮保持两种活动的每公顷投入产出不变，只改变面积，记录毛利和用水的可行组合，这对应重新配置的思想。第二轮只给确有较佳管理依据的蔬菜活动换一个投入产出组合，粮食参数不动，再搜索。\n\n对比两个可行集合，并回答：改善来自换面积，还是活动本身的投入产出关系改变？哪种方案仍会超出劳动上限？没有采纳调查时，能否宣称农户愿意照做？这些教学活动和数值需要你自行明示，不是原作者的数据或完整复现。\n\n回到海南时，可借用这种分解逻辑，但种养、水产、季节资源约束和PhD1接口需要重新定义。不要把一章成功的框架当成模型和参数都可原封不动搬过来的理由。",
+          "原创教学练习；对应方法思想见§4.2.3.4；不新增博士硬任务"
+        ]
+      ],
+      "quiz": [
+        [
+          "本章实际优化器使用几个目标？",
+          "7个。共评价8项指标，但作物多样性在方案生成后评价；摘要层的8项概括不能替代方法细节。"
+        ],
+        [
+          "SC3和SC4最关键的区别是什么？",
+          "二者都优化配置；SC3使用同类型平均投入产出系数，SC4对有相应优秀实践的活动改用优秀系统系数，没有对应优秀实践的活动保留原平均参数。"
+        ],
+        [
+          "论文的汇总改善百分比是全县已经实现的效果吗？",
+          "不是，是按样本类型面积加权的条件性改进潜力。作者说明总体类型面积未知，也没有把所有设计作为实施试验来验证。"
+        ]
+      ],
+      "related": [
+        "xu-thesis",
+        "xu-data-2024",
+        "xu-2024",
+        "liang-2022",
+        "farmdesign-2012",
+        "typology",
+        "reading-proof-workflow"
+      ]
     }
   ],
   "files": {
@@ -2837,5 +3039,22 @@
     "pareto_lab.py": "\"\"\"Synthetic teaching examples, NOT author data or full paper replication.\nRun: python pareto_lab.py --test ; python pareto_lab.py\nPython 3.10+, standard library only. All numeric objectives are minimized.\n\"\"\"\nfrom itertools import combinations\nfrom math import isfinite, sqrt\nfrom statistics import stdev\nimport argparse, unittest\n\ndef validate(rows):\n    if not rows or not rows[0]:raise ValueError('Non-empty rectangular matrix required')\n    m=len(rows[0])\n    if any(len(r)!=m or any(not isinstance(v,(int,float)) or not isfinite(v) for v in r) for r in rows):raise ValueError('Finite rectangular numeric matrix required')\n\ndef dominates(a,b):\n    return all(x<=y for x,y in zip(a,b)) and any(x<y for x,y in zip(a,b))\n\ndef nondominated(rows):\n    validate(rows)\n    return [not any(j!=i and dominates(s,r) for j,s in enumerate(rows)) for i,r in enumerate(rows)]\n\ndef pareto_rank(rows):\n    validate(rows);remaining=list(range(len(rows)));rank=[0]*len(rows);level=1\n    while remaining:\n        flags=nondominated([rows[i] for i in remaining]);front=[i for i,ok in zip(remaining,flags) if ok]\n        for i in front:rank[i]=level\n        remaining=[i for i in remaining if i not in front];level+=1\n    return rank\n\ndef efficiency_score(rows):\n    \"\"\"Small transparent implementation: smallest k with ND in ALL k-subsets.\n    Compared against the complete supplied matrix. Dominated cases get None.\n    Complexity is exponential in objective count; not a production optimizer.\n    \"\"\"\n    validate(rows);n,m=len(rows),len(rows[0]);result=[None]*n\n    active={i for i,ok in enumerate(nondominated(rows)) if ok}\n    for k in range(1,m+1):\n        survives=set(active)\n        for subset in combinations(range(m),k):\n            flags=nondominated([[r[j] for j in subset] for r in rows])\n            survives.intersection_update(i for i,ok in enumerate(flags) if ok)\n            if not survives:break\n        for i in survives:result[i]=k\n        active-=survives\n        if not active:break\n    return result\n\ndef ideal_distance(centroid,population):\n    validate(population)\n    if len(centroid)!=len(population[0]):raise ValueError('Dimension mismatch')\n    distances=[]\n    for k,p in enumerate(centroid):\n        lo=min(r[k] for r in population);hi=max(r[k] for r in population)\n        distances.append(abs(p-lo)/(hi-lo) if hi>lo else 0.0)\n    return {'distances':distances,'MIDIP':sqrt(sum(v*v for v in distances)),'HDIP':stdev(distances) if len(distances)>1 else 0.0}\n\nclass Tests(unittest.TestCase):\n    def test_duplicate(self):self.assertEqual(nondominated([[1,1],[1,1],[2,2]]),[True,True,False])\n    def test_tradeoff(self):self.assertEqual(nondominated([[1,3],[2,2],[3,1]]),[True]*3)\n    def test_rank(self):self.assertEqual(pareto_rank([[1,1],[2,2],[3,3]]),[1,2,3])\n    def test_efficiency(self):self.assertEqual(efficiency_score([[1,1,1],[0,2,2],[2,0,2],[2,2,0]]),[2,3,3,3])\n    def test_dominated(self):self.assertEqual(efficiency_score([[0,0],[1,1]]),[1,None])\n    def test_distance(self):\n        r=ideal_distance([.2,.2,.2],[[0,0,0],[1,1,1]])\n        self.assertAlmostEqual(r['MIDIP'],sqrt(.12));self.assertEqual(r['HDIP'],0)\n    def test_constant(self):self.assertEqual(ideal_distance([2,1],[[2,1],[2,3]])['MIDIP'],0)\n    def test_bad(self):\n        with self.assertRaises(ValueError):nondominated([[float('nan')]])\n    def test_invariance(self):\n        x=[[1,3],[2,2],[3,1],[3,3]]\n        self.assertEqual(nondominated(x),nondominated([[a*10+7,b*2-1] for a,b in x]))\nif __name__=='__main__':\n    p=argparse.ArgumentParser();p.add_argument('--test',action='store_true');a=p.parse_args()\n    if a.test:unittest.main(argv=['pareto_lab.py'])\n    else:\n        rows=[[1,1,1],[0,2,2],[2,0,2],[2,2,0]]\n        print('SYNTHETIC DATA; minimize all objectives')\n        print('Rows:',rows);print('Non-dominated:',nondominated(rows));print('Efficiency scores:',efficiency_score(rows))\n",
     "sequence_lab.py": "\"\"\"Synthetic 2-plot / 3-period planning exercise. NOT FarmSTEPS source code.\"\"\"\nfrom itertools import product\nfrom pareto_lab import nondominated\nCROPS={'grain':{'profit':8,'water':5,'labour':2},'legume':{'profit':7,'water':3,'labour':3},'vegetable':{'profit':14,'water':8,'labour':7}}\nPERIODS=3;LABOUR_LIMIT=9\nseq=[s for s in product(CROPS,repeat=PERIODS) if all(s[t]!=s[t-1] for t in range(1,PERIODS))]\nplans=[]\nfor a,b in product(seq,repeat=2):\n    labour=[CROPS[a[t]]['labour']+CROPS[b[t]]['labour'] for t in range(PERIODS)]\n    if max(labour)>LABOUR_LIMIT:continue\n    profit=sum(CROPS[c]['profit'] for c in a+b);water=sum(CROPS[c]['water'] for c in a+b)\n    plans.append({'A':a,'B':b,'labour':labour,'profit':profit,'water':water})\nflags=nondominated([[-p['profit'],p['water']] for p in plans])\nassert all(max(p['labour'])<=LABOUR_LIMIT for p in plans)\nprint('SYNTHETIC EDUCATIONAL PROBLEM; not paper case-study counts')\nprint('Sequences per plot:',len(seq),'Feasible plans:',len(plans),'ND plans:',sum(flags))\nfor p,ok in list(zip(plans,flags))[:12]:print(p,'ND=',ok)\n",
     "synthetic_farms.csv": "case_id,profit_score,water_score,labour_score,provenance\nA,100,30,80,SYNTHETIC_TEACHING_ONLY\nB,80,40,100,SYNTHETIC_TEACHING_ONLY\nC,120,50,90,SYNTHETIC_TEACHING_ONLY\nD,90,20,70,SYNTHETIC_TEACHING_ONLY\nE,100,30,80,SYNTHETIC_TEACHING_ONLY\nF,110,35,120,SYNTHETIC_TEACHING_ONLY\n"
+  },
+  "application": {
+    "schema": "paper.application.release.v1",
+    "version": "5.1.0",
+    "date": "2026-09-29",
+    "title": "可见版本与保护笔记的自动更新",
+    "changes": [
+      "页头展示易读版本号，版本面板区分程序版本、内容校验值与云端保存状态。",
+      "联网、回到前台与定期检查更新；新资源就绪且所有本站标签页安全后自动应用。",
+      "编辑、选字、导入、翻译或会话授权同步期间延后刷新，不中断笔记与授权。",
+      "修复多个标签页保存阅读位置时可能覆盖另一页整篇笔记的问题；并发内容保留核对。",
+      "已有完整离线缓存的设备在新版本启用后自动补齐新增资源，不清除私人数据。",
+      "补充徐展博士论文第4章的正文方法链，明确8项评价与7项优化目标的区别。"
+    ],
+    "automaticUpdate": "idle-and-all-tabs-safe",
+    "managedSignIn": "awaiting-secure-backend-connection",
+    "credentialPolicy": "No credentials in source, public configuration, cache, logs or chat-derived records"
   }
 }
