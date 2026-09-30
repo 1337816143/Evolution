@@ -32,6 +32,8 @@
     "./read/course.html",
     "./read/data-schema.html",
     "./read/ditzler-2019.html",
+    "./read/dong-2026-ledger.html",
+    "./read/dong-2026.html",
     "./read/efficiency-score.html",
     "./read/farmdesign-2012.html",
     "./read/farmsteps-2026.html",
@@ -109,6 +111,7 @@
     "./read/session-2026-09-28.html",
     "./read/spatial-design.html",
     "./read/study-bilingual-framework-2026-09-28.html",
+    "./read/study-dong-2026-09-30.html",
     "./read/survey.html",
     "./read/toorop-2023.html",
     "./read/topic6-requirements.html",
@@ -1063,5 +1066,5 @@
       "./vendor/translation/wasm/ort-wasm-simd-threaded.wasm"
     ]
   },
-  "bytes": 382658086
+  "bytes": 382714299
 }
