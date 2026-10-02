@@ -1,7 +1,7 @@
 {
   "repository": "1337816143/MyDotWork",
-  "sourceCommit": "7b98337979d312ac9fcd71f5ab8ed769446f0ae9",
-  "contentVersion": "1.2.1",
+  "sourceCommit": "8e46f058973e87ce625d3ce8740a889ec5207e72",
+  "contentVersion": "1.4.0",
   "privacy": "public-research-and-user-approved-dot-records",
   "upstreamUrl": "https://1337816143.github.io/MyDotWork/",
   "coverage": {
@@ -12,24 +12,34 @@
   },
   "artifacts": [
     {
+      "path": "dashboard/index.html",
+      "sha256": "3105487994b6f7da2f18188245956b556a5bd36090fb1c78a1402ff934b9858b",
+      "bytes": 239287
+    },
+    {
+      "path": "dashboard/data.json",
+      "sha256": "c8b2beff5cced37f6f14d02e97ff0791d682b8c58762d027a22fc53f1bc14a6f",
+      "bytes": 164965
+    },
+    {
       "path": "chat/index.html",
-      "sha256": "f50d9f7f6d76fc16b27b5998858e0c543a8302f26952eaaa0bff88d6fe182ce4",
-      "bytes": 174386
+      "sha256": "37c1a5ad1678147541c3359c69047659cd6928d582abdf5b3a4a72819542c90c",
+      "bytes": 174441
     },
     {
       "path": "chat/messages.json",
-      "sha256": "c3f5df90a628e4dc5e33a629710fae7474825f5272a3b72e5c560c1c93a28d0d",
+      "sha256": "882f45052a7864b8dd912d2a8cd90664842688fa724093645aed2c65f322c9cb",
       "bytes": 131161
     },
     {
       "path": "chat/coverage.json",
-      "sha256": "f38d6fb9a0413e10aa1e52e957c0beb43a89f2bc48fa08a8b7005486b8536d7e",
+      "sha256": "5fe8ee01ce931aec23cfbd695746f09b04225204234311886bd6ccf871035c1d",
       "bytes": 598
     },
     {
       "path": "projects/index.html",
-      "sha256": "73ee820ba32319ab7b86c34f94f3a7f4ffc087b23abbb454ea4f42500234d614",
-      "bytes": 13435
+      "sha256": "6104773e0d070fcf596ddacf755d7811434b27e2ee5fbb7da1e1fabbfab60ae2",
+      "bytes": 13490
     },
     {
       "path": "projects/status.json",
@@ -38,8 +48,8 @@
     },
     {
       "path": "research/2026-10-02.html",
-      "sha256": "391fc04e0720644932dc48371b1cffcaa4bc2fa852c6a89788328120170d15bb",
-      "bytes": 82093
+      "sha256": "ef52d57d24b136dee200609838a57197161863ceb0dd408bd4cccec217d95bba",
+      "bytes": 82148
     },
     {
       "path": "research/2026-10-02.json",
@@ -48,8 +58,8 @@
     },
     {
       "path": "research/2026-10-02-round2.html",
-      "sha256": "d57c0ec2e81609042e7ff2ebefb57bd0c9e5e09765bb118ea0734b8d20365607",
-      "bytes": 75550
+      "sha256": "3ba38d291d183feb774291c25ad5646967d2921a7c77fa53c1e963d5d6ec7242",
+      "bytes": 75605
     },
     {
       "path": "research/2026-10-02-round2.json",

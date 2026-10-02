@@ -1,0 +1,3169 @@
+{
+  "schema": "mydotwork.dashboard.v1",
+  "date": "2026-10-02",
+  "records": [
+    {
+      "id": "cat-plus",
+      "merchant": "AI源头 / 云猫",
+      "tier": "Plus",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 108.99,
+      "source_urls": [
+        "https://catfk.com/item/g8ptrd"
+      ],
+      "observed_at_utc": "2026-10-02T06:02:29Z",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": "Alipay",
+      "payment_fee": 1.96,
+      "payable_preview": 110.95,
+      "invoice_supported_claim": true,
+      "invoice_type_claim": null,
+      "invoice_surcharge_claim": null,
+      "invoice_total_claim": null,
+      "invoice_issuer_claim": null,
+      "stock": null,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "1件起购；自动CDK；商称菲律宾VISA一卡一付、30天质保；开票须购买后联系。无可核官方账单/付款清算、票种/税点/主体。历史10月1日微信112.04，本轮支付宝价已复核。",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Plus",
+      "payment_group": "人民币预览",
+      "price_evidence": "展示价 / 总成本未知"
+    },
+    {
+      "id": "morimm-plus",
+      "merchant": "Morimm",
+      "tier": "Plus",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 115,
+      "source_urls": [
+        "https://morimm.com/products/gptplus"
+      ],
+      "observed_at_utc": "2026-10-02T06:02:29Z",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": null,
+      "payment_fee": null,
+      "payable_preview": null,
+      "invoice_supported_claim": null,
+      "invoice_type_claim": null,
+      "invoice_surcharge_claim": null,
+      "invoice_total_claim": null,
+      "invoice_issuer_claim": null,
+      "stock": "in stock; numeric count not shown",
+      "minimum_quantity": 1,
+      "bulk_tiers": [
+        {
+          "min_qty": 5,
+          "unit_price": 113
+        }
+      ],
+      "credential_risk": "HIGH: Token required",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "必须登录后购买；仅Free账号可充、不可覆盖；使用后卡密不退不换；兑换deem2.xyz。发票未知，不应写为不支持。",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Plus",
+      "payment_group": "通道或费用待核",
+      "price_evidence": "展示价 / 总成本未知"
+    },
+    {
+      "id": "ding-plus",
+      "merchant": "丁丁AI",
+      "tier": "Plus",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 118,
+      "source_urls": [
+        "https://ac-card.org/products/gpt"
+      ],
+      "observed_at_utc": "2026-10-02T06:02:29Z",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": "USDT channel by title/category",
+      "payment_fee": null,
+      "payable_preview": null,
+      "invoice_supported_claim": null,
+      "invoice_type_claim": null,
+      "invoice_surcharge_claim": null,
+      "invoice_total_claim": null,
+      "invoice_issuer_claim": null,
+      "stock": 10,
+      "minimum_quantity": 1,
+      "bulk_tiers": [
+        {
+          "min_qty": 3,
+          "unit_price": 116
+        },
+        {
+          "min_qty": 5,
+          "unit_price": 114
+        },
+        {
+          "min_qty": 10,
+          "unit_price": 112
+        },
+        {
+          "min_qty": 30,
+          "unit_price": 111
+        }
+      ],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "页面标题【udst付款渠道】。30件阶梯超过所见库存10，不能当当前可下单价；USDT汇兑/网络成本未知。商称30天订阅质保、CDK、debruyne.cc.cd兑换。",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Plus",
+      "payment_group": "USDT成本未闭合",
+      "price_evidence": "展示价 / 总成本未知"
+    },
+    {
+      "id": "zy-plus",
+      "merchant": "ZY",
+      "tier": "Plus",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 109.5,
+      "source_urls": [
+        "https://openzy.co/products/chatgpt-plus-philippines-card"
+      ],
+      "observed_at_utc": "2026-10-02T06:06:18Z",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": "USDT BEP20 / X Layer only",
+      "payment_fee": "site states 0% + 0 CNY; FX/acquisition/network costs unknown",
+      "payable_preview": 109.5,
+      "invoice_supported_claim": null,
+      "invoice_type_claim": null,
+      "invoice_surcharge_claim": null,
+      "invoice_total_claim": null,
+      "invoice_issuer_claim": null,
+      "stock": 231,
+      "minimum_quantity": 1,
+      "bulk_tiers": [
+        {
+          "min_qty": 10,
+          "unit_price": 109
+        }
+      ],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "游客结算页金额明确为预估；未提交订单，仅看到USDT方式。只Free可充、不能覆盖；只质保20天订阅、掉订阅按天退；openszy.co兑换。不能按109.50人民币最终支出压过支付宝110.95。",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Plus",
+      "payment_group": "USDT成本未闭合",
+      "price_evidence": "展示价 / 总成本未知"
+    },
+    {
+      "id": "mufeng-plus",
+      "merchant": "沐风小铺",
+      "tier": "Plus",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 111,
+      "source_urls": [
+        "https://mfhubs.com/products/kafu_gpt_plus"
+      ],
+      "observed_at_utc": "2026-10-02T06:05:13Z",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": null,
+      "payment_fee": null,
+      "payable_preview": 111,
+      "invoice_supported_claim": null,
+      "invoice_type_claim": null,
+      "invoice_surcharge_claim": null,
+      "invoice_total_claim": null,
+      "invoice_issuer_claim": null,
+      "stock": 128,
+      "minimum_quantity": 1,
+      "bulk_tiers": [
+        {
+          "min_order_CNY": 1110,
+          "discount_per_unit": 1
+        }
+      ],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "不可覆盖；欠费且未取消续费账号不可充；30天订阅质保不保封号。提醒另付网络手续费，付款通道/汇率未闭合。",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Plus",
+      "payment_group": "通道或费用待核",
+      "price_evidence": "展示价 / 总成本未知"
+    },
+    {
+      "id": "fan-plus",
+      "merchant": "反Ai供货商",
+      "tier": "Plus",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": null,
+      "source_urls": [
+        "https://fanai.us.ci/item/6"
+      ],
+      "observed_at_utc": "2026-10-02",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": null,
+      "payment_fee": null,
+      "payable_preview": null,
+      "invoice_supported_claim": null,
+      "invoice_type_claim": null,
+      "invoice_surcharge_claim": null,
+      "invoice_total_claim": null,
+      "invoice_issuer_claim": null,
+      "stock": 18,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "HIGH: Token explicitly requested",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "聚合9月29日110，但当前原页未显示价格/支付金额，不能放当前实付榜。需Free；掉订阅须用户找OpenAI，商家不保证退款；收到退款后再扣20%处理费。与全程质保标题须澄清。",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Plus",
+      "payment_group": "通道或费用待核",
+      "price_evidence": "展示价 / 总成本未知"
+    },
+    {
+      "id": "aisou-go-card",
+      "merchant": "Aisou智充",
+      "tier": "Go",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 33,
+      "source_urls": [
+        "https://aisou.pro/item/29"
+      ],
+      "observed_at_utc": "2026-10-02T06:08:41Z",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": "USDT only per homepage",
+      "payment_fee": null,
+      "payable_preview": null,
+      "invoice_supported_claim": null,
+      "invoice_type_claim": null,
+      "invoice_surcharge_claim": null,
+      "invoice_total_claim": null,
+      "invoice_issuer_claim": null,
+      "stock": 149,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "官网首页已核33；菲区卡付、只Free不可覆盖；30天掉订阅按天退、封号不保。下单有图形验证码未操作；USDT实际总成本未知。",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Go",
+      "payment_group": "USDT成本未闭合",
+      "price_evidence": "展示价 / 总成本未知"
+    },
+    {
+      "id": "aisou-go-ios",
+      "merchant": "Aisou智充",
+      "tier": "Go",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 35,
+      "source_urls": [
+        "https://aisou.pro/item/63"
+      ],
+      "observed_at_utc": "2026-10-02T06:07:44Z",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": "USDT only per homepage",
+      "payment_fee": null,
+      "payable_preview": null,
+      "invoice_supported_claim": null,
+      "invoice_type_claim": null,
+      "invoice_surcharge_claim": null,
+      "invoice_total_claim": null,
+      "invoice_issuer_claim": null,
+      "stock": 121,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "首页商品卡：印度iOS月卡。具体覆盖/票据条件未核，不混同卡付Go。",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Go",
+      "payment_group": "USDT成本未闭合",
+      "price_evidence": "展示价 / 总成本未知"
+    },
+    {
+      "id": "aisou-plus",
+      "merchant": "Aisou智充",
+      "tier": "Plus",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 114,
+      "source_urls": [
+        "https://aisou.pro/item/49"
+      ],
+      "observed_at_utc": "2026-10-02T06:07:44Z",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": "USDT only per homepage",
+      "payment_fee": null,
+      "payable_preview": null,
+      "invoice_supported_claim": null,
+      "invoice_type_claim": null,
+      "invoice_surcharge_claim": null,
+      "invoice_total_claim": null,
+      "invoice_issuer_claim": null,
+      "stock": 197,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "首页商品卡菲区卡密；尚无含费/含票人民币总价。",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Plus",
+      "payment_group": "USDT成本未闭合",
+      "price_evidence": "展示价 / 总成本未知"
+    },
+    {
+      "id": "aisou-pro100-cl",
+      "merchant": "Aisou智充",
+      "tier": "Pro 100 / seller 5x",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 630,
+      "source_urls": [
+        "https://aisou.pro/item/39"
+      ],
+      "observed_at_utc": "2026-10-02T06:07:44Z",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": "USDT only per homepage",
+      "payment_fee": null,
+      "payable_preview": null,
+      "invoice_supported_claim": null,
+      "invoice_type_claim": null,
+      "invoice_surcharge_claim": null,
+      "invoice_total_claim": null,
+      "invoice_issuer_claim": null,
+      "stock": 6,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "实时首页商品卡：智利原号月卡。具体账号资格、实际权益/总成本/税票未核，不保证能新开或保留旧20x。",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Pro 100",
+      "payment_group": "USDT成本未闭合",
+      "price_evidence": "展示价 / 总成本未知"
+    },
+    {
+      "id": "aisou-pro100-ios",
+      "merchant": "Aisou智充",
+      "tier": "Pro 100 / seller 5x",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 645,
+      "source_urls": [
+        "https://aisou.pro/item/46"
+      ],
+      "observed_at_utc": "2026-10-02T06:07:44Z",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": "USDT only per homepage",
+      "payment_fee": null,
+      "payable_preview": null,
+      "invoice_supported_claim": null,
+      "invoice_type_claim": null,
+      "invoice_surcharge_claim": null,
+      "invoice_total_claim": null,
+      "invoice_issuer_claim": null,
+      "stock": 7,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "实时首页商品卡：美区iOS月卡。具体账号资格、实际权益/总成本/税票未核，不保证能新开或保留旧20x。",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Pro 100",
+      "payment_group": "USDT成本未闭合",
+      "price_evidence": "展示价 / 总成本未知"
+    },
+    {
+      "id": "aisou-pro200-renew",
+      "merchant": "Aisou智充",
+      "tier": "Pro 200 / seller 20x renewal",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 1050,
+      "source_urls": [
+        "https://aisou.pro/item/72"
+      ],
+      "observed_at_utc": "2026-10-02T06:07:44Z",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": "USDT only per homepage",
+      "payment_fee": null,
+      "payable_preview": null,
+      "invoice_supported_claim": null,
+      "invoice_type_claim": null,
+      "invoice_surcharge_claim": null,
+      "invoice_total_claim": null,
+      "invoice_issuer_claim": null,
+      "stock": 26,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "实时首页商品卡：菲区续费专用。具体账号资格、实际权益/总成本/税票未核，不保证能新开或保留旧20x。",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Pro 200 · 续费资格",
+      "payment_group": "USDT成本未闭合",
+      "price_evidence": "展示价 / 总成本未知"
+    },
+    {
+      "id": "aisou-pro500",
+      "merchant": "Aisou智充",
+      "tier": "Pro 500 / seller 25x",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 3100,
+      "source_urls": [
+        "https://aisou.pro/item/75"
+      ],
+      "observed_at_utc": "2026-10-02T06:07:44Z",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": "USDT only per homepage",
+      "payment_fee": null,
+      "payable_preview": null,
+      "invoice_supported_claim": null,
+      "invoice_type_claim": null,
+      "invoice_surcharge_claim": null,
+      "invoice_total_claim": null,
+      "invoice_issuer_claim": null,
+      "stock": 30,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "实时首页商品卡：智利原号月卡。具体账号资格、实际权益/总成本/税票未核，不保证能新开或保留旧20x。",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Pro 500",
+      "payment_group": "USDT成本未闭合",
+      "price_evidence": "展示价 / 总成本未知"
+    },
+    {
+      "id": "cat-pro100",
+      "merchant": "AI源头 / 云猫",
+      "tier": "Pro 100 / seller 5x",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 625,
+      "source_urls": [
+        "https://catfk.com/item/8nja4n"
+      ],
+      "observed_at_utc": "2026-10-02T06:11:55Z",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": "Alipay",
+      "payment_fee": 11.25,
+      "payable_preview": 636.25,
+      "invoice_supported_claim": true,
+      "invoice_type_claim": null,
+      "invoice_surcharge_claim": null,
+      "invoice_total_claim": null,
+      "invoice_issuer_claim": null,
+      "stock": null,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "iOS原号；1件起、CDK、30天质保宣传，开票后联系客服；含支付费不含未知票费。",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Pro 100",
+      "payment_group": "人民币预览",
+      "price_evidence": "展示价 / 总成本未知"
+    },
+    {
+      "id": "cat-pro200",
+      "merchant": "AI源头 / 云猫",
+      "tier": "Pro 200 / seller 20x",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 1005,
+      "source_urls": [
+        "https://catfk.com/item/ef0dhx"
+      ],
+      "observed_at_utc": "2026-10-02T06:09:44Z",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": "Alipay",
+      "payment_fee": 18.09,
+      "payable_preview": 1023.09,
+      "invoice_supported_claim": true,
+      "invoice_type_claim": null,
+      "invoice_surcharge_claim": null,
+      "invoice_total_claim": null,
+      "invoice_issuer_claim": null,
+      "stock": null,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "菲区原号1月、30天质保宣传；新开/续订资格与实际额度未核，不能保证20x。票费、票种、开票主体未知。",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Pro 200 · 资格待核",
+      "payment_group": "人民币预览",
+      "price_evidence": "展示价 / 总成本未知"
+    },
+    {
+      "id": "wang-pro100",
+      "merchant": "王哈哈",
+      "tier": "Pro 100 / seller 5x",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 625,
+      "source_urls": [
+        "https://shop.whh985.com/products/pro5x"
+      ],
+      "observed_at_utc": "2026-10-02T06:18:10Z",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": "USDT BEP20 / POLYGON only",
+      "payment_fee": "site states 0% + 0 CNY; FX/acquisition/network costs unknown",
+      "payable_preview": 625,
+      "invoice_supported_claim": null,
+      "invoice_type_claim": null,
+      "invoice_surcharge_claim": null,
+      "invoice_total_claim": null,
+      "invoice_issuer_claim": null,
+      "stock": 1,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "iOS可覆盖、30天订阅质保不保封号；标题仅可囤5天；禁止未取消Google续订、须渡过宽限期；不接受Outlook/Hotmail。结算已核只收USDT，不能当625人民币支付宝实付。",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Pro 100",
+      "payment_group": "USDT成本未闭合",
+      "price_evidence": "展示价 / 总成本未知"
+    },
+    {
+      "id": "hansen-go",
+      "merchant": "涵森云充",
+      "tier": "Go",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 39,
+      "source_urls": [
+        "https://ainb8.com/products/chatgpt-go-india-jz"
+      ],
+      "observed_at_utc": "2026-10-02T06:18:10Z",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": "Alipay / USDT-BEP20",
+      "payment_fee": 0,
+      "payable_preview": 39,
+      "invoice_supported_claim": null,
+      "invoice_type_claim": null,
+      "invoice_surcharge_claim": null,
+      "invoice_total_claim": null,
+      "invoice_issuer_claim": null,
+      "stock": 131,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "印度卡付，仅Free不可覆盖；30天订阅保障。游客结算1件应付39.00，支付宝费率0%、固定0；未提交订单。发票未知。",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Go",
+      "payment_group": "USDT成本未闭合",
+      "price_evidence": "展示价 / 总成本未知"
+    },
+    {
+      "id": "hansen-plus",
+      "merchant": "涵森云充",
+      "tier": "Plus",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 143.1,
+      "source_urls": [
+        "https://ainb8.com/products/upstream-2-18-1785515407535"
+      ],
+      "observed_at_utc": "2026-10-02T06:09:44Z",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": null,
+      "payment_fee": null,
+      "payable_preview": null,
+      "invoice_supported_claim": true,
+      "invoice_type_claim": null,
+      "invoice_surcharge_claim": null,
+      "invoice_total_claim": null,
+      "invoice_issuer_claim": null,
+      "stock": 211,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "谷歌渠道标签；原号CDK，登录凭据提示；只声明可开票，未明是否含票/票种/主体，不能因为143.10恰等于贝果含税点数就视为含票价。",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Plus",
+      "payment_group": "通道或费用待核",
+      "price_evidence": "展示价 / 总成本未知"
+    },
+    {
+      "id": "hansen-plus-ios",
+      "merchant": "涵森云充",
+      "tier": "Plus",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 147.8,
+      "source_urls": [
+        "https://ainb8.com/products/upstream-2-1-1785515380649"
+      ],
+      "observed_at_utc": "2026-10-02T06:08:41Z",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": null,
+      "payment_fee": null,
+      "payable_preview": null,
+      "invoice_supported_claim": true,
+      "invoice_type_claim": null,
+      "invoice_surcharge_claim": null,
+      "invoice_total_claim": null,
+      "invoice_issuer_claim": null,
+      "stock": null,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "实时商品目录；iOS、可覆盖符合条件Plus、不支持Pro。税票总费用和开票方未核；商家明确无品牌授权。",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Plus",
+      "payment_group": "通道或费用待核",
+      "price_evidence": "展示价 / 总成本未知"
+    },
+    {
+      "id": "hansen-pro100-ios",
+      "merchant": "涵森云充",
+      "tier": "Pro 100 / seller 5x",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 698.6,
+      "source_urls": [
+        "https://ainb8.com/products/upstream-2-19-1785515516200"
+      ],
+      "observed_at_utc": "2026-10-02T06:08:41Z",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": null,
+      "payment_fee": null,
+      "payable_preview": null,
+      "invoice_supported_claim": true,
+      "invoice_type_claim": null,
+      "invoice_surcharge_claim": null,
+      "invoice_total_claim": null,
+      "invoice_issuer_claim": null,
+      "stock": null,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "实时商品目录；iOS可覆盖条件Plus/Pro5x、重置不叠加。税票总费用和开票方未核；商家明确无品牌授权。",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Pro 100",
+      "payment_group": "通道或费用待核",
+      "price_evidence": "展示价 / 总成本未知"
+    },
+    {
+      "id": "hansen-pro100-card",
+      "merchant": "涵森云充",
+      "tier": "Pro 100 / seller 5x",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 729.98,
+      "source_urls": [
+        "https://ainb8.com/products/upstream-2-6-1785938218978"
+      ],
+      "observed_at_utc": "2026-10-02T06:08:41Z",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": null,
+      "payment_fee": null,
+      "payable_preview": null,
+      "invoice_supported_claim": null,
+      "invoice_type_claim": null,
+      "invoice_surcharge_claim": null,
+      "invoice_total_claim": null,
+      "invoice_issuer_claim": null,
+      "stock": null,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "实时商品目录；卡充，Free或符合条件菲Plus，7天内使用。税票总费用和开票方未核；商家明确无品牌授权。",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Pro 100",
+      "payment_group": "通道或费用待核",
+      "price_evidence": "展示价 / 总成本未知"
+    },
+    {
+      "id": "hansen-pro200",
+      "merchant": "涵森云充",
+      "tier": "Pro 200 / seller 20x eligibility",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 1216.9,
+      "source_urls": [
+        "https://ainb8.com/products/upstream-2-4-1785515409143"
+      ],
+      "observed_at_utc": "2026-10-02T06:08:41Z",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": null,
+      "payment_fee": null,
+      "payable_preview": null,
+      "invoice_supported_claim": true,
+      "invoice_type_claim": null,
+      "invoice_surcharge_claim": null,
+      "invoice_total_claim": null,
+      "invoice_issuer_claim": null,
+      "stock": null,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "实时商品目录；需具备20x资格。税票总费用和开票方未核；商家明确无品牌授权。",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Pro 200 · 资格待核",
+      "payment_group": "通道或费用待核",
+      "price_evidence": "展示价 / 总成本未知"
+    },
+    {
+      "id": "hansen-pro200-renew",
+      "merchant": "涵森云充",
+      "tier": "Pro 200 / seller 20x renewal",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 1280,
+      "source_urls": [
+        "https://ainb8.com/products/chatgpt-pro20-expiring-renewal"
+      ],
+      "observed_at_utc": "2026-10-02T06:08:41Z",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": null,
+      "payment_fee": null,
+      "payable_preview": null,
+      "invoice_supported_claim": null,
+      "invoice_type_claim": null,
+      "invoice_surcharge_claim": null,
+      "invoice_total_claim": null,
+      "invoice_issuer_claim": null,
+      "stock": null,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "实时商品目录；仅有效期剩3天以内卡付20x，过期/宽限期/iOS或Google订阅不适用。税票总费用和开票方未核；商家明确无品牌授权。",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Pro 200 · 续费资格",
+      "payment_group": "通道或费用待核",
+      "price_evidence": "展示价 / 总成本未知"
+    },
+    {
+      "id": "bigo-plus",
+      "merchant": "贝果科技",
+      "tier": "Plus",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 135,
+      "source_urls": [
+        "https://bigolab.com/chongzhi/chatgpt-plus"
+      ],
+      "observed_at_utc": "2026-10-02T06:06:18Z",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": "Alipay advertised; actual payment not submitted",
+      "payment_fee": null,
+      "payable_preview": null,
+      "invoice_supported_claim": true,
+      "invoice_type_claim": "增值税发票，普/专未分",
+      "invoice_surcharge_claim": "6% additional charge = 8.10 CNY",
+      "invoice_total_claim": 143.1,
+      "invoice_issuer_claim": "益阳市赫山区必高科技有限公司（商家自报，未工商/发票验真）",
+      "stock": "in stock",
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "信用卡档仅邮箱是商品自述；Free且无异常账单。核销后不退，即使失败；未使用可退，掉订按余天、封号不保。143.10是商家收费规则计算值，并非已支付/已取得合规发票。",
+      "snapshot": "第一轮报价 / 第二轮专项证据，非全面复核",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "标准条款禁止转售",
+      "corrections": [
+        "2026-10-01版服务条款列明该合同主体，与价格页自称主体一致，只构成一方公开承诺",
+        "第五节明确不得用于转售倒卖。用于转售需另行授权/合同",
+        "商品页允许选择票面是否出现ChatGPT字样；不能据此认可可随意改不实品目",
+        "一处账户前提不满足称核销不退，错误表又称不消耗；是否核销必须书面明确",
+        "卡密交付即主要履约；已核销不支持退款，未到账向上游追查。不能只摘用未使用可退"
+      ],
+      "diligence": {
+        "merchant": "贝果科技",
+        "tier": "Plus信用卡月卡",
+        "display_price_cny": 135,
+        "invoice_rate_merchant_claim": 0.06,
+        "invoice_total_calculated_cny": 143.1,
+        "invoice_payable_preview": null,
+        "stock_live": "有货",
+        "invoice_type": "增值税发票，普/专未明",
+        "legal_entity_merchant_claim": "益阳市赫山区必高科技有限公司",
+        "uscc": null,
+        "official_registry_verified": false,
+        "invoice_issuer_independently_verified": false,
+        "payment_legal_entity": null,
+        "min_qty": 1,
+        "login_required": true,
+        "invoice_process": "结算可勾选同时开票，或付款后我的订单另付6%申请；发票抬头自填。未见只许企业批量的门槛。",
+        "new_material_evidence": [
+          "2026-10-01版服务条款列明该合同主体，与价格页自称主体一致，只构成一方公开承诺",
+          "第五节明确不得用于转售倒卖。用于转售需另行授权/合同",
+          "商品页允许选择票面是否出现ChatGPT字样；不能据此认可可随意改不实品目",
+          "一处账户前提不满足称核销不退，错误表又称不消耗；是否核销必须书面明确",
+          "卡密交付即主要履约；已核销不支持退款，未到账向上游追查。不能只摘用未使用可退"
+        ],
+        "urls": [
+          "https://bigolab.com/terms",
+          "https://bigolab.com/chongzhi/chatgpt-plus",
+          "https://bigolab.com/privacy"
+        ],
+        "decision": "个人自用含票询证优先；标准条款下排出可转售上游名单。未经书面授权不得视作可分销。"
+      },
+      "sku_group": "Plus",
+      "payment_group": "人民币通道 · 总额待核",
+      "price_evidence": "计算值 / 商家宣称"
+    },
+    {
+      "id": "bigo-plus-ios",
+      "merchant": "贝果科技",
+      "tier": "Plus",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 140,
+      "source_urls": [
+        "https://bigolab.com/products/21"
+      ],
+      "observed_at_utc": "2026-10-02",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": null,
+      "payment_fee": null,
+      "payable_preview": null,
+      "invoice_supported_claim": true,
+      "invoice_type_claim": null,
+      "invoice_surcharge_claim": "6%",
+      "invoice_total_claim": 148.4,
+      "invoice_issuer_claim": "益阳市赫山区必高科技有限公司（自报）",
+      "stock": "补货中（第二轮）",
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "HIGH: Session requested",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "2026-10-02实时落地页显示补货中，不列在售最低榜。",
+      "snapshot": "第一轮报价 / 第二轮专项证据，非全面复核",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "标准条款禁止转售",
+      "corrections": [
+        "第二轮标准条款明确禁止转售倒卖；工商与实际票证未验真。"
+      ],
+      "diligence": {
+        "merchant": "贝果科技",
+        "legal_entity_merchant_claim": "益阳市赫山区必高科技有限公司",
+        "urls": [
+          "https://bigolab.com/terms"
+        ],
+        "decision": "标准条款禁止转售；其他SKU价格仍为第一轮快照，第二轮没有逐项复核。",
+        "new_material_evidence": [
+          "第二轮标准条款明确禁止转售倒卖；工商与实际票证未验真。"
+        ]
+      },
+      "sku_group": "Plus",
+      "payment_group": "通道或费用待核",
+      "price_evidence": "计算值 / 商家宣称"
+    },
+    {
+      "id": "bigo-pro100-card",
+      "merchant": "贝果科技",
+      "tier": "Pro 100 / seller 5x",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 720,
+      "source_urls": [
+        "https://bigolab.com/chongzhi/chatgpt-pro"
+      ],
+      "observed_at_utc": "2026-10-02",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": null,
+      "payment_fee": null,
+      "payable_preview": null,
+      "invoice_supported_claim": true,
+      "invoice_type_claim": null,
+      "invoice_surcharge_claim": "6%",
+      "invoice_total_claim": 763.2,
+      "invoice_issuer_claim": "益阳市赫山区必高科技有限公司（自报）",
+      "stock": null,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "本轮第一方网页读取：信用卡不可覆盖Plus；准确新开/旧20x资格及实际权益待核。",
+      "snapshot": "第一轮报价 / 第二轮专项证据，非全面复核",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "标准条款禁止转售",
+      "corrections": [
+        "第二轮标准条款明确禁止转售倒卖；工商与实际票证未验真。"
+      ],
+      "diligence": {
+        "merchant": "贝果科技",
+        "legal_entity_merchant_claim": "益阳市赫山区必高科技有限公司",
+        "urls": [
+          "https://bigolab.com/terms"
+        ],
+        "decision": "标准条款禁止转售；其他SKU价格仍为第一轮快照，第二轮没有逐项复核。",
+        "new_material_evidence": [
+          "第二轮标准条款明确禁止转售倒卖；工商与实际票证未验真。"
+        ]
+      },
+      "sku_group": "Pro 100",
+      "payment_group": "通道或费用待核",
+      "price_evidence": "计算值 / 商家宣称"
+    },
+    {
+      "id": "bigo-pro100-ios",
+      "merchant": "贝果科技",
+      "tier": "Pro 100 / seller 5x",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 750,
+      "source_urls": [
+        "https://bigolab.com/chongzhi/chatgpt-pro"
+      ],
+      "observed_at_utc": "2026-10-02",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": null,
+      "payment_fee": null,
+      "payable_preview": null,
+      "invoice_supported_claim": true,
+      "invoice_type_claim": null,
+      "invoice_surcharge_claim": "6%",
+      "invoice_total_claim": 795.0,
+      "invoice_issuer_claim": "益阳市赫山区必高科技有限公司（自报）",
+      "stock": null,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "本轮第一方网页读取：iOS可覆盖Plus；准确新开/旧20x资格及实际权益待核。",
+      "snapshot": "第一轮报价 / 第二轮专项证据，非全面复核",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "标准条款禁止转售",
+      "corrections": [
+        "第二轮标准条款明确禁止转售倒卖；工商与实际票证未验真。"
+      ],
+      "diligence": {
+        "merchant": "贝果科技",
+        "legal_entity_merchant_claim": "益阳市赫山区必高科技有限公司",
+        "urls": [
+          "https://bigolab.com/terms"
+        ],
+        "decision": "标准条款禁止转售；其他SKU价格仍为第一轮快照，第二轮没有逐项复核。",
+        "new_material_evidence": [
+          "第二轮标准条款明确禁止转售倒卖；工商与实际票证未验真。"
+        ]
+      },
+      "sku_group": "Pro 100",
+      "payment_group": "通道或费用待核",
+      "price_evidence": "计算值 / 商家宣称"
+    },
+    {
+      "id": "bigo-pro200-card",
+      "merchant": "贝果科技",
+      "tier": "Pro 200 / seller 20x",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 1250,
+      "source_urls": [
+        "https://bigolab.com/chongzhi/chatgpt-pro"
+      ],
+      "observed_at_utc": "2026-10-02",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": null,
+      "payment_fee": null,
+      "payable_preview": null,
+      "invoice_supported_claim": true,
+      "invoice_type_claim": null,
+      "invoice_surcharge_claim": "6%",
+      "invoice_total_claim": 1325.0,
+      "invoice_issuer_claim": "益阳市赫山区必高科技有限公司（自报）",
+      "stock": null,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "本轮第一方网页读取：信用卡不可覆盖Plus/5x；准确新开/旧20x资格及实际权益待核。",
+      "snapshot": "第一轮报价 / 第二轮专项证据，非全面复核",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "标准条款禁止转售",
+      "corrections": [
+        "第二轮标准条款明确禁止转售倒卖；工商与实际票证未验真。"
+      ],
+      "diligence": {
+        "merchant": "贝果科技",
+        "legal_entity_merchant_claim": "益阳市赫山区必高科技有限公司",
+        "urls": [
+          "https://bigolab.com/terms"
+        ],
+        "decision": "标准条款禁止转售；其他SKU价格仍为第一轮快照，第二轮没有逐项复核。",
+        "new_material_evidence": [
+          "第二轮标准条款明确禁止转售倒卖；工商与实际票证未验真。"
+        ]
+      },
+      "sku_group": "Pro 200 · 资格待核",
+      "payment_group": "通道或费用待核",
+      "price_evidence": "计算值 / 商家宣称"
+    },
+    {
+      "id": "fnon-plus",
+      "merchant": "gpt.fnon.cn",
+      "tier": "Plus",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 145,
+      "source_urls": [
+        "https://gpt.fnon.cn/"
+      ],
+      "observed_at_utc": "2026-10-02",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": "Alipay / WeChat",
+      "payment_fee": "merchant states absorbed",
+      "payable_preview": null,
+      "invoice_supported_claim": true,
+      "invoice_type_claim": "增值税普通发票，技术服务费",
+      "invoice_surcharge_claim": "single first month +6 CNY; cumulative >=2 months can apply",
+      "invoice_total_claim": 151,
+      "invoice_issuer_claim": null,
+      "stock": null,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "商品/平台费商称所见即所得；累计2个月290可申请票，不应把145写成单买首月含票。开票方未披露。",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Plus",
+      "payment_group": "人民币通道 · 总额待核",
+      "price_evidence": "计算值 / 商家宣称"
+    },
+    {
+      "id": "gongsi-plus",
+      "merchant": "gongsi.one AI代采",
+      "tier": "Plus",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 165,
+      "source_urls": [
+        "https://gongsi.one/docs/pricing/"
+      ],
+      "observed_at_utc": "2026-10-02",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": null,
+      "payment_fee": null,
+      "payable_preview": null,
+      "invoice_supported_claim": true,
+      "invoice_type_claim": "商称含6%数电增值税专票，可普票",
+      "invoice_surcharge_claim": "included per merchant",
+      "invoice_total_claim": 165,
+      "invoice_issuer_claim": null,
+      "stock": null,
+      "minimum_quantity": 1,
+      "bulk_tiers": [
+        {
+          "min_qty": 5,
+          "unit_price": 155,
+          "period": "monthly"
+        },
+        {
+          "min_qty": 20,
+          "unit_price": 145,
+          "period": "monthly"
+        },
+        {
+          "min_qty": 20,
+          "unit_price": 135,
+          "period": "12-month prepaid monthly-equivalent"
+        }
+      ],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "1-4账号月付165；对公、2工作日出票宣传。首页票据是遮挡/占位样张，不是本次验真。实际完整开票公司/税号需核；135需20+年付，不是单买。",
+      "snapshot": "第一轮报价 / 第二轮专项证据，非全面复核",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [
+        "官网示例销售方和报价章出现完整公司名",
+        "样张同时含贵司企业法定名称、X占位税号和遮挡账户；无法验真",
+        "示例按钮旁的实证已验真是商家文案，不能作研究验证结果",
+        "官方登记精确搜索未获相符结果，不等于主体不存在"
+      ],
+      "diligence": {
+        "merchant": "gongsi.one",
+        "tier": "Plus月付1-4账号",
+        "invoice_total_merchant_claim_cny": 165,
+        "invoice_type": "商称6%数电专票/普票",
+        "legal_entity_merchant_claim": "成都游手科技有限公司（报价章与示例销售方）",
+        "uscc": null,
+        "displayed_placeholder_uscc": "91110105MA88XXXXXX",
+        "new_material_evidence": [
+          "官网示例销售方和报价章出现完整公司名",
+          "样张同时含贵司企业法定名称、X占位税号和遮挡账户；无法验真",
+          "示例按钮旁的实证已验真是商家文案，不能作研究验证结果",
+          "官方登记精确搜索未获相符结果，不等于主体不存在"
+        ],
+        "urls": [
+          "https://gongsi.one/",
+          "https://gongsi.one/docs/pricing/"
+        ],
+        "decision": "可要求实际资质与合同，但在取得真实材料前降低样张证据权重。"
+      },
+      "sku_group": "Plus",
+      "payment_group": "通道或费用待核",
+      "price_evidence": "计算值 / 商家宣称"
+    },
+    {
+      "id": "proplus-plus",
+      "merchant": "ProPlus.CV",
+      "tier": "Plus",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 178,
+      "source_urls": [
+        "https://proplus.cv/"
+      ],
+      "observed_at_utc": "2026-10-02T06:07:44Z",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": "Alipay / PayPal shown in modal",
+      "payment_fee": null,
+      "payable_preview": 178,
+      "invoice_supported_claim": true,
+      "invoice_type_claim": "默认增值税普通发票；专票询价",
+      "invoice_surcharge_claim": "modal says +8%, rounded calculation unexplained",
+      "invoice_total_claim": 192,
+      "invoice_issuer_claim": null,
+      "stock": "sufficient",
+      "minimum_quantity": 1,
+      "bulk_tiers": [
+        {
+          "min_qty": 5,
+          "unit_price": 175
+        },
+        {
+          "min_qty": 10,
+          "unit_price": 170
+        },
+        {
+          "min_qty": 20,
+          "unit_price": 165
+        }
+      ],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "实际勾选企业开票显示192.00，不能替换为算术178*1.08=192.24。开票主体/税号未公开；自称无OpenAI授权。未填邮箱/密码、未下单。",
+      "snapshot": "第一轮报价 / 第二轮专项证据，非全面复核",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [
+        "企业页确实提供自助普票流程，不需把所有单件开票都说成必须企业定制",
+        "关于/条款/企业页未披露法定公司全称、完整税号、样票或收款主体",
+        "站方称按周期质保、失败100%退；条款又称具体以购买页和客服说明为准",
+        "明确自称无OpenAI等授权"
+      ],
+      "diligence": {
+        "merchant": "ProPlus.CV",
+        "tier": "Plus",
+        "display_price_cny": 178,
+        "invoice_total_prior_ui_cny": 192,
+        "invoice_rate_label": "8%但界面取整结果未解释；不是192.24",
+        "invoice_type": "默认增值税普通发票，专票需客服",
+        "legal_entity_merchant_claim": null,
+        "uscc": null,
+        "payment_legal_entity": null,
+        "invoice_process": "普通票下单勾选，付款后会员中心填单位名称和税号；未勾选可提示补差价。专票、对公、多账号才联系客服",
+        "new_material_evidence": [
+          "企业页确实提供自助普票流程，不需把所有单件开票都说成必须企业定制",
+          "关于/条款/企业页未披露法定公司全称、完整税号、样票或收款主体",
+          "站方称按周期质保、失败100%退；条款又称具体以购买页和客服说明为准",
+          "明确自称无OpenAI等授权"
+        ],
+        "urls": [
+          "https://proplus.cv/enterprise/",
+          "https://proplus.cv/about/",
+          "https://proplus.cv/terms/"
+        ],
+        "decision": "可书面询证备选，成本高于贝果，不能用企业页宣传替代主体核验。"
+      },
+      "sku_group": "Plus",
+      "payment_group": "人民币预览",
+      "price_evidence": "计算值 / 商家宣称"
+    },
+    {
+      "id": "proplus-go",
+      "merchant": "ProPlus.CV",
+      "tier": "Go",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 89,
+      "source_urls": [
+        "https://proplus.cv/gpt-go/"
+      ],
+      "observed_at_utc": "2026-10-02T06:12:05Z",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": "Alipay / PayPal shown in modal",
+      "payment_fee": null,
+      "payable_preview": null,
+      "invoice_supported_claim": true,
+      "invoice_type_claim": "默认增值税普通发票",
+      "invoice_surcharge_claim": "modal says +8%",
+      "invoice_total_claim": 96,
+      "invoice_issuer_claim": null,
+      "stock": "sufficient",
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "首页Go购买弹窗选1件、勾选票后实际96.00。非数学96.12。未验真实发票/开票公司。",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Go",
+      "payment_group": "人民币通道 · 总额待核",
+      "price_evidence": "计算值 / 商家宣称"
+    },
+    {
+      "id": "maimen-plus-card",
+      "merchant": "麦门商店",
+      "tier": "Plus",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 125,
+      "source_urls": [
+        "https://ouvg.top/buy/252"
+      ],
+      "observed_at_utc": "2026-10-02",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": "Alipay",
+      "payment_fee": null,
+      "payable_preview": null,
+      "invoice_supported_claim": null,
+      "invoice_type_claim": null,
+      "invoice_surcharge_claim": null,
+      "invoice_total_claim": null,
+      "invoice_issuer_claim": null,
+      "stock": 182,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "卡充需Free且无宽限期，人工上号；官方不退则不退，退至卡后扣30元；非商店问题另收0.6%退款手续费。未见本Plus含票SKU。",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Plus",
+      "payment_group": "人民币通道 · 总额待核",
+      "price_evidence": "展示价 / 总成本未知"
+    },
+    {
+      "id": "maimen-plus-ios",
+      "merchant": "麦门商店",
+      "tier": "Plus",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 130,
+      "source_urls": [
+        "https://ouvg.top/buy/252"
+      ],
+      "observed_at_utc": "2026-10-02",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": "Alipay",
+      "payment_fee": null,
+      "payable_preview": null,
+      "invoice_supported_claim": null,
+      "invoice_type_claim": null,
+      "invoice_surcharge_claim": null,
+      "invoice_total_claim": null,
+      "invoice_issuer_claim": null,
+      "stock": 11,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "iOS可覆盖非叠加，不可覆盖Pro；即拍即用。未见本Plus含票SKU。实际凭据未核。",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Plus",
+      "payment_group": "人民币通道 · 总额待核",
+      "price_evidence": "展示价 / 总成本未知"
+    },
+    {
+      "id": "maimen-pro100-invoice",
+      "merchant": "麦门商店",
+      "tier": "Pro 100 / seller 5x",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 750,
+      "source_urls": [
+        "https://ouvg.top/buy/273"
+      ],
+      "observed_at_utc": "2026-10-02T06:11:55Z",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": "Alipay",
+      "payment_fee": null,
+      "payable_preview": 750,
+      "invoice_supported_claim": true,
+      "invoice_type_claim": "普票",
+      "invoice_surcharge_claim": "dedicated invoice-inclusive SKU; non-invoice 680",
+      "invoice_total_claim": 750,
+      "invoice_issuer_claim": null,
+      "stock": 50,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "实际选择卡充含普票SKU50件库存、单件750。不能用首页600旧起价。卡充须Free；iOS另有750含普票选项未核库存。开票主体/品目/时效未知。",
+      "snapshot": "第一轮报价 / 第二轮专项证据，非全面复核",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [
+        "06:32:48实时Pro200卡充含普票SKU1250，库存49；卡充无票1200库存65",
+        "Pro200当前正文称2026-09-30新号/老号恢复20x订阅；同页又写200美元是10x",
+        "当前页未再出现先前记录的过去30天20x资格限制，不能把旧限制当当前确认事实；也不能把新号可充/20x商家说法当官方保证",
+        "卡充仍要求当前无Plus/Go/Pro，不建议微软邮箱/零元购等历史账号",
+        "iOS 200美元含普票SKU1550，不能与卡充1250混合",
+        "非商店问题退款收0.6%，封号与特定掉订阅情形不保"
+      ],
+      "diligence": {
+        "merchant": "麦门商店",
+        "tier": "Pro100 / Pro200",
+        "invoice_total_merchant_claim_cny": {
+          "pro100": 750,
+          "pro200": 1250
+        },
+        "invoice_type": "SKU称含普票相关费用",
+        "legal_entity_merchant_claim": null,
+        "uscc": null,
+        "payment_legal_entity": null,
+        "invoice_issuer_independently_verified": false,
+        "invoice_process": "公开SKU可单件选择，未读到开票主体、具体品目、出票时效、个人抬头条件",
+        "new_material_evidence": [
+          "06:32:48实时Pro200卡充含普票SKU1250，库存49；卡充无票1200库存65",
+          "Pro200当前正文称2026-09-30新号/老号恢复20x订阅；同页又写200美元是10x",
+          "当前页未再出现先前记录的过去30天20x资格限制，不能把旧限制当当前确认事实；也不能把新号可充/20x商家说法当官方保证",
+          "卡充仍要求当前无Plus/Go/Pro，不建议微软邮箱/零元购等历史账号",
+          "iOS 200美元含普票SKU1550，不能与卡充1250混合",
+          "非商店问题退款收0.6%，封号与特定掉订阅情形不保"
+        ],
+        "urls": [
+          "https://ouvg.top/buy/273",
+          "https://ouvg.top/buy/276"
+        ],
+        "decision": "Pro单件含票报价可继续书面询证；官方权益、商家主体、票据链未闭合。"
+      },
+      "sku_group": "Pro 100",
+      "payment_group": "人民币预览",
+      "price_evidence": "计算值 / 商家宣称"
+    },
+    {
+      "id": "maimen-pro200-invoice",
+      "merchant": "麦门商店",
+      "tier": "Pro 200 / 商称20x与10x矛盾",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 1250,
+      "source_urls": [
+        "https://ouvg.top/buy/276"
+      ],
+      "observed_at_utc": "2026-10-02",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": "Alipay",
+      "payment_fee": null,
+      "payable_preview": null,
+      "invoice_supported_claim": true,
+      "invoice_type_claim": "普票",
+      "invoice_surcharge_claim": "dedicated invoice-inclusive SKU; non-invoice 1200",
+      "invoice_total_claim": 1250,
+      "invoice_issuer_claim": null,
+      "stock": 49,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "第二轮当前无Plus/Go/Pro前提仍在；旧过去30天20x限制已不在当前正文。新号/老号恢复20x与同页10x说法冲突，权益未获官方保证。卡充含普票1250；iOS含票1550为不同SKU。",
+      "snapshot": "第一轮报价 / 第二轮专项证据，非全面复核",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [
+        "06:32:48实时Pro200卡充含普票SKU1250，库存49；卡充无票1200库存65",
+        "Pro200当前正文称2026-09-30新号/老号恢复20x订阅；同页又写200美元是10x",
+        "当前页未再出现先前记录的过去30天20x资格限制，不能把旧限制当当前确认事实；也不能把新号可充/20x商家说法当官方保证",
+        "卡充仍要求当前无Plus/Go/Pro，不建议微软邮箱/零元购等历史账号",
+        "iOS 200美元含普票SKU1550，不能与卡充1250混合",
+        "非商店问题退款收0.6%，封号与特定掉订阅情形不保"
+      ],
+      "diligence": {
+        "merchant": "麦门商店",
+        "tier": "Pro100 / Pro200",
+        "invoice_total_merchant_claim_cny": {
+          "pro100": 750,
+          "pro200": 1250
+        },
+        "invoice_type": "SKU称含普票相关费用",
+        "legal_entity_merchant_claim": null,
+        "uscc": null,
+        "payment_legal_entity": null,
+        "invoice_issuer_independently_verified": false,
+        "invoice_process": "公开SKU可单件选择，未读到开票主体、具体品目、出票时效、个人抬头条件",
+        "new_material_evidence": [
+          "06:32:48实时Pro200卡充含普票SKU1250，库存49；卡充无票1200库存65",
+          "Pro200当前正文称2026-09-30新号/老号恢复20x订阅；同页又写200美元是10x",
+          "当前页未再出现先前记录的过去30天20x资格限制，不能把旧限制当当前确认事实；也不能把新号可充/20x商家说法当官方保证",
+          "卡充仍要求当前无Plus/Go/Pro，不建议微软邮箱/零元购等历史账号",
+          "iOS 200美元含普票SKU1550，不能与卡充1250混合",
+          "非商店问题退款收0.6%，封号与特定掉订阅情形不保"
+        ],
+        "urls": [
+          "https://ouvg.top/buy/273",
+          "https://ouvg.top/buy/276"
+        ],
+        "decision": "Pro单件含票报价可继续书面询证；官方权益、商家主体、票据链未闭合。"
+      },
+      "sku_group": "Pro 200 · 资格待核",
+      "payment_group": "人民币通道 · 总额待核",
+      "price_evidence": "计算值 / 商家宣称"
+    },
+    {
+      "id": "maimen-go",
+      "merchant": "麦门商店",
+      "tier": "Go",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 39,
+      "source_urls": [
+        "https://ouvg.top/buy/286"
+      ],
+      "observed_at_utc": "2026-10-02",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": "Alipay",
+      "payment_fee": null,
+      "payable_preview": null,
+      "invoice_supported_claim": null,
+      "invoice_type_claim": null,
+      "invoice_surcharge_claim": null,
+      "invoice_total_claim": null,
+      "invoice_issuer_claim": null,
+      "stock": 1935,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "原页39，iOS人工交付，可覆盖Go但非叠加，不可覆盖Plus/Pro；即拍即用、封号不保；额外费用/发票未知。",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Go",
+      "payment_group": "人民币通道 · 总额待核",
+      "price_evidence": "展示价 / 总成本未知"
+    },
+    {
+      "id": "gptcat-plus",
+      "merchant": "GPTCat / 猫条AI",
+      "tier": "Plus",
+      "period": "30 days",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 128,
+      "source_urls": [
+        "https://www.gptcat.vip/products/gpt-codex-plus"
+      ],
+      "observed_at_utc": "2026-10-02T06:09:06Z",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": "Alipay advertised",
+      "payment_fee": null,
+      "payable_preview": null,
+      "invoice_supported_claim": true,
+      "invoice_type_claim": null,
+      "invoice_surcharge_claim": "tax points borne by buyer; rate unknown",
+      "invoice_total_claim": null,
+      "invoice_issuer_claim": null,
+      "stock": 9336,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "每次1张，原号30天；同档/更高可能不能重复充值；人工/自动交付表述并存。不能猜6%或算135.68含票。",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Plus",
+      "payment_group": "人民币通道 · 总额待核",
+      "price_evidence": "展示价 / 总成本未知"
+    },
+    {
+      "id": "55ai-plus",
+      "merchant": "五五AI / aiGPT",
+      "tier": "Plus",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 135,
+      "source_urls": [
+        "https://55ai.net/item/3"
+      ],
+      "observed_at_utc": "2026-10-02",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": null,
+      "payment_fee": null,
+      "payable_preview": null,
+      "invoice_supported_claim": true,
+      "invoice_type_claim": null,
+      "invoice_surcharge_claim": null,
+      "invoice_total_claim": null,
+      "invoice_issuer_claim": null,
+      "stock": 5,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "HIGH: full Session JSON required",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "135为10月1日历史浏览器价；本轮网页读到库存5/销量572但未显示价格。开票主体、票费仍未知；论坛买家5%说法不是商家当前报价。",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Plus",
+      "payment_group": "通道或费用待核",
+      "price_evidence": "展示价 / 总成本未知"
+    },
+    {
+      "id": "aixiamo-plus",
+      "merchant": "AIXiamo",
+      "tier": "Plus",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 153.8,
+      "source_urls": [
+        "https://www.aixiamo.com/enterprise-ai-procurement"
+      ],
+      "observed_at_utc": "2026-10-02",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": null,
+      "payment_fee": null,
+      "payable_preview": null,
+      "invoice_supported_claim": true,
+      "invoice_type_claim": "正规电子发票，具体票种待确认",
+      "invoice_surcharge_claim": null,
+      "invoice_total_claim": null,
+      "invoice_issuer_claim": null,
+      "stock": null,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "企业页现价153.8；票费/主体/实时商品库存未闭合。官网明确票据不是OpenAI发票。",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Plus",
+      "payment_group": "通道或费用待核",
+      "price_evidence": "展示价 / 总成本未知"
+    },
+    {
+      "id": "tangguo-plus",
+      "merchant": "Tangguo企业报销区",
+      "tier": "Plus",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 179,
+      "source_urls": [
+        "https://tangguo.app/store/business"
+      ],
+      "observed_at_utc": "2026-10-02",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": null,
+      "payment_fee": null,
+      "payable_preview": null,
+      "invoice_supported_claim": true,
+      "invoice_type_claim": "电子企业发票，具体种类未核",
+      "invoice_surcharge_claim": null,
+      "invoice_total_claim": null,
+      "invoice_issuer_claim": null,
+      "stock": null,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "企业区1件起，按订单净实付申请；无明确额外费已为0证据。普通区120不可拼接开票条件。",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Plus",
+      "payment_group": "通道或费用待核",
+      "price_evidence": "展示价 / 总成本未知"
+    },
+    {
+      "id": "xingqiao-plus",
+      "merchant": "星桥订阅",
+      "tier": "Plus",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 165,
+      "source_urls": [
+        "https://xingqiaosub.com/pricing"
+      ],
+      "observed_at_utc": "2026-10-02",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": null,
+      "payment_fee": null,
+      "payable_preview": null,
+      "invoice_supported_claim": true,
+      "invoice_type_claim": "电子普通发票",
+      "invoice_surcharge_claim": "order <1000: 40 per invoice; >=1000: 5%",
+      "invoice_total_claim": 205,
+      "invoice_issuer_claim": null,
+      "stock": null,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "HIGH: full Session required",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "单月首单165+40。微信付款；Stripe银行卡港币另有汇兑可能；Free账号。发票主体未明。",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Plus",
+      "payment_group": "通道或费用待核",
+      "price_evidence": "计算值 / 商家宣称"
+    },
+    {
+      "id": "getplus-plus",
+      "merchant": "GetPlus AI",
+      "tier": "Plus",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "USD",
+      "display_price": 21.8,
+      "source_urls": [
+        "https://www.getplus.ai/chatgpt-plus-chongzhi"
+      ],
+      "observed_at_utc": "2026-10-02",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": null,
+      "payment_fee": null,
+      "payable_preview": null,
+      "invoice_supported_claim": true,
+      "invoice_type_claim": null,
+      "invoice_surcharge_claim": "2.02 USD",
+      "invoice_total_claim": 23.82,
+      "invoice_issuer_claim": "HONG KONG AIGC LIMITED; mainland invoice issuer not disclosed",
+      "stock": null,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "人民币约162仅参考。条款明确不接受实际位于中国大陆用户下单；排除大陆适用榜。本人账号不用于转售；不开票选项事后不补。https://www.getplus.ai/terms",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Plus",
+      "payment_group": "通道或费用待核",
+      "price_evidence": "计算值 / 商家宣称"
+    },
+    {
+      "id": "cxy-plus",
+      "merchant": "程序员GPT / cxygpt",
+      "tier": "Plus",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 165,
+      "source_urls": [
+        "https://www.cxygpt.com/"
+      ],
+      "observed_at_utc": "2026-10-02",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": null,
+      "payment_fee": null,
+      "payable_preview": null,
+      "invoice_supported_claim": true,
+      "invoice_type_claim": null,
+      "invoice_surcharge_claim": null,
+      "invoice_total_claim": null,
+      "invoice_issuer_claim": null,
+      "stock": null,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "人工咨询报价，Go75/Pro100735/Pro2001350均称可开票；未给票费、主体、真实库存，不算已闭合含票价。",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Plus",
+      "payment_group": "通道或费用待核",
+      "price_evidence": "展示价 / 总成本未知"
+    },
+    {
+      "id": "electa-plus",
+      "merchant": "闪电AI / ElectaGPT",
+      "tier": "Plus",
+      "period": "1 month",
+      "delivery": "own-account top-up",
+      "display_currency": "CNY",
+      "display_price": 168,
+      "source_urls": [
+        "https://www.electagpt.com/blog/chongzhi-fapiao"
+      ],
+      "observed_at_utc": "2026-10-02",
+      "verification": "public page only; no purchase or invoice verification",
+      "payment_method": null,
+      "payment_fee": null,
+      "payable_preview": null,
+      "invoice_supported_claim": true,
+      "invoice_type_claim": "增值税电子普通发票",
+      "invoice_surcharge_claim": "6%",
+      "invoice_total_claim": 178.08,
+      "invoice_issuer_claim": null,
+      "stock": null,
+      "minimum_quantity": 1,
+      "bulk_tiers": [],
+      "credential_risk": "unknown; no credentials submitted",
+      "official_authorization_verified": false,
+      "funding_source_verified": false,
+      "notes": "8月26商家文章、本轮搜索仍见；非实时结算。声称1-3工作日出票；主体未知；其税务解释不能当官方法律意见。",
+      "snapshot": "第一轮 06:18 UTC",
+      "agency": "未见代理费前置",
+      "agency_verified": false,
+      "resale": "未取得书面分销授权",
+      "corrections": [],
+      "sku_group": "Plus",
+      "payment_group": "通道或费用待核",
+      "price_evidence": "计算值 / 商家宣称"
+    }
+  ],
+  "invoice": {
+    "title": "大陆发票候选：第二轮主体、条款与交易证据",
+    "observed_window_utc": "2026-10-02T06:26:19Z/2026-10-02T06:37:59Z",
+    "scope": "公开只读。未注册、登录、提交订单、付款、填写任何身份/账号资料、联系商家或验真发票。未修改当前网站。",
+    "conclusion": "没有候选达到“已验证中国大陆正规发票最低”标准。贝果143.10仍是可计算零售商称含票价，但现行标准条款禁止转售倒卖，不能直接作可分销上游。新低价HuiAI133的发票费用未公开，不能填0。",
+    "official_registry_check": {
+      "gsxt": "https://www.gsxt.gov.cn/：浏览器ERR_BLOCKED_BY_CLIENT；web工具403，未取得登记详情",
+      "miit": "https://beian.miit.gov.cn/：web工具521，未取得备案结果",
+      "exact_name_search": "益阳市赫山区必高科技有限公司、成都游手科技有限公司精确官方域名搜索未取得相符可读登记记录；未命中不等于主体不存在",
+      "payment_invoice_match": "未取得任何候选的实际收款主体与开票主体相符证明",
+      "invoice_validation": "无实际订单、可验真完整票证，不作验真结论"
+    },
+    "prior_candidates": [
+      {
+        "merchant": "贝果科技",
+        "tier": "Plus信用卡月卡",
+        "display_price_cny": 135,
+        "invoice_rate_merchant_claim": 0.06,
+        "invoice_total_calculated_cny": 143.1,
+        "invoice_payable_preview": null,
+        "stock_live": "有货",
+        "invoice_type": "增值税发票，普/专未明",
+        "legal_entity_merchant_claim": "益阳市赫山区必高科技有限公司",
+        "uscc": null,
+        "official_registry_verified": false,
+        "invoice_issuer_independently_verified": false,
+        "payment_legal_entity": null,
+        "min_qty": 1,
+        "login_required": true,
+        "invoice_process": "结算可勾选同时开票，或付款后我的订单另付6%申请；发票抬头自填。未见只许企业批量的门槛。",
+        "new_material_evidence": [
+          "2026-10-01版服务条款列明该合同主体，与价格页自称主体一致，只构成一方公开承诺",
+          "第五节明确不得用于转售倒卖。用于转售需另行授权/合同",
+          "商品页允许选择票面是否出现ChatGPT字样；不能据此认可可随意改不实品目",
+          "一处账户前提不满足称核销不退，错误表又称不消耗；是否核销必须书面明确",
+          "卡密交付即主要履约；已核销不支持退款，未到账向上游追查。不能只摘用未使用可退"
+        ],
+        "urls": [
+          "https://bigolab.com/terms",
+          "https://bigolab.com/chongzhi/chatgpt-plus",
+          "https://bigolab.com/privacy"
+        ],
+        "decision": "个人自用含票询证优先；标准条款下排出可转售上游名单。未经书面授权不得视作可分销。"
+      },
+      {
+        "merchant": "麦门商店",
+        "tier": "Pro100 / Pro200",
+        "invoice_total_merchant_claim_cny": {
+          "pro100": 750,
+          "pro200": 1250
+        },
+        "invoice_type": "SKU称含普票相关费用",
+        "legal_entity_merchant_claim": null,
+        "uscc": null,
+        "payment_legal_entity": null,
+        "invoice_issuer_independently_verified": false,
+        "invoice_process": "公开SKU可单件选择，未读到开票主体、具体品目、出票时效、个人抬头条件",
+        "new_material_evidence": [
+          "06:32:48实时Pro200卡充含普票SKU1250，库存49；卡充无票1200库存65",
+          "Pro200当前正文称2026-09-30新号/老号恢复20x订阅；同页又写200美元是10x",
+          "当前页未再出现先前记录的过去30天20x资格限制，不能把旧限制当当前确认事实；也不能把新号可充/20x商家说法当官方保证",
+          "卡充仍要求当前无Plus/Go/Pro，不建议微软邮箱/零元购等历史账号",
+          "iOS 200美元含普票SKU1550，不能与卡充1250混合",
+          "非商店问题退款收0.6%，封号与特定掉订阅情形不保"
+        ],
+        "urls": [
+          "https://ouvg.top/buy/273",
+          "https://ouvg.top/buy/276"
+        ],
+        "decision": "Pro单件含票报价可继续书面询证；官方权益、商家主体、票据链未闭合。"
+      },
+      {
+        "merchant": "ProPlus.CV",
+        "tier": "Plus",
+        "display_price_cny": 178,
+        "invoice_total_prior_ui_cny": 192,
+        "invoice_rate_label": "8%但界面取整结果未解释；不是192.24",
+        "invoice_type": "默认增值税普通发票，专票需客服",
+        "legal_entity_merchant_claim": null,
+        "uscc": null,
+        "payment_legal_entity": null,
+        "invoice_process": "普通票下单勾选，付款后会员中心填单位名称和税号；未勾选可提示补差价。专票、对公、多账号才联系客服",
+        "new_material_evidence": [
+          "企业页确实提供自助普票流程，不需把所有单件开票都说成必须企业定制",
+          "关于/条款/企业页未披露法定公司全称、完整税号、样票或收款主体",
+          "站方称按周期质保、失败100%退；条款又称具体以购买页和客服说明为准",
+          "明确自称无OpenAI等授权"
+        ],
+        "urls": [
+          "https://proplus.cv/enterprise/",
+          "https://proplus.cv/about/",
+          "https://proplus.cv/terms/"
+        ],
+        "decision": "可书面询证备选，成本高于贝果，不能用企业页宣传替代主体核验。"
+      },
+      {
+        "merchant": "gongsi.one",
+        "tier": "Plus月付1-4账号",
+        "invoice_total_merchant_claim_cny": 165,
+        "invoice_type": "商称6%数电专票/普票",
+        "legal_entity_merchant_claim": "成都游手科技有限公司（报价章与示例销售方）",
+        "uscc": null,
+        "displayed_placeholder_uscc": "91110105MA88XXXXXX",
+        "new_material_evidence": [
+          "官网示例销售方和报价章出现完整公司名",
+          "样张同时含贵司企业法定名称、X占位税号和遮挡账户；无法验真",
+          "示例按钮旁的实证已验真是商家文案，不能作研究验证结果",
+          "官方登记精确搜索未获相符结果，不等于主体不存在"
+        ],
+        "urls": [
+          "https://gongsi.one/",
+          "https://gongsi.one/docs/pricing/"
+        ],
+        "decision": "可要求实际资质与合同，但在取得真实材料前降低样张证据权重。"
+      }
+    ],
+    "new_candidates": [
+      {
+        "merchant": "HuiAI",
+        "tier": "Plus卡充单月",
+        "price_live_cny": 138,
+        "coupon": "HUIAI@5（官网国庆公告）",
+        "discount_live_cny": 5,
+        "discounted_live_cny": 133,
+        "invoice_total_cny": null,
+        "invoice_type": null,
+        "invoice_cost": null,
+        "invoice_issuer": null,
+        "claim_source": "卖家V2EX推广称可开票，仅为发现线索；本轮官网没有读取到可计算票费或发票类型",
+        "qualifications": "无登录即可选方案/输入公开优惠码查看价格；下一步要求完整Session JSON、ChatGPT邮箱与用户ID，未填写，未继续支付",
+        "new_material_evidence": [
+          "实时表单验证优惠后133，不采用论坛128旧宣传",
+          "完整Session属于高敏凭据，不能让助手传递",
+          "条款把经营主体指向页底，但本轮已读公开正文未找到可核公司名/税号；抓取版本包含未完成服务承诺字段，不能作完整资质"
+        ],
+        "urls": [
+          "https://www.huiai.me/",
+          "https://www.huiai.me/subscribe?new=1",
+          "https://www.huiai.me/terms",
+          "https://www.huiai.me/help"
+        ],
+        "decision": "潜在更低含票询证优先，但133不是含票价，凭据风险高。"
+      },
+      {
+        "merchant": "WStorm AI",
+        "tier": "Plus单月",
+        "price_live_cny": 140,
+        "invoice_surcharge_merchant_claim": 0.03,
+        "invoice_total_calculated_cny": 144.2,
+        "invoice_total_live_preview_cny": null,
+        "invoice_type": null,
+        "invoice_issuer": null,
+        "invoice_process": "需要发票+3%；仅付款后30天内申请，未勾选订单不支持开票。点击选项仅查看开票须知，未点击确认并开票、未订单/付款",
+        "qualifications": "1件起，支付宝按钮显示140；自助充值要求token，未提交",
+        "new_material_evidence": [
+          "仅比贝果计算含票价高1.10",
+          "实时商品说明为无质保售后、掉订阅按天退、封号只退利润，不应泛称全额质保",
+          "无公开公司全称/税号/实际样票"
+        ],
+        "urls": [
+          "https://wstormai.store/store/chatgpt",
+          "https://wstormai.store/"
+        ],
+        "decision": "价格接近，可询证票种、主体、含全部费用报价和封号退款算法。"
+      },
+      {
+        "merchant": "PAYPRM / 莱特智能",
+        "tier": "Plus单月",
+        "price_live_cny": 155,
+        "invoice_total_cny": null,
+        "invoice_cost": null,
+        "invoice_type": null,
+        "invoice_issuer": null,
+        "legal_entity_merchant_claim": "仅PAYPRM莱特智能运营团队，不是法定公司名",
+        "invoice_process": "下单前或完成后联系客服，税点/条件/金额由客服结合订单核验；网站价不含税",
+        "new_material_evidence": [
+          "FAQ明确普通收据不等同大陆税务发票",
+          "实时Plus155，Pro5x830、页面Pro20x1460，不是本轮更低价",
+          "企业/个人用户均覆盖，但单件开票总成本无公开闭合"
+        ],
+        "urls": [
+          "https://www.payprm.com/shop?category=chatgpt",
+          "https://www.payprm.com/faq/receipt/invoice-or-receipt",
+          "https://www.payprm.com/about"
+        ],
+        "decision": "保留询证备选，价格无优势，不列含票最低。"
+      },
+      {
+        "merchant": "token5555",
+        "tier": "Plus单月",
+        "price_live_cny": 158,
+        "payment_fee_rate": 0.012,
+        "payment_fee_preview_cny": 1.9,
+        "payable_preview_cny": 159.9,
+        "invoice_total_cny": null,
+        "invoice_cost": null,
+        "invoice_type": null,
+        "invoice_issuer": null,
+        "invoice_process": "商称按实际金额开票、联系客服；对公限金额1万元以上",
+        "new_material_evidence": [
+          "首屏加载中的148是占位/旧数据；加载后现价158，打开单件确认弹窗含支付费159.90",
+          "无任何手机号/验证码提交，未点击确认并选择支付方式",
+          "关于/条款未见法定主体税号；仅品牌和联系邮箱",
+          "发票支持不等于159.90含票"
+        ],
+        "urls": [
+          "https://token5555.com/",
+          "https://token5555.com/about.html",
+          "https://token5555.com/terms.html"
+        ],
+        "decision": "费用结构可读但不更便宜，发票总价未知。"
+      },
+      {
+        "merchant": "PlusGO",
+        "tier": "Plus单月个人下单",
+        "price_live_cny": 169,
+        "invoice_total_cny": null,
+        "invoice_supported_same_sku": false,
+        "invoice_process": "普通购买页明确本次服务不提供发票；企业采购要付款前另谈主体、票种、报价",
+        "new_material_evidence": [
+          "实时个人Plus169；不能把企业页支持发票拼到169单件商品",
+          "企业页明言合同与发票主体在采购对接时确认，没有公开实体验证",
+          "个人页面预勾选免责声明为页面初始状态；本轮未勾选/接受/下单"
+        ],
+        "urls": [
+          "https://plusgo.pro/plans",
+          "https://plusgo.pro/purchase?sku=plus",
+          "https://plusgo.pro/enterprise",
+          "https://plusgo.pro/terms"
+        ],
+        "decision": "排出169单件含票榜；企业报价另行询证，不视为普通Plus同价可开票。"
+      }
+    ],
+    "tax_scope": [
+      {
+        "url": "https://jiangsu.chinatax.gov.cn/art/2025/4/15/art_7656_498963.html",
+        "source": "国家税务总局2025-04-15图解，江苏税务转载；本轮云端浏览器看图",
+        "finding": "图解用消费者买沙发后被另索5个税点为例，说明经营者应依法如实开票，不能要求消费者额外支付税点。该材料不能替商家的开票服务费/税费背书，也不应被扩展为对所有事先议定B2B未税报价的概括判决。"
+      },
+      {
+        "url": "https://jiangsu.chinatax.gov.cn/art/2024/1/30/art_8349_449297.html",
+        "source": "国家税务总局令第56号，页面标注全文有效",
+        "finding": "实施细则第28、29条要求内容真实，购买方、销售方、商品或经营项目、金额与实际经营相符。开票品目要根据真实服务，不能按报销偏好任意替换。"
+      }
+    ],
+    "written_inquiry_pack": [
+      "开票主体完整法定名称、统一社会信用代码、营业执照或官方登记可核链接",
+      "一件一月、个人付款/企业抬头是否可开；是否另需企业协议或最低采购量",
+      "全部费用总额与票种（数电普票/专票）、税率/征收率、价税合计、真实服务品目、出票时间",
+      "合同卖方、支付账单商户、发票销售方是否一致；若不同，请解释委托收款/真实交易关系",
+      "允许购买用于转售/批量分销吗；需要哪些授权/独立合同，哪些商品可用",
+      "账号资格、实际套餐、因上游退款/争议/封号导致失败时的退赔和红票规则",
+      "可提供去除客户个人信息但保留公司主体与品目的样例供财务预审；真实成交后再核对本人订单完整票证，不把样张当验真"
+    ]
+  },
+  "routes": {
+    "title": "AI上游路线核查第二轮",
+    "as_of_utc": "2026-10-02",
+    "scope": "Read-only public first-party research. No registration, contact, payment or website changes.",
+    "routes": [
+      {
+        "id": "R1",
+        "route": "OpenAI 直接买个人会员",
+        "detail": "权利/产品：OpenAI 向合格本人提供个人订阅；购买不附转售账号、共享凭据或分发服务的许可。\n主体/客户地区：本人实际所在地、账号使用地以及支付卡发卡地区须合格；ChatGPT 支持名单未列中国大陆、香港、澳门。\n身份/卡/手机号：须真实账号及账单资料；普通 ChatGPT 注册和使用通常无手机验证，API 首个 key 是另一套要求，个别 Codex/安全验证流程不能据此省略。不能把“不要求每人上传身份证”理解为允许假身份。\n最低投入/折扣：Plus Web 为 $20/月（税及实际币种另计），无通常年付或一次预付多月路线；本轮没有常规个人批发折扣证据。\n个人会员交付：本人直接获得；经营者的批量代付或收集客户会话凭证，不在这些公开材料授予的商业权限内。\n自主度：低。可以自主付款、自助管理自己的订阅，不能由此成为个人许可发行人。\n可行条件：真实合格用户本人开通。若经营会员分销，缺的是权利人明确的 SKU、区域、客户和再销售授权，不是再找一张卡。\n来源：[S01–S04]"
+      },
+      {
+        "id": "R1b",
+        "route": "Anthropic 直接买 Claude Pro/Max",
+        "detail": "权利/产品：合格本人直接订阅Pro/Max，包含相应Claude Code用量；API另计。消费者条款禁止共享账号及转售原服务。\n主体/客户地区：本人须实际在支持地区并使用真实账号；大陆、香港、澳门不在当前名单。境外卡或赠礼不替代服务资格。\n身份/卡/手机号：Web只接受信用卡/借记卡；账单地址来自付款方式，并应真实反映收货/业务地点。Claude新账号需受支持地区能接收短信的号码；遇本人/企业验证应提交真实证件及必要自拍，不是向商家购买别人完成的身份。\n最低投入/折扣：Pro $20/月或$200/年；Max 5x $100/月、20x $200/月。税/币种依实际合格结账；Pro年付公开可省约16.7%，Max未在已读普通价格表提供年付。年费可用时不能拆成12份任意账号会员转售。\n个人会员交付：本人直接开通，可持续自行续费；批量开账号转售、借他人身份、把Team席位冒充个人Max不由这些条款授权。\n自主度：自用高、商业分销低。做源头供货仍需另行授权合同；官方付款只是采购来源证据。\n来源：[S11、S14–S15、S39–S40、S43–S44]"
+      },
+      {
+        "id": "R2",
+        "route": "OpenAI 官方 API → 自有商业应用",
+        "detail": "权利/产品：Services Agreement 第2.2节明确允许把 API 集成进经营者自己的应用，供其终端用户使用；第3节禁止倒卖账户访问及买卖/转让 API key。\n主体/客户地区：API 有独立支持地区名单，不能拿 ChatGPT 名单或海外服务器代替核查；提供访问给未支持地区也可能暂停。大陆、香港、澳门未列入当前 API 名单。\n身份/卡/手机号：首个 API key 需手机号验证；可能按功能触发企业或本人验证，需真实登记资料、授权代表资料、合格证件/自拍。API credits 不支持预付卡，须支持地区发行的常规信用卡/借记卡。\n最低投入/折扣：新预付账户公开最低充值 $5，默认建议 $10；这是试用资金，不是可无限交付的容量或生产最低预算。公开 Batch 可降50%，但适用于异步任务，不等于交互会员五折。\n个人会员交付：不能。可交付自己品牌的应用、处理任务、集成与服务；不附 ChatGPT Plus/Pro。\n自主度：较高。控制前端、业务逻辑、定价、客户管理和成本治理；模型、政策、服务可用性、限额仍受 OpenAI 控制。\n可行条件：主体/客户均合格；自有产品用途、隐私/数据处理、用量计费与售后清楚。若只是把上游 key 原样转卖，则不是本文已确认的路线。\n来源：[S05–S09]"
+      },
+      {
+        "id": "R3",
+        "route": "Anthropic 官方 API → 自有商业应用",
+        "detail": "权利/产品：Commercial Terms A.1 允许以服务支撑自己的客户产品；D.4 又明确限制未经许可转售原服务。应做有明确交付的自有应用，而不是把会员、账号或裸服务转包装成“官方授权”。\n主体/客户地区：遵守 Supported Regions Policy；当前 API/Claude.ai 均未列大陆、香港、澳门。官方另把不支持地区的控制权因素纳入审查，2025公告包括由总部在不支持地区企业直接/间接持股超过50%的实体；海外注册并不自动合格。用户个人国籍与该企业控制规则不能混为一谈。\n身份/卡/手机号：自助 API 账单依付款资料；可能要求企业资料、本人实体政府证件及现场自拍。Claude 账号帮助页要求受支持地区的可收短信号码，不接受 VoIP/应用号码；组织SSO等具体企业开通不能一概外推。\n最低投入/折扣：已证实 API 通常预付，销售协商客户可月结；本轮打开的当前账单文档没有确认统一最低充值金额，所以不沿用旧“$5即Tier1”说法。当前限额页已用 Evaluation/Start/Build/Scale 等结构，额度与历史、账户状态相关，不能承诺充值立刻升档。\n个人会员交付：不能。API不附 claude.ai Pro/Max，也不能据此售卖包含个人会员用量的所谓 Claude Code 月卡。\n自主度：较高，自主应用/客户/交付；资格、模型容量及政策仍依赖 Anthropic。\n可行条件：符合主体与终端用户地区规则；自己承担应用服务；批处理/缓存的成本收益按实际工作负载测算。\n来源：[S10–S16]"
+      },
+      {
+        "id": "R4",
+        "route": "OpenAI Partner Network → 咨询、实施、联合销售",
+        "detail": "已证权利：2026-06-14官方发布的新伙伴网络，官网支持申请、培训、联合销售、构建和部署。等级为 Select/Advanced/Elite，考察销售、技术、联合销售和部署经验。\n具体入口：https://openai.com/business/partners/ → https://partners.openai.com/\n前置条件：公开官网要求介绍公司能力、技术专长和客户经验；本轮公开读取未取得完整报名表字段、最低员工数、审批SLA、加盟费/承诺金额或个人会员SKU清单。不能擅填“0门槛”“交钱即授权”。\n主体/客户地区：官方称全球项目，不代表全球任何使用地都开放产品。公司、客户及服务地区仍应满足对应产品和合同。\n资金/折扣：未公开普遍可执行的采购净价、返佣比例或最低销售承诺；其生态投资金额是厂商投入，不是申请人入门费或人人可领补贴。\n个人会员交付：没有证据。伙伴徽章不是 Plus/Pro 券码销售权。\n自主度：中。可经营交付与服务；能否代售原厂许可、如何报价、是否有二级分销须看签署文件。\n可行条件：已有企业交付能力和客户项目；要追原厂直签路线可从此申请，但获准之前不能标“OpenAI官方个人会员代理”。\n来源：[S17–S18]"
+      },
+      {
+        "id": "R5",
+        "route": "Claude Partner Network → 服务伙伴",
+        "detail": "当前申请入口：https://claude.com/form/cpn-partner-application\n真实门槛：该官方页明确要求已注册企业、至少10名员工、在支持地区经营、向客户提供咨询/实施/托管服务；做自有产品的企业被引导到 Claude API。\n等级门槛：2026-06-03说明新申请从 Registered 开始，承诺至少10名认证从业者；Select 才是伙伴起点，要求10名活跃认证人员、近12月2个联合投产客户、1个公开客户案例。活跃人员需持当前认证且近90天用过Claude。较高层还有更高人员/案例门槛。\n资金/折扣：加入免费，但培训、考试、员工、项目能力有实际成本；部分等级首考有折扣，不能等同于会员采购折扣。转介积分和项目保护是另一个轨道，公开页无统一返佣数字。\n主体/客户地区：支持地区且符合所有权审查；“10人团队”不能由借名/拼认证替代实际条件。\n个人会员交付：未授予。此处卖的是服务能力、实施和项目；普通商用转售仍需明确许可。\n自主度：中。小团队可先做合格API产品/真实实施案例；达不到10员工时，当前申请页本身不支持把一人公司当现成合格服务伙伴。\n来源：[S19–S21]"
+      },
+      {
+        "id": "R6",
+        "route": "Carahsoft → 原厂企业/政府采购渠道",
+        "detail": "已证授权：OpenAI 官方政府页及 FedRAMP 公告均明确称 Carahsoft 是授权公共部门经销商；不是仅有渠道商自称。\n具体入口：https://www.carahsoft.com/partners/resellers-service-providers\n产品联系：OpenAI@carahsoft.com；(571) 590-6020。页面产品与采购主要针对企业/公共部门，不是个人Plus。\n前置条件：申请表必填姓名、职务、公司、电话、邮箱、网站、企业类别、获知渠道，并询问想合作的原厂和已获哪些原厂授权；SAM Unique Entity ID在表内但未标必填，不能说所有申请人都必须先有SAM。提交一般伙伴表不等于具体厂商批准。\n主体/客户地区：Carahsoft Technology Corp. 美国Virginia地址；通用网络服务美国/加拿大市场。具体 OpenAI SKU 的适用公共部门及采购合同范围须单独获准，通用加拿大市场描述不能外推每个OpenAI SKU在加拿大都可售。\n最低投入/折扣：入门费、账期/担保、MOQ、保证金、OpenAI二级经销净价未公开。政府优惠只给合格机构，不能当个人会员的上游成本；旧2025–2026推广PDF已过期，不作现价。\n个人会员交付：本轮无证据。\n自主度：中。若获批可经营合约覆盖的企业客户及实施，仍依赖渠道合同、原厂订单及终端用户资格。\n可行条件：实际服务对应美国/加拿大企业或公共部门市场，并获得具体原厂SKU/地区审批；针对大陆个人会员的目标不匹配。\n来源：[S22–S25]"
+      },
+      {
+        "id": "R7",
+        "route": "PwC → ChatGPT Enterprise 采购/实施",
+        "detail": "已证授权：PwC 2024-05-29声明其美英实体签约成为 ChatGPT Enterprise reseller；OpenAI 当前伙伴目录亦列 PwC。此为已有授权者，不是所有PwC成员法人自动获同范围授权。\n具体入口：https://www.pwc.com/us/en/technology/alliances/openai.html（企业方案及联系）；官网描述 starter pack 可含许可、治理评估、工作坊和导入。\n主体/客户地区：公布签约的是美英实体；当前“全球服务”目录不披露许可最终可售地区。实际合同卖方、终端客户地区和数据方案须问清。\n前置/最低投入/折扣：面向企业项目询价；未见公开二级经销招商、个人会员批发、统一最低席位或入门费。\n个人会员交付：没有证据。可向其采购Enterprise项目，不意味着经营者可再转售。\n自主度：低至中。可合作项目/采购服务，但不是已公开可复制的个人会员上游加盟路线。\n来源：[S26–S28]"
+      },
+      {
+        "id": "R8",
+        "route": "Rewarble → Relograde → 自营券码店/API分发",
+        "detail": "权利链：Rewarble 官方 distributors 页底部“Become a Distributor”直接链接 Relograde；Relograde 自己明确提供 Rewarble 券码分销与API。这补上品牌方反向链接，超过单方自称证据。\n经营主体：Rewarble由荷兰 Centiward B.V.（KvK 96903163）运营；Relograde B.V.（CRN 96916613）为荷兰企业。\n具体入口：https://relograde.com/contact-sales；https://relograde.com/brands/rewarble-chatgpt\n真实商品：经营者销售 Rewarble voucher；客户自行在Rewarble兑换，选卡后用卡支付ChatGPT。该卡不是OpenAI发行的会员码，Rewarble明确不代表OpenAI背书/关联。\nKYB/KYC：Relograde要求企业登记、UBO/代表身份证明、EU公司VAT及可能的补件；条款称通常5个工作日审查。其“无需品牌审批”营销语不免除KYB。客户交易超EUR150或法定阈值需KYC；这只是平台合同要求，不是在说世界各地法律统一为150欧元。\n主体/客户地区：不同券、卡、币种按目录及发卡规则分别限定；没有公开全地区一口价或“中国主体一定能过”证据。Rewarble可随时要求身份、地址及资金来源核查。\n最低投入/折扣：品牌页说无最低订单，账户可免费创建；充值方式仍可有最低额和手续费，报价动态且仅订单创建后锁30分钟。声称量大优惠但公开页没有可用净价。不能把5000欧sandbox测试余额当真实资金。\n个人会员交付：可以销售其支付券，不能承诺券本身=一月会员；客户须独立符合ChatGPT资格和付款规则。OpenAI API不接受预付卡，因此不能将这条卡路线平移成官方API充值渠道。\n自主度：券分发中等、会员结果低。可控制店铺、客户交付及API订单；不能控制发卡、商户接受、续费、KYC或OpenAI权益。\n可行条件：平台书面接受经营主体、客户地区及具体券SKU；客户本人兑卡并完成必要认证，不汇集/转发他人卡凭据。条款禁止分享卡资料，与营销页“分享卡资料赠送”有冲突，应以书面澄清为准；券码交付与已发卡资料转交不能混用。\n来源：[S29–S35]"
+      },
+      {
+        "id": "R9",
+        "route": "OpenAI 官方品牌礼卡 → 授权商业分销",
+        "detail": "真实产品：发行人为CIMI2604, Inc.，与OpenAI不是关联公司；OpenAI官方帮助页直接链接其条款。美元封闭式礼卡，通常$15–$250，普通个人每日购买上限$2000。\n客户地区：购买和兑换仅美国；兑换时人在美国，使用美国账号和美元计费。充值到ChatGPT Web钱包后可买合格订阅/续费/credits，不能付Apple/Google IAP，不能提现/拆到多个账号。\n转售边界：发行人普通持卡条款明确禁止出售/价值交换，未经授权卖家来源的卡无效。零售买卡、买到折扣卡、开Corporate/API账户都不能自动绕过此限制。\n新源头线索：InComm InCentives 自有奖励目录出现OpenAI ChatGPT，且其官方API业务面向礼卡转售商；这是本轮应优先深入的品牌目录+分销能力组合。它仍不能证明具体OpenAI SKU对新下游开放，也不能证明美国外客户资格或低价。\n最低投入/折扣：面值下限不是商业分销MOQ；商业保证金、MOQ、净折扣、结算/退款未公开。不能以零售$2000日限推导获批分销账户限额。\n个人会员交付：可作为合格用户的支付资金；并非精确“一个月Plus”的许可，税、档位状态及钱包使用规则仍影响足额开通。\n自主度：获专项授权后可控制分销交付，发行/兑付/地区仍受权利人控制。尚不能当作已获准经营的货源。\n可行条件：拿到允许经营者商业分销的书面协议、OpenAI SKU清单、美国目标客户/交付限制和净成本；普通零售囤卡路线不可据公开条款成立。\n来源：[S36–S37]；InComm/PerfectGift/BHN详情见同轮补充研究。\n\nR9补充｜品牌礼卡上游入口，按证据强弱排序\n1. InComm InCentives：自有Engage商户目录确列OpenAI ChatGPT；官方API页面明确服务gift card resellers。联系：https://www.incomm.com/incentives/gift-card-api-integrations/ 或 https://www.incomm.com/contact/business-inquiries/。意向表要求姓名、邮箱、电话、地区、公司和说明；正式KYB、可接受主体国家、OpenAI SKU下游开放范围、MOQ和净价均待合同。可优先问“是否对我方开放原生OpenAI礼卡有偿转售”，不要只问“能否批量买卡”。[S45–S47]\n2. PerfectGift：有OpenAI品牌页，也有战略转售伙伴API线索；但当前公开Corporate/API条款（页面标2022-10）明确禁转售，要求美国/DC主体、有效美国税号、可核验美国实体地址。普通企业采购零起订不是转售零门槛；条款可个案要求保证/结算余额。入口：https://www.perfectgift.com/corporate/api；corp@perfectgift.com，+1 (800) 543-7927。必须书面确认另行协议覆盖禁转售限制、OpenAI SKU及交付是否原生PIN；品牌营销页还可能是可换卡/支付奖励产品。[S48–S52]\n3. BHN：确有Sell Gift Cards和Distribution Partner开户流程。入口：https://blackhawknetwork.com/sell-gift-cards；https://blackhawknetwork.com/merchant-onboarding。公开申请往往要求从所属批发商专属链接进入，不应随意选别人的批发商；无匹配者从销售询问说明实际业务。本轮未证实BHN持有OpenAI品牌SKU，所以只列泛礼卡渠道备选。[S53–S54]\n4. CIMI2604/发行人联系链：发行人页给出Card Compliant联系地址info@cardcompliant.com、+1 (855) 971-7430，可核实谁有OpenAI礼卡分销签约权。没有公开直接批发开户，不能把客服/公司联系方式直接标成已批准源头招商。[S55]"
+      },
+      {
+        "id": "R10",
+        "route": "Claude 官方赠礼",
+        "detail": "真实产品：官方帮助页说明大部分Pro/Max付费用户可购买Pro/Max礼物，时长1/3/6/12个月；Free及Team/Enterprise成员目前不能购买。接收方可用官方兑换链接、通常无须支付卡，礼物365天内兑换且不可叠加多个。\n资格边界：页面所说全球赠礼不覆盖不支持地区，仍受Claude服务资格约束；接收方已有移动订阅的，需等该订阅结束后兑。\n授权/最低投入：这是本人赠送朋友、家人/同事的消费者功能。公开资料没提供商业批发折扣或转售授权；消费者条款的转售限制仍在。购买方要先有合格Pro/Max，实际礼物价格须到本人结账确认。\n个人会员交付：真正能赠个人计划，但“允许赠”不等于“允许售”；不得据此承诺可以合法开批发站。\n自主度：赠礼操作中等，商业供货资格未闭合。\n来源：[S38–S39]"
+      }
+    ],
+    "sources": [
+      {
+        "id": "S01",
+        "name": "OpenAI Plus",
+        "url": "https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus"
+      },
+      {
+        "id": "S02",
+        "name": "OpenAI个人条款",
+        "url": "https://openai.com/policies/terms-of-use/"
+      },
+      {
+        "id": "S03",
+        "name": "ChatGPT支持地区",
+        "url": "https://help.openai.com/en/articles/7947663-chatgpt-supported-countries"
+      },
+      {
+        "id": "S04",
+        "name": "OpenAI银行卡及发卡地",
+        "url": "https://help.openai.com/en/articles/7232916-why-was-my-credit-card-declined"
+      },
+      {
+        "id": "S05",
+        "name": "OpenAI商业条款",
+        "url": "https://openai.com/policies/services-agreement/"
+      },
+      {
+        "id": "S06",
+        "name": "API支持地区",
+        "url": "https://help.openai.com/en/articles/5347006-openai-api-supported-countries-and-territories"
+      },
+      {
+        "id": "S07",
+        "name": "API预付与最低充值",
+        "url": "https://help.openai.com/en/articles/8264644-setting-up-and-managing-prepaid-api-billing"
+      },
+      {
+        "id": "S08",
+        "name": "手机验证",
+        "url": "https://help.openai.com/en/articles/8983040-what-does-phone-verification-look-like"
+      },
+      {
+        "id": "S09",
+        "name": "企业/本人验证",
+        "url": "https://help.openai.com/en/articles/10910291-api-organization-verification"
+      },
+      {
+        "id": "S10",
+        "name": "Anthropic商业条款",
+        "url": "https://www.anthropic.com/legal/commercial-terms"
+      },
+      {
+        "id": "S11",
+        "name": "Anthropic支持地区",
+        "url": "https://www.anthropic.com/supported-countries"
+      },
+      {
+        "id": "S12",
+        "name": "Anthropic企业控制权",
+        "url": "https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions"
+      },
+      {
+        "id": "S13",
+        "name": "Claude API计费",
+        "url": "https://support.claude.com/en/articles/8977456-how-do-i-pay-for-my-claude-api-usage"
+      },
+      {
+        "id": "S14",
+        "name": "Claude手机验证",
+        "url": "https://support.claude.com/en/articles/8287232-verify-your-phone-number"
+      },
+      {
+        "id": "S15",
+        "name": "Claude身份/企业验证",
+        "url": "https://support.claude.com/en/articles/14328960-identity-verification-on-claude"
+      },
+      {
+        "id": "S16",
+        "name": "Claude当前限额",
+        "url": "https://platform.claude.com/docs/en/api/rate-limits"
+      },
+      {
+        "id": "S17",
+        "name": "OpenAI伙伴入口",
+        "url": "https://openai.com/business/partners/"
+      },
+      {
+        "id": "S18",
+        "name": "OpenAI伙伴发布",
+        "url": "https://openai.com/index/introducing-openai-partner-network/"
+      },
+      {
+        "id": "S19",
+        "name": "Claude伙伴申请",
+        "url": "https://claude.com/form/cpn-partner-application"
+      },
+      {
+        "id": "S20",
+        "name": "Claude服务伙伴等级",
+        "url": "https://www.anthropic.com/news/services-track-partner-hub"
+      },
+      {
+        "id": "S21",
+        "name": "Claude伙伴项目发布",
+        "url": "https://www.anthropic.com/news/claude-partner-network"
+      },
+      {
+        "id": "S22",
+        "name": "OpenAI政府渠道",
+        "url": "https://openai.com/solutions/industries/government/"
+      },
+      {
+        "id": "S23",
+        "name": "OpenAI FedRAMP渠道",
+        "url": "https://openai.com/index/openai-available-at-fedramp-moderate/"
+      },
+      {
+        "id": "S24",
+        "name": "Carahsoft伙伴申请",
+        "url": "https://www.carahsoft.com/partners/resellers-service-providers"
+      },
+      {
+        "id": "S25",
+        "name": "Carahsoft OpenAI业务",
+        "url": "https://www.carahsoft.com/openai"
+      },
+      {
+        "id": "S26",
+        "name": "PwC转售协议公告",
+        "url": "https://www.pwc.com/us/en/about-us/newsroom/press-releases/pwc-us-uk-accelerating-ai-chatgpt-enterprise-adoption.html"
+      },
+      {
+        "id": "S27",
+        "name": "PwC当前业务",
+        "url": "https://www.pwc.com/us/en/technology/alliances/openai.html"
+      },
+      {
+        "id": "S28",
+        "name": "OpenAI所列PwC",
+        "url": "https://openai.com/business/partners/pwc/"
+      },
+      {
+        "id": "S29",
+        "name": "Rewarble分销入口",
+        "url": "https://rewarble.com/distributors"
+      },
+      {
+        "id": "S30",
+        "name": "Relograde Rewarble经销",
+        "url": "https://relograde.com/payouts"
+      },
+      {
+        "id": "S31",
+        "name": "Relograde商品",
+        "url": "https://relograde.com/brands/rewarble-chatgpt"
+      },
+      {
+        "id": "S32",
+        "name": "Relograde条款",
+        "url": "https://relograde.com/terms-and-conditions"
+      },
+      {
+        "id": "S33",
+        "name": "Rewarble条款",
+        "url": "https://rewarble.com/policies/terms-and-conditions"
+      },
+      {
+        "id": "S34",
+        "name": "Rewarble ChatGPT商品说明",
+        "url": "https://rewarble.com/brands/chatgpt"
+      },
+      {
+        "id": "S35",
+        "name": "Rewarble费用",
+        "url": "https://rewarble.com/fees"
+      },
+      {
+        "id": "S36",
+        "name": "OpenAI礼卡说明",
+        "url": "https://help.openai.com/en/articles/20001491-buying-and-redeeming-openai-gift-cards"
+      },
+      {
+        "id": "S37",
+        "name": "OpenAI礼卡发行人条款",
+        "url": "https://mycardterms.com/openai/home/terms/"
+      },
+      {
+        "id": "S38",
+        "name": "Claude赠礼",
+        "url": "https://support.claude.com/en/articles/12938627-how-to-gift-a-claude-subscription"
+      },
+      {
+        "id": "S39",
+        "name": "Claude消费者条款",
+        "url": "https://www.anthropic.com/legal/consumer-terms"
+      },
+      {
+        "id": "S40",
+        "name": "Claude个人定价",
+        "url": "https://support.claude.com/en/articles/11049762-choose-a-claude-plan"
+      },
+      {
+        "id": "S41",
+        "name": "OpenAI Batch折扣",
+        "url": "https://developers.openai.com/api/docs/guides/batch"
+      },
+      {
+        "id": "S42",
+        "name": "Claude API定价/Batch",
+        "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+      },
+      {
+        "id": "S43",
+        "name": "Claude Web付款方式",
+        "url": "https://support.claude.com/en/articles/8325618-paid-plan-billing-faqs"
+      },
+      {
+        "id": "S44",
+        "name": "Claude真实账单地址",
+        "url": "https://support.claude.com/en/articles/12997130-understanding-your-billing-address-and-tax-calculation"
+      },
+      {
+        "id": "S45",
+        "name": "InComm OpenAI商户目录",
+        "url": "https://www.engage.incommincentives.com/PORT/Inc/EMP/Redemption/Pages/PrinterFriendlyMerchantList.aspx"
+      },
+      {
+        "id": "S46",
+        "name": "InComm礼卡转售API",
+        "url": "https://www.incomm.com/incentives/gift-card-api-integrations/"
+      },
+      {
+        "id": "S47",
+        "name": "InComm业务询问",
+        "url": "https://www.incomm.com/contact/business-inquiries/"
+      },
+      {
+        "id": "S48",
+        "name": "PerfectGift OpenAI品牌",
+        "url": "https://www.perfectgift.com/brands/openai"
+      },
+      {
+        "id": "S49",
+        "name": "PerfectGift API",
+        "url": "https://www.perfectgift.com/corporate/api"
+      },
+      {
+        "id": "S50",
+        "name": "PerfectGift战略转售线索",
+        "url": "https://www.perfectgift.com/corporate/api/thank-you"
+      },
+      {
+        "id": "S51",
+        "name": "PerfectGift普通商业/API条款",
+        "url": "https://www.perfectgift.com/corporate/terms-of-service"
+      },
+      {
+        "id": "S52",
+        "name": "PerfectGift联系",
+        "url": "https://www.perfectgift.com/faq"
+      },
+      {
+        "id": "S53",
+        "name": "BHN卖卡项目",
+        "url": "https://blackhawknetwork.com/sell-gift-cards"
+      },
+      {
+        "id": "S54",
+        "name": "BHN分销开户",
+        "url": "https://blackhawknetwork.com/merchant-onboarding"
+      },
+      {
+        "id": "S55",
+        "name": "CIMI2604发行人",
+        "url": "https://mycardterms.com/openai/card-issuer/"
+      }
+    ],
+    "important_limits": [
+      "A partner application or directory listing is not a reseller authorization.",
+      "No executed authorization, account-specific net quote or operator eligibility approval was inspected.",
+      "Mainland China/Hong Kong/Macau eligibility remains unclosed under current direct-service policies."
+    ]
+  },
+  "claude": {
+    "title": "Claude Code 采购与上手核查",
+    "subtitle": "面向中国大陆个人用户和小型采购方  核查日期 2026年10月2日",
+    "summary": "先确认使用资格，再比较价格。Anthropic 当前公布的 Claude.ai 与直连商业 API 支持地区均未列中国大陆、香港或澳门。购买账号、代充、礼品卡或云平台账户，都不能自动补足这个资格。本次公开资料未能确认一家同时满足大陆合规可用、本人持有账号、官方可核验授权、低于官网且含正规中国发票的 Claude 订阅零售商。",
+    "sections": [
+      {
+        "heading": "先分清买到的是什么",
+        "paragraphs": [
+          "Claude 是模型和产品家族；Claude Code 是能读取项目、修改文件、执行命令的编程工具。安装客户端本身不等于买到模型额度。卖家把不同计费方式都叫 Claude Code 套餐，会造成误购。",
+          "Claude Pro、Max 是 Claude 个人订阅，包含 Claude Code，终端与聊天共享套餐用量。Claude Console 是独立按量账户；API 费用不包含在 Pro 或 Max 的订阅费中。云平台提供模型调用与账单能力，也不附送 claude.ai 网页会员。依据 S1、S2、S4、S5。"
+        ],
+        "table": {
+          "headers": [
+            "渠道",
+            "公开价格或计费",
+            "关键边界"
+          ],
+          "rows": [
+            [
+              "Claude Pro",
+              "$20/月；$200/年一次付",
+              "含 Claude Code；年付折合约$16.67/月；非无限量"
+            ],
+            [
+              "Claude Max 5x / 20x",
+              "$100 / $200 每月",
+              "仅月付；5小时与每周等用量限制仍适用"
+            ],
+            [
+              "Claude Team",
+              "标准席位$25/月或年付$20/月；高级$125/月或年付$100/月",
+              "官网当前面向2至150人；是组织席位，不是个人Max转售券"
+            ],
+            [
+              "Claude Console API",
+              "按模型输入、输出、缓存等计量",
+              "独立账单；通常先充值，额度有到期及退款限制"
+            ],
+            [
+              "官方云平台",
+              "AWS / Google Cloud / Azure按量账单",
+              "需各自资格、模型权限、地区与协议；不是包月会员"
+            ]
+          ]
+        },
+        "note": "价格均为公开标价而非本人的结账报价；税、结算币种、汇率、卡组织及支付平台费用可能另计。S1、S3、S5、S6。"
+      },
+      {
+        "heading": "中国大陆用户的官方可行性",
+        "paragraphs": [
+          "官方支持地区是先决条件。S7列出的Claude.ai和API清单均无中国大陆、香港、澳门。台湾、日本、新加坡等在列，但服务器在这些地区或持有这些地区的账号，不等于大陆使用者已获得使用许可。",
+          "企业还需核查所有权。Anthropic于2025年9月4日说明：地区限制覆盖由不支持地区控制的组织，包括由总部位于不支持地区的企业直接或间接持股超过50%的实体。不能只凭海外注册证判断合格。依据S8。",
+          "这属于平台服务资格与合同限制的判断，不是在宣称任何一项购买行为当然违反中国法律。业务数据、知识产权和跨境处理另需按实际业务评估。对个人而言，当前不能把某个代充卖家写成已经验证的官方大陆开通方案。"
+        ],
+        "table": {
+          "headers": [
+            "官方上游",
+            "已核实内容",
+            "大陆资格结论"
+          ],
+          "rows": [
+            [
+              "Anthropic直接订阅/API",
+              "官方提供；支持地区见S7",
+              "不支持大陆，不能仅靠代付改变"
+            ],
+            [
+              "Amazon Bedrock",
+              "AWS官方说明账号和账单地址须处于Anthropic支持地区；首次调用还有模型访问要求",
+              "不能当作地区豁免；来源S9、S10"
+            ],
+            [
+              "Claude Platform on AWS",
+              "Anthropic运营API，AWS认证及Marketplace结算；独立于既有Console组织",
+              "是真渠道，需Marketplace与Anthropic资格，不是大陆保证入口；S11、S16"
+            ],
+            [
+              "Google Cloud Agent Platform 原Vertex AI",
+              "官方支持Claude Code；模型要启用；某些被禁止转售商的账单账户不能启用Claude",
+              "存在官方渠道，不代表所有中国客户有资格；须核实际客户/终端用户条款；S12、S13"
+            ],
+            [
+              "Microsoft Foundry",
+              "需要付费Azure订阅及受支持购买地区账单账户；CSP等若干订阅不支持",
+              "不能把Azure全球可买等同于Claude可买；S14"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "公开零售报价的证据与问题",
+        "paragraphs": [
+          "下表只记录商家在公开网页上的报价和承诺，不是官方授权证明、交易体验或推荐榜。未注册、未付款、未提交凭据，也未向商家询价；库存、具体SKU、税费和最终结算仍可能变化。检索覆盖代充、成品号、礼品卡与云渠道；未通过主体、资格及票据核验的商家不能因价格低而升级为可靠上游。"
+        ],
+        "table": {
+          "headers": [
+            "商家及报价",
+            "交付与票据",
+            "核查结论"
+          ],
+          "rows": [
+            [
+              "ClaudeSubscription\nPro ¥160；Max5x ¥530；20x ¥800/月",
+              "自称代充与成品号同价；仅咨询参考价；退款边界依下单沟通",
+              "明确非官方/非官方代理；公开页未见可独立核实的法律主体、授权或发票细则。低价原因未经证实。S17、S18"
+            ],
+            [
+              "DGT Store\nPro首页¥237起，产品默认规格¥330；Max5x ¥989；20x ¥1877",
+              "成品号/代充；商家称可给官方账单截图；封号通常不退",
+              "Max页以“白人KYC账户”推销已验证账号，未证实实名与买家一致；不得当作本人正规号。关于页/条款未见完整法律主体。S19至S22"
+            ],
+            [
+              "ClaudeMax\n代充Pro ¥249、Max5x ¥1099、20x ¥2199；成品号¥329/¥1259/¥2359",
+              "后两种Max成品号页显示售罄；部分流程要求Cookie；企业开票另谈",
+              "自称通过Team工作空间或人工流程交付，与个人Pro/Max标签需逐项核清；无凭据共享风险豁免。S23"
+            ],
+            [
+              "美果Meiguo礼品卡\n默认Max5x $119＝官方费$100＋手续费$19",
+              "微信/支付宝等；线上支付不支持开票；封号不能退款",
+              "商品页标记暂不能下单，并称官方暂停礼品卡购买。官方帮助页仍介绍赠礼，故只确认该店停售，不把全平台暂停当作已独立证实。S24、S26"
+            ],
+            [
+              "美果企业采购旧报价\n1个月Pro $25、Max5x $115、20x $222",
+              "旧页称有境外Invoice/中国普票，开中国票另加8%费用",
+              "报价有效期2026-05-31，已过期；旧价含每单采购/管理服务费，开票费用另计。代理资格或入门费是否收取未知，不能从每单服务费推断。S25"
+            ]
+          ]
+        },
+        "note": "本次未发现可推荐为“最低价且正规含票”的Claude成品号供应商。境外Invoice、支付凭证、官方账单截图和中国增值税发票是不同东西；开票能力也不等于Anthropic授权。"
+      },
+      {
+        "heading": "卖家能否真正避免封号",
+        "paragraphs": [
+          "无法从公开证据得出任何卖家能保证不封。个人条款要求账号资料真实，并禁止共享登录凭据、把账号交他人使用及转售服务；商用条款允许用API支撑自有产品，但未经明确许可的转售仍受限制。依据S15、S16。",
+          "独享、老号、白名单、包KYC、正规扣款、可给账单截图，都不能证明地区资格、账号控制权或转售许可。‘封了换一个’只是一项售后承诺：它不降低已发生封禁，也无法保证恢复聊天、项目、历史与业务连续性。这里是风险推论，不是对每家卖家实际运营方式的指控。",
+          "官方身份验证可能要求本人有效实体政府证件和现场自拍。通过验证后仍可能因条款或使用政策违规封禁；误封应走官方帮助中心链接的申诉流程。不要把验证委托给卖家，不要把证件、Cookie、会话令牌或长期API密钥发给陌生商家。依据S27。",
+          "可证实的降风险办法是：使用真实且符合资格的本人/组织账户，采用允许的付款与采购关系，不共享凭据，不倒卖个人账号，按限制使用，保护恢复邮箱，保留账单和项目备份。它们只能减少可避免风险，不能保证服务永不暂停。",
+          "价格明显低于官网不等于黑卡，也不证明正规批发。促销、服务补贴、不同交付类型、共享用量、质量降级或其他原因都可能影响价格；必须让供应商给出可验证的来源和权利链，不能凭一个折扣反推其资金来源。"
+        ]
+      },
+      {
+        "heading": "若想卖会员或做上游采购",
+        "paragraphs": [
+          "个人订阅采购和授权分销是两件事。加入Claude Partner Network、出现在服务伙伴目录、拥有云平台合作伙伴身份，均不能单凭名称推导有权零售个人Pro/Max账号。要看授权合同中明确列出的产品、区域、客户类型、再销售权及终端用户义务。官方伙伴网络主要描述企业采用、咨询、培训和落地支持，见S28。",
+          "可持续的商业路线是符合资格的企业通过官方合同采购、作为明确获批的渠道开展允许的分销，或在商用条款允许范围内提供自己的应用与服务。不要将个人订阅拆卖、交付账号或转发登录凭据包装成官方API授权。若目标客户主要在大陆，应先取得针对实际主体和客户群的书面资格确认，再谈利润。",
+          "供应商至少应提供：完整法律名称/注册信息、合同及收款主体一致性、授权方和有效期、具体交付SKU、终端用户地区许可、含税总价、发票票种/开票方、账号/数据控制权、封禁与退款条款、未交付退款、资金来源及付款可追溯证明。付款前书面确认，不用商业截图替代合同。"
+        ]
+      },
+      {
+        "heading": "符合官方资格后的新手上手步骤",
+        "paragraphs": [
+          "1 先过资格检查。确认本人使用地、账单资料与组织资格符合官方规则。大陆用户若只有代充、境外邮箱或境外服务器，不应跳过这一关；尚无合格渠道时，先不要为账号付款。",
+          "2 选计费方式。轻量试用从Pro月付考虑；经常撞额度再评估Max。API适合想精确按量、接入工具或组织管控的人，但长会话、多代理会增加费用。不要预先大量囤额度或年付未知来源账号。",
+          "3 仅从官方快速入门安装。Windows可按官方WinGet方案安装；macOS可用官方Homebrew方案；Linux可按官方原生安装说明。当前命令以S29为准。安装后运行claude --version确认版本。",
+          "4 在一个不含秘密的练习项目中运行claude，按提示在官方浏览器页面登录自己的订阅。新手先用计划/审阅权限流程，让它解释项目和拟修改计划，再允许修改；保留Git版本或备份。不同Claude Code版本默认权限模式可能变化，别假定每个动作都会询问。",
+          "5 用/status确认账户、模型、API provider和实际认证方式，再用/usage及官网用量页核对消耗。若目标是只花会员费，不应同时让额外API凭据或第三方BASE_URL接管请求；出现按量额度选项时先查看价格与自动充值设置。依据S2、S4、S30。",
+          "6 第一条任务可写：‘先解释这个项目的目录结构和运行方式，不修改文件。’再让它处理一个小改动、显示差异并运行测试；不要一开始开放公司全盘资料或生产凭据。安全小任务成功后再扩大范围。"
+        ]
+      },
+      {
+        "heading": "Windows 官方文档操作清单",
+        "paragraphs": [
+          "以下是按2026年10月2日官方文档整理的操作说明，未在你的Windows电脑安装、登录或执行验证。只有先满足官方使用资格后才继续。",
+          "前提：Windows 10 1809或更新版本，或Windows Server 2019或更新版本；至少4GB内存，x64或ARM64。可原生运行，也可使用WSL；原生Windows无命令沙盒支持，WSL2支持。Git for Windows目前是可选项，不是硬性前提；无Git时使用PowerShell工具。S34。",
+          "安装方法只选一种。打开Windows Terminal的PowerShell标签，若WinGet可用，输入 winget install Anthropic.ClaudeCode。另一种官方原生安装命令是 irm https://claude.ai/install.ps1 | iex。原生安装会自动更新；WinGet默认需要手动执行 winget upgrade Anthropic.ClaudeCode。不要混用CMD与PowerShell专用语法。S29、S34。",
+          "安装完成后新开一个终端，运行 claude --version。应显示版本号；再运行 claude doctor 检查安装和配置。若提示找不到claude，按官方安装故障文档排查PATH，不要改用来源不明的所谓免封安装包。S34。",
+          "先新建一个普通练习文件夹，在终端进入它，再运行 claude。选择自己的Claude订阅登录，在官方浏览器页面完成认证；如果选Console，则走API按量计费。第一次启动若弹出API Key确认而没有订阅登录提示，先检查是否已有API环境变量，不要因为已经买了Pro便直接确认。S4、S29。",
+          "登录后运行 /status 核实账号、认证方式、模型及服务商；运行 /usage 查看计划与用量。输入 /help 查看命令。用 Shift+Tab 查看/切换权限模式，先采用计划或审阅流程；当前版本可能默认自动模式，不能假定工具每次运行都会询问。S29、S30。",
+          "开始练习：先要求“只介绍这个目录，不修改文件”；确认后再要求创建一个小函数、解释改动、运行测试。预先保存Git提交或备份，只开放本次任务所需文件，不把密码、API密钥、客户隐私或生产权限放进练习目录。"
+        ]
+      },
+      {
+        "heading": "官方省钱方式及真实成本",
+        "paragraphs": [
+          "Pro官方年付比连续12个月月付少$40，但要先付全年并承担使用适配与资格变化风险。Max暂无普通年付折扣。官方帮助中心表示没有可随时索取的常规Pro/Max优惠券，限时活动需以官方渠道为准。",
+          "官方另有付费计划的usage bundles：标称$50额度付$45、$250付$200、$1000付$700。它们是额外用量额度，不是打折购买Max会员，也不能据此推定Console API充值同样打折；先看本人账户是否适用。依据S31。",
+          "按量样例只作预算尺：截至核查日，Sonnet 5.5标准输入/输出为每百万token $2/$10，Opus 5.5为$4/$20，Haiku 4.5为$1/$5；缓存读写另计。假设一次任务共10万未缓存输入和1万输出，Sonnet对应$0.30，Opus对应$0.60，未含工具、税和其他用量。实际代理任务可能多轮重复输入，不能用对话字数代替token账单。依据S6，算式为本报告计算。",
+          "API降本优先缩小上下文、无关任务另开会话、选择合适模型并利用官方缓存。Batch折扣适合异步批处理，不能直接当成交互式Claude Code全程五折。综合成本应包括服务费、税、失败任务、恢复时间与数据风险。"
+        ]
+      }
+    ],
+    "sources": [
+      [
+        "S1",
+        "Anthropic 订阅定价",
+        "https://claude.com/pricing",
+        "实读2026-10-02"
+      ],
+      [
+        "S2",
+        "Claude Code 与Pro Max订阅及API计费",
+        "https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan",
+        "实读2026-10-02"
+      ],
+      [
+        "S3",
+        "Max计划 官方价格与限制",
+        "https://support.claude.com/en/articles/11049741-what-is-the-max-plan",
+        "核查2026-10-02"
+      ],
+      [
+        "S4",
+        "Claude Code 认证与凭据优先级",
+        "https://code.claude.com/docs/en/authentication",
+        "实读2026-10-02"
+      ],
+      [
+        "S5",
+        "Claude Code 官方部署渠道比较",
+        "https://code.claude.com/docs/en/third-party-integrations",
+        "实读2026-10-02"
+      ],
+      [
+        "S6",
+        "Claude API 模型 缓存 云账单价格",
+        "https://platform.claude.com/docs/en/about-claude/pricing",
+        "实读2026-10-02"
+      ],
+      [
+        "S7",
+        "Anthropic Supported Regions Policy",
+        "https://www.anthropic.com/supported-countries",
+        "实读2026-10-02"
+      ],
+      [
+        "S8",
+        "地区限制与企业控制权公告",
+        "https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions",
+        "发布2025-09-04；核查2026-10-02"
+      ],
+      [
+        "S9",
+        "AWS官方 Claude账号与账单地区资格",
+        "https://repost.aws/knowledge-center/bedrock-access-anthropic-model",
+        "2026-10-02检索摘录；直接打开失败"
+      ],
+      [
+        "S10",
+        "AWS Bedrock 模型访问要求",
+        "https://docs.aws.amazon.com/us_en/bedrock/latest/userguide/model-access.html",
+        "核查2026-10-02"
+      ],
+      [
+        "S11",
+        "Claude Platform on AWS 官方接入",
+        "https://code.claude.com/docs/en/claude-platform-on-aws",
+        "实读2026-10-02"
+      ],
+      [
+        "S12",
+        "Google Cloud Claude Code 官方接入",
+        "https://code.claude.com/docs/en/google-vertex-ai",
+        "实读2026-10-02"
+      ],
+      [
+        "S13",
+        "Google Cloud 伙伴模型及受限制转售商",
+        "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/partner-models/use-partner-models",
+        "页面更新2026-10-01；实读2026-10-02"
+      ],
+      [
+        "S14",
+        "Microsoft Foundry 伙伴模型资格",
+        "https://learn.microsoft.com/azure/ai-foundry/foundry-models/concepts/models-from-partners",
+        "核查2026-10-02"
+      ],
+      [
+        "S15",
+        "Anthropic Consumer Terms",
+        "https://www.anthropic.com/legal/consumer-terms",
+        "生效2025-10-08；实读2026-10-02"
+      ],
+      [
+        "S16",
+        "Anthropic Commercial Terms",
+        "https://www.anthropic.com/legal/commercial-terms",
+        "生效2025-06-17；实读2026-10-02"
+      ],
+      [
+        "S17",
+        "ClaudeSubscription 商家报价",
+        "https://www.claudesubscription.com/zh",
+        "实读2026-10-02；商家声明"
+      ],
+      [
+        "S18",
+        "ClaudeSubscription 商家退款规则",
+        "https://www.claudesubscription.com/zh/refund",
+        "实读2026-10-02；商家声明"
+      ],
+      [
+        "S19",
+        "DGT Pro 商品价格与封号条款",
+        "https://dgtsell.com/products/claude-pro-account",
+        "实读2026-10-02；商家声明"
+      ],
+      [
+        "S20",
+        "DGT Max5x 商品价格与KYC声明",
+        "https://dgtsell.com/products/claude-max-100-subscription",
+        "实读2026-10-02；商家声明"
+      ],
+      [
+        "S21",
+        "DGT Max20x 商品价格与KYC声明",
+        "https://dgtsell.com/products/claude-max-20x-200-subscription",
+        "实读2026-10-02；商家声明"
+      ],
+      [
+        "S22",
+        "DGT 关于页",
+        "https://dgtsell.com/about",
+        "实读2026-10-02；未列完整法律主体"
+      ],
+      [
+        "S23",
+        "ClaudeMax 实时订阅商品页",
+        "https://claudemax.shop/subscribe",
+        "实读2026-10-02；商家声明"
+      ],
+      [
+        "S24",
+        "美果礼品卡商品页",
+        "https://meiguo.app/claude-code",
+        "实读2026-10-02；商家声明"
+      ],
+      [
+        "S25",
+        "美果企业采购旧报价",
+        "https://meiguo.app/claude-code-procurement",
+        "报价2026-04；有效至2026-05-31；实读2026-10-02"
+      ],
+      [
+        "S26",
+        "Claude 官方赠礼说明",
+        "https://support.claude.com/en/articles/12938627-how-to-gift-a-claude-subscription",
+        "页面日期2026-04-29；核查2026-10-02"
+      ],
+      [
+        "S27",
+        "Claude 官方身份验证说明",
+        "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
+        "页面日期2026-08-11；实读2026-10-02"
+      ],
+      [
+        "S28",
+        "Claude Partner Network 官方介绍",
+        "https://www.anthropic.com/news/claude-partner-network",
+        "发布2026-03-12；核查2026-10-02"
+      ],
+      [
+        "S29",
+        "Claude Code 官方快速入门",
+        "https://code.claude.com/docs/en/quickstart",
+        "实读2026-10-02"
+      ],
+      [
+        "S30",
+        "Claude Code 用量与降本说明",
+        "https://code.claude.com/docs/en/costs",
+        "实读2026-10-02"
+      ],
+      [
+        "S31",
+        "Claude 官方额外用量折扣包",
+        "https://support.claude.com/en/articles/14246112-buy-usage-bundles",
+        "页面日期2026-05-18；核查2026-10-02"
+      ],
+      [
+        "S32",
+        "Anthropic Marketplace补充条款",
+        "https://www.anthropic.com/legal/service-specific-terms",
+        "生效2026-08-31；实读2026-10-02"
+      ],
+      [
+        "S33",
+        "Pro计划 官方价格及API边界",
+        "https://support.claude.com/zh-CN/articles/8325606-什么是-pro-计划",
+        "页面日期2026-06-10；核查2026-10-02"
+      ],
+      [
+        "S34",
+        "Claude Code 系统要求与Windows安装",
+        "https://code.claude.com/docs/en/setup",
+        "实读2026-10-02；仅文档核对未执行"
+      ]
+    ]
+  },
+  "phone": [
+    {
+      "heading": "ChatGPT 成品号与手机验证核查",
+      "text": "核查时间：2026-10-02 06:01 UTC（北京时间14:01）。所有价格均为公开页面展示，未付款、未注册、未联系商家、未提交账号或令牌；不代表实际可交付或推荐。"
+    },
+    {
+      "heading": "一、直接结论",
+      "text": "有自己的账号却卡在手机验证时，不建议先花钱开会员。未找到官方将Plus/Pro作为“解除手机号验证”办法的说明。官方Plus开通步骤本身从“登录ChatGPT”开始；会员权益是用量和功能，不是账号恢复服务。\n先确认界面属于普通ChatGPT登录、MFA、手机注册、桌面App Codex，还是API首个key。需要用户提供遮掉邮箱、手机号、验证码、二维码的错误截图，并保留产品名称、页面域名和完整提示文字。不要让用户发送密码、Session、Cookie、API key或验证码。"
+    },
+    {
+      "heading": "二、官方证据及场景分流",
+      "text": "1. 普通ChatGPT与Codex/API\n官方称创建账号和使用ChatGPT通常不要求手机验证；但在ChatGPT桌面App进入Codex时可能要求。API平台生成第一个API key需要手机号验证。Codex这一步的邮箱或验证器不能替代手机号。\n来源：https://help.openai.com/en/articles/8983040-what-does-phone-verification-look-like\n本次正文显示更新于9天前，搜索摘要却显示10小时前；使用正文规则，不据相对更新时间作精确发布日期。\n\n2. 常规登录安全检查\n新设备、异常地点等可能触发邮箱一次性验证码或手机App推送确认。App推送不能完成时，页面若有“Try with email”可使用邮箱方式。这是登录安全检查，不能套用到必需手机号验证或已配置MFA。\n来源：https://help.openai.com/en/articles/9889414-why-am-i-being-asked-to-verify-my-login\n\n3. 已开启MFA且收不到短信/失去手机号\n先选择已经配置好的其他验证方式。最新英文正文说邮箱不是标准MFA方式；若所有配置的MFA方式都不可用，联系官方支持并完成身份验证，可能数天。成功后提供一次性邮件恢复登录，此机会仅有一次。高级账号安全用户应使用恢复密钥。不能保证客服一定恢复成功。\n来源：https://help.openai.com/en/articles/7967234-managing-multi-factor-authentication-mfa\n本次正文显示更新于3天前。部分其他语言版本和搜索缓存仍把邮箱列为普通选项，建议引用最新英文正文。\n\n4. 最初用手机注册的账号\n手机账号密码重置通过SMS，官方要求使用之前至少登录过一次的设备。升级付费档仍需验证邮箱，因此付费也不是手机验证的替代。\n来源：https://help.openai.com/en/articles/10388702-phone-only-signups\n\n5. 一般登录失败\n确认仍用原Google/Apple/Microsoft或邮箱方式登录；账单邮箱不一定等于登录邮箱。官方建议清缓存、无痕窗口、检查状态页等；“suspicious login”反复失败可能需要等最多1小时再试。不要在未知具体提示时让用户删账号或反复注册。\n来源：https://help.openai.com/en/articles/7426629-why-cant-i-log-in-to-chatgpt\n\n6. 地区\n中国大陆不在目前支持国家/地区名单；官方提示在名单外访问或提供访问可能封停。付费或购买已注册账号不能据此保证改变地区资格或避免风险。\n来源：https://help.openai.com/en/articles/7947663-chatgpt-supported-countries\n名单正文显示更新于2个月前，2026-10-02实读。\n\n7. 会员与官方支持\nPlus官方帮助页列价20美元/月，API另计；开通从登录后升级开始。查到的权益没有解除手机验证或保障账号找回。\nhttps://help.openai.com/en/articles/6950777-what-is-chatgpt-plus\n支持入口为help.openai.com右下角聊天按钮。可提交准确错误、时间及时区、设备/浏览器、登录方式和账户邮箱；官方明确不要发密码或验证码。\nhttps://help.openai.com/en/articles/6614161-how-can-i-contact-support"
+    },
+    {
+      "heading": "三、账号归属与恢复权",
+      "text": "官方2026-01-01生效条款禁止共享账号凭证或使账号可供他人使用，也禁止出售/分发服务；“独享”“可改密码”不等于官方批准账号转售。\nhttps://openai.com/policies/terms-of-use/\n\n目前官方允许部分账号改登录邮箱，不能继续引用“ChatGPT从不支持改邮箱”的旧说明。需要能登录且可访问原邮箱，并符合自助条件（未用SSO、非企业组织、域名未被企业验证等）。原邮箱不可访问时，支持也不能例外改邮箱。\nhttps://help.openai.com/en/articles/4936827-how-to-change-your-email-address\n正文显示昨天更新。\n\n另一个官方页面仍表示账号关联手机号码不能更改，适用于ChatGPT/API；这不等于所有短信MFA设置都不能管理，应区分手机号字段与具体MFA方式。\nhttps://help.openai.com/en/articles/9135134-how-to-change-the-phone-number-associated-with-your-account\n\n本次未找到官方保证“商家交付后原注册人永久失去恢复途径”的文件，也没有独立验证任何商家已经移交原邮箱控制权、原手机号、其他MFA、恢复密钥及全部有效会话。应写“未验证完整控制权”，不要断言“原邮箱永远能强制找回”，后者也未被官方文档证实。"
+    },
+    {
+      "heading": "四、公开成品号样本（商家声明，不是推荐）",
+      "text": "\nA. ClaudeMax\n当前订阅页：Plus成品199元/月；Pro100成品899元/月；Pro200成品1349元/月；Pro500成品3749元/月；还列老Pro20x成品1790元/月。这里只记录商品名称与价格，不验证商家关于老额度/官方档位的说法。\n页面声称一个月额度、可绑定自己邮箱、账号归买方。未看到原始邮箱/手机号/所有恢复方式移交的可核验证据。\nhttps://claudemax.shop/subscribe\n\n交付说明博客9月30日更新：ChatGPT成品验证收件邮箱后人工发货，预计30分钟至4小时，已不再要求成品订单交Session。旧搜索摘要仍是Plus219元、转发邮箱、交Session，应弃用旧摘要。\nhttps://claudemax.shop/blog/chatgpt-claude-finished-account-vs-own-account\n\n重要反证：\n- 订阅页FAQ承认成品号可能出现二次手机号验证，故“买成品即可保证免验证”不成立。\n- 订阅页写成品售出不退款；因风控/违规封禁不保证退款。若商家收到官方退款，扣25%后才返。\n- 上述博客却写地区政策变更导致不可用按未用天数退，站内售后口径矛盾；应让商家出具该SKU书面条款，不能替它承诺退款。\n- 自助微信订单仅支付凭证，非发票；企业开票另走商务/企业网关，票种和开票主体还需确认，不能推导个人成品单提供大陆增值税发票。\n发票说明：https://claudemax.shop/blog/ai-subscription-invoice-reimbursement-guide\n\nB. 智链AI\n2026-08-07商家博客标成品未手机验证26.99元、7天质保59.99元；独享月卡15天保障69.99元、30天保障99元。报价当前仍可读，但商品页为动态目录，本次未独立确认下单页价格/库存。\n商家自己承认成品为预注册账户，原号主恢复或风控可能失效；其“低风险/安全”只是营销说法。7天版称出问题可换，不等于退款或数据恢复。未看到发票主体、原始邮箱控制或永久恢复权移交证据。\nhttps://zhichain.ai/blog/gpt-plus-account-vs-card-vs-monthly\n关联商品页：\nhttps://zhichain.ai/shop/?product=26\nhttps://zhichain.ai/shop/?product=28\n\nC. GETAIAI\n产品页实读：普通GPT成品25元，暂缺货，说明买后还需另购会员，故不能把25元说成Plus月费；Pro20x成品1799元显示有货。主售Plus代充148元、Pro5x799元、Pro20x1398元，后者是代充而非账号。\nhttps://www.getaiai.com/products/chatgpt\n首页虽称无需密码，FAQ明确付款后需提交Session JSON。无需密码不等于无需敏感凭证；服务协议亦承认Session可授权账号访问。\nhttps://www.getaiai.com/\nhttps://getaiai.com/terms\n\n服务协议2026-08-06更新：30天保障主要针对非用户原因的交付或订阅故障，成功后一般不因改变主意退款，政策/地区/账号违规等有排除项。成品是否适用同一保障未明确，不宜代为扩张。\n页面宣称可申请电子发票；协议写票种、内容、金额、时间、对公/合同须按实际商务确认。运营主体显示ClyGen Inc.，本次未查到具体大陆增值税开票主体、税号或票样核验，不能把“e-invoice”直接认定大陆正规发票。\n\nD. 世事宜AI（证据较弱，不宜作为已核实推荐）\n2026-09-07商家论坛推广搜索摘要列Plus成品160元、Pro5x759元、Pro20x1199元，并明确ChatGPT成品不含短信验证码服务，宣称支持开票/对公。论坛正文抓取404，商店仅返回注册页，未注册，未能确认当前价格/库存/票种/退款条款。\nhttps://linux.do/t/topic/2867159\nhttps://ssyai.xytpark.cn/\n以上只能当进一步尽调线索，不能作现货或正式发票承诺。"
+    },
+    {
+      "heading": "五、采购前必须补齐的证据",
+      "text": "- 明确SKU、订阅周期、实际到期日，未验证手机号还是已验证，网页/App/Codex是否在保障范围\n- 登录邮箱能否改成买方自有邮箱，是否直接控制原收件箱，绑定手机和现有MFA归谁，既有登录会话如何退出\n- 二次验证失败、订阅被撤销、账号封禁分别怎么赔；包换、按天退款、首登保证不是一回事\n- 发票是否中国增值税数电普票/专票，开票公司全称和税号、项目、金额、额外费用、开票时间；付款主体与开票主体是否一致\n- 不应把付款到商家、发票、备案或自称“官方渠道”当作OpenAI授权证明\n- 本次没有找到同时完成价格、归属恢复权、验证保障、退款及大陆发票全链条证实的成品号供应商\n\n建议给用户的短答：\n“先别为了过验证充值。会员没有官方承诺能解开手机号验证，成品号也可能再要手机验证。把报错截图发来，遮住邮箱、手机号和验证码，保留网址和提示文字；我先判断是普通登录、短信MFA，还是Codex/API的必需验证。”"
+    }
+  ],
+  "sources": [
+    "https://55ai.net/item/3",
+    "https://ac-card.org/products/gpt",
+    "https://ainb8.com/products/chatgpt-go-india-jz",
+    "https://ainb8.com/products/chatgpt-pro20-expiring-renewal",
+    "https://ainb8.com/products/upstream-2-1-1785515380649",
+    "https://ainb8.com/products/upstream-2-18-1785515407535",
+    "https://ainb8.com/products/upstream-2-19-1785515516200",
+    "https://ainb8.com/products/upstream-2-4-1785515409143",
+    "https://ainb8.com/products/upstream-2-6-1785938218978",
+    "https://aisou.pro/item/29",
+    "https://aisou.pro/item/39",
+    "https://aisou.pro/item/46",
+    "https://aisou.pro/item/49",
+    "https://aisou.pro/item/63",
+    "https://aisou.pro/item/72",
+    "https://aisou.pro/item/75",
+    "https://beian.miit.gov.cn/：web工具521，未取得备案结果",
+    "https://bigolab.com/chongzhi/chatgpt-plus",
+    "https://bigolab.com/chongzhi/chatgpt-pro",
+    "https://bigolab.com/privacy",
+    "https://bigolab.com/products/21",
+    "https://bigolab.com/terms",
+    "https://blackhawknetwork.com/lets-talk/contact-sales?sell_distribute_v1=",
+    "https://blackhawknetwork.com/merchant-onboarding",
+    "https://blackhawknetwork.com/sell-gift-cards",
+    "https://blackhawknetwork.com/sell-gift-cards；https://blackhawknetwork.com/merchant-onboarding。公开申请往往要求从所属批发商专属链接进入，不应随意选别人的批发商；无匹配者从销售询问说明实际业务。本轮未证实BHN持有OpenAI品牌SKU，所以只列泛礼卡渠道备选。[S53–S54",
+    "https://catfk.com/item/8nja4n",
+    "https://catfk.com/item/ef0dhx",
+    "https://catfk.com/item/g8ptrd",
+    "https://claude.ai/install.ps1",
+    "https://claude.com/form/cpn-partner-application",
+    "https://claude.com/pricing",
+    "https://claudemax.shop/blog/ai-subscription-invoice-reimbursement-guide",
+    "https://claudemax.shop/blog/chatgpt-claude-finished-account-vs-own-account",
+    "https://claudemax.shop/subscribe",
+    "https://code.claude.com/docs/en/authentication",
+    "https://code.claude.com/docs/en/claude-platform-on-aws",
+    "https://code.claude.com/docs/en/costs",
+    "https://code.claude.com/docs/en/google-vertex-ai",
+    "https://code.claude.com/docs/en/quickstart",
+    "https://code.claude.com/docs/en/setup",
+    "https://code.claude.com/docs/en/third-party-integrations",
+    "https://developers.openai.com/api/docs/guides/batch",
+    "https://dgtsell.com/about",
+    "https://dgtsell.com/products/claude-max-100-subscription",
+    "https://dgtsell.com/products/claude-max-20x-200-subscription",
+    "https://dgtsell.com/products/claude-pro-account",
+    "https://docs.aws.amazon.com/us_en/bedrock/latest/userguide/model-access.html",
+    "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/partner-models/use-partner-models",
+    "https://fanai.us.ci/item/6",
+    "https://fgk.chinatax.gov.cn/zcfgk/c100016/c5239800/content.html",
+    "https://getaiai.com/terms",
+    "https://go.pardot.com/l/1119873/2026-01-21/9r7mg5",
+    "https://gongsi.one/",
+    "https://gongsi.one/docs/pricing/",
+    "https://gpt.fnon.cn/",
+    "https://help.openai.com/en/articles/10388702-phone-only-signups",
+    "https://help.openai.com/en/articles/10492689-chatgpt-plus-promotions-and-referrals",
+    "https://help.openai.com/en/articles/10910291-api-organization-verification",
+    "https://help.openai.com/en/articles/20001417-gifting-credits-in-chatgpt",
+    "https://help.openai.com/en/articles/20001491-buying-and-redeeming-openai-gift-cards",
+    "https://help.openai.com/en/articles/4936827-how-to-change-your-email-address",
+    "https://help.openai.com/en/articles/5347006-openai-api-supported-countries-and-territories",
+    "https://help.openai.com/en/articles/6614161-how-can-i-contact-support",
+    "https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus",
+    "https://help.openai.com/en/articles/7232916-why-was-my-credit-card-declined",
+    "https://help.openai.com/en/articles/7426629-why-cant-i-log-in-to-chatgpt",
+    "https://help.openai.com/en/articles/7947663-chatgpt-supported-countries",
+    "https://help.openai.com/en/articles/7967234-managing-multi-factor-authentication-mfa",
+    "https://help.openai.com/en/articles/8264644-setting-up-and-managing-prepaid-api-billing",
+    "https://help.openai.com/en/articles/8983040-what-does-phone-verification-look-like",
+    "https://help.openai.com/en/articles/9135134-how-to-change-the-phone-number-associated-with-your-account",
+    "https://help.openai.com/en/articles/9889414-why-am-i-being-asked-to-verify-my-login",
+    "https://jiangsu.chinatax.gov.cn/art/2024/1/30/art_8349_449297.html",
+    "https://jiangsu.chinatax.gov.cn/art/2025/4/15/art_7656_498963.html",
+    "https://learn.microsoft.com/azure/ai-foundry/foundry-models/concepts/models-from-partners",
+    "https://linux.do/t/topic/2867159",
+    "https://meetings.hubspot.com/maher-zaidi/perfecttgift-business-dev-and-api-lead-routing-",
+    "https://meiguo.app/claude-code",
+    "https://meiguo.app/claude-code-procurement",
+    "https://mfhubs.com/products/kafu_gpt_plus",
+    "https://morimm.com/products/gptplus",
+    "https://mycardterms.com/openai/card-issuer/",
+    "https://mycardterms.com/openai/home/terms/",
+    "https://openai.com/business/partners/",
+    "https://openai.com/business/partners/pwc/",
+    "https://openai.com/index/introducing-openai-partner-network/",
+    "https://openai.com/index/openai-available-at-fedramp-moderate/",
+    "https://openai.com/policies/services-agreement/",
+    "https://openai.com/policies/terms-of-use/",
+    "https://openai.com/solutions/industries/government/",
+    "https://openzy.co/products/chatgpt-plus-philippines-card",
+    "https://ouvg.top/buy/252",
+    "https://ouvg.top/buy/273",
+    "https://ouvg.top/buy/276",
+    "https://ouvg.top/buy/286",
+    "https://partners.openai.com/",
+    "https://platform.claude.com/docs/en/about-claude/pricing",
+    "https://platform.claude.com/docs/en/api/rate-limits",
+    "https://plusgo.pro/enterprise",
+    "https://plusgo.pro/plans",
+    "https://plusgo.pro/purchase?sku=plus",
+    "https://plusgo.pro/terms",
+    "https://proplus.cv/",
+    "https://proplus.cv/about/",
+    "https://proplus.cv/enterprise/",
+    "https://proplus.cv/gpt-go/",
+    "https://proplus.cv/terms/",
+    "https://relograde.com/brands",
+    "https://relograde.com/brands/rewarble-chatgpt",
+    "https://relograde.com/contact-sales；https://relograde.com/brands/rewarble-chatgpt",
+    "https://relograde.com/payouts",
+    "https://relograde.com/terms-and-conditions",
+    "https://repost.aws/knowledge-center/bedrock-access-anthropic-model",
+    "https://rewarble.com/brands/chatgpt",
+    "https://rewarble.com/distributors",
+    "https://rewarble.com/fees",
+    "https://rewarble.com/policies/terms-and-conditions",
+    "https://shop.whh985.com/products/pro5x",
+    "https://ssyai.xytpark.cn/",
+    "https://support.claude.com/en/articles/11049741-what-is-the-max-plan",
+    "https://support.claude.com/en/articles/11049762-choose-a-claude-plan",
+    "https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan",
+    "https://support.claude.com/en/articles/12938627-how-to-gift-a-claude-subscription",
+    "https://support.claude.com/en/articles/12997130-understanding-your-billing-address-and-tax-calculation",
+    "https://support.claude.com/en/articles/14246112-buy-usage-bundles",
+    "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
+    "https://support.claude.com/en/articles/8287232-verify-your-phone-number",
+    "https://support.claude.com/en/articles/8325618-paid-plan-billing-faqs",
+    "https://support.claude.com/en/articles/8977456-how-do-i-pay-for-my-claude-api-usage",
+    "https://support.claude.com/zh-CN/articles/8325606-什么是-pro-计划",
+    "https://tangguo.app/store/business",
+    "https://token5555.com/",
+    "https://token5555.com/about.html",
+    "https://token5555.com/terms.html",
+    "https://wstormai.store/",
+    "https://wstormai.store/store/chatgpt",
+    "https://www.aixiamo.com/enterprise-ai-procurement",
+    "https://www.anthropic.com/legal/commercial-terms",
+    "https://www.anthropic.com/legal/consumer-terms",
+    "https://www.anthropic.com/legal/service-specific-terms",
+    "https://www.anthropic.com/news/claude-partner-network",
+    "https://www.anthropic.com/news/services-track-partner-hub",
+    "https://www.anthropic.com/news/updating-restrictions-of-sales-to-unsupported-regions",
+    "https://www.anthropic.com/supported-countries",
+    "https://www.bestbuy.com/product/openai-chatgpt-25-gift-card-digital/JJG34P73VL",
+    "https://www.carahsoft.com/openai",
+    "https://www.carahsoft.com/partners/resellers-service-providers",
+    "https://www.claudesubscription.com/zh",
+    "https://www.claudesubscription.com/zh/refund",
+    "https://www.cxygpt.com/",
+    "https://www.electagpt.com/blog/chongzhi-fapiao",
+    "https://www.engage.incommincentives.com/PORT/Inc/EMP/Redemption/Pages/PrinterFriendlyMerchantList.aspx",
+    "https://www.getaiai.com/",
+    "https://www.getaiai.com/products/chatgpt",
+    "https://www.getplus.ai/chatgpt-plus-chongzhi",
+    "https://www.getplus.ai/terms",
+    "https://www.gptcat.vip/products/gpt-codex-plus",
+    "https://www.gsxt.gov.cn/：浏览器ERR_BLOCKED_BY_CLIENT；web工具403，未取得登记详情",
+    "https://www.huiai.me/",
+    "https://www.huiai.me/help",
+    "https://www.huiai.me/subscribe?new=1",
+    "https://www.huiai.me/terms",
+    "https://www.incomm.com/contact/business-inquiries/",
+    "https://www.incomm.com/contact/business-inquiries/。意向表要求姓名、邮箱、电话、地区、公司和说明；正式KYB、可接受主体国家、OpenAI",
+    "https://www.incomm.com/gift-cards/sell/",
+    "https://www.incomm.com/incentives/gift-card-api-integrations/",
+    "https://www.incomm.com/insights/bulk-gift-cards-bring-extra-large-enjoyment/",
+    "https://www.payprm.com/about",
+    "https://www.payprm.com/faq/receipt/invoice-or-receipt",
+    "https://www.payprm.com/shop?category=chatgpt",
+    "https://www.perfectgift.com/brands/openai",
+    "https://www.perfectgift.com/corporate/api",
+    "https://www.perfectgift.com/corporate/api/thank-you",
+    "https://www.perfectgift.com/corporate/api；corp@perfectgift.com，+1",
+    "https://www.perfectgift.com/corporate/bulk",
+    "https://www.perfectgift.com/corporate/pricing",
+    "https://www.perfectgift.com/corporate/terms-of-service",
+    "https://www.perfectgift.com/faq",
+    "https://www.pwc.com/us/en/about-us/newsroom/press-releases/pwc-us-uk-accelerating-ai-chatgpt-enterprise-adoption.html",
+    "https://www.pwc.com/us/en/technology/alliances/openai.html",
+    "https://www.pwc.com/us/en/technology/alliances/openai.html（企业方案及联系）；官网描述",
+    "https://xingqiaosub.com/pricing",
+    "https://zhichain.ai/blog/gpt-plus-account-vs-card-vs-monthly",
+    "https://zhichain.ai/shop/?product=26",
+    "https://zhichain.ai/shop/?product=28"
+  ],
+  "historyCount": 126,
+  "sourceFiles": [
+    "../research/2026-10-02.json",
+    "../research/2026-10-02-round2.json"
+  ],
+  "timeline": [
+    {
+      "time": "2026-10-01",
+      "title": "历史供货基线",
+      "text": "旧126条完整保留，单独入口；不覆盖当前两轮证据。",
+      "url": "https://1337816143.github.io/MyDotWork/"
+    },
+    {
+      "time": "2026-10-02 06:18 UTC",
+      "title": "第一轮公开核查",
+      "text": "45条原号SKU记录；区分展示价、付款预览与未知费用。",
+      "url": "../research/2026-10-02.html"
+    },
+    {
+      "time": "2026-10-02 06:26–06:38 UTC",
+      "title": "经营资格与发票修正",
+      "text": "扩围5家；贝果禁止转售；麦门Pro200资格和权益描述修正；工商与发票仍未验真。",
+      "url": "../research/2026-10-02-round2.html"
+    }
+  ]
+}
