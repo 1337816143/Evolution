@@ -1,7 +1,7 @@
 {
   "repository": "1337816143/MyDotWork",
-  "sourceCommit": "340a0e7303a681a6b7933531c91acf301052b83d",
-  "contentVersion": "1.5.0",
+  "sourceCommit": "edaf18a8774b6f78948b515b7f232c09c4e60deb",
+  "contentVersion": "1.6.0",
   "privacy": "public-research-and-user-approved-dot-records",
   "upstreamUrl": "https://1337816143.github.io/MyDotWork/",
   "coverage": {
@@ -13,8 +13,8 @@
   "artifacts": [
     {
       "path": "dashboard/index.html",
-      "sha256": "17af04d7ce0b678ba43bdf63095a9a8a888c342d207c9bc150698037973aea9d",
-      "bytes": 239354
+      "sha256": "33d1487aa8b1c2eaf1d760b724176748b793e5a9651751bb8efcfb3c5579fb77",
+      "bytes": 311467
     },
     {
       "path": "dashboard/data.json",
@@ -22,33 +22,38 @@
       "bytes": 164965
     },
     {
+      "path": "dashboard/catalog.json",
+      "sha256": "6b402c5aa26fe8dae3f4e077eb93e192be5737559b1a84dedd6ced988b30518c",
+      "bytes": 30474
+    },
+    {
       "path": "chat/index.html",
-      "sha256": "bb08584ccb66014ec13f96803baeccb41d42802bc50c7f4a10c67f80289ad686",
+      "sha256": "a8ab7ef31b9464ad4836fe27923828c1a04382ec32ffef90e3251c54ea33c4ab",
       "bytes": 174441
     },
     {
       "path": "chat/messages.json",
-      "sha256": "4af7a3d4e0993c61518e9669a19ac9a389907a781c66e2ca3880fbf51cd17622",
+      "sha256": "08774f395328b9a6e9e61816b9b28fcbf377ac7cbcfe473ceb8c44fbf8bab36e",
       "bytes": 131161
     },
     {
       "path": "chat/coverage.json",
-      "sha256": "16bcd574cf4c3d733960368ce2e08f7bba035fabc3b969ded14c451ea0510f00",
+      "sha256": "8a891144c7bc6f2b2cf8d6e2ad3d78248aedba6ce6050300398fb067d8ae8474",
       "bytes": 598
     },
     {
       "path": "projects/index.html",
-      "sha256": "a05becc1e0f0343d1096526f8591a3a2053f74bcac71b7450b117adb33a8f227",
-      "bytes": 13490
+      "sha256": "4c6df3ae69f847e6c3a4b9fc5d243a6f771ca53983908e55766042e435b07e36",
+      "bytes": 14421
     },
     {
       "path": "projects/status.json",
-      "sha256": "e4d9981f5df0c543d6cfcc5776ebe8207543eb0726fc7e47f661e0d53ba8252a",
-      "bytes": 9949
+      "sha256": "7720edf6ebc09e00a43046ab3c886419c595dc9512ff6cd45b6b0e809ad13393",
+      "bytes": 10857
     },
     {
       "path": "research/2026-10-02.html",
-      "sha256": "799b6ea1798d448e7d36f5784cd741118333aa642f7f6d4d89d867f905a4294d",
+      "sha256": "41580cbce54482bae2ca9861408908360ee9f372419df016b17cd492cd7453ab",
       "bytes": 82148
     },
     {
@@ -58,13 +63,33 @@
     },
     {
       "path": "research/2026-10-02-round2.html",
-      "sha256": "037a0ad4b03c25a030a6aa0ebb6fa51e35faa5ba286114cc4f39f86d111345e5",
+      "sha256": "ba3fdb6d10f436ded665c1b71311afc4cf4d9d2783a840479aac8f20335bb1f7",
       "bytes": 75605
     },
     {
       "path": "research/2026-10-02-round2.json",
       "sha256": "496a1c74a25b6e7d7e83f9fd1fe23ba948b8c2bc3257ee1f9efdf852ae487366",
       "bytes": 91687
+    },
+    {
+      "path": "research/round3-7/report.html",
+      "sha256": "0a9d47f80295bf5dad7c9d01896c7c5848a0917f8b7c2b7cee0a4bb55e7efd18",
+      "bytes": 633615
+    },
+    {
+      "path": "research/round3-7/ai-upstream-public.json",
+      "sha256": "3756213461b52e42e5ffde0df67e53093f9ff4d530a41efcb7a6e68dc95024e4",
+      "bytes": 631459
+    },
+    {
+      "path": "research/ai-side-income/report.html",
+      "sha256": "8424d2180ba2e6fd4a2da158690959d73c0ec2b39191cbd0d91014522d8617d0",
+      "bytes": 993859
+    },
+    {
+      "path": "research/ai-side-income/data.json",
+      "sha256": "b1d21cdc9afb54c470ababaeedb3bffa25d556300e98745a028bec9eea0c1170",
+      "bytes": 490100
     }
   ]
 }

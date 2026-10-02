@@ -1,14 +1,35 @@
 <!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="referrer" content="no-referrer"><title>AI 上游研究工作台 · MyDotWork</title><style>:root{color-scheme:light;--bg:#f5f6fa;--surface:#fff;--ink:#192235;--muted:#626b7d;--line:#dfe3ec;--accent:#454bc4;--tint:#f0f1fd;--sidebar:#20293b;--radius:12px}*{box-sizing:border-box}[hidden]{display:none!important}html{scroll-behavior:auto}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif}a{color:var(--accent);text-decoration:none;overflow-wrap:anywhere}a:hover{text-decoration:underline}button,input,select{font:inherit}button,a,input,select,summary{-webkit-tap-highlight-color:transparent}button,summary{cursor:pointer}button:active,.button:active{transform:translateY(1px)}:focus-visible{outline:3px solid var(--accent);outline-offset:4px}h1,h2,h3,p{margin:0}h1{font-size:26px;line-height:1.35;letter-spacing:-.6px}h2{font-size:20px;line-height:1.45}h3{font-size:16px;line-height:1.5}p+h2,p+h3{margin-top:20px}p+p{margin-top:12px}.muted,.lede,.footnote{color:var(--muted)}.lede{margin-top:12px;max-width:750px}.eyebrow{font-size:12px;font-weight:650;letter-spacing:1px;color:var(--accent);margin-bottom:10px}.skip{position:fixed;left:12px;top:-60px;z-index:10;background:var(--surface);padding:12px}.skip:focus{top:12px}.sidebar{position:fixed;inset:0 auto 0 0;width:240px;background:var(--sidebar);color:#e4e8f1;display:flex;flex-direction:column;padding:32px 18px;overflow-y:auto;z-index:5}.brand{display:flex;gap:12px;align-items:center;color:var(--on-accent);font-weight:700;font-size:19px;margin:0 8px 35px}.brand small{display:block;font-size:10px;font-weight:500;color:#b4bdd0;letter-spacing:1.5px;margin-top:4px}.brand-mark{background:#5057d2;border-radius:9px;width:36px;height:36px;text-align:center;line-height:36px}.nav-label{font-size:12px;color:#aab4c7;margin:0 12px 12px}.sidebar nav{display:grid;gap:6px}.sidebar nav a,.sidebar-bottom>a{color:#ced5e4;padding:11px 12px;border-radius:8px;font-size:14px;min-height:44px}.sidebar nav a:hover,.sidebar nav a[aria-current=page]{background:#353f59;color:var(--on-accent);text-decoration:none}.sidebar nav a[aria-current=page]{box-shadow:inset 3px 0 #969bff}.sidebar-bottom{margin-top:auto;padding-top:36px}.sidebar-bottom>a{display:block;padding-block:7px;font-size:12px}.sidebar-bottom>p:last-child{font-size:12px;line-height:1.8;color:#aab4c7;border-top:1px solid #3d4658;padding:18px 12px 0;margin-top:20px}.workspace{margin-left:240px}.topbar{min-height:70px;display:flex;justify-content:space-between;align-items:center;gap:16px;padding:16px 36px;border-bottom:1px solid var(--line);background:var(--surface);font-size:13px;color:var(--muted)}.topbar b{color:var(--ink);font-weight:550}.topbar a{font-size:13px}main{max-width:1480px;margin:auto;padding:30px 36px 48px;min-width:0}.page-heading{display:flex;justify-content:space-between;align-items:center;gap:24px;margin-bottom:26px}.button{display:inline-flex;align-items:center;justify-content:center;gap:14px;border:1px solid var(--line);background:var(--surface);color:var(--ink);font-size:14px;font-weight:600;padding:10px 16px;border-radius:8px;min-height:44px;white-space:nowrap;text-decoration:none}.button:hover{text-decoration:none;border-color:var(--accent);color:var(--accent)}.button.primary{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}.metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);margin-bottom:24px}.metric{padding:20px 24px;border-right:1px solid var(--line)}.metric:last-child{border:0}.metric b{font-size:30px;line-height:1.2;display:block;font-variant-numeric:tabular-nums;margin:5px 0}.metric span{font-size:13px;color:var(--muted)}.metric small{font-size:12px;color:var(--muted);display:block}.overview-columns{display:grid;grid-template-columns:minmax(0,2fr) minmax(260px,1fr);gap:24px;margin:24px 0}.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:24px;margin-bottom:20px;min-width:0}.overview-columns>.panel{margin:0}.section-heading{display:flex;justify-content:space-between;align-items:center;gap:16px;margin:0 0 18px}.section-heading .muted{font-size:12px}.tag{display:inline-block;border:1px solid var(--line);background:var(--raised);color:var(--muted);border-radius:5px;padding:3px 8px;font-size:12px;line-height:1.5}.tag.important{background:var(--tint);color:var(--ink);border-color:#d4d6f7}.finding{display:flex;gap:18px;padding:20px 0;border-top:1px solid var(--line)}.finding:last-child{padding-bottom:0}.finding .index{font-size:13px;color:var(--accent);font-variant-numeric:tabular-nums}.finding p{font-size:14px;color:var(--muted);margin:6px 0 9px}.finding a{font-size:13px;font-weight:600}.next-panel{background:var(--tint)}.task-list{padding-left:21px;margin:24px 0;display:grid;gap:20px;font-size:14px}.task-list span{display:block;color:var(--muted);font-size:13px;margin-top:4px}.module-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-bottom:24px}.module{display:block;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);padding:22px;color:var(--ink)}.module:hover{border-color:var(--accent);text-decoration:none;box-shadow:0 4px 20px #2529600a}.module>span{font-size:12px;color:var(--accent)}.module h3{margin:12px 0 8px}.module p{font-size:13px;color:var(--muted)}.module b{font-size:12px;color:var(--accent);display:block;margin-top:22px}.footnote{font-size:12px;line-height:1.8}.callout{display:flex;gap:16px;align-items:baseline;padding:16px 20px;background:var(--tint);border:1px solid var(--line);border-radius:var(--radius);margin-bottom:22px;font-size:14px}.callout b{white-space:nowrap;color:var(--ink)}.callout span{color:var(--muted)}.filter-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}.filter-grid label,#sources label{font-size:12px;color:var(--muted);display:grid;gap:7px}.filter-grid .search-label{grid-column:span 2}.filter-grid input,.filter-grid select,#sources input{width:100%;min-width:0;min-height:44px;border:1px solid var(--line);border-radius:7px;padding:10px 12px;color:var(--ink);background:var(--surface);font-size:13px}.filter-footer{display:flex;justify-content:space-between;align-items:center;gap:20px;border-top:1px solid var(--line);padding-top:16px;margin-top:20px}.filter-footer p{font-size:12px;color:var(--muted)}.segmented{display:inline-flex;border:1px solid var(--line);border-radius:8px;padding:3px;background:var(--surface)}.segmented button{border:0;background:transparent;border-radius:5px;padding:7px 16px;min-height:38px;font-size:13px;color:var(--muted)}.segmented button[aria-pressed=true]{background:var(--tint);color:var(--accent);font-weight:650}.active-filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}.group{margin-bottom:24px}.group-title{display:flex;justify-content:space-between;align-items:center;gap:16px;margin:18px 0 10px;font-size:14px}.group-title span{font-size:12px;color:var(--muted)}.table-wrap{overflow:auto;border:1px solid var(--line);background:var(--surface);border-radius:var(--radius);max-width:100%}table{border-collapse:collapse;width:100%;font-size:13px;text-align:left}th{background:var(--raised);font-size:12px;font-weight:600;color:var(--muted);white-space:nowrap}th,td{padding:14px 16px;border-bottom:1px solid var(--line);vertical-align:top}tbody tr:last-child td{border:0}td p{font-size:12px;color:var(--muted);margin-top:5px}tbody tr:hover{background:var(--raised)}.quote-table{min-width:820px}.price{font-size:18px;font-weight:650;white-space:nowrap;font-variant-numeric:tabular-nums;color:var(--ink)}.small-note{font-size:12px;color:var(--muted);font-weight:400;white-space:normal}.quote-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.quote-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:20px;display:flex;flex-direction:column;gap:12px}.quote-card .card-head{display:flex;justify-content:space-between;gap:12px}.quote-card .price{font-size:24px}.quote-card .card-meta{display:grid;grid-template-columns:1fr 1fr;gap:12px;font-size:12px;color:var(--muted)}.quote-card .card-meta b{display:block;color:var(--ink);font-weight:500;margin-top:4px}.quote-card .button{margin-top:auto}.empty{padding:48px 24px;text-align:center;border:1px dashed #b9c0d4;border-radius:var(--radius);background:var(--surface)}.empty p{margin:8px 0 20px;color:var(--muted)}details{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);margin-bottom:14px;overflow:hidden}summary{padding:18px 22px;font-weight:600;list-style-position:inside}details[open] summary{border-bottom:1px solid var(--line)}.disclosure-body{padding:22px}.disclosure-body p{margin-bottom:14px}.prose{white-space:pre-wrap;overflow-wrap:anywhere;font-size:14px;line-height:1.9;color:var(--ink)}.compact{grid-template-columns:repeat(2,minmax(0,1fr));margin:20px 0 0;gap:20px}.compact>div{border-top:1px solid var(--line);padding-top:14px}.compact p{font-size:14px;color:var(--muted);margin-top:7px}.timeline{border-left:2px solid #d9dced;margin:24px 0 32px 7px;padding-left:28px;display:grid;gap:26px}.timeline time{font-size:12px;color:var(--accent);font-variant-numeric:tabular-nums}.timeline h3{margin:6px 0}.timeline p{font-size:14px;color:var(--muted);margin-bottom:8px}.timeline a{font-size:13px}.inquiry-list{display:grid;gap:18px;padding-left:24px;font-size:14px}.source-row{display:flex;gap:20px;padding:15px 0;border-bottom:1px solid var(--line);font-size:13px;align-items:baseline}.source-row span{font-size:12px;color:var(--muted);min-width:35px}#source-count{font-size:13px;color:var(--muted);margin:18px 0}footer{padding:22px 36px;border-top:1px solid var(--line);font-size:12px;color:var(--muted);display:flex;gap:24px;flex-wrap:wrap}dialog{inset:0 0 0 auto;margin:0;width:min(660px,100%);height:100dvh;max-height:100dvh;max-width:100%;border:0;border-left:1px solid var(--line);padding:28px;box-shadow:-12px 0 40px #1b224b16;color:var(--ink)}dialog::backdrop{background:#19223570}.detail-header{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:18px}.detail-header p{margin:0}.detail-price{padding:20px 0;border-block:1px solid var(--line);margin:20px 0}.detail-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:22px 0}.detail-grid dt{font-size:12px;color:var(--muted)}.detail-grid dd{margin:3px 0 0;font-size:14px}.detail-sources{padding-left:22px;font-size:13px;display:grid;gap:10px}.detail-evidence{padding-left:22px;display:grid;gap:12px;font-size:14px}.mobile-only{display:none}.summary-table{min-width:700px}.invoice-matrix{min-width:900px}.invoice-compare{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin:18px 0}.invoice-tile{border:1px solid var(--line);border-radius:8px;padding:18px}.invoice-tile .price{display:block;margin:12px 0 7px}.invoice-tile p{font-size:12px;color:var(--muted);margin:6px 0}.invoice-tile a{font-size:12px}#invoice-evidence{scroll-margin-top:24px}.mobile-close{display:none}
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="referrer" content="no-referrer"><title>AI工作台 · MyDotWork</title><script>/* Restore appearance before body content or styles can paint; no requests. */
+(() => {
+  const preference={layout:'B',color:'dark',effects:'auto'};
+  try {
+    const saved=JSON.parse(localStorage.getItem('mydotwork-appearance')||'null');
+    if(saved && ['A','B'].includes(saved.layout) && ['dark','light'].includes(saved.color)){
+      preference.layout=saved.layout;preference.color=saved.color;
+      if(['auto','full','solid'].includes(saved.effects))preference.effects=saved.effects;
+    }
+  } catch {}
+  const blurSupported=typeof CSS!=='undefined'&&(CSS.supports('backdrop-filter','blur(1px)')||CSS.supports('-webkit-backdrop-filter','blur(1px)'));
+  const constrained=!blurSupported||Boolean(navigator.connection?.saveData || (navigator.deviceMemory && navigator.deviceMemory<4) || (navigator.hardwareConcurrency && navigator.hardwareConcurrency<4));
+  const reduced=typeof matchMedia==='function'&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const glass=reduced||preference.effects==='solid'||(preference.effects==='auto'&&constrained)?'solid':'full';
+  const root=document.documentElement;
+  root.dataset.layout=preference.layout;
+  root.dataset.color=preference.layout==='A'?'light':preference.color;
+  root.dataset.glass=glass;
+  window.WorkbenchAppearance=preference;
+  window.WorkbenchBoot={beforeBody:document.body===null,layout:root.dataset.layout,color:root.dataset.color,glass,constrained};
+})();
+</script><style>:root{color-scheme:light;--bg:#f5f6fa;--surface:#fff;--ink:#192235;--muted:#626b7d;--line:#dfe3ec;--accent:#454bc4;--tint:#f0f1fd;--sidebar:#20293b;--radius:12px}*{box-sizing:border-box}[hidden]{display:none!important}html{scroll-behavior:auto}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif}a{color:var(--accent);text-decoration:none;overflow-wrap:anywhere}a:hover{text-decoration:underline}button,input,select{font:inherit}button,a,input,select,summary{-webkit-tap-highlight-color:transparent}button,summary{cursor:pointer}button:active,.button:active{transform:translateY(1px)}:focus-visible{outline:3px solid var(--accent);outline-offset:4px}h1,h2,h3,p{margin:0}h1{font-size:26px;line-height:1.35;letter-spacing:-.6px}h2{font-size:20px;line-height:1.45}h3{font-size:16px;line-height:1.5}p+h2,p+h3{margin-top:20px}p+p{margin-top:12px}.muted,.lede,.footnote{color:var(--muted)}.lede{margin-top:12px;max-width:750px}.eyebrow{font-size:12px;font-weight:650;letter-spacing:1px;color:var(--accent);margin-bottom:10px}.skip{position:fixed;left:12px;top:-60px;z-index:10;background:var(--surface);padding:12px}.skip:focus{top:12px}.sidebar{position:fixed;inset:0 auto 0 0;width:240px;background:var(--sidebar);color:#e4e8f1;display:flex;flex-direction:column;padding:32px 18px;overflow-y:auto;z-index:5}.brand{display:flex;gap:12px;align-items:center;color:var(--on-accent);font-weight:700;font-size:19px;margin:0 8px 35px}.brand small{display:block;font-size:10px;font-weight:500;color:#b4bdd0;letter-spacing:1.5px;margin-top:4px}.brand-mark{background:#5057d2;border-radius:9px;width:36px;height:36px;text-align:center;line-height:36px}.nav-label{font-size:12px;color:#aab4c7;margin:0 12px 12px}.sidebar nav{display:grid;gap:6px}.sidebar nav a,.sidebar-bottom>a{color:#ced5e4;padding:11px 12px;border-radius:8px;font-size:14px;min-height:44px}.sidebar nav a:hover,.sidebar nav a[aria-current=page]{background:#353f59;color:var(--on-accent);text-decoration:none}.sidebar nav a[aria-current=page]{box-shadow:inset 3px 0 #969bff}.sidebar-bottom{margin-top:auto;padding-top:36px}.sidebar-bottom>a{display:block;padding-block:7px;font-size:12px}.sidebar-bottom>p:last-child{font-size:12px;line-height:1.8;color:#aab4c7;border-top:1px solid #3d4658;padding:18px 12px 0;margin-top:20px}.workspace{margin-left:240px}.topbar{min-height:70px;display:flex;justify-content:space-between;align-items:center;gap:16px;padding:16px 36px;border-bottom:1px solid var(--line);background:var(--surface);font-size:13px;color:var(--muted)}.topbar b{color:var(--ink);font-weight:550}.topbar a{font-size:13px}main{max-width:1480px;margin:auto;padding:30px 36px 48px;min-width:0}.page-heading{display:flex;justify-content:space-between;align-items:center;gap:24px;margin-bottom:26px}.button{display:inline-flex;align-items:center;justify-content:center;gap:14px;border:1px solid var(--line);background:var(--surface);color:var(--ink);font-size:14px;font-weight:600;padding:10px 16px;border-radius:8px;min-height:44px;white-space:nowrap;text-decoration:none}.button:hover{text-decoration:none;border-color:var(--accent);color:var(--accent)}.button.primary{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}.metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);margin-bottom:24px}.metric{padding:20px 24px;border-right:1px solid var(--line)}.metric:last-child{border:0}.metric b{font-size:30px;line-height:1.2;display:block;font-variant-numeric:tabular-nums;margin:5px 0}.metric span{font-size:13px;color:var(--muted)}.metric small{font-size:12px;color:var(--muted);display:block}.overview-columns{display:grid;grid-template-columns:minmax(0,2fr) minmax(260px,1fr);gap:24px;margin:24px 0}.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:24px;margin-bottom:20px;min-width:0}.overview-columns>.panel{margin:0}.section-heading{display:flex;justify-content:space-between;align-items:center;gap:16px;margin:0 0 18px}.section-heading .muted{font-size:12px}.tag{display:inline-block;border:1px solid var(--line);background:var(--raised);color:var(--muted);border-radius:5px;padding:3px 8px;font-size:12px;line-height:1.5}.tag.important{background:var(--tint);color:var(--ink);border-color:#d4d6f7}.finding{display:flex;gap:18px;padding:20px 0;border-top:1px solid var(--line)}.finding:last-child{padding-bottom:0}.finding .index{font-size:13px;color:var(--accent);font-variant-numeric:tabular-nums}.finding p{font-size:14px;color:var(--muted);margin:6px 0 9px}.finding a{font-size:13px;font-weight:600}.next-panel{background:var(--tint)}.task-list{padding-left:21px;margin:24px 0;display:grid;gap:20px;font-size:14px}.task-list span{display:block;color:var(--muted);font-size:13px;margin-top:4px}.module-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-bottom:24px}.module{display:block;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);padding:22px;color:var(--ink)}.module:hover{border-color:var(--accent);text-decoration:none;box-shadow:0 4px 20px #2529600a}.module>span{font-size:12px;color:var(--accent)}.module h3{margin:12px 0 8px}.module p{font-size:13px;color:var(--muted)}.module b{font-size:12px;color:var(--accent);display:block;margin-top:22px}.footnote{font-size:12px;line-height:1.8}.callout{display:flex;gap:16px;align-items:baseline;padding:16px 20px;background:var(--tint);border:1px solid var(--line);border-radius:var(--radius);margin-bottom:22px;font-size:14px}.callout b{white-space:nowrap;color:var(--ink)}.callout span{color:var(--muted)}.filter-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}.filter-grid label,#sources label{font-size:12px;color:var(--muted);display:grid;gap:7px}.filter-grid .search-label{grid-column:span 2}.filter-grid input,.filter-grid select,#sources input{width:100%;min-width:0;min-height:44px;border:1px solid var(--line);border-radius:7px;padding:10px 12px;color:var(--ink);background:var(--surface);font-size:13px}.filter-footer{display:flex;justify-content:space-between;align-items:center;gap:20px;border-top:1px solid var(--line);padding-top:16px;margin-top:20px}.filter-footer p{font-size:12px;color:var(--muted)}.segmented{display:inline-flex;border:1px solid var(--line);border-radius:8px;padding:3px;background:var(--surface)}.segmented button{border:0;background:transparent;border-radius:5px;padding:7px 16px;min-height:38px;font-size:13px;color:var(--muted)}.segmented button[aria-pressed=true]{background:var(--tint);color:var(--accent);font-weight:650}.active-filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}.group{margin-bottom:24px}.group-title{display:flex;justify-content:space-between;align-items:center;gap:16px;margin:18px 0 10px;font-size:14px}.group-title span{font-size:12px;color:var(--muted)}.table-wrap{overflow:auto;border:1px solid var(--line);background:var(--surface);border-radius:var(--radius);max-width:100%}table{border-collapse:collapse;width:100%;font-size:13px;text-align:left}th{background:var(--raised);font-size:12px;font-weight:600;color:var(--muted);white-space:nowrap}th,td{padding:14px 16px;border-bottom:1px solid var(--line);vertical-align:top}tbody tr:last-child td{border:0}td p{font-size:12px;color:var(--muted);margin-top:5px}tbody tr:hover{background:var(--raised)}.quote-table{min-width:820px}.price{font-size:18px;font-weight:650;white-space:nowrap;font-variant-numeric:tabular-nums;color:var(--ink)}.small-note{font-size:12px;color:var(--muted);font-weight:400;white-space:normal}.quote-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.quote-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:20px;display:flex;flex-direction:column;gap:12px}.quote-card .card-head{display:flex;justify-content:space-between;gap:12px}.quote-card .price{font-size:24px}.quote-card .card-meta{display:grid;grid-template-columns:1fr 1fr;gap:12px;font-size:12px;color:var(--muted)}.quote-card .card-meta b{display:block;color:var(--ink);font-weight:500;margin-top:4px}.quote-card .button{margin-top:auto}.empty{padding:48px 24px;text-align:center;border:1px dashed #b9c0d4;border-radius:var(--radius);background:var(--surface)}.empty p{margin:8px 0 20px;color:var(--muted)}details{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);margin-bottom:14px;overflow:hidden}summary{padding:18px 22px;font-weight:600;list-style-position:inside}details[open] summary{border-bottom:1px solid var(--line)}.disclosure-body{padding:22px}.disclosure-body p{margin-bottom:14px}.prose{white-space:pre-wrap;overflow-wrap:anywhere;font-size:14px;line-height:1.9;color:var(--ink)}.compact{grid-template-columns:repeat(2,minmax(0,1fr));margin:20px 0 0;gap:20px}.compact>div{border-top:1px solid var(--line);padding-top:14px}.compact p{font-size:14px;color:var(--muted);margin-top:7px}.timeline{border-left:2px solid #d9dced;margin:24px 0 32px 7px;padding-left:28px;display:grid;gap:26px}.timeline time{font-size:12px;color:var(--accent);font-variant-numeric:tabular-nums}.timeline h3{margin:6px 0}.timeline p{font-size:14px;color:var(--muted);margin-bottom:8px}.timeline a{font-size:13px}.inquiry-list{display:grid;gap:18px;padding-left:24px;font-size:14px}.source-row{display:flex;gap:20px;padding:15px 0;border-bottom:1px solid var(--line);font-size:13px;align-items:baseline}.source-row span{font-size:12px;color:var(--muted);min-width:35px}#source-count{font-size:13px;color:var(--muted);margin:18px 0}footer{padding:22px 36px;border-top:1px solid var(--line);font-size:12px;color:var(--muted);display:flex;gap:24px;flex-wrap:wrap}dialog{inset:0 0 0 auto;margin:0;width:min(660px,100%);height:100dvh;max-height:100dvh;max-width:100%;border:0;border-left:1px solid var(--line);padding:28px;box-shadow:-12px 0 40px #1b224b16;color:var(--ink)}dialog::backdrop{background:#19223570}.detail-header{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:18px}.detail-header p{margin:0}.detail-price{padding:20px 0;border-block:1px solid var(--line);margin:20px 0}.detail-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:22px 0}.detail-grid dt{font-size:12px;color:var(--muted)}.detail-grid dd{margin:3px 0 0;font-size:14px}.detail-sources{padding-left:22px;font-size:13px;display:grid;gap:10px}.detail-evidence{padding-left:22px;display:grid;gap:12px;font-size:14px}.mobile-only{display:none}.summary-table{min-width:700px}.invoice-matrix{min-width:900px}.invoice-compare{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin:18px 0}.invoice-tile{border:1px solid var(--line);border-radius:8px;padding:18px}.invoice-tile .price{display:block;margin:12px 0 7px}.invoice-tile p{font-size:12px;color:var(--muted);margin:6px 0}.invoice-tile a{font-size:12px}#invoice-evidence{scroll-margin-top:24px}.mobile-close{display:none}
 /* Appearance tokens: layout is independent from B's selected palette. */
 :root{--bg:#0c1220;--surface:#141e30;--raised:#1b2840;--ink:#e6edf7;--muted:#a6b4c8;--line:#35435b;--accent:#8bb6ff;--tint:#1b2840;--amber:#ffd28a;--on-accent:#0c1220;--radius:12px;color-scheme:dark}
 body[data-color=light]{--bg:#f4f6fc;--surface:#fff;--raised:#edf2fa;--ink:#1e293b;--muted:#526176;--line:#d5ddea;--accent:#235ec9;--tint:#edf2fa;--amber:#805000;--on-accent:#fff;color-scheme:light}
 body{font-family:"Noto Sans SC","PingFang SC","Microsoft YaHei UI",sans-serif;font-size:16px;line-height:1.6}h1{font-size:28px}h2{font-size:18px}.eyebrow{letter-spacing:.04em}.prohibited,.restriction{color:var(--amber)}.unknown{color:var(--muted)}.skip{background:var(--surface)}.tag.important{color:var(--amber);background:var(--raised);border-color:var(--line)}
 /* Navigation: B icon rail with a separate, fully named module navigation. */
 .sidebar{width:72px;padding:24px 12px;background:var(--surface);border-right:1px solid var(--line);color:var(--ink);overflow-x:hidden}.brand{color:var(--ink);margin:0 0 32px;height:32px;justify-content:center;font-size:0}.brand:before{content:'MW';font-size:18px;color:var(--accent)}.brand small,.nav-label,.sidebar-bottom{display:none}.sidebar nav{display:grid;gap:12px}.sidebar nav a{min-width:0;display:flex;align-items:center;justify-content:center;width:48px;min-height:48px;padding:12px;color:var(--muted)}.sidebar nav a span{display:none}.sidebar svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;flex:none}.sidebar nav a:hover,.sidebar nav a[aria-current=page]{background:var(--raised);color:var(--accent);box-shadow:none}.workspace{margin-left:72px}.topbar{padding:18px 32px;background:var(--surface);min-height:80px;gap:24px}.header-brand{display:flex;align-items:center;gap:16px}.header-brand>a{font-size:20px;font-weight:700;color:var(--ink)}.header-brand small{font-size:12px}.appearance{display:flex;gap:12px;align-items:center;margin-left:auto}.appearance label{display:flex;gap:8px;align-items:center;font-size:12px}.appearance select,.appearance button{min-height:44px;border:1px solid var(--line);border-radius:8px;padding:8px 12px;background:var(--raised);color:var(--ink);font-size:13px}.module-nav{display:flex;gap:28px;padding:0 32px;background:var(--surface);border-bottom:1px solid var(--line)}.module-nav a{padding:14px 0;min-height:48px;font-size:14px;color:var(--muted);border-bottom:2px solid transparent}.module-nav a[aria-current=page]{color:var(--accent);border-color:var(--accent)}.nav-backdrop{display:none}
-main{padding:28px 32px 40px;max-width:1540px}.view{scroll-margin-top:20px}.desk-heading{display:flex;justify-content:space-between;align-items:center;gap:24px;margin-bottom:20px}.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;background:none;border:0;margin:0}.metric{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:10px 16px;min-width:116px;display:flex;flex-direction:column}.metric:last-child{border:1px solid var(--line)}.metric b{order:0;font-size:24px;margin:0}.metric span{order:1;font-size:12px}.metric small{display:none}.desk-tools{display:flex;gap:12px;margin-bottom:20px;flex-wrap:wrap}.desk-layout{display:grid;grid-template-columns:1fr;background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden}.comparison{min-width:0;padding:24px}.comparison-heading{margin-bottom:20px}.comparison-heading p{font-size:13px;color:var(--muted);margin-top:6px}
+main{padding:28px 32px 40px;max-width:1540px}.view{scroll-margin-top:20px}.desk-heading{display:flex;justify-content:space-between;align-items:center;gap:24px;margin-bottom:20px}.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;background:none;border:0;margin:0}.metric{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:10px 16px;min-width:116px;display:flex;flex-direction:column}.metric:last-child{border:1px solid var(--line)}.metric b{order:0;font-size:24px;margin:0}.metric span{order:1;font-size:12px}.metric small{display:none}.desk-tools{display:flex;gap:12px;margin-bottom:20px;flex-wrap:wrap}.desk-layout{display:grid;grid-template-columns:1fr;background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden}.comparison{min-width:0;padding:20px}.comparison-heading{margin-bottom:16px}.comparison-heading p{font-size:13px;color:var(--muted);margin-top:6px}
 /* B: a single shared zero-based plot and a ledger using the same column grid. */
-.horizontal-scale{display:none}.merchant-comparison{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin-left:112px}.evidence-row{width:100%;display:flex;flex-direction:column;text-align:center;align-items:center;gap:4px;border:0;border-right:1px solid var(--line);border-radius:0;background:transparent;color:var(--ink);padding:14px 12px;min-width:0;font:inherit}.evidence-row:last-child{border:0}.evidence-row.selected{background:var(--raised);box-shadow:inset 0 3px var(--accent)}.supplier{display:block;min-width:0}.supplier b{font-size:18px;display:block}.supplier small{display:block;font-size:12px;color:var(--muted);margin-top:3px}.quote-kind{display:block;font-size:12px;color:var(--muted);margin-top:6px}.amount-cell{display:block}.amount-cell b{font-size:26px;line-height:1.4;font-variant-numeric:tabular-nums}.price-plot{display:none}.shared-plot{margin-top:0;margin-left:112px}.shared-plot svg{display:block;width:100%;height:170px;overflow:visible}.plot-grid{stroke:var(--line);stroke-width:1;fill:none}.plot-value{stroke:var(--accent);stroke-width:2;fill:none}.plot-selection{fill:var(--raised)}.shared-plot circle{fill:var(--accent)}.shared-plot text{fill:var(--muted);font-size:11px}.shared-plot p{font-size:12px;color:var(--muted);margin:8px 0 18px}.evidence-ledger h3{font-size:13px;margin:16px 0 10px;color:var(--muted)}.evidence-ledger table{table-layout:fixed;width:100%;font-size:13px}.evidence-ledger th,.evidence-ledger td{padding:9px 12px;background:transparent;text-align:center;border-bottom:1px solid var(--line)}.evidence-ledger thead{display:none}.evidence-ledger th[scope=row]{width:112px;font-size:12px;line-height:1.4;padding:6px 0;text-align:left;word-break:normal}.evidence-ledger td{width:calc((100% - 112px)/4)}.evidence-ledger tr:last-child th,.evidence-ledger tr:last-child td{border-bottom:0}
+.horizontal-scale{display:none}.merchant-comparison{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin-left:112px}.evidence-row{width:100%;display:flex;flex-direction:column;text-align:center;align-items:center;gap:4px;border:0;border-right:1px solid var(--line);border-radius:0;background:transparent;color:var(--ink);padding:14px 12px;min-width:0;font:inherit}.evidence-row:last-child{border:0}.evidence-row.selected{background:var(--raised);box-shadow:inset 0 3px var(--accent)}.supplier{display:block;min-width:0}.supplier b{font-size:18px;display:block}.supplier small{display:block;font-size:12px;color:var(--muted);margin-top:3px}.quote-kind{display:block;font-size:12px;color:var(--muted);margin-top:6px}.amount-cell{display:block}.amount-cell b{font-size:26px;line-height:1.4;font-variant-numeric:tabular-nums}.price-plot{display:none}.shared-plot{margin-top:0;margin-left:112px}.shared-plot svg{display:block;width:100%;height:145px;overflow:visible}.plot-grid{stroke:var(--line);stroke-width:1;fill:none}.plot-value{stroke:var(--accent);stroke-width:2;fill:none}.plot-selection{fill:var(--raised)}.shared-plot circle{fill:var(--accent)}.shared-plot text{fill:var(--muted);font-size:11px}.shared-plot p{font-size:12px;color:var(--muted);margin:8px 0 18px}.evidence-ledger h3{font-size:13px;margin:16px 0 10px;color:var(--muted)}.evidence-ledger table{table-layout:fixed;width:100%;font-size:13px}.evidence-ledger th,.evidence-ledger td{padding:7px 12px;background:transparent;text-align:center;border-bottom:1px solid var(--line)}.evidence-ledger thead{display:none}.evidence-ledger th[scope=row]{width:112px;font-size:12px;line-height:1.4;padding:6px 0;text-align:left;word-break:normal}.evidence-ledger td{width:calc((100% - 112px)/4)}.evidence-ledger tr:last-child th,.evidence-ledger tr:last-child td{border-bottom:0}
 /* Selected evidence dock, collapsed long sources retained in the original links. */
 #sku-inspector{display:grid;grid-template-columns:1fr 1.2fr 1.5fr;gap:12px 24px;padding:24px;background:var(--raised);border-top:1px solid var(--line);min-width:0}#sku-inspector h2{grid-column:1/-1;font-size:16px}.inspector-amount{font-size:26px;font-weight:700;line-height:1.4}.inspector-amount span{display:block;font-size:12px;color:var(--muted);font-weight:400;margin-top:4px}.inspector-note{font-size:13px;color:var(--muted)}#sku-inspector dl{grid-column:2/4;grid-row:2/5;font-size:13px;margin:0}#sku-inspector dl>div{display:grid;grid-template-columns:110px 1fr;gap:12px;margin-bottom:8px}#sku-inspector dt{color:var(--muted)}#sku-inspector dd{margin:0}#sku-inspector h3{font-size:13px}.inspector-source{font-size:12px;overflow-wrap:anywhere}.restriction{font-size:13px}.desk-bottom{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:24px 0}.desk-bottom>section{padding:20px;background:var(--surface);border:1px solid var(--line);border-radius:12px}.desk-bottom h2{margin-bottom:12px}.pending-row{display:grid;grid-template-columns:115px 1fr;gap:12px;font-size:13px;border-bottom:1px solid var(--line);padding:10px 0;color:var(--muted)}.pending-row b{color:var(--ink)}.desk-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:16px;font-size:12px}
 body[data-layout=B] .sidebar-bottom{display:grid;gap:8px;margin-top:auto;padding-top:24px}body[data-layout=B] .sidebar-bottom p{display:none}body[data-layout=B] .sidebar-bottom a{display:flex;align-items:center;justify-content:center;width:48px;height:44px;padding:10px;border-radius:8px;color:var(--muted)}body[data-layout=B] .sidebar-bottom a span{display:none}body[data-layout=B] .sidebar-bottom a:hover{background:var(--raised)}
@@ -22,12 +43,61 @@ body[data-layout=A] .sidebar{width:192px;padding:28px 16px}body[data-layout=A] .
  body{font-size:16px}.workspace,body[data-layout=A] .workspace{margin-left:0}.sidebar,body[data-layout=A] .sidebar{position:fixed;inset:0 auto 0 0;width:min(320px,88vw);height:100dvh;background:var(--surface);padding:64px 20px 24px;transform:translateX(-100%);visibility:hidden;z-index:40;overflow-y:auto;transition:transform .18s ease}.sidebar.open,body[data-layout=A] .sidebar.open{transform:none;visibility:visible}.sidebar.open+.nav-backdrop{display:block;position:fixed;inset:0;background:#0009;border:0;z-index:39}.sidebar .brand,body[data-layout=A] .sidebar .brand{font-size:20px;justify-content:flex-start;height:auto}.sidebar .brand:before{display:none}.sidebar .brand small{display:block;color:var(--muted);letter-spacing:0;font-size:12px}.sidebar nav a,body[data-layout=A] .sidebar nav a{width:auto;justify-content:flex-start;gap:12px;font-size:16px;padding:12px}.sidebar nav a span{display:block}.sidebar-bottom{display:block;margin-top:24px;padding:0}body[data-layout=B] .sidebar-bottom{display:block}body[data-layout=B] .sidebar-bottom a{width:auto;justify-content:flex-start;height:auto;gap:12px;padding:12px}body[data-layout=B] .sidebar-bottom a span{display:block}.sidebar-bottom a,.sidebar-bottom>p:last-child{color:var(--muted);border-color:var(--line)}.sidebar>.mobile-close{display:block;position:absolute;top:12px;right:12px;color:var(--ink);min-width:44px;min-height:44px;border:1px solid var(--line);border-radius:8px;background:var(--raised);font-size:22px}.topbar{padding:12px 16px;gap:12px;min-height:0}.header-brand{gap:8px;order:1}.header-brand>a{font-size:18px}.header-brand small{display:none}.appearance{width:100%;margin:0;justify-content:space-between;order:3}.appearance label{font-size:12px}.appearance select{max-width:190px}.mobile-only{display:inline-flex}.nav-toggle{margin-left:auto;order:2}.module-nav{padding:0 16px;gap:22px}body[data-layout=A] .module-nav{display:none}main{padding:20px 16px 32px}h1{font-size:24px}.desk-heading{gap:16px}.metrics{grid-template-columns:repeat(2,1fr);gap:8px}.metric{min-width:0;padding:12px}.metric b{font-size:24px}.metric span{font-size:12px}.desk-tools{gap:8px;margin-bottom:16px}.desk-tools .button{font-size:12px;padding:8px 10px;white-space:normal}.desk-layout{border-radius:12px}.comparison,body[data-layout=A] .comparison{padding:20px 14px}.comparison-heading h2{font-size:17px}.comparison-heading p{font-size:12px}.merchant-comparison,body[data-layout=A] .merchant-comparison{display:block;margin:0}.evidence-row,body[data-layout=A] .evidence-row{display:grid;grid-template-columns:1fr 95px;gap:8px 12px;text-align:left;padding:14px 8px;min-height:0;align-items:center;border-right:0;border-bottom:1px solid var(--line)}.supplier b,body[data-layout=A] .supplier b{font-size:16px}.supplier small{font-size:12px}.amount-cell{grid-column:2;grid-row:1}.amount-cell b,body[data-layout=A] .amount-cell b{font-size:22px}.quote-kind,body[data-layout=A] .quote-kind{font-size:12px}.price-plot,body[data-layout=A] .price-plot{display:block;grid-column:1/-1;grid-row:2;height:10px;background:var(--raised);width:100%;border-radius:6px}.horizontal-bar{display:block;height:10px;background:var(--accent);border-radius:6px}.shared-plot{display:none}.horizontal-scale,body[data-layout=A] .horizontal-scale{display:flex;justify-content:space-between;font-size:11px;color:var(--muted);margin:0 8px 8px;position:static}.horizontal-scale span:first-child,body[data-layout=A] .horizontal-scale span:first-child{position:static;display:none}.evidence-ledger,body[data-layout=A] .evidence-ledger{margin-top:20px;overflow:auto}.evidence-ledger table,body[data-layout=A] .evidence-ledger table{min-width:480px;font-size:12px}.evidence-ledger thead{display:table-header-group}.evidence-ledger th[scope=row]{width:90px;word-break:normal;font-size:12px;padding:8px}.evidence-ledger td{width:auto;padding:8px}.evidence-ledger h3{font-size:14px}#sku-inspector,body[data-layout=A] #sku-inspector{display:block;padding:20px}#sku-inspector dl>div{grid-template-columns:90px 1fr}.desk-bottom{grid-template-columns:1fr;gap:16px}.pending-row{grid-template-columns:95px 1fr}.panel{padding:20px}.section-heading{flex-wrap:wrap;gap:12px}.section-heading h2{font-size:18px}.filters{display:none}.filters.open{display:flex;flex-direction:column;position:fixed;inset:5% 0 0;z-index:45;padding:0;border-radius:16px 16px 0 0;margin:0;background:var(--surface);overflow:hidden}.filter-sheet-heading{display:flex;justify-content:space-between;align-items:center;padding:16px 20px;border-bottom:1px solid var(--line)}.filters .mobile-close{display:inline-flex;align-items:center;justify-content:center;position:static;min-height:44px;min-width:44px;font-size:22px;color:var(--ink);border:1px solid var(--line);background:var(--raised);border-radius:8px}.filter-body{overflow:auto;padding:20px;flex:1;min-height:0}.filter-body>.filter-grid,.more-filters .filter-grid{grid-template-columns:1fr}.filter-grid label,#sources label{font-size:14px}.filter-grid input,.filter-grid select,#sources input{font-size:16px;min-height:48px}.filter-footer{padding:16px 20px;margin:0;background:var(--surface);flex-wrap:wrap;gap:12px}.filter-footer p{width:100%}.filter-footer .primary{flex:1}.quote-cards{grid-template-columns:1fr}.quote-card{padding:20px}.quote-card .card-meta{font-size:14px}.quote-card .price{font-size:24px}.quote-table{min-width:850px}.invoice-compare{grid-template-columns:1fr}.invoice-tile{padding:18px}.invoice-tile p{font-size:14px}.compact,.module-grid{grid-template-columns:1fr}summary{font-size:16px;padding:16px}.disclosure-body{padding:18px}.prose{font-size:16px;line-height:1.75}.route-index{display:grid;gap:10px;margin-bottom:20px}.route-index a{padding:16px;background:var(--surface);border:1px solid var(--line);border-radius:10px;color:var(--ink)}.route-index span{display:block;font-size:13px;color:var(--muted);margin-top:5px}.summary-table{min-width:0}.summary-table thead{display:none}.summary-table tr{display:block;border-bottom:1px solid var(--line);padding:8px 0}.summary-table td{display:block;padding:10px 0;border:0}.summary-table td:before{content:attr(data-label);display:block;color:var(--muted);font-size:12px;margin-bottom:4px}.source-row{font-size:14px;gap:12px}.source-row a{word-break:break-word}.timeline p,.inquiry-list{font-size:16px}.detail-grid{grid-template-columns:1fr}.detail-grid dd,.detail-evidence{font-size:16px}dialog{inset:auto 0 0;width:100%;height:88dvh;margin:0;padding:20px;border-left:0;border-top:1px solid var(--line);border-radius:16px 16px 0 0}.detail-header{top:-20px}.detail-sources{font-size:14px}footer{padding:20px 16px;gap:12px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
+/* Unified workbench: reviewed outcomes, explicit website entries and progress snapshots. */
+.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.workspace-nav{display:flex;gap:24px;padding:0 32px;background:var(--surface);border-bottom:1px solid var(--line)}.workspace-nav a{font-size:14px;color:var(--muted);padding:12px 0;min-height:44px;border-bottom:2px solid transparent}.workspace-nav a[aria-current=page]{color:var(--accent);border-color:var(--accent)}.sidebar nav{gap:4px}.sidebar nav a{min-height:44px;padding:10px}.sidebar nav svg{width:20px;height:20px}.sidebar .brand{margin-bottom:24px}.sidebar-bottom{padding-top:16px}
+.hub-heading{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-bottom:24px}.hub-heading .lede{max-width:700px;font-size:15px}.hub-search{margin-bottom:20px}.hub-search>label{display:block;color:var(--muted);font-size:13px;margin-bottom:8px}.hub-search>div{display:flex;gap:12px}.hub-search input{flex:1;min-width:0;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);padding:12px 16px;font-size:16px}.hub-summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:24px}.hub-stat{display:flex;flex-direction:column;gap:4px;padding:20px 24px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--ink)}.hub-stat:hover{text-decoration:none;border-color:var(--accent)}.hub-stat b{font-size:30px;line-height:1.3;font-variant-numeric:tabular-nums}.hub-stat span{font-size:15px}.hub-stat small{font-size:12px;color:var(--muted)}.hub-columns{display:grid;grid-template-columns:1.2fr 1fr;gap:24px}.hub-columns .section-heading>a,.hub-research .section-heading>a{font-size:13px}.hub-item{display:flex;align-items:center;gap:14px;padding:16px 0;border-top:1px solid var(--line);color:var(--ink)}.hub-item>div{flex:1;min-width:0}.hub-item b{font-size:14px}.hub-item small{display:block;color:var(--muted);font-size:12px;margin-top:4px}.hub-item>span:last-child{color:var(--accent)}.hub-module-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.hub-module-grid a{padding:16px;border:1px solid var(--line);border-radius:10px;background:var(--raised);color:var(--ink)}.hub-module-grid b{font-size:14px}.hub-module-grid span{display:block;font-size:12px;color:var(--muted);margin-top:6px}.catalog-filter-primary{display:grid;grid-template-columns:2fr 1fr 1fr;gap:16px}.catalog-filter-secondary{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;padding:16px}.catalog-filters label{display:grid;gap:8px;font-size:13px;color:var(--muted);min-width:0}.catalog-filters input,.catalog-filters select{width:100%;min-width:0;border:1px solid var(--line);border-radius:8px;padding:11px 12px;min-height:44px;background:var(--surface);color:var(--ink);font-size:14px}.catalog-more{margin:16px 0 0;background:var(--raised)}.catalog-more summary{padding:12px 16px;font-size:13px}.catalog-more>.small-note{padding:0 16px 16px}.catalog-filter-footer{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-top:16px}.catalog-filter-footer b{font-size:14px}.catalog-error{color:var(--amber);font-size:14px;margin-top:12px}.catalog-error:empty{display:none}.catalog-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.catalog-card,.task-card{border:1px solid var(--line);border-radius:12px;padding:22px;background:var(--surface);display:flex;flex-direction:column;gap:12px;min-width:0}.catalog-card-meta{display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:12px;color:var(--muted)}.catalog-card h2,.task-card h2{font-size:18px}.catalog-summary{font-size:14px;color:var(--muted);line-height:1.75}.catalog-card-footer{margin-top:auto;padding-top:16px;display:flex;justify-content:space-between;align-items:flex-end;gap:16px;border-top:1px solid var(--line)}.catalog-card-footer>span{font-size:12px;color:var(--muted)}.catalog-card-footer .button{flex:none}.task-card>details{margin:0;background:var(--raised)}.task-card summary{font-size:14px;padding:12px 16px}.task-card .disclosure-body{font-size:14px;padding:16px}.task-card>.button{align-self:flex-start;margin-top:auto}.task-child{margin-top:16px;padding-top:16px;border-top:1px solid var(--line)}.task-child h3{font-size:14px;margin-bottom:8px}.task-child p{margin-top:8px}
+@media(max-width:1050px){.workspace-nav{padding:0 24px;gap:20px}.hub-heading{align-items:flex-start;flex-direction:column;gap:16px}.hub-module-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.catalog-filter-secondary{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.workspace-nav{padding:0 12px;gap:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr))}.workspace-nav a{font-size:12px;padding:12px 0;text-align:center;min-height:44px}.module-nav,body[data-layout=A] .module-nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0;padding:0 12px}.module-nav a{white-space:normal;text-align:center;font-size:13px;padding:10px 6px;min-height:44px;border-bottom:1px solid var(--line)}.module-nav a[aria-current=page]{background:var(--raised);border-bottom:2px solid var(--accent)}.topbar{padding:10px 16px;gap:8px}.appearance select,.appearance button{padding:8px 10px}.hub-heading{margin-bottom:16px}.hub-heading .lede{font-size:14px;margin-top:8px}.hub-heading>.button{width:100%}.hub-search>div{gap:8px}.hub-search input{padding:10px 12px;font-size:16px}.hub-search .button{font-size:13px;padding:10px 12px}.hub-summary{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-bottom:16px}.hub-stat{padding:12px 10px}.hub-stat b{font-size:24px}.hub-stat span{font-size:12px}.hub-stat small{display:none}.hub-columns{grid-template-columns:1fr;gap:0}.hub-columns .panel{margin-bottom:16px}.hub-item{padding:12px 0;gap:10px}.hub-item b{font-size:14px}.hub-item .tag{font-size:11px;padding:3px 5px;flex:none}.hub-module-grid{gap:8px}.hub-module-grid a{padding:12px}.hub-module-grid b{font-size:14px}.catalog-filter-primary,.catalog-filter-secondary{grid-template-columns:1fr;gap:14px}.catalog-filters{padding:18px}.catalog-filters label{font-size:14px}.catalog-filters input,.catalog-filters select{font-size:16px;min-height:48px}.catalog-filters input[type=date]{max-width:100%;appearance:none}.catalog-filter-footer{gap:12px}.catalog-filter-footer b{font-size:13px}.catalog-grid{grid-template-columns:1fr;gap:14px}.catalog-card,.task-card{padding:20px}.catalog-summary{font-size:16px;line-height:1.65}.catalog-card-footer{flex-direction:column;align-items:flex-start;gap:12px}.catalog-card-footer>.button{width:100%}.catalog-card-footer>span{font-size:13px}.task-card summary{font-size:16px}.task-card .disclosure-body{font-size:16px}.task-card>.button{width:100%}.catalog-card-meta{flex-wrap:wrap}.hub-research .section-heading{align-items:flex-start;gap:10px}.hub-heading h1{font-size:24px;max-width:14em}}
+
+/* Restrained liquid glass: static highlights, bounded blur, opaque reading surfaces. */
+:root{--glass-bg:rgba(20,30,48,.9);--glass-edge:rgba(173,201,247,.22);--glass-highlight:rgba(255,255,255,.1);--glass-shadow:0 18px 44px rgba(0,0,0,.19),inset 0 1px 0 rgba(255,255,255,.09);--ambient-a:rgba(102,140,218,.22);--ambient-b:rgba(123,97,183,.14);--appearance-text:'B · 深色'}
+html[data-color=light]{color-scheme:light;--bg:#f4f6fc;--surface:#fff;--ink:#1e293b;--muted:#526176;--line:#d5ddea;--accent:#235ec9;--glass-bg:rgba(255,255,255,.93);--glass-edge:rgba(111,143,196,.25);--glass-highlight:rgba(255,255,255,.85);--glass-shadow:0 15px 38px rgba(33,61,103,.08),inset 0 1px 0 rgba(255,255,255,.96);--ambient-a:rgba(128,165,233,.2);--ambient-b:rgba(176,154,224,.14);--appearance-text:'B · 浅色'}
+html[data-layout=A]{--appearance-text:'A · 明亮布局'}
+html{background:var(--bg)}body{background-color:var(--bg);background-image:radial-gradient(ellipse at 88% 3%,var(--ambient-a),transparent 48%),radial-gradient(ellipse at 8% 32%,var(--ambient-b),transparent 52%);background-repeat:no-repeat;background-size:100% 1200px}
+.topbar,.workspace-nav,.module-nav,.sidebar,.context-bar{background-color:var(--glass-bg);background-image:linear-gradient(130deg,var(--glass-highlight),transparent 36%);border-color:var(--glass-edge)}
+.topbar{min-height:72px;padding-top:14px;padding-bottom:14px;box-shadow:inset 0 1px 0 var(--glass-highlight)}.sidebar{box-shadow:10px 0 38px rgba(0,0,0,.04)}
+.context-bar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;min-height:44px;padding:6px 32px;border-bottom:1px solid var(--glass-edge);font-size:12px;color:var(--muted)}.ui-version{font-weight:700;color:var(--ink);font-variant-numeric:tabular-nums;padding:3px 8px;border:1px solid var(--line);border-radius:6px;background:var(--raised)}#appearance-state:empty:before{content:var(--appearance-text)}#context-location{margin-left:auto}#canonical-entry{color:var(--accent)}#effects-choice{min-height:32px;padding:5px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);font-size:12px}#effects-choice[aria-pressed=true]{background:var(--raised);border-color:var(--accent)}
+.panel,.catalog-card,.task-card,.hub-stat,.quote-card,.desk-layout,.desk-bottom>section,body[data-layout=A] .comparison,body[data-layout=A] #sku-inspector{border-color:var(--glass-edge);box-shadow:var(--glass-shadow);background-image:linear-gradient(138deg,var(--glass-highlight),transparent 32%);border-radius:16px}
+.hub-stat{background-color:var(--glass-bg);position:relative;overflow:hidden}.hub-stat:after{content:'';position:absolute;width:150px;height:150px;right:-95px;top:-95px;border:1px solid var(--glass-edge);border-radius:50%;box-shadow:0 0 0 18px rgba(130,168,237,.025);pointer-events:none}.hub-stat:hover{box-shadow:var(--glass-shadow),0 0 0 1px var(--accent)}
+.catalog-card,.task-card,.panel,.quote-card,.desk-bottom>section{background-color:var(--surface)}.desk-layout{background-color:var(--glass-bg)}.table-wrap,table,details,.filter-body,dialog,.detail-header{background-color:var(--surface)}.evidence-ledger table{background:transparent}.button,.appearance select,.appearance button,.segmented{box-shadow:inset 0 1px 0 var(--glass-highlight);border-radius:10px}.button.primary{background-image:linear-gradient(125deg,rgba(255,255,255,.12),transparent 65%)}
+.sidebar nav a,.workspace-nav a,.module-nav a{transition:box-shadow .16s ease}.sidebar nav a[aria-current=page]{box-shadow:inset 0 1px 0 var(--glass-highlight),0 3px 12px rgba(0,0,0,.05)}.catalog-card-footer{border-color:var(--line)}
+@supports ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){
+ html[data-glass=full] .topbar,html[data-glass=full] .sidebar,html[data-glass=full] .workspace-nav,html[data-glass=full] .module-nav,html[data-glass=full] .context-bar{-webkit-backdrop-filter:blur(14px) saturate(118%);backdrop-filter:blur(14px) saturate(118%)}
+ html[data-glass=full] .hub-stat,html[data-glass=full] .desk-layout{-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
+}
+/* Reading content never depends on blur support. Solid mode avoids filter cost. */
+html[data-glass=solid] body{background-image:none}html[data-glass=solid] .topbar,html[data-glass=solid] .sidebar,html[data-glass=solid] .workspace-nav,html[data-glass=solid] .module-nav,html[data-glass=solid] .context-bar,html[data-glass=solid] .hub-stat,html[data-glass=solid] .desk-layout{background:var(--surface);backdrop-filter:none;-webkit-backdrop-filter:none}html[data-glass=solid] .hub-stat:after{display:none}html[data-glass=solid] .panel,html[data-glass=solid] .catalog-card,html[data-glass=solid] .task-card{background-image:none;box-shadow:0 3px 12px rgba(0,0,0,.04)}
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){.topbar,.sidebar,.workspace-nav,.module-nav,.context-bar,.hub-stat,.desk-layout{background-color:var(--surface)}}
+@media(max-width:1050px){.context-bar{padding-inline:24px}.topbar{gap:16px}}
+@media(max-width:700px){.context-bar{padding:6px 16px;gap:6px 10px;font-size:11px}.ui-version{padding:2px 6px}#appearance-state{flex:1}#effects-choice{min-height:44px;font-size:11px;padding:6px 8px}#context-location{margin-left:0;flex:1}#canonical-entry{font-size:11px}.topbar{padding:10px 16px;min-height:0;gap:8px}.panel,.catalog-card,.task-card,.hub-stat,.quote-card,.desk-layout,.desk-bottom>section{border-radius:14px}.hub-stat{box-shadow:0 8px 24px rgba(0,0,0,.07),inset 0 1px 0 var(--glass-highlight)}}
+@media(prefers-reduced-motion:reduce){body{background-image:none}.topbar,.sidebar,.workspace-nav,.module-nav,.context-bar,.hub-stat,.desk-layout{background-color:var(--surface);background-image:none;backdrop-filter:none!important;-webkit-backdrop-filter:none!important}.hub-stat:after{display:none}*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+/* Compact hierarchy: settings and advanced catalogue controls disclose on phones. */
+input::placeholder,textarea::placeholder{color:var(--muted);opacity:1}button:disabled{color:var(--muted);opacity:1;background:var(--surface);cursor:default}
+.tab-short{display:none}
+.appearance-open,.catalog-refine-open{display:none}.settings-heading{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:16px}.settings-heading h2{font-size:18px}.metric-scope{display:none}.catalog-filters{padding:18px}.catalog-filter-footer{margin-top:12px}.catalog-more{margin-top:12px}.catalog-refine-fields{display:grid;gap:16px}.catalog-refine-done{margin-top:20px;width:100%}
+@media(max-width:700px){
+ .tab-short{display:inline}.tab-long{display:none}
+ #appearance-settings #appearance-settings-body .context-bar{display:grid;grid-template-columns:1fr 1fr;align-items:center}#appearance-settings #appearance-state,#appearance-settings #canonical-entry{grid-column:1/-1}#appearance-settings #effects-choice{justify-self:start}#appearance-settings #context-location{justify-self:end}.catalog-refine[open]{display:flex;flex-direction:column;height:min(742px,88dvh);overflow:hidden}.catalog-refine .settings-heading,.catalog-refine-done{flex-shrink:0}.catalog-refine-fields{flex:1;min-height:0;overflow:auto;padding:3px 3px 8px}.catalog-refine-done{margin-top:14px}
+ .topbar{display:flex;flex-wrap:nowrap;min-height:60px;padding:8px 14px;gap:8px}.header-brand{order:0;display:flex;gap:7px;align-items:center;min-width:0;flex:1}.header-brand>a{font-size:17px}.header-brand .ui-version{font-size:9px;padding:2px 4px;white-space:nowrap}.nav-toggle{order:2;margin:0;padding:8px 10px;min-height:44px;font-size:12px}.appearance-open{display:inline-flex;order:1;align-items:center;justify-content:center;min-height:44px;padding:8px 10px;border:1px solid var(--line);border-radius:9px;background:var(--surface);color:var(--ink);font-size:12px}.topbar>.appearance{display:none}
+ #appearance-settings{inset:68px 12px auto auto;margin:0;width:min(366px,calc(100vw - 24px));height:auto;max-height:calc(100dvh - 92px);padding:18px;border:1px solid var(--glass-edge);border-radius:16px;background:var(--surface)}#appearance-settings::backdrop{background:#0005}#appearance-settings .appearance{display:grid;gap:14px;order:0;width:100%;margin:0}#appearance-settings .appearance label{display:flex;justify-content:space-between;align-items:center;font-size:14px}#appearance-settings .appearance select{max-width:220px;min-height:44px}#appearance-settings .appearance button{min-height:44px}#appearance-settings .context-bar{padding:16px 0 0;margin-top:16px;border-top:1px solid var(--line);border-bottom:0;gap:12px;font-size:12px;background:var(--surface);box-shadow:none;backdrop-filter:none}#appearance-settings #context-location{margin-left:0}#appearance-settings #effects-choice{min-height:44px}.context-bar:not(#appearance-settings .context-bar){display:none}
+ .workspace-nav,.module-nav,body[data-layout=A] .module-nav{display:flex;flex-wrap:nowrap;gap:0;padding:0 8px;overflow-x:auto;scrollbar-width:none;height:44px;min-height:44px}.workspace-nav a,.module-nav a{flex:0 0 auto;white-space:nowrap;min-height:44px;padding:12px 10px;font-size:12px;text-align:center}.workspace-nav a{flex:1;padding-left:4px;padding-right:4px}.module-nav a{border-bottom:2px solid transparent}.module-nav a[aria-current=page]{background:transparent;border-color:var(--accent)}body[data-area=research] .workspace-nav{display:none}.module-nav[hidden]{display:none!important}
+ main{padding:16px 14px 28px}.page-heading{gap:10px;margin-bottom:16px}.page-heading .eyebrow{display:none}.page-heading h1{font-size:22px;line-height:1.35}.page-heading .lede{font-size:13px;line-height:1.65;margin-top:6px}.page-heading>.button{min-height:36px;padding:7px 10px;font-size:12px}.catalog-filters{padding:0;border:0;box-shadow:none;background:transparent;background-image:none;border-radius:0;margin-bottom:10px}.catalog-filter-primary{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;align-items:end}.catalog-filter-primary>label{font-size:0;gap:0}.catalog-filter-primary input{min-height:44px;font-size:16px;padding:10px 12px}.catalog-refine-open{display:inline-flex;min-height:44px;align-items:center;padding:9px 14px;font-size:14px}.catalog-filter-footer{margin-top:8px;gap:8px}.catalog-filter-footer b{font-size:12px;font-weight:400;color:var(--muted)}.catalog-filter-footer>.button{border:0;background:transparent;min-height:32px;padding:5px 0;font-size:12px}.active-filters{margin:8px 0}.active-filters:empty{display:none}.catalog-grid{gap:12px}.catalog-card,.task-card{padding:16px;gap:10px}.catalog-card h2,.task-card h2{font-size:18px;line-height:1.5}.catalog-summary{font-size:14px;line-height:1.7}.catalog-card-footer{padding-top:12px;gap:10px}.catalog-card-footer>span{font-size:12px;line-height:1.6}.catalog-card-footer>.button,.task-card>.button{min-height:44px;font-size:14px}
+ .catalog-refine{inset:auto 0 0;width:100%;height:auto;max-height:88dvh;margin:0;border:1px solid var(--line);border-radius:18px 18px 0 0;padding:20px;background:var(--surface)}.catalog-refine::backdrop{background:#0006}.catalog-refine label{font-size:14px}.catalog-refine input,.catalog-refine select{font-size:16px;min-height:44px}.catalog-refine .catalog-filter-secondary{padding:14px;gap:14px}.catalog-refine .catalog-more{margin-top:0}.catalog-refine .catalog-more summary{font-size:14px;padding:14px}.catalog-refine .catalog-more>.small-note{font-size:12px}
+ .desk-heading{gap:10px;margin-bottom:12px}.desk-heading h1{font-size:22px;line-height:1.4}.metrics{grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}.metric{padding:8px 6px;display:flex;flex-direction:column;gap:4px}.metric span{font-size:10px;line-height:1.4}.metric b{font-size:22px;line-height:1.2}.metric small{display:none}.metric-scope.mobile-only{display:block;width:100%;margin:0;border:0;background:transparent}.metric-scope summary{padding:4px 0;font-size:11px;color:var(--muted);min-height:24px}.metric-scope .disclosure-body{padding:12px;font-size:13px;background:var(--surface)}.desk-tools{flex-wrap:nowrap;overflow-x:auto;gap:8px;margin:0 0 12px;scrollbar-width:none}.desk-tools .button{flex:0 0 auto;font-size:11px;padding:6px 9px;min-height:36px;white-space:nowrap}.comparison,body[data-layout=A] .comparison{padding:14px 12px}.comparison-heading{margin-bottom:12px}.comparison-heading h2{font-size:16px;line-height:1.5}.comparison-heading p{font-size:11px;line-height:1.5;margin-top:4px}.evidence-row,body[data-layout=A] .evidence-row{padding:10px 6px;gap:7px 8px}.supplier b,body[data-layout=A] .supplier b{font-size:15px}.supplier small{font-size:11px}.quote-kind,body[data-layout=A] .quote-kind{font-size:11px}.amount-cell b,body[data-layout=A] .amount-cell b{font-size:21px}.horizontal-scale,body[data-layout=A] .horizontal-scale{margin-bottom:6px}
+ .hub-heading{gap:10px;margin-bottom:14px}.hub-heading .eyebrow{display:none}.hub-heading h1{font-size:23px}.hub-heading .lede{font-size:13px}.hub-heading>.button{min-height:40px;padding:9px}.hub-summary{margin-bottom:14px}.hub-columns .panel{padding:16px}.hub-item{padding:10px 0}
+}
 </style></head>
-<body data-layout="B" data-color="dark"><a class="skip" href="#main">跳至主要内容</a>
-<aside class="sidebar"><a class="brand" href="#overview"><span>MyDotWork<small>AI研究资料</small></span></a><p class="nav-label">研究工作台</p><nav aria-label="工作台模块">
-<a href="#overview" data-page="overview">研究总览</a><a href="#quotes" data-page="quotes">低价供货与发票</a><a href="#routes" data-page="routes">源头与自主供货</a><a href="#phone" data-page="phone">成品号与手机验证</a><a href="#claude" data-page="claude">Claude Code</a><a href="#timeline" data-page="timeline">任务与历史修正</a><a href="#sources" data-page="sources">来源索引</a></nav>
+<body data-layout="B" data-color="dark"><script>document.body.dataset.layout=document.documentElement.dataset.layout;document.body.dataset.color=document.documentElement.dataset.color;</script><a class="skip" href="#main">跳至主要内容</a>
+<aside class="sidebar"><a class="brand" href="#workbench"><span>MyDotWork<small>AI工作台</small></span></a><p class="nav-label">研究工作台</p><nav aria-label="工作台模块">
+<a href="#workbench" data-page="workbench">工作台首页</a><a href="#library" data-page="library">成果资料目录</a><a href="#websites" data-page="websites">项目网站</a><a href="#tasks" data-page="tasks">任务进度</a><a href="#overview" data-page="overview">研究总览</a><a href="#quotes" data-page="quotes">低价供货与发票</a><a href="#routes" data-page="routes">源头与自主供货</a><a href="#phone" data-page="phone">成品号与手机验证</a><a href="#claude" data-page="claude">Claude Code</a><a href="#timeline" data-page="timeline">任务与历史修正</a><a href="#sources" data-page="sources">来源索引</a></nav>
 <div class="sidebar-bottom"><p class="nav-label">公开归档</p><a href="https://1337816143.github.io/MyDotWork/">完整供货库 · 历史126条</a><a href="../chat/index.html">聊天原文</a><a href="../projects/index.html">项目进度</a><a href="../research/2026-10-02-round2.html">第二轮完整正文</a><p>公开资料 · 只读核查<br>没有成交或发票验真记录</p></div></aside>
-<div class="workspace"><header class="topbar"><span class="header-brand"><a href="#overview">MyDotWork</a><small>AI 研究工作台 / <b id="breadcrumb">总览</b></small></span><div class="appearance" aria-label="工作区外观"><label>布局<select id="layout-choice"><option value="B">B · 分析工作台</option><option value="A">A · 明亮工作区</option></select></label><button id="color-choice" type="button" aria-pressed="false">切换为浅色</button></div><a href="data.json" download>下载研究数据</a></header><main id="main" tabindex="-1">
+<div class="workspace"><header class="topbar"><span class="header-brand"><a href="#workbench">MyDotWork</a><small>AI工作台 / <b id="breadcrumb">总览</b></small></span><button id="appearance-open" type="button" class="mobile-only appearance-open" aria-haspopup="dialog" aria-label="外观设置">外观</button><div class="appearance" aria-label="工作区外观"><label>布局<select id="layout-choice"><option value="B">B · 分析工作台</option><option value="A">A · 明亮工作区</option></select></label><button id="color-choice" type="button" aria-pressed="false">切换为浅色</button></div><script>document.getElementById("layout-choice").value=document.documentElement.dataset.layout;document.getElementById("color-choice").hidden=document.documentElement.dataset.layout==="A";document.getElementById("color-choice").textContent=document.documentElement.dataset.color==="light"?"切换为深色":"切换为浅色";</script><a id="header-download" href="data.json" download>下载研究数据</a></header><div class="context-bar" aria-label="当前界面与外观"><span class="ui-version">UI v1.6.0</span><span id="appearance-state" role="status"></span><button id="effects-choice" type="button" aria-pressed="false">轻量效果</button><span id="context-location"></span><a id="canonical-entry" href="https://1337816143.github.io/MyDotWork/dashboard/index.html#workbench">主站当前工作台 ↗</a></div><main id="main" tabindex="-1">
+
+<section id="workbench" class="view" hidden><div class="hub-heading"><div><p class="eyebrow">MyDotWork / AI工作台</p><h1>资料、网站与任务，一处继续</h1><p class="lede">从明确公开的成果进入项目，查看原始资料和仍待完成的事项。</p></div><a class="button" href="#overview">打开AI研究仪表盘</a></div><form id="hub-search" class="hub-search" role="search"><label for="hub-query">搜索成果与任务</label><div><input id="hub-query" type="search" placeholder="报告、数据、教程或项目名称" autocomplete="off"><button class="button primary" type="submit">搜索目录</button></div></form><div id="hub-summary" class="hub-summary"></div><div class="hub-columns"><section class="panel"><div class="section-heading"><h2>已收录成果</h2><a href="#library">全部资料 →</a></div><div id="hub-recent"></div></section><section class="panel"><div class="section-heading"><h2>项目继续入口</h2><a href="#tasks">全部任务 →</a></div><div id="hub-tasks"></div></section></div><section class="panel hub-research"><div class="section-heading"><h2>AI上游研究 · 四个模块</h2><a href="#overview">报价与证据总览 →</a></div><div class="hub-module-grid"><a href="#quotes"><b>ChatGPT低价与发票</b><span>同规格报价、票据和证据缺口</span></a><a href="#routes"><b>源头与自主供货</b><span>经营路线、客户资格与授权</span></a><a href="#phone"><b>成品号与手机验证</b><span>账号控制权与验证排障</span></a><a href="#claude"><b>Claude Code</b><span>采购、计费与新手教程</span></a></div></section><p class="footnote" id="catalog-scope"></p></section>
+<section id="library" class="view" hidden><div class="page-heading"><div><p class="eyebrow">成果资料</p><h1>从任务找到可用资料</h1><p class="lede">报告、数据、教程、网站与进度快照分别标注；打开原文查看完整范围。</p></div><a class="button" href="catalog.json" download>下载公开目录 JSON</a></div><div id="library-tools"></div><div id="library-results"></div></section>
+<section id="websites" class="view" hidden><div class="page-heading"><div><p class="eyebrow">项目网站</p><h1>直接进入已知项目网站</h1><p class="lede">仅列已有明确公开网址的入口；上线、镜像与当前功能验收是不同状态。</p></div></div><div id="websites-tools"></div><div id="websites-results"></div></section>
+<section id="tasks" class="view" hidden><div class="page-heading"><div><p class="eyebrow">任务进度</p><h1>成果与待办，分开查看</h1><p class="lede">沿用已公开项目快照，不把历史记录、回复或版本部署当作全部验收通过。</p></div><a class="button" href="../projects/index.html">原始公开进度页</a></div><div id="tasks-tools"></div><div id="tasks-results"></div></section>
 <section id="overview" class="view"><div class="desk-heading"><h1>供货报价与证据</h1><div id="metrics" class="metrics"></div></div><div class="desk-tools"><a class="button" href="#quotes">Plus · 单件单月 · 人民币</a><a class="button" href="#quotes">搜索与多条件筛选</a><a class="button" href="#invoice-matrix">9家票据候选</a></div><div class="desk-layout"><section class="comparison"><div class="comparison-heading"><h2>Plus单件单月：含票金额对照</h2><p>商称 / 计算 / 界面金额，非成交、未验真、费用未全核</p></div><div id="comparison-matrix"></div></section><aside id="sku-inspector" aria-label="所选SKU证据"></aside></div><div class="desk-bottom"><section><h2>待核票费的其他报价</h2><div id="pending-quotes"></div></section><section><h2>实际修正</h2><div id="overview-timeline"></div><div class="desk-links"><a href="#quotes">完整45条报价</a><a href="https://1337816143.github.io/MyDotWork/">历史126条供货库</a><a href="../research/2026-10-02-round2.html">完整核查正文</a></div></section></div><p class="footnote">记录 / SKU / 商家展示名 / 来源分别统计。商家声明不等于官方核验；自用报价不等于有权转售。历史126条独立保留。</p></section>
 <section id="quotes" class="view" hidden><div class="page-heading"><div><p class="eyebrow">采购工作区</p><h1>可比报价与发票证据</h1><p class="lede">先选择同一档位和费用口径。排名反映公开证据，不是成交或采购推荐。</p></div><a class="button" href="../research/2026-10-02-round2.html">完整核查正文</a></div>
 <div class="callout"><b>经营边界</b><span>贝果报价保留用于自用比较，标准条款禁止转售。全部候选尚未完成工商、实际收款方与发票验真。</span></div>
@@ -38,9 +108,701 @@ body[data-layout=A] .sidebar{width:192px;padding:28px 16px}body[data-layout=A] .
 <section id="claude" class="view" hidden><div class="page-heading"><div><p class="eyebrow">工具采购与使用</p><h1>Claude Code 研究台</h1><p class="lede">个人订阅用量、API账单和第三方零售交付分别核查。</p></div><a class="button primary" href="#tutorial">新手使用教程</a></div><div id="claude-content"></div></section>
 <section id="timeline" class="view" hidden><div class="page-heading"><div><p class="eyebrow">研究过程</p><h1>任务与历史修正</h1><p class="lede">按实际核查时间记录证据变化。以下为待询证事项，没有自动标记为已完成。</p></div></div><div id="timeline-content"></div></section>
 <section id="sources" class="view" hidden><div class="page-heading"><div><p class="eyebrow">可追溯资料</p><h1>来源索引</h1><p class="lede">来源URL数量不等于独立供应商数量。外链保留原研究出处，未重新核验当前网页。</p></div></div><div class="panel"><label>筛选来源<input id="source-search" type="search" placeholder="输入域名或链接片段"></label><p id="source-count" aria-live="polite"></p><div id="source-content"></div></div></section>
-</main><footer>MyDotWork · 公开研究快照 · v1.5.0 <a href="../research/2026-10-02.html">第一轮全文</a><a href="../research/2026-10-02-round2.html">第二轮全文</a></footer></div>
-<dialog id="detail"><div class="detail-header"><p class="eyebrow">SKU 证据详情</p><button id="close-detail" class="button" type="button" aria-label="关闭详情">关闭 ×</button></div><div id="detail-content"></div></dialog>
-<script id="research-data" type="application/json">{
+</main><footer>MyDotWork · 公开研究快照 · v1.6.0 <a href="../research/2026-10-02.html">第一轮全文</a><a href="../research/2026-10-02-round2.html">第二轮全文</a></footer></div>
+<dialog id="appearance-settings" aria-labelledby="appearance-settings-title"><div class="settings-heading"><h2 id="appearance-settings-title">外观设置</h2><button type="button" id="appearance-close" class="button" aria-label="关闭外观设置">×</button></div><div id="appearance-settings-body"></div></dialog><dialog id="detail"><div class="detail-header"><p class="eyebrow">SKU 证据详情</p><button id="close-detail" class="button" type="button" aria-label="关闭详情">关闭 ×</button></div><div id="detail-content"></div></dialog>
+<script id="catalog-data" type="application/json">{
+  "schemaVersion": 1,
+  "scope": "仅明确公开或明确授权公开元数据的成果；不自动扫描对话、Library或本机目录。",
+  "records": [
+    {
+      "id": "upstream-round1",
+      "title": "AI上游调研 · 第一轮完整报告",
+      "type": "report",
+      "task": "project-1",
+      "url": "../research/2026-10-02.html",
+      "updatedAt": "2026-10-02T06:18:00Z",
+      "summary": "ChatGPT Go/Plus/Pro等45条供货SKU、成品号核查与Claude Code资料，保留原始证据。",
+      "access": "public",
+      "metadataApproved": true,
+      "category": "artifacts",
+      "source": "../research/2026-10-02.html"
+    },
+    {
+      "id": "upstream-round2",
+      "title": "经营资格与发票 · 第二轮专项核查",
+      "type": "report",
+      "task": "project-1",
+      "url": "../research/2026-10-02-round2.html",
+      "updatedAt": "2026-10-02T06:38:00Z",
+      "summary": "9家票据候选、11条采购经营路线；商家声明、实际收款与验真分开。",
+      "access": "public",
+      "metadataApproved": true,
+      "category": "artifacts",
+      "source": "../research/2026-10-02-round2.html"
+    },
+    {
+      "id": "round1-data",
+      "title": "第一轮研究数据 JSON",
+      "type": "dataset",
+      "task": "project-1",
+      "url": "../research/2026-10-02.json",
+      "updatedAt": "2026-10-02T06:18:00Z",
+      "summary": "结构化原始研究快照，不把商称报价视为成交。",
+      "access": "public",
+      "metadataApproved": true,
+      "category": "artifacts",
+      "source": "../research/2026-10-02.json"
+    },
+    {
+      "id": "round2-data",
+      "title": "第二轮研究数据 JSON",
+      "type": "dataset",
+      "task": "project-1",
+      "url": "../research/2026-10-02-round2.json",
+      "updatedAt": "2026-10-02T06:38:00Z",
+      "summary": "票据候选、采购路线与修正证据的结构化快照。",
+      "access": "public",
+      "metadataApproved": true,
+      "category": "artifacts",
+      "source": "../research/2026-10-02-round2.json"
+    },
+    {
+      "id": "historical-supply",
+      "title": "ChatGPT供货库 · 历史126条基线",
+      "type": "report",
+      "task": "project-1",
+      "url": "https://1337816143.github.io/MyDotWork/",
+      "updatedAt": "2026-10-01",
+      "summary": "独立历史基线，不覆盖当前新证据。",
+      "access": "public",
+      "metadataApproved": true,
+      "category": "artifacts",
+      "source": "https://1337816143.github.io/MyDotWork/"
+    },
+    {
+      "id": "claude-tutorial",
+      "title": "Claude Code · 新手使用教程",
+      "type": "tutorial",
+      "task": "project-1",
+      "url": "#tutorial",
+      "updatedAt": "2026-10-02T06:18:00Z",
+      "summary": "官方文档步骤与Windows入门，区别会员额度、API和云渠道。",
+      "access": "public",
+      "metadataApproved": true,
+      "category": "artifacts",
+      "source": "#tutorial"
+    },
+    {
+      "id": "account-troubleshooting",
+      "title": "账号与手机验证 · 排障入口",
+      "type": "guide",
+      "task": "project-1",
+      "url": "#troubleshooting",
+      "updatedAt": "2026-10-02T06:18:00Z",
+      "summary": "普通登录、MFA、Codex/API和手机注册分别排查。",
+      "access": "public",
+      "metadataApproved": true,
+      "category": "artifacts",
+      "source": "#troubleshooting"
+    },
+    {
+      "id": "public-chat-archive",
+      "title": "已公开聊天归档 · 覆盖说明与原文",
+      "type": "archive",
+      "task": "project-4",
+      "url": "../chat/index.html",
+      "updatedAt": "2026-10-02T05:58:03.520076Z",
+      "summary": "既有229条已授权公开消息；目录不读取其他会话或附件。",
+      "access": "public",
+      "metadataApproved": true,
+      "category": "artifacts",
+      "source": "../chat/index.html"
+    },
+    {
+      "id": "public-project-data",
+      "title": "已公开项目进度 JSON",
+      "type": "dataset",
+      "task": "project-4",
+      "url": "../projects/status.json",
+      "updatedAt": "2026-10-02T14:20:00Z",
+      "summary": "17项公开项目进度快照，记录已有研究、方案、缺口与验收范围。",
+      "access": "public",
+      "metadataApproved": true,
+      "category": "artifacts",
+      "source": "../projects/status.json"
+    },
+    {
+      "id": "upstream-round3-7",
+      "title": "AI上游研究 · 第3—7轮公开补充",
+      "type": "report",
+      "task": "project-1",
+      "url": "../research/round3-7/report.html",
+      "updatedAt": "2026-10-02T12:29:05Z",
+      "summary": "7个证据章节、220个公开来源和30条价格历史；8条为待核线索，新增合格候选仍为空。",
+      "access": "public",
+      "metadataApproved": true,
+      "category": "artifacts",
+      "source": "../research/round3-7/report.html"
+    },
+    {
+      "id": "upstream-round3-7-data",
+      "title": "第3—7轮上游研究数据 JSON",
+      "type": "dataset",
+      "task": "project-1",
+      "url": "../research/round3-7/ai-upstream-public.json",
+      "updatedAt": "2026-10-02T12:29:05Z",
+      "summary": "保留来源引用、历史修正、币种与费用未知项；历史报价不改成当前成交价。",
+      "access": "public",
+      "metadataApproved": true,
+      "category": "artifacts",
+      "source": "../research/round3-7/ai-upstream-public.json"
+    },
+    {
+      "id": "side-income-report",
+      "title": "AI副业调研 · 低维护产品与自由接单 v1.2",
+      "type": "report",
+      "task": "project-17",
+      "url": "../research/ai-side-income/report.html",
+      "updatedAt": "2026-10-02",
+      "summary": "32类方向、150个公开来源和3个低维护产品实验；区分产品方案与服务验证，尚未制作样品或验证销售。",
+      "access": "public",
+      "metadataApproved": true,
+      "category": "artifacts",
+      "source": "../research/ai-side-income/report.html"
+    },
+    {
+      "id": "side-income-data",
+      "title": "AI副业调研 · 结构化资料 JSON v1.2",
+      "type": "dataset",
+      "task": "project-17",
+      "url": "../research/ai-side-income/data.json",
+      "updatedAt": "2026-10-02",
+      "summary": "与完整报告一致的方案、成本情景、平台条件和证据；不把公开市场信号当作本人收益。",
+      "access": "public",
+      "metadataApproved": true,
+      "category": "artifacts",
+      "source": "../research/ai-side-income/data.json"
+    },
+    {
+      "id": "mydotwork-workbench",
+      "title": "MyDotWork · AI工作台",
+      "type": "website",
+      "task": "project-4",
+      "url": "https://1337816143.github.io/MyDotWork/dashboard/",
+      "updatedAt": null,
+      "summary": "统一公开资料入口；保留AI研究、历史供货库、聊天与项目归档。",
+      "access": "public",
+      "metadataApproved": true,
+      "category": "websites",
+      "source": "https://1337816143.github.io/MyDotWork/dashboard/"
+    },
+    {
+      "id": "evolution-mirror",
+      "title": "个人进化网站 · MyDotWork镜像",
+      "type": "website",
+      "task": "project-4",
+      "url": "https://1337816143.github.io/Evolution/mydotwork/dashboard/index.html",
+      "updatedAt": null,
+      "summary": "既有发布镜像。更新日期未单独记录，以镜像发布清单为准。",
+      "access": "public",
+      "metadataApproved": true,
+      "category": "websites",
+      "source": "https://1337816143.github.io/Evolution/mydotwork/dashboard/index.html"
+    },
+    {
+      "id": "progress-project-1",
+      "title": "AI上游调研 · 公开进度快照",
+      "type": "progress",
+      "task": "project-1",
+      "url": "../projects/index.html#project-1",
+      "source": "../projects/status.json",
+      "updatedAt": "2026-10-02T12:29:05Z",
+      "summary": "统一管理ChatGPT低价与发票、真正源头与自主供货、成品号与手机验证、Claude Code四条子任务；首轮和第二轮证据分别保留，按新来源修正经营资格。 第3—7轮公开补充报告与结构化资料已汇总：7个证据章节、220个去重公开来源、30条历史价格；8条为待核线索，新增合格候选榜仍为空。",
+      "access": "public",
+      "metadataApproved": true,
+      "category": "tasks"
+    },
+    {
+      "id": "progress-project-2",
+      "title": "Codex会话与本地记忆接管 · 公开进度快照",
+      "type": "progress",
+      "task": "project-2",
+      "url": "../projects/index.html#project-2",
+      "source": "../projects/status.json",
+      "updatedAt": "2026-10-02",
+      "summary": "截至2026-10-02北京时间12:34，已读212个非空来源的可见项目文字及25份本地记忆；每小时增量检查已设置。",
+      "access": "public",
+      "metadataApproved": true,
+      "category": "tasks"
+    },
+    {
+      "id": "progress-project-3",
+      "title": "ChatGPT历史接管 · 公开进度快照",
+      "type": "progress",
+      "task": "project-3",
+      "url": "../projects/index.html#project-3",
+      "source": "../projects/status.json",
+      "updatedAt": "2026-10-02",
+      "summary": "已读少量既有导出和嵌入记录；用户已申请官方数据导出。官方文档提供把已有ChatGPT聊天加入Codex对话的入口，待本机恢复后验证单条首尾全文。",
+      "access": "public",
+      "metadataApproved": true,
+      "category": "tasks"
+    },
+    {
+      "id": "progress-project-4",
+      "title": "聊天归档与项目进度网站 · 公开进度快照",
+      "type": "progress",
+      "task": "project-4",
+      "url": "../projects/index.html#project-4",
+      "source": "../projects/status.json",
+      "updatedAt": "2026-10-02",
+      "summary": "首批已整理229条可见对话与16项项目总览（其中AI上游调研含4条子任务）；用户已授权去除秘密后的原文公开到MyDotWork、Pages与个人进化网站；每天北京时间8点左右同步。",
+      "access": "public",
+      "metadataApproved": true,
+      "category": "tasks"
+    },
+    {
+      "id": "progress-project-5",
+      "title": "FarmSystemDesign农业系统平台 · 公开进度快照",
+      "type": "progress",
+      "task": "project-5",
+      "url": "../projects/index.html#project-5",
+      "source": "../projects/status.json",
+      "updatedAt": "2026-10-02",
+      "summary": "历史记录显示v0.3.8部署；保留课题6原提案与海南全岛备选。",
+      "access": "public",
+      "metadataApproved": true,
+      "category": "tasks"
+    },
+    {
+      "id": "progress-project-6",
+      "title": "Paper论文学习平台 · 公开进度快照",
+      "type": "progress",
+      "task": "project-6",
+      "url": "../projects/index.html#project-6",
+      "source": "../projects/status.json",
+      "updatedAt": "2026-10-02",
+      "summary": "历史记录显示5.4.2主版本与后续草稿改动。",
+      "access": "public",
+      "metadataApproved": true,
+      "category": "tasks"
+    },
+    {
+      "id": "progress-project-7",
+      "title": "ISWCR论文改投 · 公开进度快照",
+      "type": "progress",
+      "task": "project-7",
+      "url": "../projects/index.html#project-7",
+      "source": "../projects/status.json",
+      "updatedAt": "2026-10-02",
+      "summary": "2026-10-02已有v8投稿文件及十项新正文修改记录。",
+      "access": "public",
+      "metadataApproved": true,
+      "category": "tasks"
+    },
+    {
+      "id": "progress-project-8",
+      "title": "三普报告与数据质控 · 公开进度快照",
+      "type": "progress",
+      "task": "project-8",
+      "url": "../projects/index.html#project-8",
+      "source": "../projects/status.json",
+      "updatedAt": "2026-10-02",
+      "summary": "2026-10-01整改范围353条：87通过、18未通过、9未修改、186已回复待核、49无法核验、4历史纠正，另有3条新增。",
+      "access": "public",
+      "metadataApproved": true,
+      "category": "tasks"
+    },
+    {
+      "id": "progress-project-9",
+      "title": "顺平JCP论文 · 公开进度快照",
+      "type": "progress",
+      "task": "project-9",
+      "url": "../projects/index.html#project-9",
+      "source": "../projects/status.json",
+      "updatedAt": "2026-10-02",
+      "summary": "历史记录已有数据复算、47页审阅与修改清单。",
+      "access": "public",
+      "metadataApproved": true,
+      "category": "tasks"
+    },
+    {
+      "id": "progress-project-10",
+      "title": "硕士论文与相关论文审阅 · 公开进度快照",
+      "type": "progress",
+      "task": "project-10",
+      "url": "../projects/index.html#project-10",
+      "source": "../projects/status.json",
+      "updatedAt": "2026-10-02",
+      "summary": "用户论文已有v1.7；最后相关要求包含只检查不改。李思奇论文有待批准修改。",
+      "access": "public",
+      "metadataApproved": true,
+      "category": "tasks"
+    },
+    {
+      "id": "progress-project-11",
+      "title": "夸克网盘整理 · 公开进度快照",
+      "type": "progress",
+      "task": "project-11",
+      "url": "../projects/index.html#project-11",
+      "source": "../projects/status.json",
+      "updatedAt": "2026-10-02",
+      "summary": "电脑与两手机备份有历史盘点，手机来源分别保留。",
+      "access": "public",
+      "metadataApproved": true,
+      "category": "tasks"
+    },
+    {
+      "id": "progress-project-12",
+      "title": "浏览器收藏夹 · 公开进度快照",
+      "type": "progress",
+      "task": "project-12",
+      "url": "../projects/index.html#project-12",
+      "source": "../projects/status.json",
+      "updatedAt": "2026-10-02",
+      "summary": "Edge已有分类整理记录。",
+      "access": "public",
+      "metadataApproved": true,
+      "category": "tasks"
+    },
+    {
+      "id": "progress-project-13",
+      "title": "桌面宠物与应用原型 · 公开进度快照",
+      "type": "progress",
+      "task": "project-13",
+      "url": "../projects/index.html#project-13",
+      "source": "../projects/status.json",
+      "updatedAt": "2026-10-02",
+      "summary": "OpenPet.NET WPF、77 Tk、农场游戏各有独立版本；另有MouseAI规划。",
+      "access": "public",
+      "metadataApproved": true,
+      "category": "tasks"
+    },
+    {
+      "id": "progress-project-14",
+      "title": "Smartdrop拼豆设备 · 公开进度快照",
+      "type": "progress",
+      "task": "project-14",
+      "url": "../projects/index.html#project-14",
+      "source": "../projects/status.json",
+      "updatedAt": "2026-10-02",
+      "summary": "目标为蓝牙控制针板批量选针并转印，5mm豆、29×29底板。",
+      "access": "public",
+      "metadataApproved": true,
+      "category": "tasks"
+    },
+    {
+      "id": "progress-project-15",
+      "title": "实时手势VFX · 公开进度快照",
+      "type": "progress",
+      "task": "project-15",
+      "url": "../projects/index.html#project-15",
+      "source": "../projects/status.json",
+      "updatedAt": "2026-10-02",
+      "summary": "双手食指尖与拇指尖构造动态四边形，结合视频特效与录制等功能。",
+      "access": "public",
+      "metadataApproved": true,
+      "category": "tasks"
+    },
+    {
+      "id": "progress-project-16",
+      "title": "雅思与AGD研究准备 · 公开进度快照",
+      "type": "progress",
+      "task": "project-16",
+      "url": "../projects/index.html#project-16",
+      "source": "../projects/status.json",
+      "updatedAt": "2026-10-02",
+      "summary": "近期开始整理雅思学习资料，关心机考方式；研究方向为课题6模型支持农业系统设计。",
+      "access": "public",
+      "metadataApproved": true,
+      "category": "tasks"
+    },
+    {
+      "id": "progress-project-17",
+      "title": "AI副业调研 · 公开进度快照",
+      "type": "progress",
+      "task": "project-17",
+      "url": "../projects/index.html#project-17",
+      "source": "../projects/status.json",
+      "updatedAt": "2026-10-02",
+      "summary": "v1.2整理43条输入为32类方向，保留150个公开来源、15条需求证据与3个低维护产品实验；分别讨论低维护产品和有限范围服务验证，提供完整报告与结构化资料。",
+      "access": "public",
+      "metadataApproved": true,
+      "category": "tasks"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "project-1",
+      "title": "AI上游调研",
+      "status": "进行中",
+      "progress": "统一管理ChatGPT低价与发票、真正源头与自主供货、成品号与手机验证、Claude Code四条子任务；首轮和第二轮证据分别保留，按新来源修正经营资格。 第3—7轮公开补充报告与结构化资料已汇总：7个证据章节、220个去重公开来源、30条历史价格；8条为待核线索，新增合格候选榜仍为空。",
+      "gaps": "没有候选同时通过低价、真实发票、合法资金、商业授权与持续履约核验；查到资料不等于调研结束。",
+      "updatedAt": "2026-10-02T12:29:05Z",
+      "evidence": "2026-10-02用户组织要求及公开第一方研究；未注册、付款、提交凭据或验真发票",
+      "children": [
+        {
+          "name": "ChatGPT低价渠道与发票",
+          "status": "进行中",
+          "progress": "原126条历史库与首轮45SKU保留；新增HuiAI、WStorm等线索。贝果143.10只作商称自用购入含票费用，其标准条款禁止转售倒卖。",
+          "gaps": "真实票种、税号、收款/开票主体对应和含全部费用均未闭合；未知票费不填0。"
+        },
+        {
+          "name": "真正源头与自主供货",
+          "status": "进行中",
+          "progress": "第二轮梳理11条路线、55个来源；区分自有AI产品、原厂企业许可、支付券码及品牌礼卡分销。",
+          "gaps": "明确SKU/区域/客户及再转售授权、商业净价、MOQ和全成本仍须书面核验。"
+        },
+        {
+          "name": "成品号与手机验证",
+          "status": "进行中",
+          "progress": "已核对普通登录、MFA、手机注册、Codex和API首个key等场景；没有官方证据证明开会员能直接解锁手机验证。",
+          "gaps": "具体报错需脱敏截图；成品号的账号控制权、身份和地区资格未验证，未购买测试。"
+        },
+        {
+          "name": "Claude Code采购与入门",
+          "status": "进行中",
+          "progress": "已形成订阅/API/云渠道及Windows文档步骤，首轮34来源；继续核查采购资格、费用、账号控制权与使用限制。",
+          "gaps": "大陆不在Anthropic当前支持地区；未实际安装、登录或购买，不能保证任何商家方案不封号。"
+        }
+      ],
+      "access": "public",
+      "metadataApproved": true,
+      "url": "../projects/index.html#project-1",
+      "source": "../projects/status.json"
+    },
+    {
+      "id": "project-2",
+      "title": "Codex会话与本地记忆接管",
+      "status": "基线完成，增量跟进",
+      "progress": "截至2026-10-02北京时间12:34，已读212个非空来源的可见项目文字及25份本地记忆；每小时增量检查已设置。",
+      "gaps": "缺失附件、未保存在线内容不在完成范围；当前电脑离线，本轮增量未执行。",
+      "updatedAt": "2026-10-02",
+      "evidence": "既有对话与会话接管结果整理；并非本次重新验收全部项目",
+      "children": [],
+      "access": "public",
+      "metadataApproved": true,
+      "url": "../projects/index.html#project-2",
+      "source": "../projects/status.json"
+    },
+    {
+      "id": "project-3",
+      "title": "ChatGPT历史接管",
+      "status": "进行中，有缺口",
+      "progress": "已读少量既有导出和嵌入记录；用户已申请官方数据导出。官方文档提供把已有ChatGPT聊天加入Codex对话的入口，待本机恢复后验证单条首尾全文。",
+      "gaps": "完整导出尚未收到；当前电脑离线，浏览器未验证恢复。当前已连接邮箱不能读取QQ邮箱，不能据此断言导出邮件未到；现有索引不是完整聊天。",
+      "updatedAt": "2026-10-02",
+      "evidence": "既有对话与会话接管结果整理；并非本次重新验收全部项目；官方入口：https://learn.chatgpt.com/docs/projects?surface=app",
+      "children": [],
+      "access": "public",
+      "metadataApproved": true,
+      "url": "../projects/index.html#project-3",
+      "source": "../projects/status.json"
+    },
+    {
+      "id": "project-4",
+      "title": "聊天归档与项目进度网站",
+      "status": "首批归档与每日同步",
+      "progress": "首批已整理229条可见对话与16项项目总览（其中AI上游调研含4条子任务）；用户已授权去除秘密后的原文公开到MyDotWork、Pages与个人进化网站；每天北京时间8点左右同步。",
+      "gaps": "覆盖以聊天coverage.json为准，工具可见历史末尾不保证已删除内容齐全；不包含其他会话全文与附件。发布提交与哈希以网站release-manifest为准。",
+      "updatedAt": "2026-10-02",
+      "evidence": "既有对话与会话接管结果整理；并非本次重新验收全部项目",
+      "children": [],
+      "access": "public",
+      "metadataApproved": true,
+      "url": "../projects/index.html#project-4",
+      "source": "../projects/status.json"
+    },
+    {
+      "id": "project-5",
+      "title": "FarmSystemDesign农业系统平台",
+      "status": "既有版本已部署，研究设计待确认",
+      "progress": "历史记录显示v0.3.8部署；保留课题6原提案与海南全岛备选。",
+      "gaps": "JR尚未批准尺度选择；农户/农场与区域的决策单位需厘清，虚拟样本不能视为真实代表性数据。",
+      "updatedAt": "2026-10-02",
+      "evidence": "既有对话与会话接管结果整理；并非本次重新验收全部项目",
+      "children": [],
+      "access": "public",
+      "metadataApproved": true,
+      "url": "../projects/index.html#project-5",
+      "source": "../projects/status.json"
+    },
+    {
+      "id": "project-6",
+      "title": "Paper论文学习平台",
+      "status": "主体已有版本，功能验收未齐",
+      "progress": "历史记录显示5.4.2主版本与后续草稿改动。",
+      "gaps": "真实登录、私有检查点、跨设备恢复等尚未全面验收；不得把草稿功能视为上线完成。",
+      "updatedAt": "2026-10-02",
+      "evidence": "既有对话与会话接管结果整理；并非本次重新验收全部项目",
+      "children": [],
+      "access": "public",
+      "metadataApproved": true,
+      "url": "../projects/index.html#project-6",
+      "source": "../projects/status.json"
+    },
+    {
+      "id": "project-7",
+      "title": "ISWCR论文改投",
+      "status": "修改进行中",
+      "progress": "2026-10-02已有v8投稿文件及十项新正文修改记录。",
+      "gaps": "Fig.8子图编号等问题未全部解决，图件意见仍有待修；投稿PDF与作者确认未完成，尚未投稿。",
+      "updatedAt": "2026-10-02",
+      "evidence": "既有对话与会话接管结果整理；并非本次重新验收全部项目",
+      "children": [],
+      "access": "public",
+      "metadataApproved": true,
+      "url": "../projects/index.html#project-7",
+      "source": "../projects/status.json"
+    },
+    {
+      "id": "project-8",
+      "title": "三普报告与数据质控",
+      "status": "多批次独立跟进",
+      "progress": "2026-10-01整改范围353条：87通过、18未通过、9未修改、186已回复待核、49无法核验、4历史纠正，另有3条新增。",
+      "gaps": "9月22日97项属于另一批范围，不能互相覆盖；回复与实际通过须区分，历史交付未全部重新打开验收。",
+      "updatedAt": "2026-10-02",
+      "evidence": "既有对话与会话接管结果整理；并非本次重新验收全部项目",
+      "children": [],
+      "access": "public",
+      "metadataApproved": true,
+      "url": "../projects/index.html#project-8",
+      "source": "../projects/status.json"
+    },
+    {
+      "id": "project-9",
+      "title": "顺平JCP论文",
+      "status": "重分析与审阅稿已有，待收尾",
+      "progress": "历史记录已有数据复算、47页审阅与修改清单。",
+      "gaps": "部分原始数据与元数据待补；关联变化不等于政策因果，最终投稿尚未完成。",
+      "updatedAt": "2026-10-02",
+      "evidence": "既有对话与会话接管结果整理；并非本次重新验收全部项目",
+      "children": [],
+      "access": "public",
+      "metadataApproved": true,
+      "url": "../projects/index.html#project-9",
+      "source": "../projects/status.json"
+    },
+    {
+      "id": "project-10",
+      "title": "硕士论文与相关论文审阅",
+      "status": "保留最终版本与待确认修改",
+      "progress": "用户论文已有v1.7；最后相关要求包含只检查不改。李思奇论文有待批准修改。",
+      "gaps": "部分旧预测图未按后续模型重跑；不能将草稿答辩或结果文件当作毕业、投稿或全部验收证明。",
+      "updatedAt": "2026-10-02",
+      "evidence": "既有对话与会话接管结果整理；并非本次重新验收全部项目",
+      "children": [],
+      "access": "public",
+      "metadataApproved": true,
+      "url": "../projects/index.html#project-10",
+      "source": "../projects/status.json"
+    },
+    {
+      "id": "project-11",
+      "title": "夸克网盘整理",
+      "status": "历史整理已做，持续状态待核",
+      "progress": "电脑与两手机备份有历史盘点，手机来源分别保留。",
+      "gaps": "自动备份当前是否正常未重新核验；用户删除的资料不擅自恢复。",
+      "updatedAt": "2026-10-02",
+      "evidence": "既有对话与会话接管结果整理；并非本次重新验收全部项目",
+      "children": [],
+      "access": "public",
+      "metadataApproved": true,
+      "url": "../projects/index.html#project-11",
+      "source": "../projects/status.json"
+    },
+    {
+      "id": "project-12",
+      "title": "浏览器收藏夹",
+      "status": "部分完成",
+      "progress": "Edge已有分类整理记录。",
+      "gaps": "Chrome仍有未分类及同步回退问题，不能称两浏览器全部完成。",
+      "updatedAt": "2026-10-02",
+      "evidence": "既有对话与会话接管结果整理；并非本次重新验收全部项目",
+      "children": [],
+      "access": "public",
+      "metadataApproved": true,
+      "url": "../projects/index.html#project-12",
+      "source": "../projects/status.json"
+    },
+    {
+      "id": "project-13",
+      "title": "桌面宠物与应用原型",
+      "status": "多个独立项目",
+      "progress": "OpenPet.NET WPF、77 Tk、农场游戏各有独立版本；另有MouseAI规划。",
+      "gaps": "77 Tk有明确暂不处理事项；MouseAI仅规划待确认，游戏手机端及多人功能尚未完成，不自动启动旧任务。",
+      "updatedAt": "2026-10-02",
+      "evidence": "既有对话与会话接管结果整理；并非本次重新验收全部项目",
+      "children": [],
+      "access": "public",
+      "metadataApproved": true,
+      "url": "../projects/index.html#project-13",
+      "source": "../projects/status.json"
+    },
+    {
+      "id": "project-14",
+      "title": "Smartdrop拼豆设备",
+      "status": "设计与网站项目，待核当前状态",
+      "progress": "目标为蓝牙控制针板批量选针并转印，5mm豆、29×29底板。",
+      "gaps": "不能用逐针扫描冒充批量选针；当前成品、工程图与网站状态需另行验收。",
+      "updatedAt": "2026-10-02",
+      "evidence": "既有对话与会话接管结果整理；并非本次重新验收全部项目",
+      "children": [],
+      "access": "public",
+      "metadataApproved": true,
+      "url": "../projects/index.html#project-14",
+      "source": "../projects/status.json"
+    },
+    {
+      "id": "project-15",
+      "title": "实时手势VFX",
+      "status": "既有开发项目，待核当前状态",
+      "progress": "双手食指尖与拇指尖构造动态四边形，结合视频特效与录制等功能。",
+      "gaps": "后续要求与当前部署一致性尚未重新测试。",
+      "updatedAt": "2026-10-02",
+      "evidence": "既有对话与会话接管结果整理；并非本次重新验收全部项目",
+      "children": [],
+      "access": "public",
+      "metadataApproved": true,
+      "url": "../projects/index.html#project-15",
+      "source": "../projects/status.json"
+    },
+    {
+      "id": "project-16",
+      "title": "雅思与AGD研究准备",
+      "status": "持续准备",
+      "progress": "近期开始整理雅思学习资料，关心机考方式；研究方向为课题6模型支持农业系统设计。",
+      "gaps": "考试安排与导师确认事项需以最新本人决定为准，不自动执行旧申请或出行计划。",
+      "updatedAt": "2026-10-02",
+      "evidence": "既有对话与会话接管结果整理；并非本次重新验收全部项目",
+      "children": [],
+      "access": "public",
+      "metadataApproved": true,
+      "url": "../projects/index.html#project-16",
+      "source": "../projects/status.json"
+    },
+    {
+      "id": "project-17",
+      "title": "AI副业调研",
+      "status": "研究与方案已整理，产品验证未开始",
+      "progress": "v1.2整理43条输入为32类方向，保留150个公开来源、15条需求证据与3个低维护产品实验；分别讨论低维护产品和有限范围服务验证，提供完整报告与结构化资料。",
+      "gaps": "未制作样品、未开店、未联系客户或收费，未验证自己的获客、销售、收益与银行卡提现；平台条件、KYC、费用与维护量按证据及情景分别说明。",
+      "updatedAt": "2026-10-02",
+      "evidence": "2026-10-02公开来源研究与方案规格；目录收录不表示商业产品已上线或任务全部完成",
+      "children": [],
+      "access": "public",
+      "metadataApproved": true,
+      "url": "../projects/index.html#project-17",
+      "source": "../projects/status.json"
+    }
+  ],
+  "counts": {
+    "artifacts": 13,
+    "websites": 2,
+    "tasks": 17
+  },
+  "projectSnapshotUpdatedAt": "2026-10-02T14:20:00Z"
+}</script><script id="research-data" type="application/json">{
   "schema": "mydotwork.dashboard.v1",
   "date": "2026-10-02",
   "records": [
@@ -3256,22 +4018,39 @@ if (typeof document !== 'undefined') (() => {
   'use strict';
   const M = ResearchModel, e = M.esc, $ = id => document.getElementById(id);
   const d = JSON.parse($('research-data').textContent);
-  let appearance={layout:'B',color:'dark'};
-  try { const saved=JSON.parse(localStorage.getItem('mydotwork-appearance')||'null');if(saved && ['A','B'].includes(saved.layout) && ['light','dark'].includes(saved.color))appearance=saved; } catch {}
+  let appearance=window.WorkbenchAppearance || {layout:'B',color:'dark',effects:'auto'};
   function applyAppearance(){
+    document.documentElement.dataset.layout=appearance.layout;
+    document.documentElement.dataset.color=appearance.layout==='A'?'light':appearance.color;
+    const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+    document.documentElement.dataset.glass=reduce||appearance.effects==='solid'||(appearance.effects==='auto'&&window.WorkbenchBoot?.constrained)?'solid':'full';
     document.body.dataset.layout=appearance.layout;
     document.body.dataset.color=appearance.layout==='A'?'light':appearance.color;
     $('layout-choice').value=appearance.layout;
     $('color-choice').hidden=appearance.layout==='A';
     $('color-choice').textContent=appearance.color==='dark'?'切换为浅色':'切换为深色';
     $('color-choice').setAttribute('aria-pressed',String(appearance.color==='light'));
+    const light=appearance.layout==='A'||appearance.color==='light',solid=document.documentElement.dataset.glass==='solid';
+    $('appearance-state').textContent=(appearance.layout==='A'?'A · 明亮布局':'B · '+(light?'浅色':'深色'))+' · '+(solid?'轻量效果':'液态玻璃');
+    $('effects-choice').textContent='轻量效果';
+    $('effects-choice').setAttribute('aria-label','轻量效果：关闭背景模糊和折射装饰');
+    $('effects-choice').disabled=matchMedia('(prefers-reduced-motion: reduce)').matches;
+    $('effects-choice').setAttribute('aria-pressed',String(solid));
     try {localStorage.setItem('mydotwork-appearance',JSON.stringify(appearance));}catch {}
   }
   $('layout-choice').addEventListener('change',()=>{appearance.layout=$('layout-choice').value;applyAppearance();closeNav();closeFilters();});
   $('color-choice').addEventListener('click',()=>{appearance.color=appearance.color==='dark'?'light':'dark';applyAppearance();closeNav();});
+  matchMedia('(prefers-reduced-motion: reduce)').addEventListener('change',()=>applyAppearance());
+  $('effects-choice').addEventListener('click',()=>{appearance.effects=document.documentElement.dataset.glass==='solid'?'full':'solid';applyAppearance();});
+  $('context-location').textContent=location.protocol==='file:'?'本地预览':location.pathname.includes('/Evolution/')?'个人进化镜像':location.pathname.includes('/MyDotWork/')?'MyDotWork主站':'工作台副本';
   applyAppearance();
 
-  const labels = {overview:'研究总览',quotes:'低价供货与发票',routes:'源头与自主供货',phone:'成品号与手机验证',claude:'Claude Code',timeline:'任务与历史修正',sources:'来源索引'};
+  const settings=$('appearance-settings'),settingsBody=$('appearance-settings-body'),appearanceControls=document.querySelector('.appearance'),context=document.querySelector('.context-bar'),version=context.querySelector('.ui-version');
+  const compactSettings=()=>{const compact=matchMedia('(max-width:700px)').matches;if(compact){document.querySelector('.header-brand').append(version);settingsBody.append(appearanceControls,context);}else{document.querySelector('.topbar').insertBefore(appearanceControls,$('header-download'));document.querySelector('.topbar').after(context);context.prepend(version);if(settings.open)settings.close();}};
+  $('appearance-open').addEventListener('click',()=>{settings.showModal();$('layout-choice').focus();});
+  $('appearance-close').addEventListener('click',()=>settings.close());settings.addEventListener('close',()=>$('appearance-open').focus());settings.addEventListener('click',event=>{if(event.target===settings){const r=settings.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)settings.close();}});addEventListener('resize',compactSettings);compactSettings();
+
+  const labels = {workbench:'工作台首页',library:'成果资料目录',websites:'项目网站',tasks:'任务进度',overview:'研究总览',quotes:'低价供货与发票',routes:'源头与自主供货',phone:'成品号与手机验证',claude:'Claude Code',timeline:'任务与历史修正',sources:'来源索引'};
   const fields = ['q','tier','basis','invoice','risk','resale','agency','sort'];
   let mode = matchMedia('(max-width:700px)').matches ? 'cards' : 'table';
   const urlLink = (url, title) => {
@@ -3291,10 +4070,11 @@ if (typeof document !== 'undefined') (() => {
   mobileNav.addEventListener('click',()=>{sidebar.classList.add('open');mobileNav.setAttribute('aria-expanded','true');sidebar.setAttribute('role','dialog');sidebar.setAttribute('aria-modal','true');navClose.focus();});
   navClose.addEventListener('click',()=>{closeNav();mobileNav.focus();});
   const navBackdrop=document.createElement('button');navBackdrop.className='nav-backdrop';navBackdrop.tabIndex=-1;navBackdrop.setAttribute('aria-label','关闭模块导航');sidebar.after(navBackdrop);navBackdrop.addEventListener('click',()=>{closeNav();mobileNav.focus();});
-  const icons=['M3 3h7v7H3z M14 3h7v7h-7z M3 14h7v7H3z M14 14h7v7h-7z','M4 5h16v14H4z M4 10h16 M9 5v14','M5 5h5v5H5z M14 14h5v5h-5z M10 7h7v7','M8 3h8v18H8z M11 17h2','M4 6l5 6-5 6 M12 18h8','M12 3a9 9 0 1 1-8 5 M3 3v5h5 M12 7v5l3 2','M8 3h8l4 4v14H4V3z M8 11h8 M8 15h8'];
+  const icons=['M3 4h18v16H3z M3 9h18 M8 9v11','M4 3h6v18H4z M14 3h6v18h-6z','M3 5h18v14H3z M3 9h18 M7 7h1 M11 7h1','M4 5h3v3H4z M11 6h9 M4 11h3v3H4z M11 12h9 M4 17h3v3H4z M11 18h9','M3 3h7v7H3z M14 3h7v7h-7z M3 14h7v7H3z M14 14h7v7h-7z','M4 5h16v14H4z M4 10h16 M9 5v14','M5 5h5v5H5z M14 14h5v5h-5z M10 7h7v7','M8 3h8v18H8z M11 17h2','M4 6l5 6-5 6 M12 18h8','M12 3a9 9 0 1 1-8 5 M3 3v5h5 M12 7v5l3 2','M8 3h8l4 4v14H4V3z M8 11h8 M8 15h8'];
   [...sidebar.querySelectorAll('nav a')].forEach((a,i)=>{const text=a.textContent;a.setAttribute('aria-label',text);a.title=text;a.innerHTML=`<svg viewBox="0 0 24 24" aria-hidden="true"><path d="${icons[i]}"/></svg><span>${e(text)}</span>`;});
   [...sidebar.querySelectorAll('.sidebar-bottom>a')].forEach((a,i)=>{const text=a.textContent;a.setAttribute('aria-label',text);a.title=text;a.innerHTML=`<svg viewBox="0 0 24 24" aria-hidden="true"><path d="${['M4 4h16v16H4z M8 8h8 M8 12h8 M8 16h5','M4 4h16v12H9l-5 4z','M3 6h7l2 3h9v11H3z','M8 3h8l4 4v14H4V3z M8 11h8 M8 15h8'][i]}"/></svg><span>${e(text)}</span>`;});
-  const moduleNav=document.createElement('nav');moduleNav.className='module-nav';moduleNav.setAttribute('aria-label','四个研究模块');moduleNav.innerHTML=['quotes','routes','phone','claude'].map(id=>`<a href="#${id}" data-module="${id}">${e(labels[id])}</a>`).join('');document.querySelector('.topbar').after(moduleNav);
+  const workspaceNav=document.createElement('nav');workspaceNav.className='workspace-nav';workspaceNav.setAttribute('aria-label','AI工作台区域');workspaceNav.innerHTML=[['workbench','工作台'],['library','成果目录'],['websites','项目网站'],['tasks','任务进度'],['overview','AI研究']].map(([id,title])=>`<a href="#${id}" data-workspace="${id}">${title}</a>`).join('');document.querySelector('.topbar').after(workspaceNav);
+  const moduleNav=document.createElement('nav');moduleNav.className='module-nav';moduleNav.setAttribute('aria-label','四个研究模块');moduleNav.innerHTML=['overview','quotes','routes','phone','claude'].map(id=>`<a href="#${id}" data-module="${id}" aria-label="${e(labels[id])}"><span class="tab-long">${e(labels[id])}</span><span class="tab-short">${e({overview:"总览",quotes:"ChatGPT报价",routes:"自主供货",phone:"账号验证",claude:"Claude Code"}[id])}</span></a>`).join('');workspaceNav.after(moduleNav);
   addEventListener('resize',()=>{if(!matchMedia('(max-width:700px)').matches){closeNav();closeFilters();}});
 
   const filterOpen = document.createElement('button'); filterOpen.type='button';filterOpen.className='button mobile-only';filterOpen.id='open-filters';filterOpen.textContent='筛选与排序';filterOpen.setAttribute('aria-expanded','false');filterOpen.setAttribute('aria-controls','filters');
@@ -3329,6 +4109,7 @@ if (typeof document !== 'undefined') (() => {
     [d.routes.routes.length,'采购 / 经营路线','个人会员与API商业应用分开']
   ];
   $('metrics').innerHTML=stats.map(([n,label,note])=>`<div class="metric"><span>${e(label)}</span><b>${n}</b><small>${e(note)}</small></div>`).join('');
+  const metricScope=document.createElement('details');metricScope.className='metric-scope mobile-only';metricScope.innerHTML='<summary>统计口径与证据边界</summary><div class="disclosure-body">'+stats.map(([n,label,note])=>'<p><b>'+e(label)+' '+n+'</b> · '+e(note)+'</p>').join('')+'</div>';$('metrics').after(metricScope);
   const skuCount=new Set(d.records.map(r=>r.id)).size;
   document.querySelector('#overview .footnote').prepend(`当前供货SKU ${skuCount} 个；研究来源URL ${d.sources.length} 个（去重、仅研究文件）。`);
   function state(){return Object.fromEntries(fields.map(id=>[id,$(id).value]));}
@@ -3405,8 +4186,77 @@ if (typeof document !== 'undefined') (() => {
   $('timeline-content').innerHTML=`<section class="panel"><h2>实际证据时间线</h2><div class="timeline">${d.timeline.map(t=>`<article><time>${e(t.time)}</time><h3>${e(t.title)}</h3><p>${e(t.text)}</p><a href="${e(t.url)}">完整记录 →</a></article>`).join('')}</div></section><section class="panel"><h2>待办：一次问齐的书面询证</h2><p class="small-note">研究建议，尚未联系商家。没有自动发出询证或收集资料。</p><ol class="inquiry-list">${d.invoice.written_inquiry_pack.map(t=>`<li>${e(t)}</li>`).join('')}</ol></section>${candidates.filter(c=>c.new_material_evidence?.length).map(c=>disclosure(`${c.merchant} · 第二轮修正`,c.new_material_evidence.map(t=>`<p class="prose">${e(t)}</p>`).join('')+c.urls.map(u=>`<p>${urlLink(u)}</p>`).join(''))).join('')}`;
   function renderSources(){const q=$('source-search').value.trim().toLowerCase(),sources=d.sources.filter(s=>s.toLowerCase().includes(q));$('source-count').textContent=`${sources.length} / ${d.sources.length} 个去重来源URL`;$('source-content').innerHTML=sources.length?sources.map(s=>`<div class="source-row"><span>${String(d.sources.indexOf(s)+1).padStart(3,'0')}</span>${urlLink(s)}</div>`).join(''):'<div class="empty"><h3>没有匹配来源</h3><p>减少域名或关键词，再试一次。</p><button type="button" class="button" id="reset-sources">清空搜索</button></div>';}
   $('source-search').addEventListener('input',renderSources);$('source-content').addEventListener('click',event=>{if(event.target.id==='reset-sources'){$('source-search').value='';renderSources();}});
-  function navigate(){if($('detail').open)$('detail').close();const hash=decodeURIComponent(location.hash.slice(1)),page=labels[hash]?hash:hash.startsWith('route-')?'routes':hash==='tutorial'?'claude':hash==='troubleshooting'?'phone':hash==='invoice-matrix'||hash==='invoice-evidence'?'quotes':'overview';document.querySelectorAll('.view').forEach(v=>v.hidden=v.id!==page);document.querySelectorAll('[data-page]').forEach(a=>{if(a.dataset.page===page)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});document.querySelectorAll('[data-module]').forEach(a=>{if(a.dataset.module===page)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});$('breadcrumb').textContent=labels[page];closeNav();closeFilters();if(hash!==page&&$(hash)){if($(hash).tagName==='DETAILS')$(hash).open=true;let ancestor=$(hash).parentElement;while(ancestor){if(ancestor.tagName==='DETAILS')ancestor.open=true;ancestor=ancestor.parentElement;}if(hash==='invoice-evidence')$(hash).querySelector('details').open=true;if(hash==='tutorial'){let n=$(hash).nextElementSibling;for(let i=0;i<2&&n;i++,n=n.nextElementSibling)if(n.tagName==='DETAILS')n.open=true;}requestAnimationFrame(()=>$(hash).scrollIntoView());}else window.scrollTo(0,0);}
+  function navigate(){if($('detail').open)$('detail').close();const hash=decodeURIComponent(location.hash.slice(1)),page=labels[hash]?hash:hash.startsWith('route-')?'routes':hash==='tutorial'?'claude':hash==='troubleshooting'?'phone':hash==='invoice-matrix'||hash==='invoice-evidence'?'quotes':'workbench';document.querySelectorAll('.view').forEach(v=>v.hidden=v.id!==page);document.querySelectorAll('[data-page]').forEach(a=>{if(a.dataset.page===page)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});document.querySelectorAll('[data-module]').forEach(a=>{if(a.dataset.module===page)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});document.querySelectorAll('[data-workspace]').forEach(a=>{if(a.dataset.workspace===page||(a.dataset.workspace==='overview'&&!['workbench','library','websites','tasks'].includes(page)))a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});moduleNav.hidden=['workbench','library','websites','tasks'].includes(page);document.body.dataset.area=moduleNav.hidden?'workspace':'research';if(settings.open)settings.close();$('breadcrumb').textContent=labels[page];const catalogPage=['workbench','library','websites','tasks'].includes(page);$('header-download').href=catalogPage?'catalog.json':'data.json';$('header-download').textContent=catalogPage?'下载公开目录':'下载研究数据';closeNav();closeFilters();if(hash!==page&&$(hash)){if($(hash).tagName==='DETAILS')$(hash).open=true;let ancestor=$(hash).parentElement;while(ancestor){if(ancestor.tagName==='DETAILS')ancestor.open=true;ancestor=ancestor.parentElement;}if(hash==='invoice-evidence')$(hash).querySelector('details').open=true;if(hash==='tutorial'){let n=$(hash).nextElementSibling;for(let i=0;i<2&&n;i++,n=n.nextElementSibling)if(n.tagName==='DETAILS')n.open=true;}requestAnimationFrame(()=>$(hash).scrollIntoView());}else{window.scrollTo(0,0);if(document.readyState==='loading')addEventListener('load',()=>window.scrollTo(0,0),{once:true});}}
   window.addEventListener('hashchange',navigate);
   renderQuotes();renderSources();navigate();
+})();
+</script><script>/* Reviewed public catalogue. No discovery, requests, telemetry or private file storage. */
+const CatalogModel = (() => {
+  const types={report:'研究报告',dataset:'结构化数据',tutorial:'使用教程',guide:'排障指南',archive:'公开归档',website:'项目网站',progress:'进度快照'};
+  const stamp=value=>typeof value==='string'&&Number.isFinite(Date.parse(value))?Date.parse(value):null;
+  function filter(records,state={},tasks=[]){
+    const names=Object.fromEntries(tasks.map(t=>[t.id,t.title]));
+    const terms=(state.q||'').trim().toLocaleLowerCase().split(/\s+/).filter(Boolean);
+    const from=state.from?stamp(state.from+'T00:00:00Z'):null,to=state.to?stamp(state.to+'T23:59:59.999Z'):null;
+    return records.filter(r=>{
+      if(r.metadataApproved!==true||!['public','login'].includes(r.access))return false;
+      if(state.task&&r.task!==state.task||state.type&&r.type!==state.type||state.access&&r.access!==state.access)return false;
+      const t=stamp(r.updatedAt);if((from!==null||to!==null)&&t===null)return false;
+      if(from!==null&&t<from||to!==null&&t>to)return false;
+      const text=[r.title,r.summary,names[r.task],types[r.type]].join(' ').toLocaleLowerCase();
+      return terms.every(term=>text.includes(term));
+    }).sort((a,b)=>{
+      if(state.sort==='title')return a.title.localeCompare(b.title,'zh-CN');
+      const x=stamp(a.updatedAt),y=stamp(b.updatedAt);
+      if(x===null&&y!==null)return 1;if(y===null&&x!==null)return -1;
+      const time=x===null||y===null?0:(state.sort==='oldest'?x-y:y-x);
+      return time||a.id.localeCompare(b.id);
+    });
+  }
+  return {types,stamp,filter};
+})();
+if(typeof module!=='undefined'&&module.exports)module.exports=CatalogModel;
+if(typeof document!=='undefined')(()=>{
+  'use strict';
+  const $=id=>document.getElementById(id),e=ResearchModel.esc;
+  const data=JSON.parse($('catalog-data').textContent),taskNames=Object.fromEntries(data.tasks.map(t=>[t.id,t.title]));
+  const date=value=>!value?'更新时间未记录':/^\d{4}-\d{2}-\d{2}$/.test(value)?'截至 '+value:new Intl.DateTimeFormat('zh-CN',{dateStyle:'medium',timeStyle:'short',timeZone:'UTC'}).format(new Date(value))+' UTC';
+  const access=r=>r.access==='login'?'需登录':'公开';
+  function link(r,label='打开资料') {return `<a class="button" href="${e(r.url)}"${r.url.startsWith('https:')?' target="_blank" rel="noopener noreferrer"':''}>${label}<span class="visually-hidden">：${e(r.title)}</span></a>`;}
+  const bases={library:data.records,websites:data.records.filter(r=>r.category==='websites'),tasks:data.records.filter(r=>r.category==='tasks')};
+  const controls=['q','task','type','from','to','access','sort'];
+  function state(page){return Object.fromEntries(controls.map(k=>[k,$(page+'-'+k).value]));}
+  function recordCard(r){return `<article class="catalog-card" data-catalog-id="${e(r.id)}"><div class="catalog-card-meta"><span class="tag">${e(CatalogModel.types[r.type])}</span><span>${access(r)}</span></div><h2>${e(r.title)}</h2><p class="catalog-summary">${e(r.summary)}</p><div class="catalog-card-footer"><span>${e(taskNames[r.task])}<br><time>${date(r.updatedAt)}</time></span>${link(r,r.type==='website'?'进入网站':'打开资料')}</div></article>`;}
+  function taskCard(r){const t=data.tasks.find(t=>t.id===r.task);return `<article class="task-card" data-catalog-id="${e(r.id)}"><div class="catalog-card-meta"><span class="tag">${e(t.status)}</span><time>${date(t.updatedAt)}</time></div><h2>${e(t.title)}</h2><p class="catalog-summary">${e(t.progress)}</p><details><summary>待完成与验收范围</summary><div class="disclosure-body"><p>${e(t.gaps)}</p><p class="small-note">${e(t.evidence)}</p>${t.children.map(c=>`<section class="task-child"><h3>${e(c.name)}</h3><span class="tag">${e(c.status)}</span><p>${e(c.progress)}</p><p class="small-note">待办：${e(c.gaps)}</p></section>`).join('')}<a href="${e(t.source)}">原始公开进度数据 ↗</a></div></details>${link(r,'查看原始项目快照')}</article>`;}
+  function render(page){
+    const s=state(page),invalid=s.from&&s.to&&s.from>s.to;
+    $(page+'-date-error').textContent=invalid?'开始日期不能晚于结束日期。':'';
+    const list=invalid?[]:CatalogModel.filter(bases[page],s,data.tasks);
+    $(page+'-count').textContent=`${list.length} / ${bases[page].length} ${page==='tasks'?'项任务':page==='websites'?'个网站入口':'条目录记录'}`;
+    const tags=controls.filter(k=>s[k]&&k!=='sort').map(k=>`${{q:'关键词',task:'任务',type:'类型',from:'起始日期',to:'结束日期',access:'访问'}[k]}：${k==='task'?taskNames[s[k]]:k==='type'?CatalogModel.types[s[k]]:k==='access'?s[k]==='public'?'公开':'需登录':s[k]}`);
+    $(page+'-active').innerHTML=tags.map(t=>`<span class="tag">${e(t)}</span>`).join('');
+    $(page+'-results').innerHTML=list.length?`<div class="catalog-grid">${list.map(page==='tasks'?taskCard:recordCard).join('')}</div>`:`<div class="empty"><h2>${invalid?'请调整日期范围':'没有符合条件的公开目录记录'}</h2><p>可减少关键词或筛选条件。需登录资料只在获得明确公开许可后收录；未收录不代表不存在。</p><button type="button" class="button catalog-empty-reset">重置筛选</button></div>`;
+    $(page+'-results').querySelector('.catalog-empty-reset')?.addEventListener('click',()=>{$(page+'-form').reset();render(page);$(page+'-q').focus();});
+  }
+  for(const page of Object.keys(bases)){
+    const knownTypes=[...new Set(bases[page].map(r=>r.type))];
+    $(page+'-tools').innerHTML=`<form id="${page}-form" class="catalog-filters panel" role="search"><div class="catalog-filter-primary"><label>搜索资料与任务<input id="${page}-q" type="search" autocomplete="off" placeholder="标题、内容或项目名称"></label><label>所属任务<select id="${page}-task"><option value="">全部任务</option>${data.tasks.map(t=>`<option value="${e(t.id)}">${e(t.title)}</option>`).join('')}</select></label><label>资料类型<select id="${page}-type"><option value="">全部类型</option>${knownTypes.map(t=>`<option value="${e(t)}">${e(CatalogModel.types[t])}</option>`).join('')}</select></label></div><details class="catalog-more"><summary>日期、访问范围与排序</summary><div class="catalog-filter-secondary"><label>更新起始日期（UTC）<input id="${page}-from" type="date"></label><label>更新结束日期（UTC）<input id="${page}-to" type="date"></label><label>访问范围<select id="${page}-access"><option value="">全部已收录范围</option><option value="public">公开</option><option value="login">需登录</option></select></label><label>排序<select id="${page}-sort"><option value="latest">更新时间从新到旧</option><option value="oldest">更新时间从旧到新</option><option value="title">标题</option></select></label></div><p class="small-note">日期筛选不包含更新时间未记录的资料；未知日期始终排在末尾。</p></details><p id="${page}-date-error" class="catalog-error" role="alert"></p><div class="catalog-filter-footer"><b id="${page}-count" role="status"></b><button class="button" type="reset">重置筛选</button></div></form><div id="${page}-active" class="active-filters"></div>`;
+    const form=$(page+'-form'),primary=form.querySelector('.catalog-filter-primary'),more=form.querySelector('.catalog-more');
+    const open=document.createElement('button');open.type='button';open.className='button catalog-refine-open';open.textContent='筛选';open.setAttribute('aria-haspopup','dialog');open.setAttribute('aria-controls',page+'-refine');primary.append(open);
+    const drawer=document.createElement('dialog');drawer.id=page+'-refine';drawer.className='catalog-refine';drawer.setAttribute('aria-label','目录多维筛选');drawer.innerHTML='<div class="settings-heading"><h2>筛选与排序</h2><button type="button" class="button catalog-refine-close" aria-label="关闭筛选">×</button></div><div class="catalog-refine-fields"></div><button type="button" class="button primary catalog-refine-done">查看结果</button>';form.append(drawer);
+    const fields=drawer.querySelector('.catalog-refine-fields'),taskLabel=$(page+'-task').closest('label'),typeLabel=$(page+'-type').closest('label');
+    const arrange=()=>{if(matchMedia('(max-width:700px)').matches){fields.append(taskLabel,typeLabel,more);}else{primary.insertBefore(taskLabel,open);primary.insertBefore(typeLabel,open);primary.after(more);if(drawer.open)drawer.close();}};arrange();addEventListener('resize',arrange);
+    open.addEventListener('click',()=>{more.open=true;drawer.showModal();$(page+'-task').focus();});drawer.querySelector('.catalog-refine-close').addEventListener('click',()=>drawer.close());drawer.querySelector('.catalog-refine-done').addEventListener('click',()=>drawer.close());drawer.addEventListener('close',()=>open.focus());drawer.addEventListener('click',event=>{if(event.target===drawer){const r=drawer.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)drawer.close();}});
+    addEventListener('hashchange',()=>{if(drawer.open)drawer.close();});
+    for(const k of controls){const n=$(page+'-'+k);n.name=k;n.addEventListener(k==='q'?'input':'change',()=>render(page));}
+    $(page+'-form').addEventListener('submit',ev=>ev.preventDefault());$(page+'-form').addEventListener('reset',()=>setTimeout(()=>render(page),0));render(page);
+  }
+  $('hub-summary').innerHTML=[['library',data.counts.artifacts,'已收录成果资料','报告、数据、教程与公开归档'],['websites',data.counts.websites,'明确网站入口','主站与既有个人进化镜像'],['tasks',data.counts.tasks,'公开任务快照','状态与待办分别保留']].map(([id,n,title,note])=>`<a class="hub-stat" href="#${id}"><b>${n}</b><span>${title}</span><small>${note}</small></a>`).join('');
+  const recent=CatalogModel.filter(data.records.filter(r=>r.category==='artifacts'),{},data.tasks).slice(0,4);
+  $('hub-recent').innerHTML=recent.map(r=>`<a class="hub-item" href="${e(r.url)}"><span class="tag">${e(CatalogModel.types[r.type])}</span><div><b>${e(r.title)}</b><small>${date(r.updatedAt)}</small></div><span aria-hidden="true">↗</span></a>`).join('');
+  $('hub-tasks').innerHTML=['project-1','project-5','project-6','project-8'].map(id=>data.tasks.find(t=>t.id===id)).filter(Boolean).map(t=>`<a class="hub-item" href="#tasks" data-task-id="${e(t.id)}"><div><b>${e(t.title)}</b><small>${e(t.status)} · ${date(t.updatedAt)}</small></div><span aria-hidden="true">→</span></a>`).join('');
+  document.querySelectorAll('[data-task-id]').forEach(a=>a.addEventListener('click',()=>{$('tasks-task').value=a.dataset.taskId;render('tasks');}));
+  $('catalog-scope').textContent=data.scope+' 当前任务整理快照：'+date(data.projectSnapshotUpdatedAt)+'。';
+  $('hub-search').addEventListener('submit',ev=>{ev.preventDefault();$('library-q').value=$('hub-query').value;render('library');location.hash='library';});
 })();
 </script></body></html>
