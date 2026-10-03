@@ -29,6 +29,7 @@
     "./read/causality.html",
     "./read/cheng-2023.html",
     "./read/cheng-2025.html",
+    "./read/cheng-landscape-evidence-2025.html",
     "./read/cheng-thesis.html",
     "./read/corrections.html",
     "./read/course.html",
@@ -127,6 +128,7 @@
     "./read/typology.html",
     "./read/uncertainty.html",
     "./read/update-20260929-reader-v5.html",
+    "./read/update-20261003-thesis-evidence-v552.html",
     "./read/validation.html",
     "./read/verdouw-2021.html",
     "./read/whole-farm.html",
@@ -1078,5 +1080,5 @@
       "./vendor/translation/wasm/ort-wasm-simd-threaded.wasm"
     ]
   },
-  "bytes": 382942573
+  "bytes": 382997251
 }
