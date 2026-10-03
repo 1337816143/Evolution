@@ -1,17 +1,32 @@
 {
   "source": "用户与dot当前房间的可见用户/助手文字",
   "start": "2026-09-30T08:54:40.516423+00:00",
-  "end": "2026-10-02T05:58:03.520076+00:00",
+  "end": "2026-10-02T22:00:20.523564+00:00",
   "readApiHistoryExhausted": true,
   "limitations": [
     "仅为当前工具可返回的可见历史，不能证明服务端所有已删或不可见内容齐全",
     "附件本体未纳入",
-    "不含其他Codex或ChatGPT对话全文"
+    "不含其他Codex或ChatGPT对话全文",
+    "本次增量按真实消息ID与已公开229条基线衔接；捕获时间不表示之后的新消息已纳入",
+    "平台设置及审批控制卡不作为聊天原文；空正文仅保留真实ID、角色和时间，不代表附件已取得"
   ],
   "redactions": "凭据及高度敏感识别信息按标记移除",
-  "messageCount": 229,
-  "userCount": 66,
-  "assistantCount": 163,
-  "textCharacters": 38028,
-  "contentVersion": "1.6.0"
+  "latestIncrement": {
+    "capturedAt": "2026-10-03T00:44:56Z",
+    "baselineMessageCount": 229,
+    "candidateCount": 128,
+    "overlapByIdCount": 1,
+    "newMessageCount": 126,
+    "newNonemptyTextCount": 122,
+    "newEmptyTextCount": 4,
+    "additionalControlExcludedCount": 1,
+    "previouslyExcludedControlCount": 3,
+    "newSecretRedactionCount": 0,
+    "method": "真实消息ID去重；重叠消息角色、时间和原文均一致"
+  },
+  "messageCount": 355,
+  "userCount": 109,
+  "assistantCount": 246,
+  "textCharacters": 58392,
+  "contentVersion": "1.6.1"
 }
