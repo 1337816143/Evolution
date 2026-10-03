@@ -120,7 +120,7 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
 <div class="sidebar-group"><p class="nav-label" id="nav-research-label">AI 研究</p><nav aria-labelledby="nav-research-label"><a href="#overview" data-page="overview">研究总览</a><a href="#quotes" data-page="quotes">供应对比</a><a href="#routes" data-page="routes">源头方案</a><a href="#phone" data-page="phone">账号问题</a><a href="#claude" data-page="claude">Claude指南</a></nav></div>
 <div class="sidebar-group"><p class="nav-label" id="nav-evidence-label">记录与证据</p><nav aria-labelledby="nav-evidence-label"><a href="#timeline" data-page="timeline">研究修正</a><a href="#sources" data-page="sources">来源索引</a></nav></div>
 <div class="sidebar-bottom"><details class="sidebar-archive"><summary>历史与原文</summary><div><a href="https://1337816143.github.io/MyDotWork/">历史供货库 · 126条</a><a href="../chat/index.html">聊天原文</a><a href="../projects/index.html">项目快照原文</a><a href="../research/2026-10-02-round2.html">第二轮完整正文</a></div></details><p>公开资料 · 只读核查<br>没有成交或发票验真记录</p></div></div><button type="button" id="sidebar-collapse" class="sidebar-collapse" aria-expanded="true" aria-label="收起导航"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 6l-6 6 6 6"/></svg><span>收起导航</span></button></aside>
-<div class="workspace"><header class="topbar"><span class="header-brand"><a href="#workbench">MyDotWork</a><small><span id="breadcrumb-group">工作空间</span><span aria-hidden="true"> / </span><b id="breadcrumb">工作台</b></small></span><button id="appearance-open" type="button" class="mobile-only appearance-open" aria-haspopup="dialog" aria-label="外观设置">外观</button><div class="appearance" aria-label="工作区外观"><label>布局<select id="layout-choice"><option value="B">B · 分析工作台</option><option value="A">A · 明亮工作区</option></select></label><button id="color-choice" type="button" aria-pressed="false">切换为浅色</button></div><script>document.getElementById("layout-choice").value=document.documentElement.dataset.layout;document.getElementById("color-choice").hidden=document.documentElement.dataset.layout==="A";document.getElementById("color-choice").textContent=document.documentElement.dataset.color==="light"?"切换为深色":"切换为浅色";</script><a id="header-download" href="data.json" download>下载研究数据</a></header><div class="context-bar" aria-label="当前界面与外观"><span class="ui-version">UI v1.7.1</span><span id="appearance-state" role="status"></span><button id="effects-choice" type="button" aria-pressed="false">轻量效果</button><span id="context-location"></span><a id="canonical-entry" href="https://1337816143.github.io/MyDotWork/dashboard/index.html#workbench">主站当前工作台 ↗</a></div><main id="main" tabindex="-1">
+<div class="workspace"><header class="topbar"><span class="header-brand"><a href="#workbench">MyDotWork</a><small><span id="breadcrumb-group">工作空间</span><span aria-hidden="true"> / </span><b id="breadcrumb">工作台</b></small></span><button id="appearance-open" type="button" class="mobile-only appearance-open" aria-haspopup="dialog" aria-label="外观设置">外观</button><div class="appearance" aria-label="工作区外观"><label>布局<select id="layout-choice"><option value="B">B · 分析工作台</option><option value="A">A · 明亮工作区</option></select></label><button id="color-choice" type="button" aria-pressed="false">切换为浅色</button></div><script>document.getElementById("layout-choice").value=document.documentElement.dataset.layout;document.getElementById("color-choice").hidden=document.documentElement.dataset.layout==="A";document.getElementById("color-choice").textContent=document.documentElement.dataset.color==="light"?"切换为深色":"切换为浅色";</script><a id="header-download" href="data.json" download>下载研究数据</a></header><div class="context-bar" aria-label="当前界面与外观"><span class="ui-version">UI v1.7.2</span><span id="appearance-state" role="status"></span><button id="effects-choice" type="button" aria-pressed="false">轻量效果</button><span id="context-location"></span><a id="canonical-entry" href="https://1337816143.github.io/MyDotWork/dashboard/index.html#workbench">主站当前工作台 ↗</a></div><main id="main" tabindex="-1">
 
 <section id="workbench" class="view" hidden><div class="hub-heading"><div><p class="eyebrow">MyDotWork / AI工作台</p><h1>继续你的研究与项目</h1><p class="lede">从明确公开的成果进入项目，查看原始资料和仍待完成的事项。</p></div><a class="button" href="#overview">AI研究仪表盘</a></div><form id="hub-search" class="hub-search" role="search"><label for="hub-query">搜索成果与任务</label><div><input id="hub-query" type="search" placeholder="报告、数据、教程或项目名称" autocomplete="off"><button class="button primary" type="submit">搜索目录</button></div></form><div id="hub-summary" class="hub-summary"></div><div class="hub-columns"><section class="panel"><div class="section-heading"><h2>研究成果</h2><a href="#library">全部资料 →</a></div><div id="hub-recent"></div></section><section class="panel"><div class="section-heading"><h2>继续项目</h2><a href="#tasks">全部任务 →</a></div><div id="hub-tasks"></div></section></div><section class="panel hub-research"><div class="section-heading"><h2>AI上游研究 · 四个模块</h2><a href="#overview">报价与证据总览 →</a></div><div class="hub-module-grid"><a href="#quotes"><b>ChatGPT低价与发票</b><span>同规格报价、票据和证据缺口</span></a><a href="#routes"><b>源头与自主供货</b><span>经营路线、客户资格与授权</span></a><a href="#phone"><b>成品号与手机验证</b><span>账号控制权与验证排障</span></a><a href="#claude"><b>Claude Code</b><span>采购、计费与新手教程</span></a></div></section><p class="footnote" id="catalog-scope"></p></section>
 <section id="library" class="view" hidden><div class="page-heading"><div><p class="eyebrow">成果资料</p><h1>从任务找到可用资料</h1><p class="lede">报告、数据、教程、网站与进度快照分别标注；打开原文查看完整范围。</p></div><a class="button" href="catalog.json" download>下载公开目录 JSON</a></div><div id="library-tools"></div><div id="library-results"></div></section>
@@ -136,7 +136,7 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
 <section id="claude" class="view" hidden><div class="page-heading"><div><p class="eyebrow">工具采购与使用</p><h1>Claude Code 研究台</h1><p class="lede">个人订阅用量、API账单和第三方零售交付分别核查。</p></div><a class="button primary" href="#tutorial">新手使用教程</a></div><div id="claude-content"></div></section>
 <section id="timeline" class="view" hidden><div class="page-heading"><div><p class="eyebrow">研究过程</p><h1>任务与历史修正</h1><p class="lede">按实际核查时间记录证据变化。以下为待询证事项，没有自动标记为已完成。</p></div></div><div id="timeline-content"></div></section>
 <section id="sources" class="view" hidden><div class="page-heading"><div><p class="eyebrow">可追溯资料</p><h1>来源索引</h1><p class="lede">来源URL数量不等于独立供应商数量。外链保留原研究出处，未重新核验当前网页。</p></div></div><div class="panel"><label>筛选来源<input id="source-search" type="search" placeholder="输入域名或链接片段"></label><p id="source-count" aria-live="polite"></p><div id="source-content"></div></div></section>
-</main><footer>MyDotWork · 公开研究快照 · v1.7.1 <a href="../research/2026-10-02.html">第一轮全文</a><a href="../research/2026-10-02-round2.html">第二轮全文</a></footer></div>
+</main><footer>MyDotWork · 公开研究快照 · v1.7.2 <a href="../research/2026-10-02.html">第一轮全文</a><a href="../research/2026-10-02-round2.html">第二轮全文</a></footer></div>
 <dialog id="appearance-settings" aria-labelledby="appearance-settings-title"><div class="settings-heading"><h2 id="appearance-settings-title">外观设置</h2><button type="button" id="appearance-close" class="button" aria-label="关闭外观设置">×</button></div><div id="appearance-settings-body"></div></dialog><dialog id="detail"><div class="detail-header"><p class="eyebrow">SKU 证据详情</p><button id="close-detail" class="button" type="button" aria-label="关闭详情">关闭 ×</button></div><div id="detail-content"></div></dialog>
 <script id="catalog-data" type="application/json">{
   "schemaVersion": 1,
@@ -252,7 +252,7 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
       "type": "dataset",
       "task": "project-4",
       "url": "../projects/status.json",
-      "updatedAt": "2026-10-03T03:49:00Z",
+      "updatedAt": "2026-10-03T06:14:00Z",
       "summary": "17项公开项目进度快照，记录已有研究、方案、缺口与验收范围。",
       "access": "public",
       "metadataApproved": true,
@@ -261,12 +261,12 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
     },
     {
       "id": "upstream-round3-7",
-      "title": "AI上游研究 · 第3—8轮公开补充",
+      "title": "AI上游研究 · 第3—8轮与票据授权核验",
       "type": "report",
       "task": "project-1",
       "url": "../research/round3-7/report.html",
       "updatedAt": "2026-10-03",
-      "summary": "8个证据章节、257个去重来源URL（含复查及未取得正文项）和30条历史报价；8条仍是待核线索，新增合格候选榜为空。",
+      "summary": "9个证据章节、273个去重来源URL和30条历史报价；追加7家主体/票项/转售权矩阵，32条本轮来源含复读与未取得正文项，合格候选仍为空。",
       "access": "public",
       "metadataApproved": true,
       "category": "artifacts",
@@ -274,12 +274,12 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
     },
     {
       "id": "upstream-round3-7-data",
-      "title": "第3—8轮上游研究数据 JSON",
+      "title": "第3—8轮与票据授权核验 · 数据 JSON",
       "type": "dataset",
       "task": "project-1",
       "url": "../research/round3-7/ai-upstream-public.json",
       "updatedAt": "2026-10-03",
-      "summary": "保留旧7章、30条历史报价、未知费用与全部修正，追加第8轮官方条款和经济分析；观察时间不改为当前成交时间。",
+      "summary": "旧8章与30条历史报价完整保留，追加7家询证清单与税务查验边界；273个URL仅为目录总数，不等于净新有效证据或已验真发票。",
       "access": "public",
       "metadataApproved": true,
       "category": "artifacts",
@@ -287,12 +287,12 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
     },
     {
       "id": "side-income-report",
-      "title": "AI副业调研 · 低维护产品与自由接单 v1.3",
+      "title": "AI副业调研 · 低维护产品与自由接单 v1.4",
       "type": "report",
       "task": "project-17",
       "url": "../research/ai-side-income/report.html",
       "updatedAt": "2026-10-03",
-      "summary": "32类方向、153个公开来源；仅C10窄范围原创评估样品已制作，保留产品实验、服务验证与真实销售未验证的区分。",
+      "summary": "32类方向、153个公开来源；保留v0.1，新增同一C10样品v0.2候选及兼容验收表。程序与Writer检查通过，Excel/Calc及商业验证仍未完成。",
       "access": "public",
       "metadataApproved": true,
       "category": "artifacts",
@@ -300,7 +300,7 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
     },
     {
       "id": "side-income-data",
-      "title": "AI副业调研 · 结构化资料 JSON v1.3",
+      "title": "AI副业调研 · 结构化资料 JSON v1.4",
       "type": "dataset",
       "task": "project-17",
       "url": "../research/ai-side-income/data.json",
@@ -323,6 +323,19 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
       "metadataApproved": true,
       "category": "artifacts",
       "source": "../research/ai-side-income/sample-v0.1.zip"
+    },
+    {
+      "id": "side-income-sample-v02-candidate",
+      "title": "科研证据矩阵 · 原创评估样品 v0.2候选",
+      "type": "archive",
+      "task": "project-17",
+      "url": "../research/ai-side-income/sample-v0.2-candidate.zip",
+      "updatedAt": "2026-10-03",
+      "summary": "60,354字节候选包，修正空白、缺失与重复ID提示，关联范围扩至200行；21项程序检查及Writer原生编辑保存通过，Excel/Calc原生重算未验，无真实客户或收入证据。",
+      "access": "public",
+      "metadataApproved": true,
+      "category": "artifacts",
+      "source": "../research/ai-side-income/sample-v0.2-candidate.zip"
     },
     {
       "id": "mydotwork-workbench",
@@ -357,7 +370,7 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
       "task": "project-6",
       "url": "https://1337816143.github.io/Paper/",
       "updatedAt": "2026-10-03",
-      "summary": "v5.4.2已发布；学习、筛选、笔记本地恢复等线上交互已核，真实登录与双设备恢复仍未验收。",
+      "summary": "三课深化与原创教学脚本已在独立站和个人进化镜像发布；内容版本5a6f6cb7e798。云端手机、离线与合成笔记检查通过，真实登录和双设备恢复仍未验。",
       "access": "public",
       "metadataApproved": true,
       "category": "websites",
@@ -370,7 +383,7 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
       "task": "project-5",
       "url": "https://1337816143.github.io/FarmSystemDesign/#research",
       "updatedAt": "2026-10-03",
-      "summary": "2025分类切换已上线；全海南RGB、气候、行政与逐岛第二阶段云端进行，研究校准缺口保留。",
+      "summary": "v0.3.9已上线，主岛/海口/岛屿/农场RGB及动态COG可用；99.122%仅为近似显示掩膜比例，社区18面非官方，三沙完整边界及权威县界仍有缺口。",
       "access": "public",
       "metadataApproved": true,
       "category": "websites",
@@ -384,7 +397,7 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
       "url": "../projects/index.html#project-1",
       "source": "../projects/status.json",
       "updatedAt": "2026-10-03",
-      "summary": "统一管理ChatGPT低价与发票、真正源头与自主供货、成品号与手机验证、Claude Code四条子任务；保留首轮、第二轮和第3—7轮证据，并接入第8轮官方许可、礼赠与Batch经济分析。完整补充报告现为8章、257个去重来源URL（含复查及未取得正文项）、30条历史报价；8条仍为待核线索，新增合格候选榜为空。",
+      "summary": "统一管理ChatGPT低价与发票、真正源头与自主供货、成品号与手机验证、Claude Code四条子任务；首轮、第二轮和第3—8轮完整保留。新增7家收款/开票/同SKU票项/转售权矩阵与询证清单，完整补充报告为9章、273个去重URL和30条历史报价；32条本轮来源含复读与未取得正文项，不称净新增有效证据，合格候选仍为空。",
       "access": "public",
       "metadataApproved": true,
       "category": "tasks"
@@ -423,7 +436,7 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
       "url": "../projects/index.html#project-4",
       "source": "../projects/status.json",
       "updatedAt": "2026-10-03",
-      "summary": "工作台v1.7.0中文导航已在主站及个人进化镜像上线；本次接入第3—8轮研究、副业v1.3及首个原创评估样品，并补齐Paper与Farm独立网站入口。归档保留355条已公开脱敏记录，其中346条有文字，目录共14项成果、4个网站与17项任务。",
+      "summary": "工作台v1.7.1中文导航、两份完整研究报告、首个原创评估样品及Paper/Farm入口已在主站和个人进化镜像上线；两站固定390、768、1280宽度和两报告返回入口、长URL换行、ZIP下载均通过云端检查。归档保留355条已公开脱敏记录，其中346条有文字；本次新增同一产品的v0.2候选版本入口，目录为15项成果、4个网站与17项任务。",
       "access": "public",
       "metadataApproved": true,
       "category": "tasks"
@@ -436,7 +449,7 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
       "url": "../projects/index.html#project-5",
       "source": "../projects/status.json",
       "updatedAt": "2026-10-03",
-      "summary": "2025土地覆盖分类切换已上线，完整分类与Crops图层、缩放至18级及返回原110图层、2021统计导出已完成线上检查；全海南RGB、气候、行政边界与逐岛覆盖作为第二阶段在云端继续。",
+      "summary": "全海南研究区与主岛、海口、岛屿及农场RGB入口已上线；动态COG、Crops分类、原110图层恢复与下载已完成云端检查。主岛近似显示掩膜的接受比例为99.122%，不能解释为原生10米完整覆盖率。",
       "access": "public",
       "metadataApproved": true,
       "category": "tasks"
@@ -449,7 +462,7 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
       "url": "../projects/index.html#project-6",
       "source": "../projects/status.json",
       "updatedAt": "2026-10-03",
-      "summary": "论文学习修订已部署到独立网站，版本5.4.2；学习内容、支配关系、极值、筛选、笔记本地恢复、手机与键盘操作已完成线上检查。",
+      "summary": "版本5.4.2、内容版本5a6f6cb7e798已上线，新增单位约束、氮投入双边界与情景后悔值三课及原创教学脚本。两站新课、自测反馈、原文段落、手机交互、离线阅读与合成笔记本地保存恢复均已核验。",
       "access": "public",
       "metadataApproved": true,
       "category": "tasks"
@@ -592,7 +605,7 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
       "url": "../projects/index.html#project-17",
       "source": "../projects/status.json",
       "updatedAt": "2026-10-03",
-      "summary": "v1.3保留43条输入、32类方向、153个公开来源、15条需求证据和3个低维护产品实验。仅C10下“科研证据矩阵到提纲”窄范围原创评估样品已制作，提供报告、结构化资料及样品与执行清单成果包；其他样品和C10完整套装尚未完成。",
+      "summary": "v1.4保留43条输入、32类方向、153个公开来源、15条需求证据和3个产品实验。保留v0.1原包，新增同一C10窄样品v0.2候选，修正空白、缺失/重复ID提示和200行范围；21项程序检查及Writer两页原生编辑保存通过，产品类仍只完成C10一个窄样品。",
       "access": "public",
       "metadataApproved": true,
       "category": "tasks"
@@ -603,10 +616,10 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
       "id": "project-1",
       "title": "AI上游调研",
       "status": "进行中",
-      "progress": "统一管理ChatGPT低价与发票、真正源头与自主供货、成品号与手机验证、Claude Code四条子任务；保留首轮、第二轮和第3—7轮证据，并接入第8轮官方许可、礼赠与Batch经济分析。完整补充报告现为8章、257个去重来源URL（含复查及未取得正文项）、30条历史报价；8条仍为待核线索，新增合格候选榜为空。",
+      "progress": "统一管理ChatGPT低价与发票、真正源头与自主供货、成品号与手机验证、Claude Code四条子任务；首轮、第二轮和第3—8轮完整保留。新增7家收款/开票/同SKU票项/转售权矩阵与询证清单，完整补充报告为9章、273个去重URL和30条历史报价；32条本轮来源含复读与未取得正文项，不称净新增有效证据，合格候选仍为空。",
       "gaps": "没有候选同时通过低价、真实发票、合法资金、商业授权与持续履约核验；查到资料不等于调研结束。",
       "updatedAt": "2026-10-03",
-      "evidence": "2026-10-03北京时间发布更新；研究原始观察时间保留，32条第8轮官方来源记录中30条相对完整3—7轮包为净新增；未注册、付款或验真发票",
+      "evidence": "公开资料增补与历史字节/结构核验，2026-10-03；原始观察时间保留，未联系商家、未付款或取得真实发票验真",
       "children": [
         {
           "name": "ChatGPT低价渠道与发票",
@@ -670,10 +683,10 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
       "id": "project-4",
       "title": "聊天归档与项目进度网站",
       "status": "中文工作台已发布，资料与项目持续更新",
-      "progress": "工作台v1.7.0中文导航已在主站及个人进化镜像上线；本次接入第3—8轮研究、副业v1.3及首个原创评估样品，并补齐Paper与Farm独立网站入口。归档保留355条已公开脱敏记录，其中346条有文字，目录共14项成果、4个网站与17项任务。",
+      "progress": "工作台v1.7.1中文导航、两份完整研究报告、首个原创评估样品及Paper/Farm入口已在主站和个人进化镜像上线；两站固定390、768、1280宽度和两报告返回入口、长URL换行、ZIP下载均通过云端检查。归档保留355条已公开脱敏记录，其中346条有文字；本次新增同一产品的v0.2候选版本入口，目录为15项成果、4个网站与17项任务。",
       "gaps": "覆盖截止以chat/coverage.json为准，网站不是实时完整聊天备份；不含附件本体、其他GPT/Codex会话全文，平台控制卡已排除。",
       "updatedAt": "2026-10-03",
-      "evidence": "v1.7.0双站部署与17项产物逐字节核验，2026-10-03；本次资料发布状态以release-manifest为准",
+      "evidence": "v1.7.1双站18项产物逐字节核验及17项云端浏览器案例通过，2026-10-03；本次资料状态以发布清单为准",
       "children": [],
       "access": "public",
       "metadataApproved": true,
@@ -683,11 +696,11 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
     {
       "id": "project-5",
       "title": "FarmSystemDesign农业系统平台",
-      "status": "2025分类切换已发布，第二阶段云端进行",
-      "progress": "2025土地覆盖分类切换已上线，完整分类与Crops图层、缩放至18级及返回原110图层、2021统计导出已完成线上检查；全海南RGB、气候、行政边界与逐岛覆盖作为第二阶段在云端继续。",
-      "gaps": "县域边界匹配、经营权、实测校准和代表性仍需核验；第二阶段资料尚未完成。CSV在线生成内容已核对，独立云浏览器CSV下载落盘未确认。",
+      "status": "v0.3.9已发布，区域覆盖与校准继续核验",
+      "progress": "全海南研究区与主岛、海口、岛屿及农场RGB入口已上线；动态COG、Crops分类、原110图层恢复与下载已完成云端检查。主岛近似显示掩膜的接受比例为99.122%，不能解释为原生10米完整覆盖率。",
+      "gaps": "18个社区面为社区来源而非官方行政边界；三沙完整边界、穷尽岛礁清单、权威现势县界、经营权及实测校准仍有缺口。",
       "updatedAt": "2026-10-03",
-      "evidence": "已部署提交1992d898ed0da0ca7cfb0b743a72ca5d581fc86c、Pages成功、49项Node/10项空间/86项浏览器检查及云端图层和导出核验，2026-10-03",
+      "evidence": "已部署提交e9d380262f02c4444acfecc658ef3f28448b00e8，版本0.3.9；67项Node、10项空间、88项主站浏览器及40项区域浏览器检查通过，线上图层与下载哈希已核验，2026-10-03",
       "children": [],
       "access": "public",
       "metadataApproved": true,
@@ -697,11 +710,11 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
     {
       "id": "project-6",
       "title": "Paper论文学习平台",
-      "status": "v5.4.2已发布，继续验收使用场景",
-      "progress": "论文学习修订已部署到独立网站，版本5.4.2；学习内容、支配关系、极值、筛选、笔记本地恢复、手机与键盘操作已完成线上检查。",
-      "gaps": "真实登录与双设备恢复仍未验收；相关同步功能不能据本地笔记恢复推定已经闭环。",
+      "status": "三课深化已在独立站及个人进化镜像发布",
+      "progress": "版本5.4.2、内容版本5a6f6cb7e798已上线，新增单位约束、氮投入双边界与情景后悔值三课及原创教学脚本。两站新课、自测反馈、原文段落、手机交互、离线阅读与合成笔记本地保存恢复均已核验。",
+      "gaps": "真实用户登录与双设备恢复仍未验收；合成笔记本地恢复不能据此证明真实账号跨设备同步已闭环。",
       "updatedAt": "2026-10-03",
-      "evidence": "已部署提交c6658cd48e23421a967d4c48e9fa82bac1fd5d22、GitHub Pages成功及线上7项交互核验，2026-10-03",
+      "evidence": "独立站提交8691cd548c234bc4db6e7394933716c24a639576与个人进化镜像已发布；8项核心资产字节一致，3课镜像仅增加既有全站搜索资源；双站云端集成与手机检查通过，2026-10-03",
       "children": [],
       "access": "public",
       "metadataApproved": true,
@@ -851,11 +864,11 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
     {
       "id": "project-17",
       "title": "AI副业调研",
-      "status": "首个原创评估样品已制作，商业验证未开始",
-      "progress": "v1.3保留43条输入、32类方向、153个公开来源、15条需求证据和3个低维护产品实验。仅C10下“科研证据矩阵到提纲”窄范围原创评估样品已制作，提供报告、结构化资料及样品与执行清单成果包；其他样品和C10完整套装尚未完成。",
-      "gaps": "未上架、未设置商品价格、未开店或接受付款；没有独立试用、订单、收益与银行卡提现证据。39元等仅情景假设；原生Excel及Calc/XLSX重算未验证。",
+      "status": "v0.2评估候选已制作，兼容与商业验证继续",
+      "progress": "v1.4保留43条输入、32类方向、153个公开来源、15条需求证据和3个产品实验。保留v0.1原包，新增同一C10窄样品v0.2候选，修正空白、缺失/重复ID提示和200行范围；21项程序检查及Writer两页原生编辑保存通过，产品类仍只完成C10一个窄样品。",
+      "gaps": "原生Excel与Calc/XLSX重算、WPS及手机办公兼容尚未通过；没有独立用户试用、真实客户、订单、收益或提现证据。39元等仍是情景假设，公开评估下载不等于正式商品或付费交付。",
       "updatedAt": "2026-10-03",
-      "evidence": "2026-10-03北京时间目录更新；报告与样品保留2026-10-02制作/核验日期，文件已检查不等于正式商品或商业成功",
+      "evidence": "原创评估包40个递归成员与哈希、程序回归及Writer验证记录已核对，2026-10-03；旧包原字节保留，目标软件和独立使用验收仍待完成",
       "children": [],
       "access": "public",
       "metadataApproved": true,
@@ -864,11 +877,11 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
     }
   ],
   "counts": {
-    "artifacts": 14,
+    "artifacts": 15,
     "websites": 4,
     "tasks": 17
   },
-  "projectSnapshotUpdatedAt": "2026-10-03T03:49:00Z"
+  "projectSnapshotUpdatedAt": "2026-10-03T06:14:00Z"
 }</script><script id="research-data" type="application/json">{
   "schema": "mydotwork.dashboard.v1",
   "date": "2026-10-02",
