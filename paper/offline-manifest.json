@@ -75,6 +75,7 @@
     "./read/method-ledgers.html",
     "./read/mixed-2026.html",
     "./read/model-map.html",
+    "./read/model-software.html",
     "./read/novotny-2024.html",
     "./read/nutrients.html",
     "./read/offline-help.html",
@@ -89,11 +90,14 @@
     "./read/reader-workspace-20260928.html",
     "./read/reading-proof-workflow.html",
     "./read/release-510.html",
+    "./read/reproduction-records.html",
+    "./read/research-2026-10-03-library.html",
     "./read/research-decisions.html",
     "./read/research-directions.html",
     "./read/research-feedback.html",
     "./read/research-framework.html",
     "./read/research-studio.html",
+    "./read/research-synthesis.html",
     "./read/rotation.html",
     "./read/sample-size-design.html",
     "./read/sampling-cluster.html",
@@ -134,6 +138,9 @@
     "./release.js",
     "./release.json",
     "./research-data.js",
+    "./research-library-data.js",
+    "./research-library.css",
+    "./research-library.js",
     "./research-review.js",
     "./research.css",
     "./research.js",
@@ -1069,5 +1076,5 @@
       "./vendor/translation/wasm/ort-wasm-simd-threaded.wasm"
     ]
   },
-  "bytes": 382807592
+  "bytes": 382882409
 }
