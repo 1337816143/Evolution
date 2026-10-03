@@ -119,6 +119,8 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
 @media(max-width:700px){.status-heading{align-items:flex-start;flex-direction:column;gap:6px}.status-heading h2{font-size:21px}.status-heading .eyebrow{display:none}.status-notice{font-size:12px;line-height:1.6;margin:8px 0 12px}.status-filters{gap:6px;margin-bottom:12px}.status-filters button{font-size:12px;padding:7px 9px;min-height:40px}.status-grid,.status-context{grid-template-columns:1fr;gap:12px}.status-card{padding:16px;gap:9px}.status-topline h3{font-size:16px}.status-pill{font-size:11px;padding:3px 8px}.status-action{font-size:14px}.status-wait{font-size:12px}.status-links .button{font-size:12px;flex:1;min-width:0}.status-details summary{min-height:42px;font-size:13px}.status-verified{font-size:11px}.status-context .panel{padding:16px}.hub-heading.status-first{display:none}.status-board{margin-bottom:20px}}
 
 .status-launcher{margin:12px 0 10px;border:1px solid var(--line);border-radius:10px;background:var(--surface)}.status-launcher summary{min-height:44px;padding:10px 14px;font-size:13px;font-weight:600}.status-launcher>div{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;padding:0 12px 12px}.status-launcher .button{font-size:12px;white-space:normal;padding:9px 10px;justify-content:flex-start}@media(max-width:700px){.status-launcher>div{grid-template-columns:repeat(2,minmax(0,1fr));}.status-launcher summary{font-size:13px;padding:10px 12px}}
+.status-snapshot-time{font-size:12px;color:var(--muted)}.status-freshness{font-size:12px;color:var(--ink);margin:0 0 10px;line-height:1.5}.status-card[data-freshness=stale],.status-card[data-freshness=clock_error]{border-style:dashed}.status-card[data-freshness=stale] .status-pill,.status-card[data-freshness=clock_error] .status-pill{color:var(--muted);border-color:var(--line)}.status-details h4{font-size:13px;margin:12px 0 4px}.status-times{margin:8px 0 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface)}.status-times>summary{padding:9px 12px;font-size:12px;min-height:40px}.status-times>div{padding:0 12px 12px;font-size:12px}.publication-times{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0 0 12px}.publication-times>div{padding:10px;border:1px solid var(--line);border-radius:8px;min-width:0}.publication-times dt{font-weight:700;margin-bottom:4px}.publication-times dd{margin:0;color:var(--muted);overflow-wrap:anywhere}.publication-notice{color:var(--muted);line-height:1.6}.publication-check{border:1px solid var(--line);border-radius:7px;padding:8px 10px;background:var(--raised);color:var(--ink);min-height:40px}.publication-sources{margin-top:8px}.publication-sources a{overflow-wrap:anywhere}@media(max-width:700px){.publication-times{grid-template-columns:1fr}.status-freshness{font-size:11px}.status-times{margin:6px 0 10px}.status-times>summary{min-height:38px;padding:8px 10px}}
+@media(max-width:700px){#tasks>.page-heading{flex-direction:row;align-items:center;gap:8px;margin-bottom:12px}#tasks>.page-heading .lede{display:none}#tasks>.page-heading h1{font-size:16px;line-height:1.35}#tasks>.page-heading>.button{flex:none;font-size:11px;white-space:nowrap}}
 </style></head>
 <body data-layout="B" data-color="dark"><script>document.body.dataset.layout=document.documentElement.dataset.layout;document.body.dataset.color=document.documentElement.dataset.color;</script><a class="skip" href="#main">跳至主要内容</a>
 <aside class="sidebar"><a class="brand" href="#workbench" aria-label="MyDotWork 工作台"><svg class="brand-symbol" viewBox="0 0 32 32" aria-hidden="true"><rect x="3" y="3" width="26" height="26" rx="7"/><path d="M9 10h14M9 16h6M19 16h4M9 22h14"/></svg><span>MyDotWork<small>AI 工作台</small></span></a>
@@ -126,7 +128,7 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
 <div class="sidebar-group"><p class="nav-label" id="nav-research-label">AI 研究</p><nav aria-labelledby="nav-research-label"><a href="#overview" data-page="overview">研究总览</a><a href="#quotes" data-page="quotes">供应对比</a><a href="#routes" data-page="routes">源头方案</a><a href="#phone" data-page="phone">账号问题</a><a href="#claude" data-page="claude">Claude指南</a></nav></div>
 <div class="sidebar-group"><p class="nav-label" id="nav-evidence-label">记录与证据</p><nav aria-labelledby="nav-evidence-label"><a href="#timeline" data-page="timeline">研究修正</a><a href="#sources" data-page="sources">来源索引</a></nav></div>
 <div class="sidebar-bottom"><details class="sidebar-archive"><summary>历史与原文</summary><div><a href="https://1337816143.github.io/MyDotWork/">历史供货库 · 126条</a><a href="../chat/index.html">聊天原文</a><a href="../projects/index.html">项目快照原文</a><a href="../research/2026-10-02-round2.html">第二轮完整正文</a></div></details><p>公开资料 · 只读核查<br>没有成交或发票验真记录</p></div></div><button type="button" id="sidebar-collapse" class="sidebar-collapse" aria-expanded="true" aria-label="收起导航"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 6l-6 6 6 6"/></svg><span>收起导航</span></button></aside>
-<div class="workspace"><header class="topbar"><span class="header-brand"><a href="#workbench">MyDotWork</a><small><span id="breadcrumb-group">工作空间</span><span aria-hidden="true"> / </span><b id="breadcrumb">工作台</b></small></span><button id="appearance-open" type="button" class="mobile-only appearance-open" aria-haspopup="dialog" aria-label="外观设置">外观</button><div class="appearance" aria-label="工作区外观"><label>布局<select id="layout-choice"><option value="B">B · 分析工作台</option><option value="A">A · 明亮工作区</option></select></label><button id="color-choice" type="button" aria-pressed="false">切换为浅色</button></div><script>document.getElementById("layout-choice").value=document.documentElement.dataset.layout;document.getElementById("color-choice").hidden=document.documentElement.dataset.layout==="A";document.getElementById("color-choice").textContent=document.documentElement.dataset.color==="light"?"切换为深色":"切换为浅色";</script><a id="header-download" href="data.json" download>下载研究数据</a></header><div class="context-bar" aria-label="当前界面与外观"><span class="ui-version">UI v1.8.0</span><span id="appearance-state" role="status"></span><button id="effects-choice" type="button" aria-pressed="false">轻量效果</button><span id="context-location"></span><a id="canonical-entry" href="https://1337816143.github.io/MyDotWork/dashboard/index.html#workbench">主站当前工作台 ↗</a></div><main id="main" tabindex="-1">
+<div class="workspace"><header class="topbar"><span class="header-brand"><a href="#workbench">MyDotWork</a><small><span id="breadcrumb-group">工作空间</span><span aria-hidden="true"> / </span><b id="breadcrumb">工作台</b></small></span><button id="appearance-open" type="button" class="mobile-only appearance-open" aria-haspopup="dialog" aria-label="外观设置">外观</button><div class="appearance" aria-label="工作区外观"><label>布局<select id="layout-choice"><option value="B">B · 分析工作台</option><option value="A">A · 明亮工作区</option></select></label><button id="color-choice" type="button" aria-pressed="false">切换为浅色</button></div><script>document.getElementById("layout-choice").value=document.documentElement.dataset.layout;document.getElementById("color-choice").hidden=document.documentElement.dataset.layout==="A";document.getElementById("color-choice").textContent=document.documentElement.dataset.color==="light"?"切换为深色":"切换为浅色";</script><a id="header-download" href="data.json" download>下载研究数据</a></header><div class="context-bar" aria-label="当前界面与外观"><span class="ui-version">UI v1.8.1</span><span id="appearance-state" role="status"></span><button id="effects-choice" type="button" aria-pressed="false">轻量效果</button><span id="context-location"></span><a id="canonical-entry" href="https://1337816143.github.io/MyDotWork/dashboard/index.html#workbench">主站当前工作台 ↗</a></div><main id="main" tabindex="-1">
 
 <section id="workbench" class="view" hidden><div class="hub-heading status-first"><div><p class="eyebrow">MyDotWork / AI工作台</p><h1>继续你的研究与项目</h1><p class="lede">从明确公开的成果进入项目，查看原始资料和仍待完成的事项。</p></div><a class="button" href="#overview">AI研究仪表盘</a></div><section class="status-board" data-status-board="home" aria-label="七项任务当前状态"></section><div class="status-context"><section class="panel" id="hub-coverage"></section><section class="panel" id="hub-decisions"></section></div><form id="hub-search" class="hub-search" role="search"><label for="hub-query">搜索成果与任务</label><div><input id="hub-query" type="search" placeholder="报告、数据、教程或项目名称" autocomplete="off"><button class="button primary" type="submit">搜索目录</button></div></form><div id="hub-summary" class="hub-summary"></div><div class="hub-columns"><section class="panel"><div class="section-heading"><h2>研究成果</h2><a href="#library">全部资料 →</a></div><div id="hub-recent"></div></section><section class="panel"><div class="section-heading"><h2>继续项目</h2><a href="#tasks">全部任务 →</a></div><div id="hub-tasks"></div></section></div><section class="panel hub-research"><div class="section-heading"><h2>AI上游研究 · 四个模块</h2><a href="#overview">报价与证据总览 →</a></div><div class="hub-module-grid"><a href="#quotes"><b>ChatGPT低价与发票</b><span>同规格报价、票据和证据缺口</span></a><a href="#routes"><b>源头与自主供货</b><span>经营路线、客户资格与授权</span></a><a href="#phone"><b>成品号与手机验证</b><span>账号控制权与验证排障</span></a><a href="#claude"><b>Claude Code</b><span>采购、计费与新手教程</span></a></div></section><p class="footnote" id="catalog-scope"></p></section>
 <section id="library" class="view" hidden><div class="page-heading"><div><p class="eyebrow">成果资料</p><h1>从任务找到可用资料</h1><p class="lede">报告、数据、教程、网站与进度快照分别标注；打开原文查看完整范围。</p></div><a class="button" href="catalog.json" download>下载公开目录 JSON</a></div><div id="library-tools"></div><div id="library-results"></div></section>
@@ -142,10 +144,10 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
 <section id="claude" class="view" hidden><div class="page-heading"><div><p class="eyebrow">工具采购与使用</p><h1>Claude Code 研究台</h1><p class="lede">个人订阅用量、API账单和第三方零售交付分别核查。</p></div><a class="button primary" href="#tutorial">新手使用教程</a></div><div id="claude-content"></div></section>
 <section id="timeline" class="view" hidden><div class="page-heading"><div><p class="eyebrow">研究过程</p><h1>任务与历史修正</h1><p class="lede">按实际核查时间记录证据变化。以下为待询证事项，没有自动标记为已完成。</p></div></div><div id="timeline-content"></div></section>
 <section id="sources" class="view" hidden><div class="page-heading"><div><p class="eyebrow">可追溯资料</p><h1>来源索引</h1><p class="lede">来源URL数量不等于独立供应商数量。外链保留原研究出处，未重新核验当前网页。</p></div></div><div class="panel"><label>筛选来源<input id="source-search" type="search" placeholder="输入域名或链接片段"></label><p id="source-count" aria-live="polite"></p><div id="source-content"></div></div></section>
-</main><footer>MyDotWork · 公开研究快照 · v1.8.0 <a href="../research/2026-10-02.html">第一轮全文</a><a href="../research/2026-10-02-round2.html">第二轮全文</a></footer></div>
+</main><footer>MyDotWork · 公开研究快照 · v1.8.1 <a href="../research/2026-10-02.html">第一轮全文</a><a href="../research/2026-10-02-round2.html">第二轮全文</a></footer></div>
 <dialog id="appearance-settings" aria-labelledby="appearance-settings-title"><div class="settings-heading"><h2 id="appearance-settings-title">外观设置</h2><button type="button" id="appearance-close" class="button" aria-label="关闭外观设置">×</button></div><div id="appearance-settings-body"></div></dialog><dialog id="detail"><div class="detail-header"><p class="eyebrow">SKU 证据详情</p><button id="close-detail" class="button" type="button" aria-label="关闭详情">关闭 ×</button></div><div id="detail-content"></div></dialog>
 <script id="catalog-data" type="application/json">{
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "scope": "仅明确公开或明确授权公开元数据的成果；不自动扫描对话、Library或本机目录。",
   "records": [
     {
@@ -258,7 +260,7 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
       "type": "dataset",
       "task": "project-4",
       "url": "../projects/status.json",
-      "updatedAt": "2026-10-03T10:43:00Z",
+      "updatedAt": "2026-10-03T17:12:00Z",
       "summary": "17项历史项目与七项当前任务对应的进度快照；区分本轮发布、运行状态和未解决需求。",
       "access": "public",
       "metadataApproved": true,
@@ -375,8 +377,8 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
       "type": "website",
       "task": "project-6",
       "url": "https://1337816143.github.io/Paper/",
-      "updatedAt": "2026-10-03",
-      "summary": "现有论文站和镜像已发布；新一轮首页、导航与论文/方法知识库实现已启动，改为研究证据、开放示例与研究备忘，原笔记存储保留。",
+      "updatedAt": "2026-10-03T16:41:42Z",
+      "summary": "Paper主站5.5.2独立证据指南已上线；22主条目、研究账本与旧笔记接口保留。博士全文仍禁运。",
       "access": "public",
       "metadataApproved": true,
       "category": "websites",
@@ -388,8 +390,8 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
       "type": "website",
       "task": "project-5",
       "url": "https://1337816143.github.io/FarmSystemDesign/#research",
-      "updatedAt": "2026-10-03",
-      "summary": "v0.3.10已发布；地图可用性与博士三模型整体设计继续推进，海南地图尚未完整进入农场模型，全域数据和功能覆盖仍有缺口。",
+      "updatedAt": "2026-10-03T17:09:00Z",
+      "summary": "v0.3.13完整前沿缺陷已修复并上线；地图与现有内容保留，科学模型缺口另列。",
       "access": "public",
       "metadataApproved": true,
       "category": "websites",
@@ -402,8 +404,8 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
       "task": "project-1",
       "url": "../projects/index.html#project-1",
       "source": "../projects/status.json",
-      "updatedAt": "2026-10-03",
-      "summary": "第3—8轮与7家票据/授权矩阵、询证清单已上线。 本轮报价、发票与转售权矩阵已发布，等待下一次证据复查。",
+      "updatedAt": "2026-10-03T17:10:00Z",
+      "summary": "统一报告与证据缺口清单已整理并复审，待独立资料版本整合；没有新一轮搜价在运行。 已上线历史研究和票据授权矩阵；本轮增量尚未加入现有报告。",
       "access": "public",
       "metadataApproved": true,
       "category": "tasks"
@@ -415,8 +417,8 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
       "task": "project-2",
       "url": "../projects/index.html#project-2",
       "source": "../projects/status.json",
-      "updatedAt": "2026-10-03",
-      "summary": "此前213份非空会话和30份记忆为历史基线。本轮指定任务只读核验完成，已私有云端保存，新导出另增加13条Codex可见消息；完整Codex历史仍未宣称取得。",
+      "updatedAt": "2026-10-03T17:10:00Z",
+      "summary": "本轮只读资料质量分类已完成，没有新增正文或对话；等待后续材料。 公开页面仅保留汇总进度；234对话、4012条记录、3860个唯一ID仍属于09:08 UTC旧导出统计。",
       "access": "public",
       "metadataApproved": true,
       "category": "tasks"
@@ -428,8 +430,8 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
       "task": "project-3",
       "url": "../projects/index.html#project-3",
       "source": "../projects/status.json",
-      "updatedAt": "2026-10-03",
-      "summary": "本批234个对话、4012条消息记录、3860个唯一消息ID已保存私有云端包；记录数不等于唯一ID数，也不代表全部历史正文完整。",
+      "updatedAt": "2026-10-03T17:10:00Z",
+      "summary": "本轮只读资料质量分类已完成，没有新增正文或对话；等待后续材料。 公开页面仅保留汇总进度；234对话、4012条记录、3860个唯一ID仍属于09:08 UTC旧导出统计。",
       "access": "public",
       "metadataApproved": true,
       "category": "tasks"
@@ -441,8 +443,8 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
       "task": "project-4",
       "url": "../projects/index.html#project-4",
       "source": "../projects/status.json",
-      "updatedAt": "2026-10-03",
-      "summary": "本批按真实ID保留旧355条并加入79条，合计434条、424条有文字；最晚记录到2026-10-03 18:00北京时间。工作台增加七项任务状态、当前动作、等待对象、核验时间和成果直达，保留15项成果、4个网站与17项历史项目。",
+      "updatedAt": "2026-10-03T17:12:00Z",
+      "summary": "v1.8两站归档与检索已验收，原355条原文完整保留。 v1.8两站同步已完成；正在修复筛选后原文跳转、过期状态及发布核验展示。",
       "access": "public",
       "metadataApproved": true,
       "category": "tasks"
@@ -454,8 +456,8 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
       "task": "project-5",
       "url": "../projects/index.html#project-5",
       "source": "../projects/status.json",
-      "updatedAt": "2026-10-03",
-      "summary": "地图修复和数据生成持续运行；博士三模型整体重构设计已完成，等待分阶段实施。 v0.3.10已发布，新地图修复正在推进。",
+      "updatedAt": "2026-10-03T17:09:00Z",
+      "summary": "完整前沿缺陷本轮修复并验收，v0.3.13已上线；正在等待下一轮检查。 v0.3.13已发布；1414个全量方案、40项分页、跨偏好保存与完整导出已核验。",
       "access": "public",
       "metadataApproved": true,
       "category": "tasks"
@@ -467,8 +469,8 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
       "task": "project-6",
       "url": "../projects/index.html#project-6",
       "source": "../projects/status.json",
-      "updatedAt": "2026-10-03",
-      "summary": "博士研究设计方案已交付；云端正重组Paper首页、导航和内容覆盖，转向研究证据、开放示例与研究备忘。",
+      "updatedAt": "2026-10-03T17:10:00Z",
+      "summary": "Paper主站5.5.2的独立会议短文证据指南已上线；个人进化镜像待串行同步。 Paper主站已发布5.5.2；当前镜像为已验收的5.5.1，22主条目和原笔记接口保留。",
       "access": "public",
       "metadataApproved": true,
       "category": "tasks"
@@ -610,8 +612,8 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
       "task": "project-17",
       "url": "../projects/index.html#project-17",
       "source": "../projects/status.json",
-      "updatedAt": "2026-10-03",
-      "summary": "原创4镜头分镜、提示词及计时质量准备包已完成；S01实际生成尚未启动。",
+      "updatedAt": "2026-10-03T17:10:00Z",
+      "summary": "本轮统一试单方案已完成复审；5秒预演仍是待验证假设，没有新生成或订单验证。 现有公开报告与科研评估候选保留；本轮统一方案待独立整合，视频和音轨继续私有。",
       "access": "public",
       "metadataApproved": true,
       "category": "tasks"
@@ -621,33 +623,33 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
     {
       "id": "project-1",
       "title": "AI上游调研",
-      "status": "本轮已发布，等待下一次核验",
-      "progress": "第3—8轮与7家票据/授权矩阵、询证清单已上线。 本轮报价、发票与转售权矩阵已发布，等待下一次证据复查。",
-      "gaps": "尚无同时满足低价、正规发票与稳定授权供货的完整候选。 真实开票主体、最终费用、准确SKU转售权及新的核验材料",
-      "updatedAt": "2026-10-03",
-      "evidence": "已公开研究报告与当前任务状态核对，2026-10-03；报价观察时间未刷新，不把公开网页承诺当验真",
+      "status": "等待（有核验时间的快照）",
+      "progress": "统一报告与证据缺口清单已整理并复审，待独立资料版本整合；没有新一轮搜价在运行。 已上线历史研究和票据授权矩阵；本轮增量尚未加入现有报告。",
+      "gaps": "目前含票全费与授权闭环仍未成立；不能把候选观察数当作合格上游数。",
+      "updatedAt": "2026-10-03T17:10:00Z",
+      "evidence": "项目进度核验摘要；公开原文只提供需求背景，状态依据见工作台卡片。",
       "children": [
         {
           "name": "ChatGPT低价渠道与发票",
-          "status": "进行中",
+          "status": "待新证据",
           "progress": "原126条历史库与首轮45SKU保留；新增HuiAI、WStorm等线索。贝果143.10只作商称自用购入含票费用，其标准条款禁止转售倒卖。",
           "gaps": "真实票种、税号、收款/开票主体对应和含全部费用均未闭合；未知票费不填0。"
         },
         {
           "name": "真正源头与自主供货",
-          "status": "进行中",
+          "status": "待新证据",
           "progress": "第二轮梳理11条路线、55个来源；区分自有AI产品、原厂企业许可、支付券码及品牌礼卡分销。",
           "gaps": "明确SKU/区域/客户及再转售授权、商业净价、MOQ和全成本仍须书面核验。"
         },
         {
           "name": "成品号与手机验证",
-          "status": "进行中",
+          "status": "待新证据",
           "progress": "已核对普通登录、MFA、手机注册、Codex和API首个key等场景；没有官方证据证明开会员能直接解锁手机验证。",
           "gaps": "具体报错需脱敏截图；成品号的账号控制权、身份和地区资格未验证，未购买测试。"
         },
         {
           "name": "Claude Code采购与入门",
-          "status": "进行中",
+          "status": "待新证据",
           "progress": "已形成订阅/API/云渠道及Windows文档步骤，首轮34来源；继续核查采购资格、费用、账号控制权与使用限制。",
           "gaps": "大陆不在Anthropic当前支持地区；未实际安装、登录或购买，不能保证任何商家方案不封号。"
         }
@@ -660,11 +662,11 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
     {
       "id": "project-2",
       "title": "Codex会话与本地记忆接管",
-      "status": "本轮指定读取已完成，等待新导出",
-      "progress": "此前213份非空会话和30份记忆为历史基线。本轮指定任务只读核验完成，已私有云端保存，新导出另增加13条Codex可见消息；完整Codex历史仍未宣称取得。",
-      "gaps": "不能把特定导出包接管说成全部Codex历史已读；网页开发和推送使用云端，本机读取仅限用户明确指定的接管范围。",
-      "updatedAt": "2026-10-03",
-      "evidence": "2026-10-03 18:22北京时间本轮读取状态核对；后续等待新材料或定时检查",
+      "status": "本轮完成，剩余需求另列",
+      "progress": "本轮只读资料质量分类已完成，没有新增正文或对话；等待后续材料。 公开页面仅保留汇总进度；234对话、4012条记录、3860个唯一ID仍属于09:08 UTC旧导出统计。",
+      "gaps": "质量分类完成不等于缺失正文已补齐；旧导出统计保持原日期，私有全文和媒体不公开。",
+      "updatedAt": "2026-10-03T17:10:00Z",
+      "evidence": "项目进度核验摘要；公开原文只提供需求背景，状态依据见工作台卡片。",
       "children": [],
       "access": "public",
       "metadataApproved": true,
@@ -674,11 +676,11 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
     {
       "id": "project-3",
       "title": "ChatGPT历史接管",
-      "status": "本轮私有快照已核，等待后续增量",
-      "progress": "本批234个对话、4012条消息记录、3860个唯一消息ID已保存私有云端包；记录数不等于唯一ID数，也不代表全部历史正文完整。",
-      "gaps": "本批仍有206处正文/媒体缺口、未知分支和2条会话级缺口；原始全文及附件不进入本公开网站。",
-      "updatedAt": "2026-10-03",
-      "evidence": "2026-10-03 18:22北京时间核对：GPT234/4012/3860口径保持，新增13条属Codex可见消息，不混算为GPT新增",
+      "status": "本轮完成，剩余需求另列",
+      "progress": "本轮只读资料质量分类已完成，没有新增正文或对话；等待后续材料。 公开页面仅保留汇总进度；234对话、4012条记录、3860个唯一ID仍属于09:08 UTC旧导出统计。",
+      "gaps": "质量分类完成不等于缺失正文已补齐；旧导出统计保持原日期，私有全文和媒体不公开。",
+      "updatedAt": "2026-10-03T17:10:00Z",
+      "evidence": "项目进度核验摘要；公开原文只提供需求背景，状态依据见工作台卡片。",
       "children": [],
       "access": "public",
       "metadataApproved": true,
@@ -688,11 +690,11 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
     {
       "id": "project-4",
       "title": "聊天归档与项目进度网站",
-      "status": "归档与任务状态面板本轮验收发布中",
-      "progress": "本批按真实ID保留旧355条并加入79条，合计434条、424条有文字；最晚记录到2026-10-03 18:00北京时间。工作台增加七项任务状态、当前动作、等待对象、核验时间和成果直达，保留15项成果、4个网站与17项历史项目。",
-      "gaps": "三页新增返回均为部分分页，无法证明时间区间连续无遗漏；不含附件、其他GPT原文或私有接管包。状态是标注时间的快照，不是实时运行面板。",
-      "updatedAt": "2026-10-03",
-      "evidence": "本次79条增量原文/ID/角色/时间审计；5张平台控制卡排除，355基线逐条不变；发布与验收以本版本清单为准",
+      "status": "434条归档已发布，网站修复运行中",
+      "progress": "v1.8两站归档与检索已验收，原355条原文完整保留。 v1.8两站同步已完成；正在修复筛选后原文跳转、过期状态及发布核验展示。",
+      "gaps": "本轮公开归档完成不等于完整历史已取得；附件及其他GPT全文不在公开范围。 发布成功与全部需求完成分开；旧状态快照和筛选跳转缺陷正在本批处理。",
+      "updatedAt": "2026-10-03T17:12:00Z",
+      "evidence": "项目进度核验摘要；公开原文只提供需求背景，状态依据见工作台卡片。",
       "children": [],
       "access": "public",
       "metadataApproved": true,
@@ -702,11 +704,11 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
     {
       "id": "project-5",
       "title": "FarmSystemDesign农业系统平台",
-      "status": "地图修复与博士模型整体设计运行中",
-      "progress": "地图修复和数据生成持续运行；博士三模型整体重构设计已完成，等待分阶段实施。 v0.3.10已发布，新地图修复正在推进。",
-      "gaps": "现有计算仍以崖州简化季度筛选为主；三模型完整功能、博士三个目标及全域覆盖均未完成。",
-      "updatedAt": "2026-10-03",
-      "evidence": "2026-10-03 18:22北京时间状态核对；本轮地图开发在运行，博士模型重构处于设计完成待实现",
+      "status": "本轮完成，剩余需求另列",
+      "progress": "完整前沿缺陷本轮修复并验收，v0.3.13已上线；正在等待下一轮检查。 v0.3.13已发布；1414个全量方案、40项分页、跨偏好保存与完整导出已核验。",
+      "gaps": "本轮前沿网页缺陷修复完成；全部博士模型实现与科学验证仍未完成，不以UI测试替代模型校准。",
+      "updatedAt": "2026-10-03T17:09:00Z",
+      "evidence": "项目进度核验摘要；公开原文只提供需求背景，状态依据见工作台卡片。",
       "children": [],
       "access": "public",
       "metadataApproved": true,
@@ -716,11 +718,11 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
     {
       "id": "project-6",
       "title": "Paper论文学习平台",
-      "status": "研究导向知识库改版实现运行中",
-      "progress": "博士研究设计方案已交付；云端正重组Paper首页、导航和内容覆盖，转向研究证据、开放示例与研究备忘。",
-      "gaps": "用户已取消练习题、错题和知识自测方向；真实登录与双设备恢复仍待验证。 本轮改版尚未发布，原笔记存储保留。",
-      "updatedAt": "2026-10-03",
-      "evidence": "2026-10-03 18:25北京时间云端实现已启动；18页Paper/Farm设计方案已交付，网页改版按实际验收发布",
+      "status": "等待（有核验时间的快照）",
+      "progress": "Paper主站5.5.2的独立会议短文证据指南已上线；个人进化镜像待串行同步。 Paper主站已发布5.5.2；当前镜像为已验收的5.5.1，22主条目和原笔记接口保留。",
+      "gaps": "目标是理解论文方法、工具与研究体系，不设置练习题、错题和知识自测。会议材料与学位全文分开；内容覆盖不等于全文取得、原模型复现或真实跨设备恢复已验证。",
+      "updatedAt": "2026-10-03T17:10:00Z",
+      "evidence": "项目进度核验摘要；公开原文只提供需求背景，状态依据见工作台卡片。",
       "children": [],
       "access": "public",
       "metadataApproved": true,
@@ -870,11 +872,11 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
     {
       "id": "project-17",
       "title": "AI副业调研",
-      "status": "准备包已完成，等待GPU空闲",
-      "progress": "原创4镜头分镜、提示词及计时质量准备包已完成；S01实际生成尚未启动。",
-      "gaps": "新样片和交易验证尚未完成；已有短片与准备包不等于真实盈利，尚无本人订单或收入证据。",
-      "updatedAt": "2026-10-03",
-      "evidence": "2026-10-03 18:43北京时间核验：算力忙，未启动S01；实证报告与原创准备包本轮已交付",
+      "status": "等待（有核验时间的快照）",
+      "progress": "本轮统一试单方案已完成复审；5秒预演仍是待验证假设，没有新生成或订单验证。 现有公开报告与科研评估候选保留；本轮统一方案待独立整合，视频和音轨继续私有。",
+      "gaps": "未试听声音、没有已验证客户或收入；≥3笔且≥2个独立客户仅是观察门槛，不是已完成结果。",
+      "updatedAt": "2026-10-03T17:10:00Z",
+      "evidence": "项目进度核验摘要；公开原文只提供需求背景，状态依据见工作台卡片。",
       "children": [],
       "access": "public",
       "metadataApproved": true,
@@ -887,22 +889,22 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
     "websites": 4,
     "tasks": 17
   },
-  "projectSnapshotUpdatedAt": "2026-10-03T10:43:00Z",
+  "projectSnapshotUpdatedAt": "2026-10-03T17:12:00Z",
   "statusSnapshot": {
     "mode": "snapshot",
-    "asOf": "2026-10-03T10:43:00Z",
-    "notice": "这是有时间标记的状态快照，不是实时后台监控。运行、等待、受阻和本轮完成分别记录；网页已发布不代表全部研究目标已达成。",
+    "asOf": "2026-10-03T17:12:00Z",
+    "notice": "这是有时间标记的状态快照，不是实时后台监控。超过30分钟的任务记录标为待重新核验；需求背景、状态依据和发布结果分别展示。发布页面不会刷新研究观察时间。",
     "items": [
       {
         "id": "task-1",
         "number": 1,
         "title": "聊天与项目归档",
-        "state": "running",
-        "currentAction": "核对本轮79条增量的原文、覆盖边界和发布结果；本页保留旧355条。",
-        "waitingFor": "本轮两站发布与浏览器核验结果，随后等待新的可见原文",
-        "verifiedAt": "2026-10-03T10:22:00Z",
-        "publication": "本页收录434条记录，其中424条有文字。",
-        "completion": "本轮候选已整理；部分分页、附件和不可见记录仍不代表完整取得。",
+        "state": "waiting",
+        "currentAction": "434条脱敏记录、424条有文字已在两站一致发布；本轮没有继续采集原文。",
+        "waitingFor": "新的本dot可见原文；现有部分分页缺口仍待核对",
+        "verifiedAt": "2026-10-03T16:34:37Z",
+        "publication": "v1.8两站归档与检索已验收，原355条原文完整保留。",
+        "completion": "本轮公开归档完成不等于完整历史已取得；附件及其他GPT全文不在公开范围。",
         "links": [
           {
             "label": "读聊天原文",
@@ -916,22 +918,37 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
         "projectIds": [
           "project-4"
         ],
-        "evidenceMessageIds": [
+        "access": "public",
+        "metadataApproved": true,
+        "contextMessageIds": [
           "Sentinel_a8d0aafef44c8191a8144b29309ebb49"
         ],
-        "access": "public",
-        "metadataApproved": true
+        "verification": {
+          "kind": "public_release",
+          "summary": "两站19项产物、原文数量与覆盖提示已逐项核验。",
+          "observedAt": "2026-10-03T10:00:30.694564+00:00",
+          "links": [
+            {
+              "label": "归档覆盖说明",
+              "url": "../chat/coverage.json"
+            },
+            {
+              "label": "镜像部署记录",
+              "url": "https://github.com/1337816143/Evolution/actions/runs/37136819207"
+            }
+          ]
+        }
       },
       {
         "id": "task-2",
         "number": 2,
         "title": "AI工作台与个人进化网站",
         "state": "running",
-        "currentAction": "实施任务状态快照、成果直达和覆盖提示，进行发布前及两站测试。",
-        "waitingFor": "云端视口检查与正式部署/镜像校验结果",
-        "verifiedAt": "2026-10-03T10:22:00Z",
-        "publication": "当前页面版本见页首；两站分别保留同批内容和发布清单。",
-        "completion": "状态面板本轮正在验收；七项研究需求并未因此全部完成，状态不会实时刷新。",
+        "currentAction": "v1.8两站同步已完成；正在修复筛选后原文跳转、过期状态及发布核验展示。",
+        "waitingFor": "本轮功能的对抗审查、云端浏览器测试和下一版正式发布",
+        "verifiedAt": "2026-10-03T17:12:00Z",
+        "publication": "主站与个人进化镜像均已发布v1.8；本轮修复在验收前不视为已上线。",
+        "completion": "发布成功与全部需求完成分开；旧状态快照和筛选跳转缺陷正在本批处理。",
         "links": [
           {
             "label": "看全部成果",
@@ -945,22 +962,37 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
         "projectIds": [
           "project-4"
         ],
-        "evidenceMessageIds": [
+        "access": "public",
+        "metadataApproved": true,
+        "contextMessageIds": [
           "Sentinel_a8d0aafef44c8191a8144b29309ebb49"
         ],
-        "access": "public",
-        "metadataApproved": true
+        "verification": {
+          "kind": "project_check",
+          "summary": "本轮实现已在云端开始；对等发布结论来自已完成的v1.8验收。",
+          "observedAt": "2026-10-03T16:34:37Z",
+          "links": [
+            {
+              "label": "主站部署记录",
+              "url": "https://github.com/1337816143/MyDotWork/actions/runs/37131755410"
+            },
+            {
+              "label": "镜像部署记录",
+              "url": "https://github.com/1337816143/Evolution/actions/runs/37136819207"
+            }
+          ]
+        }
       },
       {
         "id": "task-3",
         "number": 3,
         "title": "AI上游调研",
         "state": "waiting",
-        "currentAction": "本轮报价、发票与转售权矩阵已发布，等待下一次证据复查。",
-        "waitingFor": "真实开票主体、最终费用、准确SKU转售权及新的核验材料",
-        "verifiedAt": "2026-10-03T10:22:00Z",
-        "publication": "第3—8轮与7家票据/授权矩阵、询证清单已上线。",
-        "completion": "尚无同时满足低价、正规发票与稳定授权供货的完整候选。",
+        "currentAction": "统一报告与证据缺口清单已整理并复审，待独立资料版本整合；没有新一轮搜价在运行。",
+        "waitingFor": "开票主体、含票全部费用、准确SKU转售授权及真实履约证据",
+        "verifiedAt": "2026-10-03T17:10:00Z",
+        "publication": "已上线历史研究和票据授权矩阵；本轮增量尚未加入现有报告。",
+        "completion": "目前含票全费与授权闭环仍未成立；不能把候选观察数当作合格上游数。",
         "links": [
           {
             "label": "看上游报告",
@@ -974,23 +1006,29 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
         "projectIds": [
           "project-1"
         ],
-        "evidenceMessageIds": [
+        "access": "public",
+        "metadataApproved": true,
+        "contextMessageIds": [
           "Sentinel_cb8e4c24d624819194109212e6d68409",
           "Sentinel_a8d0aafef44c8191a8144b29309ebb49"
         ],
-        "access": "public",
-        "metadataApproved": true
+        "verification": {
+          "kind": "project_check",
+          "summary": "17:10 UTC核验本轮统一报告已完成、等待入库；原五家观察日期仍为13:20 UTC。",
+          "observedAt": "2026-10-03T13:20:00Z",
+          "links": []
+        }
       },
       {
         "id": "task-4",
         "number": 4,
         "title": "Codex／GPT资料接管",
-        "state": "waiting",
-        "currentAction": "本轮私有快照与指定工具的定向只读核验已完成，等待后续增量。",
-        "waitingFor": "下一批明确提供的导出或定时检查返回的新材料",
-        "verifiedAt": "2026-10-03T10:22:00Z",
-        "publication": "私有234对话、4012条记录、3860个唯一ID保持；本轮导出另补13条Codex可见消息，不公开全文。",
-        "completion": "仍有206处正文/媒体缺口、未知分支和2条会话级缺口；本轮核验完成不等于全量接管。",
+        "state": "round_complete",
+        "currentAction": "本轮只读资料质量分类已完成，没有新增正文或对话；等待后续材料。",
+        "waitingFor": "新的明确提供的导出、原文或附件，以及下一轮只读检查",
+        "verifiedAt": "2026-10-03T17:10:00Z",
+        "publication": "公开页面仅保留汇总进度；234对话、4012条记录、3860个唯一ID仍属于09:08 UTC旧导出统计。",
+        "completion": "质量分类完成不等于缺失正文已补齐；旧导出统计保持原日期，私有全文和媒体不公开。",
         "links": [
           {
             "label": "看公开进度",
@@ -1005,23 +1043,29 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
           "project-2",
           "project-3"
         ],
-        "evidenceMessageIds": [
+        "access": "public",
+        "metadataApproved": true,
+        "contextMessageIds": [
           "Sentinel_41779a8d34cc8191b163e6128ea80fbd",
           "Sentinel_3ee1c49f20dc8191ade208c5fd74df53"
         ],
-        "access": "public",
-        "metadataApproved": true
+        "verification": {
+          "kind": "project_check",
+          "summary": "17:10 UTC确认本轮质量整理完成，未增加原始正文；15:58 UTC检查也没有新导出。",
+          "observedAt": "2026-10-03T09:08:00Z",
+          "links": []
+        }
       },
       {
         "id": "task-5",
         "number": 5,
         "title": "AI副业与真实收益验证",
         "state": "waiting",
-        "currentAction": "原创4镜头分镜、提示词及计时质量准备包已完成；S01实际生成尚未启动。",
-        "waitingFor": "既有GPU空闲；当前不抢占正在使用的算力，没有新生成视频",
-        "verifiedAt": "2026-10-03T10:43:00Z",
-        "publication": "已有研究报告和评估包可访问；本轮另交付32项证据的实证方案，公开入口仍保留已上线版本。",
-        "completion": "新样片和交易验证尚未完成；已有短片与准备包不等于真实盈利，尚无本人订单或收入证据。",
+        "currentAction": "本轮统一试单方案已完成复审；5秒预演仍是待验证假设，没有新生成或订单验证。",
+        "waitingFor": "声音试听、完整许可链、真实需求和最小付费试单验证",
+        "verifiedAt": "2026-10-03T17:10:00Z",
+        "publication": "现有公开报告与科研评估候选保留；本轮统一方案待独立整合，视频和音轨继续私有。",
+        "completion": "未试听声音、没有已验证客户或收入；≥3笔且≥2个独立客户仅是观察门槛，不是已完成结果。",
         "links": [
           {
             "label": "看现有报告",
@@ -1035,23 +1079,29 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
         "projectIds": [
           "project-17"
         ],
-        "evidenceMessageIds": [
+        "access": "public",
+        "metadataApproved": true,
+        "contextMessageIds": [
           "Sentinel_a8d0aafef44c8191a8144b29309ebb49",
           "Sentinel_5ca085ee1be08191a2a93a26a52cf70a"
         ],
-        "access": "public",
-        "metadataApproved": true
+        "verification": {
+          "kind": "project_check",
+          "summary": "本轮主报告与准备包已统一并复审，等待公开安全增量整合；声音未试听、许可链和真实需求仍待核。",
+          "observedAt": null,
+          "links": []
+        }
       },
       {
         "id": "task-6",
         "number": 6,
         "title": "Paper论文与方法知识库",
-        "state": "running",
-        "currentAction": "博士研究设计方案已交付；云端正重组Paper首页、导航和内容覆盖，转向研究证据、开放示例与研究备忘。",
-        "waitingFor": "新首页与知识库实现、原笔记保留检查和发布前验收",
-        "verifiedAt": "2026-10-03T10:25:35Z",
-        "publication": "现有Paper站和镜像已发布；本轮研究导向改版正在实现，尚未上线。",
-        "completion": "用户已取消练习题、错题和知识自测方向；真实登录与双设备恢复仍待验证。",
+        "state": "waiting",
+        "currentAction": "Paper主站5.5.2的独立会议短文证据指南已上线；个人进化镜像待串行同步。",
+        "waitingFor": "5.5.2镜像验收；博士全文仍禁运，等待合法开放材料",
+        "verifiedAt": "2026-10-03T17:10:00Z",
+        "publication": "Paper主站已发布5.5.2；当前镜像为已验收的5.5.1，22主条目和原笔记接口保留。",
+        "completion": "目标是理解论文方法、工具与研究体系，不设置练习题、错题和知识自测。会议材料与学位全文分开；内容覆盖不等于全文取得、原模型复现或真实跨设备恢复已验证。",
         "links": [
           {
             "label": "打开论文网站",
@@ -1065,42 +1115,68 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
         "projectIds": [
           "project-6"
         ],
-        "evidenceMessageIds": [
+        "access": "public",
+        "metadataApproved": true,
+        "contextMessageIds": [
           "Sentinel_a8d0aafef44c8191a8144b29309ebb49",
           "Sentinel_9358551240b88191ac0cadd343b9a958"
         ],
-        "access": "public",
-        "metadataApproved": true
+        "verification": {
+          "kind": "public_release",
+          "summary": "精确主站d949f4dc的完整CI及部署成功；镜像5.5.1仍可用。",
+          "observedAt": "2026-10-03T16:41:42Z",
+          "links": [
+            {
+              "label": "Paper 5.5.2部署记录",
+              "url": "https://github.com/1337816143/Paper/actions/runs/37137496555"
+            },
+            {
+              "label": "独立证据指南",
+              "url": "https://1337816143.github.io/Paper/#/cheng-landscape-evidence-2025"
+            }
+          ]
+        }
       },
       {
         "id": "task-7",
         "number": 7,
         "title": "Farm多尺度设计与优化",
-        "state": "running",
-        "currentAction": "地图修复和数据生成持续运行；博士三模型整体重构设计已完成，等待分阶段实施。",
-        "waitingFor": "地图与数据接入测试；FarmDesign/FarmSTEPS/Landscape IMAGES功能实现与验证",
-        "verifiedAt": "2026-10-03T10:22:00Z",
-        "publication": "v0.3.10已发布；本轮地图修复与模型整体设计尚未交付。",
-        "completion": "现有计算仍以崖州简化季度筛选为主；三模型完整功能、博士三个目标及全域覆盖均未完成。",
+        "state": "round_complete",
+        "currentAction": "完整前沿缺陷本轮修复并验收，v0.3.13已上线；正在等待下一轮检查。",
+        "waitingFor": "下一轮检查，以及三个模型仍需补齐的科学实现、校准和验证",
+        "verifiedAt": "2026-10-03T17:09:00Z",
+        "publication": "v0.3.13已发布；1414个全量方案、40项分页、跨偏好保存与完整导出已核验。",
+        "completion": "本轮前沿网页缺陷修复完成；全部博士模型实现与科学验证仍未完成，不以UI测试替代模型校准。",
         "links": [
           {
-            "label": "打开海南数据入口",
-            "url": "https://1337816143.github.io/FarmSystemDesign/#research"
+            "label": "看完整前沿",
+            "url": "https://1337816143.github.io/FarmSystemDesign/#planner"
           },
           {
-            "label": "看数据资源",
-            "url": "https://1337816143.github.io/FarmSystemDesign/#resources"
+            "label": "海南数据入口",
+            "url": "https://1337816143.github.io/FarmSystemDesign/#research"
           }
         ],
         "projectIds": [
           "project-5"
         ],
-        "evidenceMessageIds": [
+        "access": "public",
+        "metadataApproved": true,
+        "contextMessageIds": [
           "Sentinel_f94aa57a1e8c81918d67abfff839eb23",
           "Sentinel_9358551240b88191ac0cadd343b9a958"
         ],
-        "access": "public",
-        "metadataApproved": true
+        "verification": {
+          "kind": "public_release",
+          "summary": "独立云测试、部署与线上验收完成；此前0.3.12保持的地图和模型功能未被替换。",
+          "observedAt": "2026-10-03T17:09:00Z",
+          "links": [
+            {
+              "label": "Farm线上验收",
+              "url": "https://github.com/1337816143/FarmSystemDesign/actions/runs/37139112291"
+            }
+          ]
+        }
       }
     ],
     "coverage": {
@@ -1134,9 +1210,31 @@ main{padding-top:28px}.hub-heading{margin-bottom:24px;align-items:center;gap:20p
         "messageId": "Sentinel_a8d0aafef44c8191a8144b29309ebb49",
         "supersedes": []
       }
-    ]
+    ],
+    "staleAfterMinutes": 30,
+    "publicationChecks": {
+      "checkedAt": "2026-10-03T16:33:20Z",
+      "source": {
+        "version": "1.8.0",
+        "commit": "820260fe1eab13726df6aa574bb036b524024ca6",
+        "deployedAt": "2026-10-03T15:02:13Z",
+        "runId": 37131755410,
+        "runUrl": "https://github.com/1337816143/MyDotWork/actions/runs/37131755410"
+      },
+      "mirror": {
+        "version": "1.8.0",
+        "upstreamCommit": "820260fe1eab13726df6aa574bb036b524024ca6",
+        "sourceCommit": "a920bb1b52a280fa698304b763f017ff33aedef1",
+        "commit": "2add58d84bec3447bca9389cbb3ee2084931448a",
+        "syncedAt": "2026-10-03T16:25:48Z",
+        "deployedAt": "2026-10-03T16:27:06Z",
+        "runId": 37136819207,
+        "runUrl": "https://github.com/1337816143/Evolution/actions/runs/37136819207"
+      },
+      "status": "consistent"
+    }
   }
-}</script><script id="research-data" type="application/json">{
+}</script><script id="release-context" type="application/json">{"version": "1.8.1", "sourceCommit": "db2e7cd42af8898afa679829c7f8e0b0652e32c9"}</script><script id="research-data" type="application/json">{
   "schema": "mydotwork.dashboard.v1",
   "date": "2026-10-02",
   "records": [
@@ -4603,27 +4701,123 @@ if(typeof document!=='undefined')(()=>{
   $('hub-search').addEventListener('submit',ev=>{ev.preventDefault();$('library-q').value=$('hub-query').value;render('library');location.hash='library';});
 })();
 
-/* Explicit, dated public task snapshots; no live monitoring or private discovery. */
+/* Dated public task records. Publication checks never refresh task verification. */
 const StatusModel=(()=>{
   const labels={running:'运行中',waiting:'等待',blocked:'受阻',round_complete:'本轮完成'};
   const filter=(items,state='')=>items.filter(item=>!state||item.state===state);
   const counts=items=>Object.fromEntries(Object.keys(labels).map(state=>[state,items.filter(item=>item.state===state).length]));
-  return {labels,filter,counts};
+  function freshness(verifiedAt,now=Date.now(),minutes=30){
+    const time=Date.parse(verifiedAt);if(!Number.isFinite(time)||!Number.isFinite(now))return {kind:'unknown',ageMinutes:null};
+    const age=(now-time)/60000;if(age < -2)return {kind:'clock_error',ageMinutes:age};
+    return {kind:age>=minutes?'stale':'fresh',ageMinutes:Math.max(0,Math.floor(age))};
+  }
+  return {labels,filter,counts,freshness};
 })();
 if(typeof module!=='undefined'&&module.exports)module.exports=StatusModel;
 if(typeof document!=='undefined')(()=>{
   const data=JSON.parse(document.getElementById('catalog-data').textContent).statusSnapshot,e=ResearchModel.esc;
   const date=value=>new Intl.DateTimeFormat('zh-CN',{dateStyle:'medium',timeStyle:'short',timeZone:'Asia/Shanghai'}).format(new Date(value))+' 北京时间';
   const link=(label,url,style='')=>`<a class="${style}" href="${e(url)}"${url.startsWith('https:')?' target="_blank" rel="noopener noreferrer"':''}>${e(label)}</a>`;
-  const card=item=>`<article class="status-card" data-workstream="${e(item.id)}" data-state="${e(item.state)}"><div class="status-topline"><span class="status-number">${item.number}</span><h3>${e(item.title)}</h3><span class="status-pill">${StatusModel.labels[item.state]}</span></div><p class="status-action">${e(item.currentAction)}</p><p class="status-wait"><b>等待：</b>${e(item.waitingFor)}</p><div class="status-links">${item.links.map((a,i)=>link(a.label,a.url,i===0?'button primary':'button')).join('')}</div><details class="status-details"><summary>已发布内容与剩余需求</summary><div><p><b>已交付：</b>${e(item.publication)}</p><p><b>完成边界：</b>${e(item.completion)}</p><p class="status-evidence">相关原话：${item.evidenceMessageIds.map((id,i)=>link('记录'+(i+1),'../chat/index.html#'+id)).join(' · ')}</p></div></details><p class="status-verified">最近核验：<time datetime="${e(item.verifiedAt)}">${date(item.verifiedAt)}</time></p></article>`;
-  const counts=StatusModel.counts(data.items);
+  const card=item=>`<article class="status-card" data-workstream="${e(item.id)}" data-state="${e(item.state)}" data-verified-at="${e(item.verifiedAt)}"><div class="status-topline"><span class="status-number">${item.number}</span><h3>${e(item.title)}</h3><span class="status-pill">${StatusModel.labels[item.state]}</span></div><p class="status-action">${e(item.currentAction)}</p><p class="status-wait"><b>等待：</b>${e(item.waitingFor)}</p><div class="status-links">${item.links.map((a,i)=>link(a.label,a.url,i===0?'button primary':'button')).join('')}</div><details class="status-details"><summary>成果、状态依据与需求背景</summary><div><p><b>已交付：</b>${e(item.publication)}</p><p><b>完成边界：</b>${e(item.completion)}</p><h4>状态依据</h4><p>${e(item.verification.summary)}</p>${item.verification.observedAt?`<p class="status-evidence">材料或发布记录截至：<time datetime="${e(item.verification.observedAt)}">${date(item.verification.observedAt)}</time>；不等于本页制作时间。</p>`:'<p class="status-evidence">材料观察时间未单独确认；不以页面时间代替。</p>'}${item.verification.links.map(a=>link(a.label,a.url)).join(' · ')}<h4>需求背景</h4><p class="status-evidence">${item.contextMessageIds.map((id,i)=>link('背景原文'+(i+1),'../chat/index.html#'+id)).join(' · ')}。这些原话说明需求，不证明最新进度。</p></div></details><p class="status-verified">任务最近核验：<time datetime="${e(item.verifiedAt)}">${date(item.verifiedAt)}</time><span class="status-age"></span></p></article>`;
+  const counts=StatusModel.counts(data.items),boards=[];
   for(const mount of document.querySelectorAll('[data-status-board]')){
-    mount.innerHTML=`<div class="status-heading"><div><p class="eyebrow">任务状态快照</p><h2>最近核验的任务状态</h2></div><time datetime="${e(data.asOf)}">${date(data.asOf)}</time></div><details class="status-launcher"><summary>快速打开七项任务成果</summary><div>${data.items.map(item=>link(item.number+' · '+item.title,item.links[0].url,'button')).join('')}</div></details><p class="status-notice">${e(data.notice)}</p><div class="status-filters" role="group" aria-label="筛选任务状态"><button type="button" data-state-filter="" aria-pressed="true">全部 ${data.items.length}</button>${Object.entries(StatusModel.labels).map(([key,label])=>`<button type="button" data-state-filter="${key}" aria-pressed="false">${label} ${counts[key]}</button>`).join('')}</div><div class="status-grid"></div><p class="status-empty" hidden>此快照没有这个状态的任务。其他状态和需求缺口仍可查看。</p>`;
-    const render=state=>{const items=StatusModel.filter(data.items,state);mount.querySelector('.status-grid').innerHTML=items.map(card).join('');mount.querySelector('.status-empty').hidden=items.length>0;for(const b of mount.querySelectorAll('[data-state-filter]'))b.setAttribute('aria-pressed',String(b.dataset.stateFilter===state));};
-    mount.addEventListener('click',event=>{const b=event.target.closest('[data-state-filter]');if(b)render(b.dataset.stateFilter);});render('');
+    mount.innerHTML=`<div class="status-heading"><div><p class="eyebrow">任务状态快照</p><h2>最近核验的任务状态</h2></div><span class="status-snapshot-time">整理于 <time datetime="${e(data.asOf)}">${date(data.asOf)}</time></span></div><details class="status-launcher"><summary>快速打开七项任务成果</summary><div>${data.items.map(item=>link(item.number+' · '+item.title,item.links[0].url,'button')).join('')}</div></details><p class="status-notice">${e(data.notice)}</p><p class="status-freshness" aria-live="polite"></p><details class="status-times"><summary>四种时间与两站发布核验</summary><div data-publication-board></div></details><div class="status-filters" role="group" aria-label="筛选已记录的任务状态"><button type="button" data-state-filter="" aria-pressed="true">全部 ${data.items.length}</button>${Object.entries(StatusModel.labels).map(([key,label])=>`<button type="button" data-state-filter="${key}" aria-pressed="false">${label} ${counts[key]}</button>`).join('')}</div><div class="status-grid"></div><p class="status-empty" hidden>此快照没有这个状态的任务。其他状态和需求缺口仍可查看。</p>`;
+    const render=state=>{const items=StatusModel.filter(data.items,state);mount.querySelector('.status-grid').innerHTML=items.map(card).join('');mount.querySelector('.status-empty').hidden=items.length>0;for(const b of mount.querySelectorAll('[data-state-filter]'))b.setAttribute('aria-pressed',String(b.dataset.stateFilter===state));refreshFreshness();};
+    mount.addEventListener('click',event=>{const b=event.target.closest('[data-state-filter]');if(b)render(b.dataset.stateFilter);});boards.push(mount);render('');
   }
+  function refreshFreshness(now=Date.now()){
+    const expired=data.items.filter(item=>StatusModel.freshness(item.verifiedAt,now,data.staleAfterMinutes).kind!=='fresh').length;
+    for(const mount of boards){
+      mount.querySelector('.status-freshness').textContent=expired?`${expired}/${data.items.length} 项记录已过期或时间无法确认，需重新核验；下方保留上次状态。`:`七项记录均在${data.staleAfterMinutes}分钟核验窗口内；仍是状态快照。`;
+      for(const node of mount.querySelectorAll('.status-card')){const f=StatusModel.freshness(node.dataset.verifiedAt,now,data.staleAfterMinutes);node.dataset.freshness=f.kind;node.querySelector('.status-pill').textContent=(f.kind==='fresh'?'':'上次：')+StatusModel.labels[node.dataset.state];node.querySelector('.status-age').textContent=f.kind==='stale'?` · 已过期（${f.ageMinutes}分钟前核验）`:f.kind==='clock_error'?' · 设备时间早于记录，无法判断新旧':f.kind==='unknown'?' · 时间未确认':` · ${f.ageMinutes}分钟前核验`;}
+    }
+  }
+  // Only the age indicator advances; task data and its verifiedAt stay fixed.
+  setInterval(()=>refreshFreshness(),60000);
   const coverage=data.coverage;
   document.getElementById('hub-coverage').innerHTML=`<h2>归档覆盖与缺口</h2><p><b>${coverage.messageCount}条记录 · ${coverage.nonemptyCount}条有文字</b></p><p>${e(coverage.summary)}</p><p>最晚已取得消息：${date(coverage.end)}。时间范围不代表区间内所有消息都已取得。</p><div class="status-links">${link('核对原文与覆盖','../chat/index.html','button')}</div>`;
   document.getElementById('hub-decisions').innerHTML=`<h2>最近澄清的方向</h2>${data.decisions.map(note=>`<article><h3>${e(note.title)}</h3><p>${e(note.summary)}</p>${link('查看用户原话','../chat/index.html#'+note.messageId)}${note.supersedes.length?' · '+note.supersedes.map((id,i)=>link('较早表述'+(i+1),'../chat/index.html#'+id)).join(' · '):''}</article>`).join('')}`;
+})();
+
+/* Read-only public deployment evidence, separate from the dated task snapshot. */
+const PublicationModel=(()=>{
+  const isSha=value=>typeof value==='string'&&/^[a-f0-9]{40}$/.test(value);
+  const isVersion=value=>typeof value==='string'&&/^\d+\.\d+\.\d+$/.test(value);
+  const time=value=>{if(typeof value!=='string'||!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})$/.test(value))throw Error('Invalid publication time');const parsed=Date.parse(value);if(!Number.isFinite(parsed))throw Error('Invalid publication time');return parsed;};
+  function runFor(payload,commit){
+    if(!Array.isArray(payload?.workflow_runs))throw Error('Missing workflow records');
+    return payload.workflow_runs.filter(r=>r.head_sha===commit&&r.head_branch==='main'&&r.path==='.github/workflows/pages.yml'&&r.status==='completed'&&r.conclusion==='success'&&Number.isSafeInteger(r.id)&&r.id>0&&typeof r.updated_at==='string'&&Number.isFinite(Date.parse(r.updated_at))).sort((a,b)=>time(b.updated_at)-time(a.updated_at))[0]||null;
+  }
+  function manifestsMatch(source,mirror){
+    if(source?.schema!=='mydotwork.release.v1'||!isSha(source.sourceCommit)||!isVersion(source.contentVersion)||!Array.isArray(source.artifacts))throw Error('Invalid main release manifest');
+    const dot=mirror?.dotArchive,report=mirror?.chatgptSupply;
+    if(!isSha(mirror?.sourceCommit)||dot?.repository!=='1337816143/MyDotWork'||report?.repository!=='1337816143/MyDotWork'||!isVersion(dot.contentVersion)||!isSha(dot.sourceCommit)||!Array.isArray(dot.artifacts))throw Error('Invalid mirror release manifest');
+    const seen=new Set();for(const a of source.artifacts){if(typeof a.path!=='string'||seen.has(a.path)||!Number.isInteger(a.bytes)||a.bytes<1||!/^\w[\w./-]*$/.test(a.path)||a.path.includes('..')||!/^[a-f0-9]{64}$/.test(a.sha256))throw Error('Invalid source artifact');seen.add(a.path);}
+    const root=source.artifacts.find(a=>a.path==='index.html');if(!root||root.sha256!==source.reportSha256)throw Error('Root report manifest differs');
+    const imports=new Map();for(const a of dot.artifacts){if(imports.has(a.path))throw Error('Duplicate mirror artifact');imports.set(a.path,a);}
+    return dot.sourceCommit===source.sourceCommit&&report.sourceCommit===source.sourceCommit&&dot.contentVersion===source.contentVersion&&report.contentVersion===source.contentVersion&&report.reportSha256===root.sha256&&imports.size===source.artifacts.length-1&&source.artifacts.filter(a=>a.path!=='index.html').every(a=>imports.get(a.path)?.sha256===a.sha256&&imports.get(a.path)?.bytes===a.bytes);
+  }
+  function assemble(source,mirror,sourceRuns,head,commit,mirrorRuns,checkedAt,sourceHead){
+    const checked=time(checkedAt),same=manifestsMatch(source,mirror),headSha=head?.object?.sha;
+    if(!isSha(sourceHead?.object?.sha))throw Error('Missing current main source reference');
+    const sourceCurrent=sourceHead.object.sha===source.sourceCommit;
+    if(!isSha(headSha)||commit?.sha!==headSha)throw Error('Mirror commit does not match reference');
+    const sourceRun=runFor(sourceRuns,source.sourceCommit),mirrorRun=runFor(mirrorRuns,headSha);
+    const commitMatches=commit.message===`deploy: release-${mirror.sourceCommit.slice(0,12)} complete website from ${mirror.sourceCommit}`;
+    const syncedAt=commitMatches?commit.committer?.date:null;
+    if(commitMatches)time(syncedAt);
+    for(const stamp of [sourceRun?.updated_at,mirrorRun?.updated_at,syncedAt].filter(Boolean))if(time(stamp)>checked+120000)throw Error('Publication clock is in the future');
+    return {checkedAt,sourceHead:sourceHead.object.sha,status:sourceCurrent&&same&&sourceRun&&mirrorRun&&commitMatches?'consistent':'different',reason:!sourceCurrent?'主站分支已有更新，在线部署仍未对应最新提交。':!same?'两站在线产物清单不同。':!sourceRun||!mirrorRun?'尚未取得两站对应的成功部署记录。':!commitMatches?'镜像提交与在线清单尚未对应。':'',source:{version:source.contentVersion,commit:source.sourceCommit,deployedAt:sourceRun?.updated_at||null,runId:sourceRun?.id||null,runUrl:sourceRun?`https://github.com/1337816143/MyDotWork/actions/runs/${sourceRun.id}`:null},mirror:{version:mirror.dotArchive.contentVersion,upstreamCommit:mirror.dotArchive.sourceCommit,sourceCommit:mirror.sourceCommit,commit:headSha,syncedAt,deployedAt:mirrorRun?.updated_at||null,runId:mirrorRun?.id||null,runUrl:mirrorRun?`https://github.com/1337816143/Evolution/actions/runs/${mirrorRun.id}`:null}};
+  }
+  function validProof(value,now=Date.now()){
+    try{
+      if(value?.status!=='consistent'||time(value.checkedAt)>now+120000)return false;
+      const a=value.source,b=value.mirror;
+      if(!isVersion(a.version)||a.version!==b.version||!isSha(a.commit)||a.commit!==b.upstreamCommit||a.commit!==value.sourceHead||!isSha(b.commit)||!isSha(b.sourceCommit))return false;
+      for(const [record,repository] of [[a,'MyDotWork'],[b,'Evolution']]){
+        if(!Number.isSafeInteger(record.runId)||record.runId<1||record.runUrl!==`https://github.com/1337816143/${repository}/actions/runs/${record.runId}`||time(record.deployedAt)>time(value.checkedAt)+120000)return false;
+      }
+      return time(b.syncedAt)<=time(b.deployedAt)&&time(b.syncedAt)<=time(value.checkedAt)+120000;
+    }catch{return false;}
+  }
+  return {isSha,isVersion,runFor,manifestsMatch,assemble,validProof};
+})();
+if(typeof module!=='undefined'&&module.exports)module.exports=PublicationModel;
+if(typeof document!=='undefined')(()=>{
+  const snapshot=JSON.parse(document.getElementById('catalog-data').textContent).statusSnapshot,context=JSON.parse(document.getElementById('release-context').textContent),boards=[...document.querySelectorAll('[data-publication-board]')],esc=ResearchModel.esc;
+  const date=value=>value?new Intl.DateTimeFormat('zh-CN',{dateStyle:'medium',timeStyle:'short',timeZone:'Asia/Shanghai'}).format(new Date(value))+' 北京时间':'尚未核验';
+  const sourceUrl='https://1337816143.github.io/MyDotWork/release-manifest.json',mirrorUrl='https://1337816143.github.io/Evolution/data/release-manifest.json',api='https://api.github.com/repos/1337816143/';
+  const canCheck=location.protocol==='https:'&&location.hostname==='1337816143.github.io';
+  const key='mydotwork-publication-evidence-v1';let current=snapshot.publicationChecks,mode='snapshot',inFlight=null,attempted=false;
+  const times=snapshot.items.map(item=>item.verifiedAt).sort((a,b)=>Date.parse(a)-Date.parse(b));
+  function render(message=''){
+    const active=document.activeElement,focusBoard=boards.find(board=>board.contains(active)&&active.matches?.('.publication-check'));
+    const behind=current.source.version!==context.version||(PublicationModel.isSha(context.sourceCommit)&&current.source.commit!==context.sourceCommit);
+    const label=mode==='live'?'公开部署核验记录':mode==='cache'?'已缓存的公开部署核验':'上次已核验的发布快照';
+    for(const board of boards){
+      const source=current.source,mirror=current.mirror;
+      board.innerHTML=`<dl class="publication-times"><div><dt>1 · 原文覆盖截止</dt><dd>${date(snapshot.coverage.end)}<br>部分分页，不代表完整历史。</dd></div><div><dt>2 · 任务最近核验</dt><dd>最早：${date(times[0])}<br>最近：${date(times.at(-1))}<br>各任务按自己的核验时间判断是否过期。</dd></div><div><dt>3 · 主站部署流程完成</dt><dd>v${esc(source.version)} · ${date(source.deployedAt)}</dd></div><div><dt>4 · 镜像同步提交</dt><dd>v${esc(mirror.version)} · ${date(mirror.syncedAt)}<br>镜像Pages完成：${date(mirror.deployedAt)}</dd></div></dl><p class="publication-notice">${label} · 核验于 ${date(current.checkedAt)}。${current.status==='consistent'?(mode==='live'?'本次核验的两站公开产物清单一致。':'截至这份记录的两站清单一致；当前分支与部署尚未重新核验。'):'两站部署记录尚未核对一致，不能当作已同步。'}${behind?' 当前界面版本与这份核验记录不同，请核验最新部署；这不代表任务状态已更新。':''}</p><button type="button" class="publication-check"${!canCheck?' disabled':''}>核验最新公开部署</button><p class="publication-message" aria-live="polite">${esc(message||(!canCheck?'离线预览仅显示上次核验记录；最新部署未在此核验。':''))}</p><p class="publication-sources">${source.runUrl?`<a href="${esc(source.runUrl)}" target="_blank" rel="noopener noreferrer">主站部署记录</a>`:''}${mirror.runUrl?` · <a href="${esc(mirror.runUrl)}" target="_blank" rel="noopener noreferrer">镜像部署记录</a>`:''}</p><p class="publication-notice">任务状态是独立快照。检查部署不会刷新原文覆盖或研究观察日期，也不会把排队改成运行。完整需求完成情况仍见每项任务。</p>`;
+      board.querySelector('.publication-check').addEventListener('click',()=>check(true));
+    }
+    if(focusBoard?.getClientRects().length)focusBoard.querySelector('.publication-check').focus({preventScroll:true});
+  }
+  async function get(url){const response=await fetch(url,{credentials:'omit',cache:'no-store',signal:AbortSignal.timeout(10000)});if(!response.ok)throw Error('Public deployment information unavailable');return response.json();}
+  function cached(){try{const value=JSON.parse(localStorage.getItem(key)||'null'),age=Date.now()-Date.parse(value?.checkedAt);if(PublicationModel.validProof(value)&&value.source.version===context.version&&(!PublicationModel.isSha(context.sourceCommit)||value.source.commit===context.sourceCommit)&&age>=0&&age<600000)return value;}catch{}return null;}
+  async function check(force=false){
+    if(!canCheck||inFlight)return;if(!force){const value=cached();if(value){current=value;mode='cache';render();return;}}
+    for(const board of boards){board.querySelector('.publication-check').disabled=true;board.querySelector('.publication-message').textContent='正在核验公开部署记录；任务快照保持原时间。';}
+    inFlight=(async()=>{
+      const [source,mirror]=await Promise.all([get(sourceUrl),get(mirrorUrl)]);PublicationModel.manifestsMatch(source,mirror);
+      const [sourceRuns,head,sourceHead]=await Promise.all([get(api+'MyDotWork/actions/runs?head_sha='+source.sourceCommit+'&per_page=20'),get(api+'Evolution/git/ref/heads/main'),get(api+'MyDotWork/git/ref/heads/main')]);
+      if(!PublicationModel.isSha(head?.object?.sha))throw Error('Invalid public mirror reference');
+      const [commit,mirrorRuns]=await Promise.all([get(api+'Evolution/git/commits/'+head.object.sha),get(api+'Evolution/actions/runs?head_sha='+head.object.sha+'&per_page=20')]);
+      current=PublicationModel.assemble(source,mirror,sourceRuns,head,commit,mirrorRuns,new Date().toISOString(),sourceHead);mode='live';
+      if(current.status==='consistent')try{localStorage.setItem(key,JSON.stringify(current));}catch{}
+      render(current.status==='consistent'?'核验完成：当前主站提交、两站部署清单与成功CI相互对应。':current.reason+' 保留各自版本，不把等待写成已同步。');
+    })().catch(()=>{if(mode==='live')mode='snapshot';render('本次未核验成功：未能取得完整公开部署证据，仅保留上次记录，不代表当前仍一致。请稍后再试。');}).finally(()=>{inFlight=null;for(const board of boards)board.querySelector('.publication-check').disabled=!canCheck;});
+    await inFlight;
+  }
+  render();
+  for(const board of boards)board.closest('details').addEventListener('toggle',event=>{if(event.target.open&&!attempted){attempted=true;check();}});
 })();
 </script></body></html>
