@@ -1,7 +1,7 @@
 {
   "repository": "1337816143/MyDotWork",
-  "sourceCommit": "18635ed617500a8e9e89bc0e121b4de75322ac91",
-  "contentVersion": "1.7.0",
+  "sourceCommit": "84273aea95537ac7bbcad339ded1696d8736f8a9",
+  "contentVersion": "1.7.1",
   "privacy": "public-research-and-user-approved-dot-records",
   "upstreamUrl": "https://1337816143.github.io/MyDotWork/",
   "coverage": {
@@ -13,8 +13,8 @@
   "artifacts": [
     {
       "path": "dashboard/index.html",
-      "sha256": "9c0fb875607a7cf3ceff3d1341b68b8db0ed80a8381b7c1b34b0676e8f71dec6",
-      "bytes": 324559
+      "sha256": "5d1724772bc7b58dcd3f7e76010de42da81564249a664c47e4dc4a8ae81ad4dd",
+      "bytes": 327135
     },
     {
       "path": "dashboard/data.json",
@@ -23,37 +23,37 @@
     },
     {
       "path": "dashboard/catalog.json",
-      "sha256": "992e9c811afe82de0e8d9114b4c14f6c8c21708f4a6fe1b8e05842442a19835a",
-      "bytes": 30966
+      "sha256": "b8eb38a435036ed6cf171e6a6a12fdb674c548b95be6990b6eba9aebb4453d66",
+      "bytes": 33542
     },
     {
       "path": "chat/index.html",
-      "sha256": "65b6419dd5c6a04ee34a66d67e9f76850ebb8924d08db0319154e88f60b0714b",
+      "sha256": "ca8d001df5836b886a74f0b15024fcf25eed59b77cd7cf2f0ae88e8c0a93197f",
       "bytes": 268310
     },
     {
       "path": "chat/messages.json",
-      "sha256": "a0ad458bc5a4f90019d334359d047069855587fca06ee4e3bfdf0f4ad1a9c858",
+      "sha256": "e45705d4b03ea82580056852525194be86bed7b24534d64abd9b9310d2694c69",
       "bytes": 204347
     },
     {
       "path": "chat/coverage.json",
-      "sha256": "6d2508d724a14594d239a640d72f53c8ab2b0e211f2a3afdfc14a1a3232e6d97",
+      "sha256": "509b121f7f6e92d875b4094083b5717a6faa3d92846c3b593d22b8832fc78853",
       "bytes": 1297
     },
     {
       "path": "projects/index.html",
-      "sha256": "852a7a79ebf65b42cf28e393eb466c7c2e4a51a4efab164485bed5a5aff5f3d2",
-      "bytes": 14683
+      "sha256": "3acc5212aae008b656f382a4537b6749d13669c82a4d475e06868aab15340adc",
+      "bytes": 15183
     },
     {
       "path": "projects/status.json",
-      "sha256": "15b113a364ad9bee5ff4b33f6bc3321e17a44866153903702d4afc1d03aa0d70",
-      "bytes": 11119
+      "sha256": "7b9d6dfbbeb7a882cf7d802a2246488ed8a22d86b944935a16abeb895c980d95",
+      "bytes": 11619
     },
     {
       "path": "research/2026-10-02.html",
-      "sha256": "20d81f5f8d3934f73ebdbadd9c6834aafc98b075668c2708940ede2f2f078ab3",
+      "sha256": "93b7d9373f6ebaf6c3b9d5459534af98c5de741cdcb823eb97381022e13dead6",
       "bytes": 82148
     },
     {
@@ -63,7 +63,7 @@
     },
     {
       "path": "research/2026-10-02-round2.html",
-      "sha256": "e7203b823c1f9fb710411232e809bcb03593c0c5d177709a39d128647e2e8273",
+      "sha256": "d807ff4db82a6fc9f6d08b3a46f681030ed03fbff94b7cb3539168c9b7ff4d86",
       "bytes": 75605
     },
     {
@@ -73,23 +73,28 @@
     },
     {
       "path": "research/round3-7/report.html",
-      "sha256": "0a9d47f80295bf5dad7c9d01896c7c5848a0917f8b7c2b7cee0a4bb55e7efd18",
-      "bytes": 633615
+      "sha256": "946bb08b6a5641a04f9b3711e75d47e3c1af2c86a4fdbcca0cc5eb0a14901d78",
+      "bytes": 758891
     },
     {
       "path": "research/round3-7/ai-upstream-public.json",
-      "sha256": "3756213461b52e42e5ffde0df67e53093f9ff4d530a41efcb7a6e68dc95024e4",
-      "bytes": 631459
+      "sha256": "4988275387722e3ba94f0b5c2e64d87b0164cba6eaa730e027a4d7fb421a3442",
+      "bytes": 754603
     },
     {
       "path": "research/ai-side-income/report.html",
-      "sha256": "8424d2180ba2e6fd4a2da158690959d73c0ec2b39191cbd0d91014522d8617d0",
-      "bytes": 993859
+      "sha256": "95dbdd4535bc3d82c5188c55914fd0f27a2e2cd55ddbf2bb7f2244aa24e13052",
+      "bytes": 2464262
     },
     {
       "path": "research/ai-side-income/data.json",
-      "sha256": "b1d21cdc9afb54c470ababaeedb3bffa25d556300e98745a028bec9eea0c1170",
-      "bytes": 490100
+      "sha256": "c66b165efe957227cf3773e652e0d695dc90447ece19a47f3213320a8c519253",
+      "bytes": 550228
+    },
+    {
+      "path": "research/ai-side-income/sample-v0.1.zip",
+      "sha256": "e2f225782e4413a8f55624346f63f1ffd17a9208469ea7d1a82f79701299facc",
+      "bytes": 66163
     }
   ]
 }
