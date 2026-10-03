@@ -11,6 +11,7 @@
     "./downloads/index.html",
     "./examples/README.md",
     "./examples/data_dictionary.csv",
+    "./examples/farmsteps_evidence_check.py",
     "./examples/model_reasoning_lab.py",
     "./examples/multivariate_lab.R",
     "./examples/paper_minilab.py",
@@ -114,6 +115,7 @@
     "./read/sampling-stratified.html",
     "./read/sampling-validation.html",
     "./read/session-2026-09-28.html",
+    "./read/session-2026-10-03-farmsteps-evidence.html",
     "./read/spatial-design.html",
     "./read/study-2026-10-02-learning-usability.html",
     "./read/study-2026-10-03-model-reasoning.html",
@@ -1076,5 +1078,5 @@
       "./vendor/translation/wasm/ort-wasm-simd-threaded.wasm"
     ]
   },
-  "bytes": 382882409
+  "bytes": 382942573
 }
