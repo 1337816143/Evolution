@@ -110,6 +110,7 @@
     "./read/sampling-validation.html",
     "./read/session-2026-09-28.html",
     "./read/spatial-design.html",
+    "./read/study-2026-10-02-learning-usability.html",
     "./read/study-bilingual-framework-2026-09-28.html",
     "./read/study-dong-2026-09-30.html",
     "./read/survey.html",
@@ -1066,5 +1067,5 @@
       "./vendor/translation/wasm/ort-wasm-simd-threaded.wasm"
     ]
   },
-  "bytes": 382719341
+  "bytes": 382732781
 }
