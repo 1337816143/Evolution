@@ -11,6 +11,7 @@
     "./downloads/index.html",
     "./examples/README.md",
     "./examples/data_dictionary.csv",
+    "./examples/model_reasoning_lab.py",
     "./examples/multivariate_lab.R",
     "./examples/paper_minilab.py",
     "./examples/pareto_lab.py",
@@ -1068,5 +1069,5 @@
       "./vendor/translation/wasm/ort-wasm-simd-threaded.wasm"
     ]
   },
-  "bytes": 382773339
+  "bytes": 382807592
 }
