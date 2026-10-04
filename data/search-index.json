@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-10-04T14:07:44+08:00",
+  "generatedAt": "2026-10-04T12:17:36Z",
   "count": 171,
   "types": [
     "module",
@@ -410,7 +410,7 @@
       "summary": "下载基础包和下方所需分卷，全部解压到同一个目录，保留library、vendor等路径。在该目录运行 python -m http.server 8000，然后访问 localhost:8000。手机更推荐在主站点击完整缓存。",
       "url": "paper/downloads/index.html",
       "keywords": "完整离线包 · Paper Lab · 完整离线阅读与中文对照 · paper/downloads/index.html",
-      "text": "完整离线包 · Paper Lab 完整离线阅读与中文对照 下载基础包和下方所需分卷，全部解压到同一个目录，保留library、vendor等路径。在该目录运行 python -m http.server 8000，然后访问 localhost:8000。手机更推荐在主站点击完整缓存。 基础网站与教学包 Paper-Originals-01.zip · 原文与公式 · 59.4 MB Paper-Originals-02.zip · 原文与公式 · 51.7 MB Paper-Originals-03.zip · 原文与公式 · 61.6 MB Paper-Originals-04.zip · 原文与公式 · 34.6 MB Paper-Translation-01.zip · 本机离线翻译引擎 · 42.6 MB Paper-Translation-02.zip · 本机离线翻译引擎 · 38.4 MB Paper-Translation-03.zip · 本机离线翻译引擎 · 7.9 MB 每卷可独立解压，不是传统分割ZIP。所有原文卷构成完整归档，所有翻译卷构成无需联网API的本机翻译引擎。译文在本设备生成、可校订和备份，不预称人工精校。单文件HTML不含原文和模型。 返回离线中心"
+      "text": "完整离线包 · Paper Lab 完整离线阅读与中文对照 下载基础包和下方所需分卷，全部解压到同一个目录，保留library、vendor等路径。在该目录运行 python -m http.server 8000，然后访问 localhost:8000。手机更推荐在主站点击完整缓存。 基础网站与教学包 Paper-Originals-01.zip · 原文与公式 · 59.4 MB Paper-Originals-02.zip · 原文与公式 · 51.7 MB Paper-Originals-03.zip · 原文与公式 · 61.8 MB Paper-Originals-04.zip · 原文与公式 · 45.1 MB Paper-Translation-01.zip · 本机离线翻译引擎 · 42.6 MB Paper-Translation-02.zip · 本机离线翻译引擎 · 38.4 MB Paper-Translation-03.zip · 本机离线翻译引擎 · 7.9 MB 每卷可独立解压，不是传统分割ZIP。所有原文卷构成完整归档，所有翻译卷构成无需联网API的本机翻译引擎。译文在本设备生成、可校订和备份，不预称人工精校。单文件HTML不含原文和模型。 返回离线中心"
     },
     {
       "id": "page:paper/index.html",
