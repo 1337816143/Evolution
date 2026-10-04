@@ -2,8 +2,8 @@
   "schema": "evolution.smartdrop.project.v1",
   "id": "smartdrop",
   "title": "SmartDrop · 半自动批量拼豆",
-  "revision": "WEB-1",
-  "updatedAt": "2026-09-07",
+  "revision": "WEB-2A",
+  "updatedAt": "2026-10-04",
   "hardwareRevision": "A5-P0.7",
   "privacy": "public",
   "publish": true,
@@ -300,6 +300,10 @@
     {
       "id": "WEB-1",
       "text": "独立项目模块：需求、九方案、动画说明、证据关卡、历史原件校验、离线记录与网站同步约定。硬件版本仍为P0.7。"
+    },
+    {
+      "id": "WEB-2A",
+      "text": "网页可靠性修订：统一故障跳转约束、修正转印后豆的持续显示、使用事务本机记录及无损旧记录迁移。硬件仍为A5-P0.7，未新增实体成绩。"
     }
   ],
   "artifacts": [
