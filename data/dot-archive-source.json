@@ -1,20 +1,20 @@
 {
   "repository": "1337816143/MyDotWork",
-  "sourceCommit": "fdfcda9a2c126476855e9df4494e28e52d2eeb45",
-  "contentVersion": "1.8.4",
+  "sourceCommit": "fc94c5e0405f7e89b8b3baf6f88d1796466ce481",
+  "contentVersion": "1.8.5",
   "privacy": "public-research-and-user-approved-dot-records",
   "upstreamUrl": "https://1337816143.github.io/MyDotWork/",
   "coverage": {
     "source": "current-dot-visible-chat",
-    "messageCount": 507,
+    "messageCount": 567,
     "start": "2026-09-30T08:54:40.516423+00:00",
-    "end": "2026-10-03T17:59:06.480420+00:00"
+    "end": "2026-10-04T14:27:08.445814+00:00"
   },
   "artifacts": [
     {
       "path": "dashboard/index.html",
-      "sha256": "f3416d06988627ffd404635401455fad182a131cdfaad5b5395c47d298ec93f3",
-      "bytes": 376139
+      "sha256": "ec97a72f6a54e587ff25d6d51e068236dc1c6129c76ab69c3d79315b794c27e0",
+      "bytes": 381481
     },
     {
       "path": "dashboard/data.json",
@@ -23,37 +23,37 @@
     },
     {
       "path": "dashboard/catalog.json",
-      "sha256": "44208799e926831ee167c764135342927a74119f76c1478dbff448e7f0fa3067",
-      "bytes": 57486
+      "sha256": "ba1f1a391dd3f9c2ae873d1f2bb0afcf6dd953d20bec610eda0113a8ecc6848e",
+      "bytes": 62828
     },
     {
       "path": "chat/index.html",
-      "sha256": "aee497a717a2e604bbfdf646835245355be58f3a1c86515d31f19f75424b5636",
-      "bytes": 443202
+      "sha256": "041dc2ae5712ed87c48819f7c4d88937a402dd2494b373a8a3d0edbf1ea512c9",
+      "bytes": 511086
     },
     {
       "path": "chat/messages.json",
-      "sha256": "fabf511626f55cb6b059ae11345423eda1b538d3f368057c00d2b62f814d1209",
-      "bytes": 325564
+      "sha256": "fb92c12fa2308a7644497f0c434c5ac624772505c43661e05dcdd08934b36ae1",
+      "bytes": 385523
     },
     {
       "path": "chat/coverage.json",
-      "sha256": "b795a5a69a0e6cbbc02a5f9ee796931dc63f351c34792df0cb69dd4be5121626",
-      "bytes": 5841
+      "sha256": "98ac92b5406d97bc8c06c505212663dda73294a39df1aaf7ef4ae61424514a6d",
+      "bytes": 10388
     },
     {
       "path": "projects/index.html",
-      "sha256": "aae2cc5667d46a345f89ebd2dafc9bcef7f3c23e9d1fbff31fda8c6e2c3712bc",
-      "bytes": 15659
+      "sha256": "574d03be387436d80398ba10dea65d1516eb8d996aefb94f3957b932268b4476",
+      "bytes": 16034
     },
     {
       "path": "projects/status.json",
-      "sha256": "515d35b7ebba67fec2baae786b98a2dd56820ee7ca1f4d5d16259273a48cfaee",
-      "bytes": 11569
+      "sha256": "3b41c592ba7ae963501de00b95cfd29a72df90fb08364c2175ed477b2f249ffb",
+      "bytes": 11921
     },
     {
       "path": "research/2026-10-02.html",
-      "sha256": "1c9b0b35e8dce9aa246b79278bd8c30973e264f84eb0531e5606288700dfd412",
+      "sha256": "05573a1d03c97b89a38cfe7d70febb6b2e056cf3b8fa29547ccbf27f5d192561",
       "bytes": 82674
     },
     {
@@ -63,7 +63,7 @@
     },
     {
       "path": "research/2026-10-02-round2.html",
-      "sha256": "2e96406b494794dbb589b59e089dc54e456b4ab25e74684c0f47412e787ad75d",
+      "sha256": "f2285ac01f72a531d7cdef98f80ae7dfcae6188091674b59df3976c08a4562ed",
       "bytes": 76131
     },
     {
@@ -130,6 +130,36 @@
       "path": "projects/vector-2026-10-04.json",
       "sha256": "744daf41fcf3f955e980815d16fba2858b95b95599a0148ae73de1f956a0b480",
       "bytes": 3691
+    },
+    {
+      "path": "research/2026-10-04/task5-business-validation-20261004.html",
+      "sha256": "dc4bf1e2a3142bc4b5c5d67d18c3cb48c8eae19db6730e5f3e8bfba991064486",
+      "bytes": 21699
+    },
+    {
+      "path": "research/2026-10-04/task5-business-validation-20261004.txt",
+      "sha256": "9d84054f8d51479a03b7796049d4abdcf4c6f774de303112e942088d439f0aa7",
+      "bytes": 15422
+    },
+    {
+      "path": "research/2026-10-04/task5-business-validation-20261004-evidence.json",
+      "sha256": "2554cbcc5aea6e38bf29f87cf8cccfba77748fc99ce085bc8bbfec3c6e2b5db2",
+      "bytes": 16494
+    },
+    {
+      "path": "projects/vector-0.11.1-2026-10-04.json",
+      "sha256": "6052415a81a2b54228ad7123b7d0e4d685afdab9b7f0160e43fef09afa7f151b",
+      "bytes": 6751
+    },
+    {
+      "path": "projects/smartdrop-r1-2026-10-04.json",
+      "sha256": "13f5846221ab08a83cfd4b43a1aa94461c32af5c22a64740166020e964782751",
+      "bytes": 1541
+    },
+    {
+      "path": "projects/wetype-2026-10-04.json",
+      "sha256": "5b5fbf09d7cb8fd8974690f7a57ab51b9cdb433072af1cef6514734dbfffa274",
+      "bytes": 1833
     },
     {
       "path": "research/ai-side-income/sample-v0.1.zip",
