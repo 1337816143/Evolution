@@ -3,7 +3,7 @@
 让用户按颜色撒豆、清除余豆，再整批转移到普通拼豆底板；减少逐颗找坐标与放置的操作，最终验证省时、省力、成本合理后再形成生产图纸和3D打印文件。
 
 状态：数字设计与小样资料；尚无实体功能验证
-硬件：A5-P0.7；网站：WEB-2A
+硬件：A5-P0.7；网站：WEB-2B
 
 ## 已确认需求
 
@@ -160,3 +160,13 @@
 ## 同步约定
 
 每次在对话中推进SmartDrop，默认同步需求变更、方案状态、版本、证据和下一步。先改My-Evolution并通过验证，再自动镜像发布；未触发任务时不声称后台替用户做实验。浏览器记录只是本机草稿，导出后由维护者审核写入私有事实源。
+
+## 数字修订 A5-P0.7-R1
+
+历史P0.7 HTML校核器与旧PDF保持原始字节，未被本轮修复：旧轴向筛查未覆盖SAFE高度和抽屉退出量，旧指南部分减号显示不完整。不能凭旧版绿色算式加工或放行。R1是另版离线Node.js数值核心与新PDF指南；并未接入在线校核器，也没有实体试验。
+
+[SmartDrop_A5_P07_R1_数字校核修订指南.pdf](../smartdrop/revisions/A5-P0.7-R1/SmartDrop_A5_P07_R1_Guide.pdf) — 64080 bytes; SHA-256 2aabb6a4c97e816e995a7638603122282fdc6ccc54358714219a93c0795c1525
+
+[SmartDrop_A5_P07_R1_数字校核修订包.zip](../smartdrop/revisions/A5-P0.7-R1/SmartDrop_A5_P07_R1_Core.zip) — 127191 bytes; SHA-256 797a6be59c36cd54b3e54ed9be4d4e198692ab15cb5f0d118dc6dc28d6a271a0
+
+296项软件测试通过；hardwareTestCount=0，physicalValidation=NOT_RUN。

@@ -2,7 +2,7 @@
   "schema": "evolution.smartdrop.project.v1",
   "id": "smartdrop",
   "title": "SmartDrop · 半自动批量拼豆",
-  "revision": "WEB-2A",
+  "revision": "WEB-2B",
   "updatedAt": "2026-10-04",
   "hardwareRevision": "A5-P0.7",
   "privacy": "public",
@@ -10,6 +10,29 @@
   "stage": "数字设计与小样资料；尚无实体功能验证",
   "goal": "让用户按颜色撒豆、清除余豆，再整批转移到普通拼豆底板；减少逐颗找坐标与放置的操作，最终验证省时、省力、成本合理后再形成生产图纸和3D打印文件。",
   "physicalResults": [],
+  "digitalRevision": "A5-P0.7-R1",
+  "digitalValidation": {
+    "kind": "SOFTWARE_ONLY",
+    "testsPassed": 296,
+    "testsFailed": 0,
+    "physicalValidation": "NOT_RUN",
+    "hardwareTestCount": 0
+  },
+  "digitalArtifacts": [
+    {
+      "path": "smartdrop/revisions/A5-P0.7-R1/SmartDrop_A5_P07_R1_Guide.pdf",
+      "name": "SmartDrop_A5_P07_R1_数字校核修订指南.pdf",
+      "bytes": 64080,
+      "sha256": "2aabb6a4c97e816e995a7638603122282fdc6ccc54358714219a93c0795c1525"
+    },
+    {
+      "path": "smartdrop/revisions/A5-P0.7-R1/SmartDrop_A5_P07_R1_Core.zip",
+      "name": "SmartDrop_A5_P07_R1_数字校核修订包.zip",
+      "bytes": 127191,
+      "sha256": "797a6be59c36cd54b3e54ed9be4d4e198692ab15cb5f0d118dc6dc28d6a271a0"
+    }
+  ],
+  "legacyWarning": "历史P0.7 HTML校核器与旧PDF保持原始字节，未被本轮修复：旧轴向筛查未覆盖SAFE高度和抽屉退出量，旧指南部分减号显示不完整。不能凭旧版绿色算式加工或放行。R1是另版离线Node.js数值核心与新PDF指南；并未接入在线校核器，也没有实体试验。",
   "requirements": [
     {
       "title": "半自动批量，不是自动逐颗抓豆",
@@ -304,6 +327,10 @@
     {
       "id": "WEB-2A",
       "text": "网页可靠性修订：统一故障跳转约束、修正转印后豆的持续显示、使用事务本机记录及无损旧记录迁移。硬件仍为A5-P0.7，未新增实体成绩。"
+    },
+    {
+      "id": "A5-P0.7-R1 / WEB-2B",
+      "text": "单独发布数字校核修订指南与离线Node.js核心包：补充SAFE高度、抽屉退出净空和保守轴向筛查，修订公式显示。296项软件测试通过；硬件A5-P0.7、原件及全部历史路线不变，实体试验仍为0。"
     }
   ],
   "artifacts": [
@@ -370,6 +397,10 @@
     {
       "label": "本次用户确认的产品与同步要求",
       "scope": "低成本半自动批量；允许模板，保留B9及所有旧路线"
+    },
+    {
+      "label": "A5-P0.7-R1数字校核修订包与指南",
+      "scope": "独立离线数字修订；296项软件测试，不是在线校核更新、生产放行或实体证明"
     }
   ]
 }
