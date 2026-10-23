@@ -1,12 +1,12 @@
 {
   "schemaVersion": "1.1.0",
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-23",
   "scope": "首版行业地图覆盖 20 个品牌生态、41 条产品或系列记录，含前代与跨型号系列，不是 41 个独立硬件型号，也不声称穷尽全市场。按品类→品牌→系列组织；深度专题区分厂商宣传、厂商解释、独立体验和未知。本研究未做实机测试。",
   "coverageGaps": [
     "系列记录仍需拆到具体型号、地区和固件；白牌、停产状态和企业长尾尚未穷尽。",
     "没有对全部产品进行同方法的延迟、连续帧率、续航、温度、透明度测试。",
     "价格、地区可用性、售后、处方镜片及最新固件需分别复核。",
-    "横向对比当前覆盖7个明确型号；41条产品/系列地图并非全部拆成型号或完成实测。未知格与有来源但仍待复核项均保留。",
+    "横向对比当前覆盖10个明确型号；41条产品/系列地图并非全部拆成型号或完成实测。未知格与有来源但仍待复核项均保留。",
     "三款均缺统一测法的眼盒/eye relief、真实光学焦距、透光率分档实测",
     "One Pro每种SBS/REAL3D/Follow/Anchor/超宽模式完整输入EDID与持续独立FPS矩阵仍缺",
     "AIR3默认/最高刷新率与固件性能模式联动、摄像输入输出延迟仍缺",
@@ -68,7 +68,7 @@
       "url": "https://tutorials.xreal.com/docs/glasses/one-series/spec/",
       "type": "official",
       "publishedAt": null,
-      "accessedAt": "2026-10-21"
+      "accessedAt": "2026-10-23"
     },
     {
       "id": "xreal-connect",
@@ -92,7 +92,7 @@
       "url": "https://www.reddit.com/r/Xreal/comments/1mvkwd1/my_xreal_one_pro_missing_120hz_option/",
       "type": "reporting",
       "publishedAt": null,
-      "accessedAt": "2026-10-21"
+      "accessedAt": "2026-10-23"
     },
     {
       "id": "xreal-beta",
@@ -100,7 +100,7 @@
       "url": "https://www.reddit.com/r/Xreal/comments/1x2g39n/real_3d_60hz_public_beta_is_open_join_the_test/",
       "type": "reporting",
       "publishedAt": null,
-      "accessedAt": "2026-10-21"
+      "accessedAt": "2026-10-23"
     },
     {
       "id": "inmo-mirror",
@@ -132,7 +132,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/INMO-International-Technology-Limited-Recalls-INMO-Air3-Smart-Glasses-Due-to-Risk-of-Serious-Injury-or-Death-from-Burn-Hazard",
       "type": "official",
       "publishedAt": "2026-09-24",
-      "accessedAt": "2026-10-21"
+      "accessedAt": "2026-10-23"
     },
     {
       "id": "inmo-recall",
@@ -140,7 +140,7 @@
       "url": "https://www.inmo.com/pages/recall",
       "type": "official",
       "publishedAt": null,
-      "accessedAt": "2026-10-21"
+      "accessedAt": "2026-10-23"
     },
     {
       "id": "rayneo-product",
@@ -356,7 +356,7 @@
       "url": "https://us.shop.xreal.com/products/xreal-aura",
       "type": "official",
       "publishedAt": null,
-      "accessedAt": "2026-10-21"
+      "accessedAt": "2026-10-23"
     },
     {
       "id": "market-source-38",
@@ -404,7 +404,7 @@
       "url": "https://www.specs.com/smart-glasses/specs-27",
       "type": "official",
       "publishedAt": null,
-      "accessedAt": "2026-10-21"
+      "accessedAt": "2026-10-23"
     },
     {
       "id": "market-source-44",
@@ -412,7 +412,7 @@
       "url": "https://newsroom.snap.com/specs-launch-date",
       "type": "official",
       "publishedAt": null,
-      "accessedAt": "2026-10-21"
+      "accessedAt": "2026-10-23"
     },
     {
       "id": "market-source-45",
@@ -672,11 +672,11 @@
     },
     {
       "id": "detail-xnext",
-      "title": "手册镜像 / 项目 / 社区资料：www.reddit.com",
+      "title": "XREAL官方社区发布帖：1 Pro+与旧One系列REAL 3D更新计划",
       "url": "https://www.reddit.com/r/Xreal/comments/1x6l072/introducing_xreal_1_pro_the_xreal_experience/",
       "type": "reporting",
       "publishedAt": null,
-      "accessedAt": "2026-10-21"
+      "accessedAt": "2026-10-23"
     },
     {
       "id": "detail-ip",
@@ -1288,7 +1288,7 @@
       "url": "https://tutorials.xreal.com/docs/glasses/pro-plus/specifications/",
       "type": "official",
       "publishedAt": null,
-      "accessedAt": "2026-10-21"
+      "accessedAt": "2026-10-23"
     },
     {
       "id": "home-xplus-display",
@@ -1296,7 +1296,7 @@
       "url": "https://tutorials.xreal.com/docs/glasses/pro-plus/display-sound/",
       "type": "official",
       "publishedAt": null,
-      "accessedAt": "2026-10-21"
+      "accessedAt": "2026-10-23"
     },
     {
       "id": "home-xplus-3d",
@@ -1304,7 +1304,7 @@
       "url": "https://tutorials.xreal.com/docs/glasses/pro-plus/spatial-screen/three-d/",
       "type": "official",
       "publishedAt": null,
-      "accessedAt": "2026-10-21"
+      "accessedAt": "2026-10-23"
     },
     {
       "id": "home-xplus-layout",
@@ -1312,7 +1312,7 @@
       "url": "https://tutorials.xreal.com/docs/glasses/pro-plus/spatial-screen/size-ultrawide-side-view/",
       "type": "official",
       "publishedAt": null,
-      "accessedAt": "2026-10-21"
+      "accessedAt": "2026-10-23"
     },
     {
       "id": "home-xplus-eye",
@@ -1328,7 +1328,7 @@
       "url": "https://tutorials.xreal.com/docs/glasses/pro-plus/first-use/setup/",
       "type": "official",
       "publishedAt": null,
-      "accessedAt": "2026-10-21"
+      "accessedAt": "2026-10-23"
     },
     {
       "id": "home-xplus-rx",
@@ -1344,7 +1344,7 @@
       "url": "https://tutorials.xreal.com/docs/glasses/pro-plus/faq/basic-use/",
       "type": "official",
       "publishedAt": null,
-      "accessedAt": "2026-10-21"
+      "accessedAt": "2026-10-23"
     },
     {
       "id": "home-xplus-tint",
@@ -1360,7 +1360,7 @@
       "url": "https://us.shop.xreal.com/products/xreal-1-pro",
       "type": "official",
       "publishedAt": null,
-      "accessedAt": "2026-10-21"
+      "accessedAt": "2026-10-23"
     },
     {
       "id": "home-xplus-product",
@@ -1384,7 +1384,7 @@
       "url": "https://www.prnewswire.com/news-releases/xreal-introduces-xreal-1-pro-bringing-display-and-comfort-upgrades-to-its-flagship-wearable-display-glasses-302910721.html",
       "type": "official",
       "publishedAt": "2026-10-16",
-      "accessedAt": "2026-10-21"
+      "accessedAt": "2026-10-23"
     },
     {
       "id": "home-luma-shop",
@@ -1513,6 +1513,30 @@
       "type": "official",
       "publishedAt": null,
       "accessedAt": "2026-10-21"
+    },
+    {
+      "id": "xreal-proplus-cn-20261023",
+      "title": "XREAL 1 Pro+中国官方产品页",
+      "url": "https://www.xreal.com/cn/1-pro-plus",
+      "type": "official",
+      "publishedAt": null,
+      "accessedAt": "2026-10-23"
+    },
+    {
+      "id": "xreal-fw-190-20260722",
+      "title": "XREAL官方社区One系列v1.9.0发布说明：21:9 90fps输入",
+      "url": "https://www.reddit.com/r/Xreal/comments/1v3hz6p/xreal_one_series_firmware_v190_just_landed/",
+      "type": "reporting",
+      "publishedAt": "2026-07-22",
+      "accessedAt": "2026-10-23"
+    },
+    {
+      "id": "xreal-real3d-rollout-comment-20261023",
+      "title": "XREAL厂商评论：已有公测与目标下月正式推送",
+      "url": "https://www.reddit.com/r/Xreal/comments/1x6l072/introducing_xreal_1_pro_the_xreal_experience/",
+      "type": "reporting",
+      "publishedAt": null,
+      "accessedAt": "2026-10-23"
     }
   ],
   "products": [
@@ -2971,29 +2995,31 @@
       "launchStatus": "现行官方目录；1 Pro+美国M码现货，L码两周；2026-10-15新款",
       "statusKey": "orderable",
       "region": "美国/国际官网，具体发货国家逐款核验",
-      "summary": "One Pro→1 Pro+，评测转述规格亮度700→1200nits，非实测亮度对比；仍附C-C线，非真无线 下列深度模式证据仅适用于明确标出的 One Pro，不外推整个系列。",
+      "summary": "One Pro与1 Pro+是不同型号，Eye套装另列。1 Pro+官方感知亮度SDR最高1000nits、AI HDR在Follow/Anchor（0DoF/3DoF）最高1200nits；不是全模式恒定值。One Pro仍为官方最高感知700nits。两者均不得由最高120Hz推导所有模式120FPS。",
       "claims": [
         {
-          "topic": "上市与交付状态",
-          "claim": "现行官方目录；1 Pro+美国M码现货，L码两周；2026-10-15新款",
-          "evidence": "unknown",
+          "topic": "仅1 Pro+：型号与地区销售状态",
+          "claim": "独立改款，不是Eye套装名称；官方声明2026-10-15上市，美国商品页2026-10-23标M现货、L两周内发货。",
+          "evidence": "official-claim",
           "sourceIds": [
-            "market-source-34",
-            "market-source-35"
+            "home-xplus-launch",
+            "home-xplus-shop",
+            "detail-xnext"
           ],
-          "conditions": "官网可订购不等于普遍实际交付；地区差异见说明",
-          "limitations": "未明确给出的日期和地区保持未知；混合来源摘要尚未拆成逐条实测证据，不按独立测试结论展示。"
+          "conditions": "10月16日出版的厂商供稿中声明10月15日上市；库存限美国页面查询时点。",
+          "limitations": "不证明全球同日零售到货；不套用旧One Pro库存。"
         },
         {
-          "topic": "分类、参数与代际线索",
-          "claim": "One Pro→1 Pro+，评测转述规格亮度700→1200nits，非实测亮度对比；仍附C-C线，非真无线",
-          "evidence": "unknown",
+          "topic": "仅1 Pro+：亮度、输入与连接边界",
+          "claim": "SDR感知亮度最高1000nits；AI HDR在Follow/Anchor（0DoF/3DoF）最高1200nits、仅60/90Hz输入；USB-C直连要求源端DP视频输出。",
+          "evidence": "official-claim",
           "sourceIds": [
-            "market-source-34",
-            "market-source-35"
+            "home-xplus-display",
+            "home-xplus-spec",
+            "home-xplus-fit"
           ],
-          "conditions": "参数是厂商说明，除标注原始独立评测外未做实机验证",
-          "limitations": "不据Bluetooth或Wi-Fi存在推断通用视频镜像；混合来源摘要尚未拆成逐条实测证据，不按独立测试结论展示。"
+          "conditions": "AI HDR与Reading、超宽、3D、Side View互斥，后选模式优先。",
+          "limitations": "面板5000nits不是入眼感知1200nits；有线视频不是无线投屏；电致变色不是完全透明证明。"
         },
         {
           "topic": "仅 One Pro：面板最高刷新率 / 透明度",
@@ -3037,13 +3063,15 @@
         },
         {
           "topic": "仅 One Pro：REAL 3D",
-          "claim": "截至 2026-10-21，找到厂商社区 REAL 3D 60Hz 公测招募；这是公测标称，不等于独立实测的 60 个内容帧/秒。",
+          "claim": "60Hz REAL 3D公开测试已存在；10月厂商发布帖与评论表示旧One/One Pro/1S目标下月正式推送。",
           "sourceIds": [
-            "xreal-beta"
+            "xreal-beta",
+            "detail-xnext",
+            "xreal-real3d-rollout-comment-20261023"
           ],
           "evidence": "manufacturer-explanation",
-          "conditions": "公测范围与 One Pro 具体固件待核验",
-          "limitations": "不证明 One Pro 已全量上线；发帖绝对日期和当前固件覆盖范围待核实。"
+          "conditions": "截至2026-10-23复核；目标2026-11是计划，不是已完成状态。",
+          "limitations": "未证明旧机正式全量；未测独立内容FPS；公测原帖绝对日期仍未知。"
         },
         {
           "topic": "配镜路线（非个人验配结论）：仅One Pro",
@@ -3056,6 +3084,16 @@
           ],
           "conditions": "型号和地区服务须匹配；SPH、CYL、total power和机身调节不是同一口径",
           "limitations": "处方范围是厂商公布的服务边界，不是个人验配结论；不要把SPH、CYL、total power、SE混为同一数值，不根据度数范围保证适配。瞳距调整、电致变色、显示焦距均不是近视/散光配镜替代。"
+        },
+        {
+          "topic": "仅 One Pro：21:9 v1.9.0输入更新",
+          "claim": "2026-07-22 One系列v1.9.0发布说明明确为21:9超宽增加90fps输入支持。",
+          "sourceIds": [
+            "xreal-fw-190-20260722"
+          ],
+          "evidence": "manufacturer-explanation",
+          "conditions": "只适用于公告所述型号/固件/画幅。",
+          "limitations": "不外推32:9、16:18、SBS、Pro+，也不证明游戏持续90FPS。"
         }
       ],
       "unknowns": [
@@ -4429,6 +4467,10 @@
   ],
   "changelog": [
     {
+      "date": "2026-10-23",
+      "summary": "2026-10-23：复核XREAL 1 Pro+官方模式限制和地区销售资料，补入One系列v1.9.0的21:9 90fps输入证据；区分M2P与游戏端到端未知，校正对比型号计数。重点复核AIR3召回、AURA预购和SPECS地区交付声明，未据此声称全行业无新品或无其他召回。"
+    },
+    {
       "date": "2026-10-21",
       "summary": "v3：深化Even G2，新增Rokid Glasses、Meta Ray-Ban Display、Halliday G2三款日常候选；7型号同字段对比。明确Rokid处方范围、Meta官方无线/录像规格、Halliday批次交付的来源冲突。"
     },
@@ -4993,15 +5035,19 @@
           "verificationState": "supported"
         },
         "inputFps": {
-          "value": "32:9历史厂商解释：输入60FPS、内部面板90Hz；REAL3D有60Hz公测标称",
+          "value": "21:9：v1.9.0新增90fps输入；32:9历史说明为60FPS输入、内部90Hz；REAL 3D 60Hz/60FPS仍需区分公测与正式推送。",
           "sourceIds": [
+            "xreal-fw-190-20260722",
             "xreal-ultrawide",
-            "xreal-beta"
+            "xreal-beta",
+            "detail-xnext",
+            "xreal-real3d-rollout-comment-20261023"
           ],
           "evidence": "manufacturer-explanation",
-          "conditions": "历史社区解释；当前固件适用性和公测范围待核",
-          "limitations": "非独立帧率测试；60Hz公测不证明60个独立内容帧/秒",
-          "verificationState": "supported"
+          "verificationState": "supported",
+          "conditions": "仅One/One Pro系列发布说明和One Pro历史32:9场景；21:9依据2026-07-22 v1.9.0公告。",
+          "limitations": "不证明游戏持续90FPS或120FPS；32:9当前固件未锁定；不外推Pro+或所有画幅。",
+          "checkedAt": "2026-10-23"
         },
         "wired": {
           "value": "USB-C，主机须支持DP视频输出",
@@ -5283,51 +5329,32 @@
           "verificationState": "supported"
         },
         "detail-refresh_modes": {
-          "value": "32:9：用户见60Hz输入；厂商社区解释内部90Hz（来源层级：用户报告+厂商社区；尚未提升为独立验证结论）",
+          "value": "21:9在v1.9.0支持90fps输入；32:9的历史60FPS输入/内部90Hz不能概括所有超宽模式。",
           "sourceIds": [
+            "xreal-fw-190-20260722",
             "xreal-ultrawide"
           ],
-          "evidence": "unknown",
-          "conditions": "不是独立面板测量；21:9/16:18不能外推",
-          "limitations": "本项目未实机测量；厂商参数、镜像资料和项目路径不等于独立实测。",
-          "verificationState": "not-yet-verified"
+          "evidence": "manufacturer-explanation",
+          "verificationState": "supported",
+          "conditions": "v1.9.0公告明确点名21:9；历史32:9解释没有锁定当前固件。",
+          "limitations": "完整模式×主机×固件×分辨率×刷新率矩阵及持续独立内容FPS未实测；不能外推16:18、SBS或Pro+。",
+          "checkedAt": "2026-10-23"
         },
         "detail-real3d": {
-          "value": "REAL 3D：60Hz公测原帖；另有厂商宣告60 FPS将向One/One Pro/1S推送；补充核验：REAL3D 的 Beam Pro AR Space 路径不支持；改为 My Glasses 的 Default Air Casting 后重新连接可用",
+          "value": "REAL 3D 60Hz已有公开测试；厂商在10月发布窗口表示旧One/One Pro/1S目标下月正式推送。Beam Pro AR Space与Default Air Casting是不同路径。",
           "sourceIds": [
             "xreal-beta",
             "detail-xnext",
+            "xreal-real3d-rollout-comment-20261023",
             "x-gap-qa21",
             "x-gap-real3d"
           ],
-          "conditions": "厂商当前指南；不是全机型全模式无条件3D。",
-          "limitations": "保留已有30历史/60Hz公测记录，不推断当前60独立内容FPS；高强度可能增加热、耗电及掉帧。",
           "evidence": "manufacturer-explanation",
           "verificationState": "supported",
-          "claimDetails": [
-            {
-              "value": "REAL 3D：60Hz公测原帖；另有厂商宣告60 FPS将向One/One Pro/1S推送",
-              "sourceIds": [
-                "xreal-beta",
-                "detail-xnext"
-              ],
-              "evidence": "manufacturer-explanation",
-              "conditions": "公测原帖发布日期未知；后者写next month，不保证已全量落地；独立内容FPS未测",
-              "limitations": "本项目未实机测量；厂商参数、镜像资料和项目路径不等于独立实测。",
-              "verificationState": "supported"
-            },
-            {
-              "value": "REAL3D 的 Beam Pro AR Space 路径不支持；改为 My Glasses 的 Default Air Casting 后重新连接可用",
-              "sourceIds": [
-                "x-gap-qa21",
-                "x-gap-real3d"
-              ],
-              "conditions": "厂商当前指南；不是全机型全模式无条件3D。",
-              "limitations": "保留已有30历史/60Hz公测记录，不推断当前60独立内容FPS；高强度可能增加热、耗电及掉帧。",
-              "evidence": "manufacturer-explanation",
-              "verificationState": "supported"
-            }
-          ]
+          "conditions": "截至2026-10-23，所核正文和厂商评论区分已有public beta与目标2026-11正式更新；该月份为目标，不是保证日期。",
+          "limitations": "未证明旧机60FPS正式全量；公测具体版本、覆盖设备及持续独立内容FPS仍待核。先前30FPS历史不删除，也不把60Hz标题当实测。",
+          "checkedAt": "2026-10-23",
+          "executionContext": "保留基线已核路径：Beam Pro AR Space不支持该REAL 3D路径；My Glasses设为Default Air Casting并重连后由眼镜OSD启用。未在本次重复实测此路径。"
         },
         "detail-system_weight": {
           "value": "未取得可比实测或完整资料",
@@ -5558,13 +5585,16 @@
           "executionContext": "运行位置及手机、配件依赖待核验。"
         },
         "function-firmware-update": {
-          "value": "待核验，不能据此判为不支持",
-          "evidence": "unknown",
-          "sourceIds": [],
-          "conditions": "尚未取得该型号与此项功能对应的充分证据。",
-          "limitations": "不按品牌、类别或手机应用能力推定眼镜支持。",
-          "verificationState": "not-yet-verified",
-          "executionContext": "运行位置及手机、配件依赖待核验。"
+          "value": "已核One系列v1.9.0发布说明：21:9新增90fps输入；当前最新正式版本仍待核。",
+          "sourceIds": [
+            "xreal-fw-190-20260722"
+          ],
+          "evidence": "manufacturer-explanation",
+          "verificationState": "supported",
+          "conditions": "2026-07-22发布说明；针对One系列，不继承至Pro+或ROG自行发布的固件。",
+          "limitations": "本次未连接设备、未执行升级或确认设备当前版本；公告不保证每台设备已安装。",
+          "checkedAt": "2026-10-23",
+          "executionContext": "所核的是固件功能变更证据，非实时设备升级状态。"
         },
         "function-language-scope": {
           "value": "待核验，不能据此判为不支持",
@@ -12432,12 +12462,15 @@
           "limitations": "厂商口径，未经本项目实机验证"
         },
         "detail-latency": {
-          "value": "待核验，不能据此判为不支持",
-          "evidence": "unknown",
-          "sourceIds": [],
-          "conditions": "尚未取得该型号与此项对应的充分证据。",
-          "limitations": "不按品牌、前代或同系列其他型号推定。",
-          "verificationState": "not-yet-verified"
+          "value": "厂商标称3ms M2P；不是游戏点击到显示的端到端延迟。",
+          "sourceIds": [
+            "xreal-proplus-cn-20261023"
+          ],
+          "evidence": "official-claim",
+          "verificationState": "supported",
+          "conditions": "M2P指头部运动到画面更新的运动到光子口径；仅为官网声明。",
+          "limitations": "本研究未测M2P；主机渲染、传输、模式处理等整体游戏延迟未由该数值给出。",
+          "checkedAt": "2026-10-23"
         },
         "audio-privacy": {
           "value": "上手者在嘈杂环境改用耳塞",
@@ -12509,14 +12542,15 @@
           "verificationState": "not-yet-verified"
         },
         "status": {
-          "value": "美国M现货；L标示下单后2周内发货",
+          "value": "美国官网当前标示M现货；L下单后两周内发货。",
           "sourceIds": [
             "home-xplus-shop"
           ],
           "evidence": "official-claim",
           "verificationState": "supported",
-          "conditions": "2026-10-21页面快照，库存会变化",
-          "limitations": "厂商口径，未经本项目实机验证"
+          "conditions": "2026-10-23所见美国商品页，型号为XREAL 1 Pro+。",
+          "limitations": "库存和交期随时变化；网页声明不等于实际出库/交付，不外推中国或全球库存。",
+          "checkedAt": "2026-10-23"
         },
         "replacementLenses": {
           "value": "待核验，不能据此判为不支持",
@@ -12707,13 +12741,16 @@
           "limitations": "不挪用One Pro评测为1 Pro+测试"
         },
         "function-firmware-update": {
-          "value": "待核验，不能据此判为不支持",
-          "evidence": "unknown",
-          "sourceIds": [],
-          "conditions": "尚未取得该型号与此项对应的充分证据。",
-          "limitations": "不按品牌、前代或同系列其他型号推定。",
-          "verificationState": "not-yet-verified",
-          "executionContext": "参见本项主机、配件与网络条件；未明确的运行位置仍待核验，不能视为眼镜原生功能。"
+          "value": "Windows/macOS配合Chrome及官方更新网站；或通过联网Beam Pro检查并更新。",
+          "sourceIds": [
+            "home-xplus-firmware"
+          ],
+          "evidence": "official-claim",
+          "verificationState": "supported",
+          "conditions": "Pro+官方Basic Use and Firmware FAQ；2026-10-23复核。",
+          "limitations": "当前正式固件版本号仍待核；不能写成眼镜独立联网OTA；本次没有执行设备更新。",
+          "checkedAt": "2026-10-23",
+          "executionContext": "电脑或Beam Pro负责联网与更新入口。"
         },
         "functional-sbs": {
           "value": "Full SBS 3840×1080；Half SBS 1920×1080",
@@ -13006,14 +13043,13 @@
           "verificationState": "not-yet-verified"
         },
         "latency": {
-          "value": "厂商3ms M2P，不是端到端输入延迟",
-          "sourceIds": [
-            "home-xplus-product"
-          ],
-          "evidence": "official-claim",
-          "verificationState": "supported",
-          "conditions": "M2P为头部运动到画面更新；未做同方法实测",
-          "limitations": "厂商口径，未经本项目实机验证"
+          "value": "点击/控制器输入到眼镜成像的端到端延迟待核验。",
+          "sourceIds": [],
+          "evidence": "unknown",
+          "verificationState": "not-yet-verified",
+          "conditions": "必须固定主机、游戏/视频路径、线材或转接器、分辨率、刷新率、空间/3D/HDR模式后测量。",
+          "limitations": "官网3ms是M2P，不可代填本字段；本研究没有端到端实测。",
+          "checkedAt": "2026-10-23"
         },
         "eye-relief": {
           "value": "待核验，不能据此判为不支持",
@@ -13024,14 +13060,18 @@
           "verificationState": "not-yet-verified"
         },
         "predecessor": {
-          "value": "相对One Pro：新增AI HDR、改良鼻托、REAL 3D 60fps",
+          "value": "相对One Pro：沿用X1、57°与1080p级显示，提升亮度、加入AI HDR、改良鼻托，出厂主打REAL 3D 60fps；不是Eye套装更名。",
           "sourceIds": [
-            "home-xplus-launch"
+            "home-xplus-spec",
+            "xreal-spec",
+            "home-xplus-launch",
+            "detail-xnext"
           ],
           "evidence": "official-claim",
           "verificationState": "supported",
-          "conditions": "厂商2026-10-16发布稿称10月15日上市；不是2025年One Pro首发",
-          "limitations": "厂商口径，未经本项目实机验证"
+          "conditions": "XREAL供稿出版日2026-10-16，声明上市日2026-10-15；两者分列。旧One/One Pro/1S另有REAL 3D 60fps固件计划。",
+          "limitations": "不能把REAL 3D 60fps当永久Pro+独占硬件能力；不能据改良鼻托保证每个人更舒适。",
+          "checkedAt": "2026-10-23"
         },
         "detail-real3d": {
           "value": "本体REAL 3D 60fps，无须额外软件/配件",
@@ -13198,14 +13238,15 @@
           "executionSourceIds": []
         },
         "price": {
-          "value": "美国USD 599（2026-10-21）",
+          "value": "美国官网USD 599（2026-10-23读取）。",
           "sourceIds": [
             "home-xplus-shop"
           ],
           "evidence": "official-claim",
           "verificationState": "supported",
-          "conditions": "未含税费；不代表中国售价",
-          "limitations": "厂商口径，未经本项目实机验证"
+          "conditions": "仅Pro+眼镜商品，不是Eye套装；结算税费、运费与地区条件另核。",
+          "limitations": "不代表中国到手价或购买推荐；本次未进入结算。",
+          "checkedAt": "2026-10-23"
         },
         "detail-phone": {
           "value": "仅USB-C DP输出手机可直连",
@@ -15403,8 +15444,8 @@
     "models": 10,
     "fieldsPerModel": 93,
     "totalCells": 930,
-    "withSource": 392,
-    "markedUnknown": 570
+    "withSource": 394,
+    "markedUnknown": 567
   },
   "verificationStates": {
     "supported": "有证据说明",
