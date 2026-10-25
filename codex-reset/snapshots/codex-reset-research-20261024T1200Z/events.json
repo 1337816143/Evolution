@@ -1,0 +1,15 @@
+{
+  "baseline_events_file": "../codex-reset-research-20261024T0600Z/events.json",
+  "new_official_reset_events": [],
+  "new_independently_verified_receipts": [],
+  "retained_day18": "operator observations and announcement; official completion/eligibility unknown",
+  "classification_revision": {
+    "source": "https://codex-resets-tracker.com/codex-reset-forecast/",
+    "prior_confirmed_latest": "Oct23 announcement2113492187770175603",
+    "current_confirmed_latest": "Oct20 2112432076767289678",
+    "prior_count": 21,
+    "current_count": 20,
+    "rule_text_already_existed": true,
+    "not_proof_reset_failed": true
+  }
+}

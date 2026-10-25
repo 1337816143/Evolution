@@ -1,0 +1,14 @@
+{
+  "new_verified_automatic_events": [],
+  "new_verified_banked_grants": [],
+  "conclusion": "No new event established within limited retrieved evidence; not proof none occurred.",
+  "carried_events_file": "../codex-reset-research-20261024T1800Z/events.json",
+  "coverage_gaps": [
+    "X profile first request 403; do not retry or route around.",
+    "Feed metadata newest_post_at=2026-10-24T22:44:22Z; corresponding full body/ID not obtained. Cannot classify this post from metadata.",
+    "Feed remains reset_related newest=16:53:18Z, classifier is not proof.",
+    "Canonical count68/reset58/banked10 remains, but full current JSON not acquired, event-object equality NOT tested.",
+    "Official changelog content exceeds web tool limit, freshness unavailable.",
+    "Gussuri GitHub commits API inaccessible via web tool; latest commit not reconfirmed."
+  ]
+}

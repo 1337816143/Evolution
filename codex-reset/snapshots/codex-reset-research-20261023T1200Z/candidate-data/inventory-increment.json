@@ -1,0 +1,261 @@
+[
+  {
+    "id": "github_7and1_history",
+    "url": "https://github.com/7and1/codex-reset-history",
+    "record_kind": "static_public_dataset",
+    "status": "readable",
+    "source_updated_at_utc": null,
+    "retrieved_at_utc": "2026-10-23T11:58:04.004Z",
+    "observation": "Dated October12 Asia/Shanghai snapshot:62 events throughOct11, upstream codex-reset.com. No new live signal; announcement/observation time is not every account effective time. Public dataset not installed/run.",
+    "raw_evidence_path": "原采集证据未随展示副本提供"
+  },
+  {
+    "id": "willtibo_skill",
+    "url": "https://github.com/RyuuMeow/Will-Tibo-Reset/blob/main/SKILL.md",
+    "record_kind": "heuristic_project",
+    "status": "readable",
+    "source_updated_at_utc": null,
+    "retrieved_at_utc": "2026-10-23T11:58:04.004Z",
+    "observation": "7-day35% baseline and hand-adjusted scores, explicitly not statistical model. Method text only; no current independent forecast or calibration. Read only, not installed or run.",
+    "raw_evidence_path": "原采集证据未随展示副本提供"
+  },
+  {
+    "id": "codex_resets_status",
+    "url": "https://codex-resets.com/api/v1/status",
+    "record_kind": "api",
+    "status": "tool_inaccessible",
+    "source_updated_at_utc": null,
+    "retrieved_at_utc": "2026-10-23T11:58:04.004Z",
+    "observation": "Tool inaccessible; preserves upstream dependency without claiming its current payload.",
+    "raw_evidence_path": "原采集证据未随展示副本提供"
+  },
+  {
+    "id": "resetbeacon",
+    "url": "https://resetbeacon.com/",
+    "record_kind": "announcement_tracker",
+    "status": "readable",
+    "source_updated_at_utc": null,
+    "retrieved_at_utc": "2026-10-23T11:58:04.004Z",
+    "observation": "Day18 remains unconfirmed; check11:52 UTC. Latest explicit completion section stillOct20, while headline references19h-old event and Day17 schedule listed missed. Internal scope/record reconciliation warning; no numeric forecast.",
+    "raw_evidence_path": "原采集证据未随展示副本提供",
+    "source_checked_at_utc": "2026-10-23T11:52:00Z",
+    "displayed_source_timezone": "America/Los_Angeles (PDT)"
+  },
+  {
+    "id": "openai_status",
+    "url": "https://status.openai.com/api/v2/incidents.json",
+    "record_kind": "official_service_status",
+    "status": "readable_partial",
+    "source_updated_at_utc": null,
+    "retrieved_at_utc": "2026-10-23T11:58:27.309Z",
+    "observation": "Visible recent incident entries concern support, ad account provisioning, enterprise dot performance and ChatGPT/Responses errors. Not a reset issuance notice. Partial payload; no exhaustive no-incident/no-reset claim.",
+    "raw_evidence_path": "原采集证据未随展示副本提供"
+  },
+  {
+    "id": "will_codex_reset_stats",
+    "url": "https://will-codex-reset.com/stats/",
+    "record_kind": "new_discovery",
+    "status": "tool_inaccessible",
+    "source_updated_at_utc": null,
+    "retrieved_at_utc": "2026-10-23T11:58:27.309Z",
+    "observation": "Search surfaced a dataset lead; direct requested page tool inaccessible. Not verified or used as evidence.",
+    "raw_evidence_path": "原采集证据未随展示副本提供"
+  },
+  {
+    "id": "codexresettracker",
+    "url": "https://codexresettracker.com/",
+    "record_kind": "forecast",
+    "status": "readable",
+    "source_updated_at_utc": null,
+    "retrieved_at_utc": "2026-10-23T11:58:27.309Z",
+    "observation": "17%/32% rolling24/48h,35 waits over6months; latestOct20. No verified source generation/expiry or Day18 incorporation. Keep separate from similarly named codex-resets-tracker.com.",
+    "raw_evidence_path": "原采集证据未随展示副本提供"
+  },
+  {
+    "id": "nextreset_dev",
+    "url": "https://nextreset.dev/en/codex/",
+    "record_kind": "announcement_tracker",
+    "status": "readable",
+    "source_updated_at_utc": null,
+    "retrieved_at_utc": "2026-10-23T11:58:27.309Z",
+    "observation": "Delayed-data warning; Day18 marked announced/not complete and17:00 source estimate, exact timezone unresolved. Notes activity grouping from whenreset.dev; distinct from nextreset.ai.",
+    "raw_evidence_path": "原采集证据未随展示副本提供"
+  },
+  {
+    "id": "resetbeacon",
+    "url": "https://resetbeacon.com/api/forecast",
+    "record_kind": "api",
+    "status": "tool_inaccessible",
+    "source_updated_at_utc": null,
+    "retrieved_at_utc": "2026-10-23T11:57:53.709Z",
+    "observation": "Tool inaccessible; no outcome inference.",
+    "raw_evidence_path": "原采集证据未随展示副本提供"
+  },
+  {
+    "id": "didcodexreset",
+    "url": "https://didcodexreset.com/",
+    "record_kind": "event_classifier",
+    "status": "readable",
+    "source_updated_at_utc": null,
+    "retrieved_at_utc": "2026-10-23T11:57:53.709Z",
+    "observation": "Day18 scheduled with86% confidence; not established as a calibrated 24h probability. Day17 operator-reported completion explicitly says Tibo has not confirmed on X. Displayed local times have no verified zone, so retain strings only. No further requests after rate-limit notice appeared in rendered page.",
+    "raw_evidence_path": "原采集证据未随展示副本提供"
+  },
+  {
+    "id": "codexlimits",
+    "url": "https://codexlimits.com/",
+    "record_kind": "event_and_historical_projection",
+    "status": "readable",
+    "source_updated_at_utc": null,
+    "retrieved_at_utc": "2026-10-23T11:57:53.709Z",
+    "observation": "Day17 labelled third-party observed, confirmation pending. Day18 announced. Historical projection still uses Oct13 anchor and is not a probability. Market prices unavailable; none invented.",
+    "raw_evidence_path": "原采集证据未随展示副本提供"
+  },
+  {
+    "id": "whenreset_dev",
+    "url": "https://whenreset.dev/",
+    "record_kind": "announcement_tracker",
+    "status": "readable",
+    "source_updated_at_utc": null,
+    "retrieved_at_utc": "2026-10-23T11:57:53.709Z",
+    "observation": "Oct23 17:00 UTC announced, Oct22 17:00 latest record; source check11:40 UTC. Same schedule is not independent evidence. All-user attribution remains unverified.",
+    "raw_evidence_path": "原采集证据未随展示副本提供",
+    "source_checked_at_utc": "2026-10-23T11:40:00Z"
+  },
+  {
+    "id": "openai_how_resets_work",
+    "url": "https://help.openai.com/en/articles/20001498-how-resets-work-in-codex",
+    "record_kind": "official_rules",
+    "status": "readable",
+    "source_updated_at_utc": null,
+    "retrieved_at_utc": "2026-10-23T11:57:24.043Z",
+    "observation": "Visible rules distinguish automatic/global, banked, paid and natural refreshes. Global does not mean every account or limit. Relative update label is yesterday, exact update time unknown.",
+    "raw_evidence_path": "原采集证据未随展示副本提供"
+  },
+  {
+    "id": "openai_paid_weekly_resets",
+    "url": "https://help.openai.com/en/articles/20001507-paid-weekly-work-and-codex-rate-limit-resets",
+    "record_kind": "official_rules",
+    "status": "readable",
+    "source_updated_at_utc": null,
+    "retrieved_at_utc": "2026-10-23T11:57:24.043Z",
+    "observation": "Paid immediate resets and weekly refresh timing rules are not a new free global issuance announcement. Relative update label is yesterday, exact update time unknown.",
+    "raw_evidence_path": "原采集证据未随展示副本提供"
+  },
+  {
+    "id": "codexreset_ai",
+    "url": "https://codexreset.ai/api/v1/forecast.json",
+    "record_kind": "regular_global_climatology_relay",
+    "status": "readable",
+    "source_updated_at_utc": "2026-10-23T08:36:16Z",
+    "retrieved_at_utc": "2026-10-23T11:57:24.043Z",
+    "snapshot_id": "codexreset_ai-20261023T1200Z",
+    "limitations": [
+      "Exact whenreset.app relay, not an independent source.",
+      "Upstream Day18 completion/all-user classification is unsupported by available evidence."
+    ]
+  },
+  {
+    "id": "whenreset_app",
+    "url": "https://whenreset.app/",
+    "record_kind": "forecast_and_event_classifier",
+    "status": "readable",
+    "source_updated_at_utc": null,
+    "retrieved_at_utc": "2026-10-23T11:57:24.043Z",
+    "observation": "Still labels Day18 04:46 as all-user reset already arriving; conflict with later-landing timing reply persists. Warns source check older than3h; page current time/counter is not reliable freshness metadata.",
+    "raw_evidence_path": "原采集证据未随展示副本提供"
+  },
+  {
+    "id": "codex_resets",
+    "url": "https://codex-resets.com/",
+    "record_kind": "announcement_tracker",
+    "status": "readable",
+    "source_updated_at_utc": null,
+    "retrieved_at_utc": "2026-10-23T11:57:42.103Z",
+    "observation": "65 mixed records; latest Oct22 17:00; next scheduled Oct23 17:00. Archive assertion is not independent completion.",
+    "raw_evidence_path": "原采集证据未随展示副本提供"
+  },
+  {
+    "id": "gussuri",
+    "url": "https://codex.gussuriworks.com/en",
+    "record_kind": "forecast",
+    "status": "readable",
+    "source_updated_at_utc": "2026-10-23T10:41:00Z",
+    "retrieved_at_utc": "2026-10-23T11:57:42.103Z",
+    "observation": "86%/94% for24/48h unchanged; update10:41Z. Window15:00–18:00Z is site estimate; reuses Day18 announcement. Day17 observed at17:10Z.",
+    "raw_evidence_path": "原采集证据未随展示副本提供",
+    "displayed_source_timezone": "Asia/Tokyo"
+  },
+  {
+    "id": "aiplanwatch",
+    "url": "https://codex-reset.aiplanwatch.com/",
+    "record_kind": "announcement_tracker",
+    "status": "readable",
+    "source_updated_at_utc": null,
+    "retrieved_at_utc": "2026-10-23T11:57:42.103Z",
+    "observation": "Scheduled Oct23 17:00; no numeric forecast visible. Reused catalogue text does not establish new official original completion.",
+    "raw_evidence_path": "原采集证据未随展示副本提供"
+  },
+  {
+    "id": "tracker",
+    "url": "https://codex-resets-tracker.com/codex-reset-forecast/",
+    "record_kind": "forecast",
+    "status": "readable",
+    "source_updated_at_utc": null,
+    "retrieved_at_utc": "2026-10-23T11:57:42.103Z",
+    "observation": "22/39/52% Poisson24/48/72h; claims22 confirmed/90d. Contradiction: Day18 04:46 main post called confirmed while04:47 reply is pending17:00. Exclude from clean completion denominator.",
+    "raw_evidence_path": "原采集证据未随展示副本提供",
+    "source_checked_at_utc": "2026-10-23T11:10:00Z"
+  },
+  {
+    "id": "codex_reset",
+    "url": "https://codex-reset.com/api/forecast",
+    "record_kind": "automatic_global_source_forecast",
+    "status": "readable",
+    "source_updated_at_utc": "2026-10-23T11:36:49.073Z",
+    "retrieved_at_utc": "2026-10-23T11:56:52.177Z",
+    "snapshot_id": "codex_reset-20261023T1200Z",
+    "limitations": [
+      "Day18 promise and history-only/QUIET context copy conflict persists.",
+      "Source last-reset time is not a newly verified completion."
+    ]
+  },
+  {
+    "id": "codex_reset_feed",
+    "url": "https://codex-reset.com/api/feed",
+    "record_kind": "secondary_social_feed",
+    "status": "readable_partial",
+    "source_updated_at_utc": null,
+    "retrieved_at_utc": "2026-10-23T11:56:52.177Z",
+    "observation": "Newest visible post remains the same Day18 timing reply. Fetched_at 11:42:12.979Z is a provider check time, not original verification. Top-level signal still references Day17; tail truncated.",
+    "raw_evidence_path": "原采集证据未随展示副本提供"
+  },
+  {
+    "id": "nextreset",
+    "url": "https://nextreset.ai/api/forecast",
+    "record_kind": "automatic_global_source_forecast",
+    "status": "readable",
+    "source_updated_at_utc": "2026-10-23T11:30:23.210Z",
+    "retrieved_at_utc": "2026-10-23T11:56:52.177Z",
+    "snapshot_id": "nextreset-20261023T1200Z",
+    "limitations": [
+      "Uncalibrated 0.95 announcement assumption.",
+      "The same Day18 thread is not an independent vote.",
+      "Expired at capture; never label this live."
+    ]
+  },
+  {
+    "id": "lunarwerx",
+    "url": "https://codex.lunarwerx.com/api/v1/forecast",
+    "record_kind": "recorded_resets_includes_banked_historical_classification",
+    "status": "readable",
+    "source_updated_at_utc": "2026-10-23T11:29:07.012Z",
+    "retrieved_at_utc": "2026-10-23T11:56:52.177Z",
+    "snapshot_id": "lunarwerx-20261023T1200Z",
+    "limitations": [
+      "Still anchored to October20 rather than Day17 observer records.",
+      "Self-published replay/live accuracy is not a calibration result for this ensemble.",
+      "Refresh cadence is not an independently verified expiry period."
+    ]
+  }
+]

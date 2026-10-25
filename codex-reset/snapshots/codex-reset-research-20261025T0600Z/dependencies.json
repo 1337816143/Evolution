@@ -1,0 +1,32 @@
+{
+  "inherited_catalog": "../codex-reset-research-20261025T0000Z/dependencies.json",
+  "same_signal_cluster": {
+    "key": "2114200152701575656/2114200291319124163",
+    "sites": [
+      "codex-reset.com",
+      "NextReset",
+      "Gussuri",
+      "AIPlanWatch",
+      "Tracker",
+      "ResetBeacon",
+      "whenreset.cn"
+    ],
+    "independent_event_count": 1,
+    "primary_verification": false
+  },
+  "known_dependencies": [
+    "NextReset history/social use codex-resets.com",
+    "codexreset.ai uses whenreset.app with codex-resets.com seed",
+    "whenreset.online75% still relies on oldOct23signal",
+    "gdutxiaoxu/codex-reset-radar is AIPlanWatch repo, not independent evidence",
+    "Gussuri repository and live site are same project",
+    "sub2api-upstream-status and codexbar-kde are forecast consumers, not independent predictors"
+  ],
+  "discovery_only": [
+    "RaresKeY/codex-reset-forecast is August25snapshot, no current validation; no general reuse license",
+    "guanbear/Pulse-codex-reset consumes AIHotNews",
+    "supertony1990/codex-reset-alerts public README describes classifier; classifier confidence is not calibrated probability",
+    "airesets.dev forecast extract returned no numerical percentages; no invented forecast",
+    "whenresets.cc search excerpt98/99% has uncertain origin/definition; not merged"
+  ]
+}

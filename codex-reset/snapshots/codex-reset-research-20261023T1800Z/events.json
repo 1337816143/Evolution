@@ -1,0 +1,104 @@
+{
+  "scope": "Targeted event ledger, not a full historical dataset.",
+  "events": [
+    {
+      "event_id": "day18",
+      "event_kind": "announced_reset_with_third_party_observations",
+      "announcement": {
+        "post_id": "2113492187770175603",
+        "published_at_utc": "2026-10-23T04:46:19.000Z",
+        "verification": "third_party_relay_only",
+        "evidence": [
+          "原采集证据未随展示副本提供"
+        ]
+      },
+      "timing_reply": {
+        "post_id": "2113492502355562875",
+        "published_at_utc": "2026-10-23T04:47:34.000Z",
+        "in_reply_to": "2113492187770175603",
+        "timing_text": "Landing tomorrow before 10am PST together with a small ship.",
+        "verification": "third_party_relay_only",
+        "evidence": [
+          "原采集证据未随展示副本提供",
+          "原采集证据未随展示副本提供"
+        ]
+      },
+      "deadline_interpretations": [
+        {
+          "utc": "2026-10-23T17:00:00Z",
+          "basis": "Local tomorrow in Pacific date; 10:00 PT interpreted with America/Los_Angeles daylight saving (PDT). Public feeds choose this interpretation."
+        },
+        {
+          "utc": "2026-10-23T18:00:00Z",
+          "basis": "Same local date but literal PST at UTC-08:00."
+        }
+      ],
+      "time_caveat": "Both are interpretations; no exact official resolution of informal PST/tomorrow wording was directly verified. Passing a deadline proves neither success nor failure.",
+      "observations": [
+        {
+          "source_id": "codex-reset-forecast",
+          "time_utc": "2026-10-23T17:40:51.000Z",
+          "precision": "second_as_reported",
+          "evidence": "原采集证据未随展示副本提供",
+          "classification": "operator_observed",
+          "official_confirmation_url": null
+        },
+        {
+          "source_id": "codexlimits",
+          "time_utc": "2026-10-23T17:40:00Z",
+          "precision": "minute",
+          "evidence": "原采集证据未随展示副本提供",
+          "classification": "third_party_observation",
+          "day_mapping_caution": "Homepage challenge grid labels this observed state under Day19 while Day18 remains announced."
+        },
+        {
+          "source_id": "gussuri",
+          "time_utc": "2026-10-23T17:42:00Z",
+          "precision": "minute",
+          "evidence": "原采集证据未随展示副本提供",
+          "classification": "publisher_history_entry",
+          "source_post_id": "2113492187770175603",
+          "official_completion_post": false
+        }
+      ],
+      "independent_observation_count": null,
+      "official_completion": "not established in saved coverage",
+      "all_account_completion": "not established",
+      "user_account_receipt": "not checked",
+      "eligibility": "not established",
+      "automatic_banked_combination": "not established"
+    },
+    {
+      "event_id": "day17",
+      "event_kind": "prior_announced_reset_with_third_party_observations",
+      "announcement_post_id": "2113162277688070445",
+      "announcement_at_utc": "2026-10-22T06:55:22.000Z",
+      "timing_reply_post_id": "2113162413008884099",
+      "timing_reply_at_utc": "2026-10-22T06:55:54.000Z",
+      "catalogued_time_utc": "2026-10-22T17:00:00.000Z",
+      "gussuri_and_codexlimits_observation_utc": "2026-10-22T17:10:00Z",
+      "basis": [
+        "原采集证据未随展示副本提供",
+        "原采集证据未随展示副本提供",
+        "原采集证据未随展示副本提供",
+        "原采集证据未随展示副本提供"
+      ],
+      "caveat": "Prior event retained only to prevent merging Day17 evidence into Day18. Feed catalogue time and observed time differ; no user account claim."
+    },
+    {
+      "event_id": "help-reset-doc-edit",
+      "event_kind": "documentation_change_not_reset",
+      "url": "https://help.openai.com/en/articles/20001498-how-resets-work-in-codex",
+      "source_exact_edit_time": null,
+      "current_label": "3 hours ago",
+      "change": "Current assistant banked-reset paragraph retains the remaining-allowance threshold but omits the previously recorded sentence requiring confirmation each time.",
+      "current_evidence": [
+        "原采集证据未随展示副本提供",
+        "原采集证据未随展示副本提供"
+      ],
+      "old_comparison_evidence": "原采集证据未随展示副本提供",
+      "baseline_status": "Inherited comparison only; old raw response not available inside this package.",
+      "permissions_effect": "none; documentation is not user authorization"
+    }
+  ]
+}

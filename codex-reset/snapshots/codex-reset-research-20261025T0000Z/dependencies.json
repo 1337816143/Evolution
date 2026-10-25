@@ -1,0 +1,14 @@
+{
+  "inherited_catalog": "../codex-reset-research-20261024T1800Z/dependencies.json",
+  "verified_current": [
+    "NextReset history/social use codex-resets.com; not independent confirmation",
+    "codexreset.ai uses whenreset.app; historical seed codex-resets.com",
+    "whenreset.online active floor uses same Oct23 Tibo post; not independent evidence",
+    "Search discoveries citing Day18 operator observations are third-party observations, not original author completion or user-account proof"
+  ],
+  "new_discovery": [
+    "https://rareskey.github.io/codex-reset-forecast/ : v2 competing hazards, 50000 simulations, snapshot2026-08-25T16:44CEST; stale historical horizon rather than current forecast; repository code not read or run in this pass.",
+    "https://codexreset.app/ : search excerpt85/96%, originOct24 02:09UTC and last-recorded resetJuly25; stale/incomplete coverage, not merged."
+  ],
+  "search_snippets": "Search findings are discovery only; not full-page primary verification."
+}

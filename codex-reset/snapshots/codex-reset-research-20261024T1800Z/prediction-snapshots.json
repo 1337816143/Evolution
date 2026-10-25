@@ -1,0 +1,125 @@
+[
+  {
+    "source": "codex-reset.com",
+    "origin": "2026-10-24T18:04:49.008Z",
+    "timezone": "UTC",
+    "probability_percent_by_horizon_hours": {
+      "24": 38.90401292986312,
+      "48": 62.67280363925667
+    },
+    "method_and_limits": "rolling reset model rate-v3; experimental; underlying observed label not official completion",
+    "independently_calibrated": false,
+    "comparable_same_event_same_window": false,
+    "window_ends": {
+      "24": "2026-10-25T18:04:49.008000Z",
+      "48": "2026-10-26T18:04:49.008000Z"
+    }
+  },
+  {
+    "source": "NextReset",
+    "origin": "2026-10-24T18:05:22.319Z",
+    "timezone": "UTC",
+    "probability_percent_by_horizon_hours": {
+      "24": 18.19102635546587,
+      "48": 39.49105997560328,
+      "72": 58.66383380950164
+    },
+    "method_and_limits": "NR1.7; dependent on codex-resets.com; expires18:20:22.319Z",
+    "independently_calibrated": false,
+    "comparable_same_event_same_window": false,
+    "window_ends": {
+      "24": "2026-10-25T18:05:22.319000Z",
+      "48": "2026-10-26T18:05:22.319000Z",
+      "72": "2026-10-27T18:05:22.319000Z"
+    }
+  },
+  {
+    "source": "Lunarwerx",
+    "origin": "2026-10-24T18:00:29.207Z",
+    "timezone": "UTC",
+    "probability_percent_by_horizon_hours": {
+      "6": 6.8,
+      "24": 24
+    },
+    "method_and_limits": "source model; self-reported backtest",
+    "independently_calibrated": false,
+    "comparable_same_event_same_window": false,
+    "window_ends": {
+      "6": "2026-10-25T00:00:29.207000Z",
+      "24": "2026-10-25T18:00:29.207000Z"
+    }
+  },
+  {
+    "source": "Gussuri",
+    "origin": "2026-10-24T18:00:00Z",
+    "timezone": "UTC",
+    "probability_percent_by_horizon_hours": {
+      "24": 23,
+      "48": 52
+    },
+    "method_and_limits": "minute precision source update; reset-granted model",
+    "independently_calibrated": false,
+    "comparable_same_event_same_window": false,
+    "window_ends": {
+      "24": "2026-10-25T18:00:00Z",
+      "48": "2026-10-26T18:00:00Z"
+    }
+  },
+  {
+    "source": "AIPlanWatch",
+    "origin": null,
+    "timezone": "UTC",
+    "probability_percent_by_horizon_hours": {
+      "24": 21.4,
+      "48": 47.6,
+      "72": 57.1
+    },
+    "method_and_limits": "52 intervals42comparable; inaccurate old completed-reset wording remains",
+    "independently_calibrated": false,
+    "comparable_same_event_same_window": false,
+    "sample_comparison": {
+      "total_intervals_12UTC": 52,
+      "total_intervals_18UTC": 52,
+      "comparable_samples_12UTC": 52,
+      "comparable_samples_18UTC": 42,
+      "cause": "unknown",
+      "interpretation_limit": "Do not infer new algorithm or invalidation of10 actual events."
+    }
+  },
+  {
+    "source": "tracker",
+    "origin": null,
+    "timezone": "UTC",
+    "probability_percent_by_horizon_hours": {
+      "24": 20,
+      "48": 36,
+      "72": 49
+    },
+    "method_and_limits": "20records; source-check time not prediction origin",
+    "independently_calibrated": false,
+    "comparable_same_event_same_window": false
+  },
+  {
+    "source": "whenreset.online",
+    "origin": null,
+    "timezone": "UTC",
+    "probability_percent_by_horizon_hours": {
+      "24": 75
+    },
+    "method_and_limits": "mixed extra automatic or banked ANNOUNCEMENT; manual floor; uncalibrated; collected18:00UTC not established model origin",
+    "independently_calibrated": false,
+    "comparable_same_event_same_window": false
+  },
+  {
+    "source": "codexreset.ai",
+    "origin": "2026-10-24T16:05:42Z",
+    "probability_percent_24_48_168h": [
+      12.96,
+      29.63,
+      72.22
+    ],
+    "event": "historical interval CDF not forward forecast",
+    "window_ends": null,
+    "upstream": "whenreset.app"
+  }
+]

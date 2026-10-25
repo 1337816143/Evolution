@@ -1,0 +1,54 @@
+{
+  "new_verified_automatic_events": [],
+  "new_verified_banked_grants": [],
+  "new_signal": {
+    "event_key": "day20-reset-announcement-2114200152701575656",
+    "classification": "third_party_relay_of_reset_announcement_not_primary_verified",
+    "post_url": "https://x.com/thsottiaux/status/2114200152701575656",
+    "post_at_reported": "2026-10-25T03:39:31Z",
+    "reply_url": "https://x.com/thsottiaux/status/2114200291319124163",
+    "reply_at_reported": "2026-10-25T03:40:04Z",
+    "minimal_text": [
+      "Day 20/ Rest and reset",
+      "By midnight PST"
+    ],
+    "primary_verification": "Both new originals returned403 once; stopped; no bypass",
+    "reported_deadline_interpretations": [
+      "2026-10-25T07:00:00Z",
+      "2026-10-25T08:00:00Z"
+    ],
+    "deadline_resolution": "Unresolved PST vs Pacific daylight-time interpretation; no single precise deadline claimed",
+    "completion": "Not established",
+    "banked_grant": "Not established",
+    "account_receipt": "Not inspected or established",
+    "exact_feed_classification": {
+      "original": {
+        "id": "2114200152701575656",
+        "kind": "other",
+        "explicit_reset_claim": false,
+        "is_reply": false
+      },
+      "reply": {
+        "id": "2114200291319124163",
+        "kind": "signal",
+        "explicit_reset_claim": false,
+        "is_reply": true,
+        "replying_to": "thsottiaux"
+      }
+    },
+    "semantic_scope": "Words alone do not establish global automatic reset rather than another reset type, eligible scope, completed delivery, or banked grant. Third-party interpretations are not original-source confirmation.",
+    "feed_fetched_at": "2026-10-25T05:36:12.979Z",
+    "retrieval_timing_source": "原采集证据未随展示副本提供 start/end, distinct from feed fetched_at",
+    "timezone_note": "07/08 UTC and15/16 Beijing are source interpretations only, not verified deadline or account delivery promise."
+  },
+  "dataset_counts": {
+    "events": 68,
+    "resets": 58,
+    "banked": 10,
+    "coverage_to": "2026-10-23",
+    "updated_at": "2026-10-25T05:45:49.370Z",
+    "complete_event_object_equality_tested": false
+  },
+  "history_reference": "../codex-reset-research-20261025T0000Z/events.json",
+  "retrieval_failure_is_negative_event": false
+}

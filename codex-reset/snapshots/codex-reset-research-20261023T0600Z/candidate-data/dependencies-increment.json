@@ -1,0 +1,52 @@
+[
+  {
+    "from": "codexreset_ai",
+    "to": "whenreset_app",
+    "relation": "exact_forecast_relay",
+    "evidence_url": "https://codexreset.ai/api/v1/forecast.json"
+  },
+  {
+    "from": "nextreset",
+    "to": "codex_resets",
+    "relation": "history_and_status_api_upstream",
+    "evidence_url": "https://nextreset.ai/api/forecast"
+  },
+  {
+    "from": "whenreset_app",
+    "to": "https://howtok.net/resets",
+    "relation": "homepage_explicit_event_data_source",
+    "evidence_url": "https://whenreset.app/"
+  },
+  {
+    "from": "whenreset_app",
+    "to": "codex_resets",
+    "relation": "historical_seed_before_2026_09_10",
+    "evidence_url": "https://codexreset.ai/api/v1/forecast.json"
+  },
+  {
+    "from": [
+      "codex_reset",
+      "nextreset",
+      "gussuri",
+      "whenreset_app"
+    ],
+    "to": "thsottiaux-thread-2113492187770175603",
+    "relation": "same_underlying_announcement_not_independent_signal"
+  },
+  {
+    "from": "aiplanwatch",
+    "to": "codex_resets",
+    "relation": "possible_shared_catalogue_not_verified",
+    "evidence_url": "https://codex-reset.aiplanwatch.com/",
+    "merge_backend_identity": false
+  },
+  {
+    "from": "willtibo_skill",
+    "to": [
+      "Tibo",
+      "OpenAI official sources",
+      "public history"
+    ],
+    "relation": "heuristic_shared_input_categories_not_new_live_forecast"
+  }
+]

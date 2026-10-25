@@ -1,0 +1,128 @@
+{
+  "comparison_rule": "Different as-of times, labels, last-event baselines and methods prevent pooled probabilities or same-window subtraction. Values are publisher outputs, not our probabilities.",
+  "windows": [
+    {
+      "source": "codex-reset.com",
+      "as_of_utc": "2026-10-24T00:04:49.458Z",
+      "horizon_hours": 24,
+      "window_end_utc": "2026-10-25T00:04:49.458000Z",
+      "source_value": 0.3890401292986312,
+      "method": "rate-v3 experimental; operator-observed reset baseline",
+      "calibrated_probability_verified": false
+    },
+    {
+      "source": "codex-reset.com",
+      "as_of_utc": "2026-10-24T00:04:49.458Z",
+      "horizon_hours": 48,
+      "window_end_utc": "2026-10-26T00:04:49.458000Z",
+      "source_value": 0.6267280363925667,
+      "method": "rate-v3 experimental",
+      "calibrated_probability_verified": false
+    },
+    {
+      "source": "nextreset.ai",
+      "as_of_utc": "2026-10-24T00:05:22.545Z",
+      "horizon_hours": 24,
+      "window_end_utc": "2026-10-25T00:05:22.545000Z",
+      "source_value": 0.1828966475540938,
+      "method": "history_only_timing_unresolved",
+      "calibrated_probability_verified": false
+    },
+    {
+      "source": "nextreset.ai",
+      "as_of_utc": "2026-10-24T00:05:22.545Z",
+      "horizon_hours": 48,
+      "window_end_utc": "2026-10-26T00:05:22.545000Z",
+      "source_value": 0.4022377572245823,
+      "method": "history_only_timing_unresolved",
+      "calibrated_probability_verified": false
+    },
+    {
+      "source": "nextreset.ai",
+      "as_of_utc": "2026-10-24T00:05:22.545Z",
+      "horizon_hours": 72,
+      "window_end_utc": "2026-10-27T00:05:22.545000Z",
+      "source_value": 0.5888847901749155,
+      "method": "history_only_timing_unresolved",
+      "calibrated_probability_verified": false
+    },
+    {
+      "source": "lunarwerx",
+      "as_of_utc": "2026-10-24T00:05:29.082Z",
+      "horizon_hours": 24,
+      "window_end_utc": "2026-10-25T00:05:29.082000Z",
+      "source_value": 0.258,
+      "method": "site historical-replay and saved-forecast method; audit incomplete",
+      "calibrated_probability_verified": false
+    },
+    {
+      "source": "lunarwerx",
+      "as_of_utc": "2026-10-24T00:05:29.082Z",
+      "horizon_hours": 6,
+      "window_end_utc": "2026-10-24T06:05:29.082000Z",
+      "source_value": 0.067,
+      "method": "site near term",
+      "calibrated_probability_verified": false
+    },
+    {
+      "source": "codexreset.ai",
+      "window_end_utc": null,
+      "source_value": 0.1296,
+      "method": "climatology (fraction of historical gaps <= horizon, unwindowed)",
+      "calibrated_probability_verified": false,
+      "window_start_utc": null,
+      "statistical_horizon_hours": 24,
+      "source_generated_at_utc": "2026-10-23T20:40:50Z",
+      "window_definition": "Unwindowed empirical historical gap CDF. Generation timestamp is not a forecast-window origin. Not conditional future-event probability."
+    },
+    {
+      "source": "codexreset.ai",
+      "window_end_utc": null,
+      "source_value": 0.2963,
+      "method": "climatology (fraction of historical gaps <= horizon, unwindowed)",
+      "calibrated_probability_verified": false,
+      "window_start_utc": null,
+      "statistical_horizon_hours": 48,
+      "source_generated_at_utc": "2026-10-23T20:40:50Z",
+      "window_definition": "Unwindowed empirical historical gap CDF. Generation timestamp is not a forecast-window origin. Not conditional future-event probability."
+    },
+    {
+      "source": "codexreset.ai",
+      "window_end_utc": null,
+      "source_value": 0.7222,
+      "method": "climatology (fraction of historical gaps <= horizon, unwindowed)",
+      "calibrated_probability_verified": false,
+      "window_start_utc": null,
+      "statistical_horizon_hours": 168,
+      "source_generated_at_utc": "2026-10-23T20:40:50Z",
+      "window_definition": "Unwindowed empirical historical gap CDF. Generation timestamp is not a forecast-window origin. Not conditional future-event probability."
+    },
+    {
+      "source": "gussuri",
+      "as_of_utc": "2026-10-24T00:05:00Z",
+      "horizon_hours": 24,
+      "window_end_utc": "2026-10-25T00:05:00Z",
+      "source_value": 0.17,
+      "method": "rendered minute precision; site statistics not independently calibrated",
+      "calibrated_probability_verified": false
+    },
+    {
+      "source": "gussuri",
+      "as_of_utc": "2026-10-24T00:05:00Z",
+      "horizon_hours": 48,
+      "window_end_utc": "2026-10-26T00:05:00Z",
+      "source_value": 0.37,
+      "method": "rendered minute precision",
+      "calibrated_probability_verified": false
+    }
+  ],
+  "expiry": {
+    "nextreset.ai": "2026-10-24T00:20:22.545Z"
+  },
+  "other_displays": {
+    "tracker": "21/37/50%, 21 events/90d, conflicting completion label",
+    "aiplanwatch": "26.8/46.3/61%, text/ID conflict with saved third-party relay of prior event; original old X not re-read",
+    "radar": "5/8%, heuristic; separate component timestamps conflict",
+    "didcodexreset": "86% confidence, not probability or new confirmation"
+  }
+}

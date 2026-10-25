@@ -1,0 +1,81 @@
+{
+  "nominal_round": "2026-10-25T07:00:00Z",
+  "retrievals": [
+    {
+      "scope": "initial public forecast/feed views",
+      "start": "2026-10-25T07:01:13.797Z",
+      "end": "2026-10-25T07:01:14.460Z"
+    },
+    {
+      "scope": "feed continuation",
+      "start": "2026-10-25T07:01:28.955Z",
+      "end": "2026-10-25T07:01:29.503Z"
+    }
+  ],
+  "classification": "new_third_party_completion_relay_and_operator_observation_not_primary_verified",
+  "original_url": "https://x.com/thsottiaux/status/2114237083652882932",
+  "quote_relay": "It is all propagated. Enjoy some mad codexing tomorrow. Fun week ahead too.",
+  "reported_post_time": "2026-10-25T06:06:16Z",
+  "feed": {
+    "url": "https://codex-reset.com/api/feed",
+    "fetched_at": "2026-10-25T06:37:12.979Z",
+    "completion_text_location": "radar_context; display_kind=context; visibility_only=true",
+    "new_event": {
+      "id": "2114200291319124163",
+      "observed_at": "2026-10-25T06:10:01Z",
+      "source": "operator-observed",
+      "observation_result": "reset_observed",
+      "reset_verification_status": "pending",
+      "source_label": "Operator observation; awaiting Tibo",
+      "effective_at": null,
+      "reset_kind": null,
+      "audience": []
+    },
+    "header_conflict": "Top-level signal points to Day17 despite Day20 pending candidate and new completion-related radar_context. Do not silently reconcile.",
+    "banked_observations": "visible entries remain October7 and September29; no new grant established"
+  },
+  "nextreset": {
+    "url": "https://nextreset.ai/api/forecast",
+    "asOf": "2026-10-25T06:55:21.689Z",
+    "expiresAt": "2026-10-25T07:10:21.689Z",
+    "fresh_at_retrieval": true,
+    "state": "forecast",
+    "history_events": 57,
+    "prior_history_events": 56,
+    "new_record_type": "automatic",
+    "timeBasis": "publication",
+    "review": "catalogued",
+    "discoveredAt": "2026-10-25T06:10:21.781Z",
+    "percent24": 16.337575912972007,
+    "percent48": 33.33038173177914,
+    "percent72": 51.5030338452353,
+    "announcementPrior": 0
+  },
+  "gussuri": {
+    "url": "https://codex.gussuriworks.com/en",
+    "source_updated": "2026-10-25T06:30:00Z",
+    "reported_reset_time": "2026-10-25T06:11:00Z",
+    "classification": "Random reset / Hard Reset",
+    "completion": "Publisher paraphrases later propagation-complete statement; not primary verification",
+    "percent24": 7,
+    "percent48": 33
+  },
+  "limits": [
+    "Three sites do not establish three independent events or observations.",
+    "06:06:16 is reported post time, 06:10:01 operator observation and 06:11 publisher history; do not merge into exact measured delivery time.",
+    "No new banked grant, redemption, paid reset, personal scheduled refresh or user-account receipt established.",
+    "Public quote does not specify eligibility; type=automatic is cataloguing by third party.",
+    "07UTC earlier deadline interpretation has arrived;08UTC later interpretation has not. Do not score deadline success/failure from clock alone.",
+    "Current rolling forecasts are post-event model states, not corrections of earlier probabilities or demonstrated calibration.",
+    "Tool excerpts not complete HTTP payload; no full canonical event dataset recount.",
+    "Earlier saved snapshots remain unchanged; this is an append-only observation and not retrospective forecast scoring."
+  ],
+  "original_access": {
+    "attempted_at": "2026-10-25T07:02:13.609Z",
+    "ended_at": "2026-10-25T07:02:14.103Z",
+    "http_status": 403,
+    "successfully_accessed": false,
+    "original_verified": false
+  },
+  "publication_scope": "Necessary public-source facts only; private tool excerpts are not included."
+}

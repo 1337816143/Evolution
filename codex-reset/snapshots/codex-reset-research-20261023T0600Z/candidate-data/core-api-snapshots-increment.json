@@ -1,0 +1,191 @@
+[
+  {
+    "id": "codex_reset-20261023T0600Z",
+    "source_id": "codex_reset",
+    "source_url": "https://codex-reset.com/api/forecast",
+    "nominal_round_utc": "2026-10-23T06:00:00Z",
+    "retrieval_started_at_utc": "2026-10-23T06:06:35.372Z",
+    "retrieval_completed_at_utc": "2026-10-23T06:06:36.330Z",
+    "source_updated_at_utc": "2026-10-23T05:51:50.555Z",
+    "source_age_seconds_at_capture": 885.775,
+    "expires_at_utc": null,
+    "fresh_at_capture": null,
+    "calibrated_probability_established": false,
+    "historical_comparison_available": false,
+    "provenance": "Public source API response; source update time is distinct from retrieval time.",
+    "raw_evidence_path": "原采集证据未随展示副本提供",
+    "event_scope_currently_verified": false,
+    "p24": 0.3153654335609112,
+    "p48": 0.5312755104367608,
+    "p72": null,
+    "window_basis": "Rolling model horizons from source snapshot; not a China calendar day.",
+    "claim_score_percent": 93,
+    "claim_score_kind": "dated_commitment_heuristic_not_probability",
+    "source_state": "announced",
+    "last_reset_at_source": "2026-10-22T17:10:01.000Z",
+    "quality_flags": [
+      "Active Day18 promise conflicts with QUIET/no-new-hint/history-only context copy.",
+      "The historical last-reset timestamp is a site assertion, not newly verified official completion.",
+      "Source reports low confidence and has not beaten both backtest baselines."
+    ],
+    "forecast_windows": [
+      {
+        "hours": 24,
+        "start_at_utc": "2026-10-23T05:51:50.555Z",
+        "end_at_utc": "2026-10-24T05:51:50.555Z",
+        "basis": "Rolling horizon anchored to source model timestamp; not a calendar-day forecast."
+      },
+      {
+        "hours": 48,
+        "start_at_utc": "2026-10-23T05:51:50.555Z",
+        "end_at_utc": "2026-10-25T05:51:50.555Z",
+        "basis": "Rolling horizon anchored to source model timestamp; not a calendar-day forecast."
+      }
+    ]
+  },
+  {
+    "id": "nextreset-20261023T0600Z",
+    "source_id": "nextreset",
+    "source_url": "https://nextreset.ai/api/forecast",
+    "nominal_round_utc": "2026-10-23T06:00:00Z",
+    "retrieval_started_at_utc": "2026-10-23T06:07:47.948Z",
+    "retrieval_completed_at_utc": "2026-10-23T06:07:48.606Z",
+    "source_updated_at_utc": "2026-10-23T06:00:21.705Z",
+    "source_age_seconds_at_capture": 446.901,
+    "expires_at_utc": "2026-10-23T06:15:21.705Z",
+    "fresh_at_capture": true,
+    "calibrated_probability_established": false,
+    "historical_comparison_available": false,
+    "provenance": "Public source API response; source update time is distinct from retrieval time.",
+    "raw_evidence_path": "原采集证据未随展示副本提供",
+    "event_scope_currently_verified": false,
+    "p24": 0.9562464390079669,
+    "p48": 0.9653224347227699,
+    "p72": 0.9753910397269447,
+    "window_basis": "Rolling horizons anchored to asOf; conditioned on an explicit 0.95 announcement prior.",
+    "announcement_prior": 0.95,
+    "source_state": "announced",
+    "baseline_p24": 0.12492878015933953,
+    "last_reset_at_source": "2026-10-22T17:00:00.000Z",
+    "quality_flags": [
+      "Newly catalogued Day17 record uses feed_observation time and reuses the old timing reply, not a completion post.",
+      "Current announcement shares the same Day18 reply as other trackers; no independent signal vote."
+    ],
+    "forecast_windows": [
+      {
+        "hours": 24,
+        "start_at_utc": "2026-10-23T06:00:21.705Z",
+        "end_at_utc": "2026-10-24T06:00:21.705Z",
+        "basis": "Rolling horizon anchored to source model timestamp; not a calendar-day forecast."
+      },
+      {
+        "hours": 48,
+        "start_at_utc": "2026-10-23T06:00:21.705Z",
+        "end_at_utc": "2026-10-25T06:00:21.705Z",
+        "basis": "Rolling horizon anchored to source model timestamp; not a calendar-day forecast."
+      },
+      {
+        "hours": 72,
+        "start_at_utc": "2026-10-23T06:00:21.705Z",
+        "end_at_utc": "2026-10-26T06:00:21.705Z",
+        "basis": "Rolling horizon anchored to source model timestamp; not a calendar-day forecast."
+      }
+    ]
+  },
+  {
+    "id": "lunarwerx-20261023T0600Z",
+    "source_id": "lunarwerx",
+    "source_url": "https://codex.lunarwerx.com/api/v1/forecast",
+    "nominal_round_utc": "2026-10-23T06:00:00Z",
+    "retrieval_started_at_utc": "2026-10-23T06:07:47.948Z",
+    "retrieval_completed_at_utc": "2026-10-23T06:07:48.606Z",
+    "source_updated_at_utc": "2026-10-23T06:00:29.040Z",
+    "source_age_seconds_at_capture": 439.566,
+    "expires_at_utc": null,
+    "fresh_at_capture": null,
+    "calibrated_probability_established": false,
+    "historical_comparison_available": false,
+    "provenance": "Public source API response; source update time is distinct from retrieval time.",
+    "raw_evidence_path": "原采集证据未随展示副本提供",
+    "event_scope_currently_verified": false,
+    "p24": 0.335,
+    "p48": null,
+    "p72": null,
+    "p6": 0.047,
+    "p24_range": [
+      0.165,
+      0.513
+    ],
+    "window_basis": "Rolling horizons from generatedAt; historical 10-21 catalogue classifies target as banked-inclusive.",
+    "event_target_historical": "recorded_resets_includes_banked",
+    "refresh_interval_seconds": 300,
+    "last_reset_at_source": "2026-10-20T06:33:56.000Z",
+    "quality_flags": [
+      "Last reset remains Oct20 in this source.",
+      "Event-scope classification is from recovered 10-21 HTML, not freshly reverified method text.",
+      "Refresh cadence is not an independently verified expiry duration. Self-published accuracy is not ensemble calibration."
+    ],
+    "forecast_windows": [
+      {
+        "hours": 6,
+        "start_at_utc": "2026-10-23T06:00:29.040Z",
+        "end_at_utc": "2026-10-23T12:00:29.040Z",
+        "basis": "Rolling horizon anchored to source model timestamp; not a calendar-day forecast."
+      },
+      {
+        "hours": 24,
+        "start_at_utc": "2026-10-23T06:00:29.040Z",
+        "end_at_utc": "2026-10-24T06:00:29.040Z",
+        "basis": "Rolling horizon anchored to source model timestamp; not a calendar-day forecast."
+      }
+    ]
+  },
+  {
+    "id": "codexreset_ai-20261023T0600Z",
+    "source_id": "codexreset_ai",
+    "source_url": "https://codexreset.ai/api/v1/forecast.json",
+    "nominal_round_utc": "2026-10-23T06:00:00Z",
+    "retrieval_started_at_utc": "2026-10-23T06:07:47.948Z",
+    "retrieval_completed_at_utc": "2026-10-23T06:07:48.606Z",
+    "source_updated_at_utc": "2026-10-23T05:10:39Z",
+    "source_age_seconds_at_capture": 3429.606,
+    "expires_at_utc": null,
+    "fresh_at_capture": null,
+    "calibrated_probability_established": false,
+    "historical_comparison_available": false,
+    "provenance": "Public source API response; source update time is distinct from retrieval time.",
+    "raw_evidence_path": "原采集证据未随展示副本提供",
+    "event_scope_currently_verified": false,
+    "p24": 0.1296,
+    "p48": 0.2963,
+    "p72": null,
+    "p7d": 0.7222,
+    "source_upstream_updated_at_utc": "2026-10-23T05:10:39.946Z",
+    "upstream_url": "https://whenreset.app/api/forecast",
+    "window_basis": "climatology (fraction of historical gaps <= horizon, unwindowed)",
+    "quality_flags": [
+      "Exact whenreset.app forecast relay, not an independent probability.",
+      "Upstream homepage classifies the new Day18 announcement as an already completed reset; future reply contradicts that interpretation."
+    ],
+    "forecast_windows": [
+      {
+        "hours": 24,
+        "start_at_utc": null,
+        "end_at_utc": null,
+        "basis": "Unwindowed historical interval fraction; do not invent a live calendar window."
+      },
+      {
+        "hours": 48,
+        "start_at_utc": null,
+        "end_at_utc": null,
+        "basis": "Unwindowed historical interval fraction; do not invent a live calendar window."
+      },
+      {
+        "hours": 168,
+        "start_at_utc": null,
+        "end_at_utc": null,
+        "basis": "Unwindowed historical interval fraction; do not invent a live calendar window."
+      }
+    ]
+  }
+]

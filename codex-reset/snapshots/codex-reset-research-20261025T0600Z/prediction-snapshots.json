@@ -1,0 +1,124 @@
+[
+  {
+    "source": "codex-reset.com",
+    "url": "https://codex-reset.com/api/forecast",
+    "forecast_origin_utc": "2026-10-25T05:51:49.411Z",
+    "percent_by_horizon_hours": {
+      "24": 38.90401292986312,
+      "48": 62.67280363925667
+    },
+    "freshness_status": "unknown",
+    "method_limits": "Same historical numbers; mode now announced. Promise score83 is a heuristic separate from model probability. No established TTL.",
+    "independently_calibrated": false,
+    "account_delivery_probability": false,
+    "same_event_same_origin_comparable": false,
+    "nominal_rolling_window_ends": {
+      "24": "2026-10-26T05:51:49.411000Z",
+      "48": "2026-10-27T05:51:49.411000Z"
+    }
+  },
+  {
+    "source": "NextReset",
+    "url": "https://nextreset.ai/api/forecast",
+    "forecast_origin_utc": "2026-10-25T05:30:22.901Z",
+    "percent_by_horizon_hours": {
+      "24": 96.09188898160046,
+      "48": 97.23855113930492,
+      "72": 98
+    },
+    "freshness_status": "expired",
+    "method_limits": "NR1.7; expiry05:45:22.901Z before retrieval; 95% announcement prior drives rise. Baseline21.84/44.77/61.98. Depends on codex-resets.com.",
+    "independently_calibrated": false,
+    "account_delivery_probability": false,
+    "same_event_same_origin_comparable": false,
+    "nominal_rolling_window_ends": {
+      "24": "2026-10-26T05:30:22.901000Z",
+      "48": "2026-10-27T05:30:22.901000Z",
+      "72": "2026-10-28T05:30:22.901000Z"
+    }
+  },
+  {
+    "source": "Lunarwerx",
+    "url": "https://codex.lunarwerx.com/api/v1/forecast",
+    "forecast_origin_utc": "2026-10-25T05:25:30.489Z",
+    "percent_by_horizon_hours": {
+      "6": 3.4,
+      "24": 36
+    },
+    "freshness_status": "cadence_stale",
+    "method_limits": "300second cadence exceeded; saved/replay scores source-reported, not reproduced.",
+    "independently_calibrated": false,
+    "account_delivery_probability": false,
+    "same_event_same_origin_comparable": false,
+    "nominal_rolling_window_ends": {
+      "6": "2026-10-25T11:25:30.489000Z",
+      "24": "2026-10-26T05:25:30.489000Z"
+    }
+  },
+  {
+    "source": "Gussuri",
+    "url": "https://codex.gussuriworks.com/en",
+    "forecast_origin_utc": null,
+    "percent_by_horizon_hours": {
+      "24": 87,
+      "48": 94
+    },
+    "freshness_status": "unknown",
+    "method_limits": "Source updated05:39UTC derived from14:39JST; not proven model origin. New announcement drives outlook; date conversion chooses08UTC, estimate begins05UTC.",
+    "independently_calibrated": false,
+    "account_delivery_probability": false,
+    "same_event_same_origin_comparable": false
+  },
+  {
+    "source": "Tracker",
+    "url": "https://codex-resets-tracker.com/codex-reset-forecast/",
+    "forecast_origin_utc": null,
+    "percent_by_horizon_hours": {
+      "24": 20,
+      "48": 36,
+      "72": 49
+    },
+    "freshness_status": "unknown",
+    "method_limits": "20 historical events Poisson. New upcoming announcement separate from unchanged model. Source checked05:00 lacks explicit timezone.",
+    "independently_calibrated": false,
+    "account_delivery_probability": false,
+    "same_event_same_origin_comparable": false
+  },
+  {
+    "source": "whenreset.online",
+    "url": "https://whenreset.online/?lang=en",
+    "forecast_origin_utc": null,
+    "percent_by_horizon_hours": {
+      "24": 75
+    },
+    "freshness_status": "unknown",
+    "method_limits": "Mixed automatic-or-banked ANNOUNCEMENT target, manual75% floor still oldOct23signal. Collection05:45UTC within15min cadence at read, not model origin.",
+    "independently_calibrated": false,
+    "account_delivery_probability": false,
+    "same_event_same_origin_comparable": false
+  },
+  {
+    "source": "codexreset.ai",
+    "url": "https://codexreset.ai/api/v1/forecast.json",
+    "forecast_origin_utc": null,
+    "percent_by_horizon_hours": {
+      "24": 12.96,
+      "48": 29.63,
+      "168": 72.22
+    },
+    "freshness_status": "unknown",
+    "method_limits": "Historical gap CDF unwindowed, NOT forward conditional probability. Upstreamwhenreset.app, shared archive seed.",
+    "independently_calibrated": false,
+    "account_delivery_probability": false,
+    "same_event_same_origin_comparable": false,
+    "source_generated_at": "2026-10-25T00:52:16Z"
+  },
+  {
+    "source": "AIPlanWatch",
+    "url": "https://codex-reset.aiplanwatch.com/",
+    "percent_by_horizon_hours": null,
+    "forecast_origin_utc": null,
+    "freshness_status": "unknown",
+    "observation": "Current extract replaces numerical forecast with announced07UTCschedule. Previous26.8/46.3/61% not carried as current. No completed new reset claimed."
+  }
+]

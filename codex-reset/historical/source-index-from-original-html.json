@@ -1,0 +1,416 @@
+[
+  {
+    "source_id": "nextreset",
+    "historical_state": "stale",
+    "historical_source_updated_at": "2026-10-21T14:15:23.223Z",
+    "historical_expires_at": "2026-10-21T14:30:23.223Z",
+    "historical_description": "nextreset https://nextreset.ai/ forecast automatic_global nr-1.7 age-banded hazard, 30-day half-life, public-promise priors and incident multiplier. exact recapture14:32:46z still returned14:15:23z snapshot expired14:30:23z. show expired, not live. original social review sep16. codex-resets.com; status.openai.com; curated tibo/sam sources",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "codex_reset",
+    "historical_state": "candidate",
+    "historical_source_updated_at": "2026-10-21T14:21:50.423Z",
+    "historical_expires_at": "2026-10-22T14:21:50.423Z",
+    "historical_description": "codex reset https://codex-reset.com/ forecast automatic_global rate-v3 memoryless rate over last 8 completed intervals; separate 83/93% promise scores. low confidence; no official signal. last reset oct20 06:33:48z. tibo public posts; own verified record",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "lunarwerx",
+    "historical_state": "stale",
+    "historical_source_updated_at": "2026-10-21T14:10:33.363Z",
+    "historical_expires_at": "2026-10-21T14:20:33.363Z",
+    "historical_description": "lunarwerx codex forecast https://codex.lunarwerx.com/ forecast recorded_resets_includes_banked timing/history model with clock factor and hint comparisons; own ledger, staff timeline, status context. exact recapture14:32:46z returned14:10:33z snapshot, older than documented10minute freshness. mixed banked-inclusive target. own reset record; openai staff timeline; official status",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "aiplanwatch",
+    "historical_state": "conflict",
+    "historical_source_updated_at": null,
+    "historical_expires_at": null,
+    "historical_description": "codex reset radar https://codex-reset.aiplanwatch.com/ forecast automatic_global conditional empirical intervals; 50 completed, 40 comparable; requires 20 completed/10 comparable and temporal validation. homepage numerical forecast; public repo readme same date says unavailable: publication-channel inconsistency. tibo source-linked reset history",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "gussuri",
+    "historical_state": "candidate",
+    "historical_source_updated_at": "2026-10-21T13:17:00Z",
+    "historical_expires_at": "2026-10-22T13:17:00.000Z",
+    "historical_description": "codex reset observatory https://codex.gussuriworks.com/en forecast random_hard_reset past reset intervals, elapsed time, incidents/community signals; extension/webhook collects tibo posts. homepage 31/62%; heading high but prose low/moderate. api documented but fetch inaccessible during public retrieval. tibo posts; openai status; own stored history",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "tracker",
+    "historical_state": "candidate",
+    "historical_source_updated_at": "2026-10-21T09:00:00Z",
+    "historical_expires_at": "2026-10-22T09:00:00.000Z",
+    "historical_description": "codex resets tracker https://codex-resets-tracker.com/codex-reset-forecast/ forecast confirmed_global poisson rate, 21 confirmed global resets in last 90 days; excludes banked and mere announcements. last event oct20; no active announcement. source-linked tibo public records; intermediary unknown",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "toolify",
+    "historical_state": "unknown",
+    "historical_source_updated_at": null,
+    "historical_expires_at": null,
+    "historical_description": "toolify codex reset https://www.toolify.ai/codex-reset forecast public_reset 8 completed historical intervals; low confidence. 8.2% before local midnight at oct21 14:08 display is not 24h probability. tibo links; archive upstream unknown",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "codexresets_nodash",
+    "historical_state": "unknown",
+    "historical_source_updated_at": null,
+    "historical_expires_at": null,
+    "historical_description": "codexresets.com https://codexresets.com/ forecast recorded_reset_unspecified elapsed time vs reset frequency over prior 14 days. 66 tracked; last display oct19 22:33:48 pst corresponds other sources oct20 06:33z. scope/dedup unclear. tibo source-linked posts",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "tiboreset",
+    "historical_state": "relay",
+    "historical_source_updated_at": null,
+    "historical_expires_at": null,
+    "historical_description": "tibo reset https://tiboreset.com/forecast forecast_relay automatic_global rate-v3; page describes hint floors and 89/99% commitments differing from current upstream rules. homepage 24%; upstream current 22%; likely cache/model-version mismatch, not independent model vote. codex-reset.com",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "whenreset_app",
+    "historical_state": "excluded",
+    "historical_source_updated_at": "2026-10-21T08:17:20.539Z",
+    "historical_expires_at": "2026-10-22T08:17:20.539Z",
+    "historical_description": "whenreset.app https://whenreset.app/ forecast regular_global unwindowed fraction of historical gaps <= horizon (climatology), not wait-conditioned. latest recorded oct17, missing oct20 seen elsewhere; homepage stale-source warning. tibo/openaidevs; historical seed codex-resets.com",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "codexreset_ai",
+    "historical_state": "relay",
+    "historical_source_updated_at": "2026-10-21T08:17:20Z",
+    "historical_expires_at": "2026-10-22T08:17:20.000Z",
+    "historical_description": "codexreset.ai https://codexreset.ai/ forecast_relay regular_global exact live relay from whenreset.app; local engine research-only. same stale upstream oct17 anchor; source contexts do not feed probabilities. whenreset.app; pre-sep10 history seeded codex-resets.com",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "whenreset_online",
+    "historical_state": "excluded",
+    "historical_source_updated_at": "2026-10-20T11:15:00Z",
+    "historical_expires_at": "2026-10-21T11:15:00.000Z",
+    "historical_description": "whenreset.online https://whenreset.online/?lang=en forecast extra_reset_announcement_includes_banked last20 public ledger intervals plus launch adjustments; official model +20pp, media +10, capped combined +25. says 7 days since reset despite other sources oct20. zero active release signals; changed event definition across versions. public ledger; official release sources; tibo",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "codexreset_app",
+    "historical_state": "excluded",
+    "historical_source_updated_at": "2026-10-21T10:42:00Z",
+    "historical_expires_at": "2026-10-22T10:42:00.000Z",
+    "historical_description": "will codex reset today https://codexreset.app/ forecast global_goodwill history hazard plus weighted x55/status25/github20 context. only 10 resets; latest jul25. claims fresh team post while x panel quiet; exclude despite fresh calculation. tibo/openai x; openai status; openai/codex issues",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "quotaresetwatch",
+    "historical_state": "excluded",
+    "historical_source_updated_at": null,
+    "historical_expires_at": null,
+    "historical_description": "quota reset watch https://quotaresetwatch.com/en/ forecast completed_public_reset signal-aware-v6 gamma-poisson over 90d incl ongoing wait; k11, exposure87.8d. last completed oct2; oct17 promise without linked completion. missing newer events. completed source-linked public records",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "willreset",
+    "historical_state": "excluded",
+    "historical_source_updated_at": null,
+    "historical_expires_at": null,
+    "historical_description": "willreset https://willreset.com/forecast-method forecast global recent8 memoryless intervals; explicit promise83%, timed93%. search-index snapshot only; direct homepage/method returns502; last global sep26. tibo public posts; similarity to codex-reset family requires proof",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "codexnextreset",
+    "historical_state": "excluded",
+    "historical_source_updated_at": null,
+    "historical_expires_at": null,
+    "historical_description": "codex next reset https://codexnextreset.com/ forecast any_automatic_broad_or_targeted historical elapsed gaps and explicit source promises; excludes banked/personal. all numbers loading/unavailable; static signal references sep22 tuesday with75% editorial weight. source-linked tibo",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "codexbell",
+    "historical_state": "excluded",
+    "historical_source_updated_at": null,
+    "historical_expires_at": null,
+    "historical_description": "codexbell https://codexbell.com/ forecast hard_reset historical cadence plus classified public signals; implementation unverified. direct fetch js shell; indexed oct21 shows38%/62% but explicitly stale. do not treat cached number as live. tibo public timeline",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "whenreset_uk",
+    "historical_state": "excluded",
+    "historical_source_updated_at": null,
+    "historical_expires_at": null,
+    "historical_description": "reset radar uk https://whenreset.uk/?lang=en forecast reset_or_banked conditional historical gap quantiles; public hint classifier. direct js loading; indexed snapshot predicts oct13, already elapsed. tibo sources; upstream unknown",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "willcodexquotareset",
+    "historical_state": "excluded",
+    "historical_source_updated_at": null,
+    "historical_expires_at": null,
+    "historical_description": "will codex reset https://www.willcodexquotareset.com/ forecast reset_next48h public incidents, tibo hints, launch noise, cooldown; recent reset lowers score. html all loading; documented public /api/forecast inaccessible during public retrieval. openai status; tibo",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "dreaife",
+    "historical_state": "excluded",
+    "historical_source_updated_at": null,
+    "historical_expires_at": null,
+    "historical_description": "codex reset beta https://codexreset.dreaife.tokyo/en forecast paid_plan_platform_wide 7-day hourly forecast; official signals, issue impact, competing releases. 4h/24h/72h/168h fields unavailable; approximate80% interval absent. tibo; official updates; experience reports",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "codexlimits",
+    "historical_state": "excluded",
+    "historical_source_updated_at": null,
+    "historical_expires_at": null,
+    "historical_description": "codex limits https://codexlimits.com/ historical_date_projection public_global median12 gaps + latest reviewed date; advances projection by median after range passes. projection oct23 rangeoct22-25 still based on oct13 despite header oct20. polymarket per-day prices not cumulative forecasts. tibo; reviewed archive; separate polymarket prices",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "whenreset_dev",
+    "historical_state": "context",
+    "historical_source_updated_at": null,
+    "historical_expires_at": null,
+    "historical_description": "whenreset.dev https://whenreset.dev/ historical_date_projection usage_reset median last10 gaps (2.8 days). next reset estimate oct23; latest oct20. this is a cadence date, no probability. tibo official post links",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "resetradar_cn",
+    "historical_state": "excluded",
+    "historical_source_updated_at": null,
+    "historical_expires_at": null,
+    "historical_description": "reset radar https://resetradar.cn/ historical_date_projection mixed_regular_banked mean recorded interval6.3d. indexed snapshot expected6.1d; direct fetch blank. 64 entries including6 banked. codex-resets.com",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "rareskey",
+    "historical_state": "excluded",
+    "historical_source_updated_at": "2026-08-25T14:44:00Z",
+    "historical_expires_at": "2026-08-26T14:44:00.000Z",
+    "historical_description": "codex reset forecast v2 https://rareskey.github.io/codex-reset-forecast/ forecast_research_snapshot broad_free_reset v1 timing vs v2 competing causal hazards;50k simulations; milestone/event priors. stale aug25 snapshot: next medianaug31,80%aug26-sep12; year-end median14 vs v1 30. historical reset timestamps; public openai events/milestones",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "tibo_index",
+    "historical_state": "excluded",
+    "historical_source_updated_at": "2026-08-24T03:20:00Z",
+    "historical_expires_at": "2026-08-25T03:20:00.000Z",
+    "historical_description": "the tibo reset index https://wasnotwas.com/artifacts/codex-reset-forecast/tibo-reset-index.html forecast_research_snapshot broad_immediate_reset gamma-poisson jeffreys prior;16 events/50days; banked excluded. stale aug24: medianaug26 16:49 aest, not an appointment. tibo public x timeline;24 source-linked events",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "codex_resets",
+    "historical_state": "context",
+    "historical_source_updated_at": null,
+    "historical_expires_at": null,
+    "historical_description": "codex resets https://codex-resets.com/ announcement_tracker regular_banked_signals public source-linked record; serves upstream data to multiple sites. 64 catalogued entries; latestoct20 06:33z; public api has schedules/watches. tibo public posts",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "resetbeacon",
+    "historical_state": "context",
+    "historical_source_updated_at": "2026-10-21T14:17:00Z",
+    "historical_expires_at": "2026-10-22T14:17:00.000Z",
+    "historical_description": "reset beacon https://resetbeacon.com/ announcement_tracker shared_reset evidence/status classification; numerical predictions disabled by accuracy gate. no newer announcement; latestoct20 06:33z. /api/forecast returns events and probabilities:null. tibo/source evidence;6 responding feeds",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "didcodexreset",
+    "historical_state": "context",
+    "historical_source_updated_at": null,
+    "historical_expires_at": null,
+    "historical_description": "did codex reset https://didcodexreset.com/ announcement_tracker global_and_banked classifies sourced announcements/completions/schedules. expected next reset none;82% displayed is confidence in event classification, not next24h odds. tibo; public source records",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "codex_reset_app",
+    "historical_state": "context",
+    "historical_source_updated_at": "2026-10-21T14:14:00Z",
+    "historical_expires_at": "2026-10-22T14:14:00.000Z",
+    "historical_description": "codex reset activity https://codex-reset.app/ announcement_tracker quota_reset_and_banked automatic rule-based publication from external archive. no active prediction; third-party completion reports auto-published, not manually checked. codex-resets.com",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "codexreset_dev",
+    "historical_state": "context",
+    "historical_source_updated_at": "2026-10-16T10:00:00Z",
+    "historical_expires_at": "2026-10-17T10:00:00.000Z",
+    "historical_description": "codexreset.dev https://codexreset.dev/forecast/ historical_tracker global historical intervals only; numerical forecasts gated on effective-time verification. 54 globals; latestoct15;0 records qualify precise-time requirement, so no probabilities. codex-resets.com archive origin documented",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "codexlimitreset",
+    "historical_state": "excluded",
+    "historical_source_updated_at": null,
+    "historical_expires_at": null,
+    "historical_description": "codex limit reset https://codexlimitreset.com/ forecast_and_timer reset_or_banked_or_partial constant-rate daily first-event distribution; dedup once/day; next3days+later sum1. latestoct20; forecast numbers js unavailable. mixed event target cannot pool automatic-only. source-linked tibo; imported history",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "ediforce",
+    "historical_state": "excluded",
+    "historical_source_updated_at": null,
+    "historical_expires_at": null,
+    "historical_description": "ediforce codex usage https://www.ediforce.co.jp/codex-usage/en/ editorial_score_and_timer global_signal_strength evidence-strength score, explicitly not probability; incident points plus upstream baseline. html loading; upstream-dependent; no independent numerical vote. codex-reset.com",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "whenresets_net",
+    "historical_state": "excluded",
+    "historical_source_updated_at": "2026-10-15T06:34:00Z",
+    "historical_expires_at": "2026-10-16T06:34:00.000Z",
+    "historical_description": "whenresets https://whenresets.net/ announcement_and_forecast_tracker extra_reset_including_banked historical pace and sourced signals;64 events. stale oct15 says today yes and no done message; newer sources include oct15 done and oct20 reset. tibo source links; monitored-account observations claimed",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "codexresetwatch",
+    "historical_state": "excluded",
+    "historical_source_updated_at": null,
+    "historical_expires_at": null,
+    "historical_description": "codex reset watch https://codexresetwatch.com/ forecast_tracker regular_global history baseline with time-limited editorial call. latestoct2;48h call checking. stale compared with multiple oct20 records. tibo source links",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "tiboships",
+    "historical_state": "excluded",
+    "historical_source_updated_at": null,
+    "historical_expires_at": null,
+    "historical_description": "tiboships https://tiboships.com/ community_poll daily_ship_or_reset crowd choices, no stakes; unverified public x handles. js loading; crowd odds not calibrated reset forecasts. 28day tibo initiative",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "tibo28",
+    "historical_state": "context",
+    "historical_source_updated_at": null,
+    "historical_expires_at": null,
+    "historical_description": "tibo's 28 days https://tibo-28day.live/ announcement_tracker daily_improvement_or_reset ai classifies source-linked actions;10minute checks; sentiment separate. js placeholder dayoct5; no forecast numbers. tibo/public discussion",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "shixi",
+    "historical_state": "context",
+    "historical_source_updated_at": null,
+    "historical_expires_at": null,
+    "historical_description": "codex & claude resets https://shixilin.com/ai/codex-claude-resets/ announcement_tracker_and_personal_timer announcements_credits fxembed discovery + official x embed checks; evidence state; github actions. source repo inspected; verified times only create countdowns, never invented predictions. tibo/openaidevs/openai/claude/anthropic accounts",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "willtibo_skill",
+    "historical_state": "excluded",
+    "historical_source_updated_at": null,
+    "historical_expires_at": null,
+    "historical_description": "will-tibo-reset skill https://github.com/ryuumeow/will-tibo-reset heuristic_skill broad_quota_reset 35% seven-day baseline; additive public-promise/incident/launch/competitor scoring; reasoning aid not statistical model. no hosted current forecast; code/readme only, not installed. tibo/openai then community sources",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "whmc_radar",
+    "historical_state": "excluded",
+    "historical_source_updated_at": null,
+    "historical_expires_at": null,
+    "historical_description": "codex reset radar extension https://github.com/whmc76/codex-reset-radar heuristic_extension reset_signals six-hour bins/72h; weights tibo1,status.70,community.58,github.35; deterministic heuristic. no hosted current forecast; local account features not accessed. tibo; openai status; community history; github issues",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "recreation",
+    "historical_state": "excluded",
+    "historical_source_updated_at": null,
+    "historical_expires_at": null,
+    "historical_description": "codex quota reset forecast recreation https://github.com/madanchaollapark/codex-quota-reset-forecast heuristic_reimplementation reset_next48h behavioral recreation of willcodexquotareset public heuristic; fixture/server modes. no distinct live prediction verified; cannot count as independent vote from original. openai status; tibo adapter",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "esp32",
+    "historical_state": "relay",
+    "historical_source_updated_at": null,
+    "historical_expires_at": null,
+    "historical_description": "esp32 codex reset forecast display https://github.com/xi4oh4o/esp32-codex-reset-forecast-display forecast_client upstream_reset hardware display, not forecast engine. readme inspected; code not run. willcodexquotareset.com/api/forecast",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "barshelf",
+    "historical_state": "relay",
+    "historical_source_updated_at": null,
+    "historical_expires_at": null,
+    "historical_description": "barshelf codex reset https://barshelf.jiun.dev/widgets/codex-reset/ forecast_client upstream_reset48h menubar workflow refreshes30min. no independent forecast. willcodexquotareset.com",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "kde",
+    "historical_state": "relay",
+    "historical_source_updated_at": null,
+    "historical_expires_at": null,
+    "historical_description": "codexbar kde https://github.com/materemias/codexbar-kde forecast_client_and_personal_timer account_windows_plus_upstream personal quota countdowns with optional global forecast. readme confirms upstream forecast; no independent vote. codex-reset.com",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "sub2api",
+    "historical_state": "relay",
+    "historical_source_updated_at": null,
+    "historical_expires_at": null,
+    "historical_description": "sub2api upstream status https://github.com/ljzd-pro/sub2api-upstream-status forecast_aggregator_client early_reset weighted three-source aggregator with freshness/history checks and post dedup. savemetibo now redirects codex-reset.com, so three adapters do not imply three independent sources. codex runway; codex reset; savemetibo",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "runway",
+    "historical_state": "relay",
+    "historical_source_updated_at": null,
+    "historical_expires_at": null,
+    "historical_description": "codexrunway https://github.com/licoy/codex-runway announcement_client_and_personal_timer personal_quota_plus_public_resets mac menu bar uses public reset status separately from personal usage. not an independent forecast source. didcodexreset.com/api/status.json",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  },
+  {
+    "source_id": "tokenmonitor",
+    "historical_state": "relay",
+    "historical_source_updated_at": null,
+    "historical_expires_at": null,
+    "historical_description": "token monitor https://github.com/javis603/token-monitor forecast_client_and_personal_timer thirdparty_reset optional third-party reset forecast and local usage widget. readme verified feature; not an independent forecast. third-party feed; exact upstream not verified",
+    "basis_date": "2026-10-21",
+    "current_round_rechecked": false
+  }
+]

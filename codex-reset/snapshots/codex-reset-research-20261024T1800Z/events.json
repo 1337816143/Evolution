@@ -1,0 +1,17 @@
+[
+  {
+    "event_id": "tibo-coffee-20261024",
+    "time": "2026-10-24T16:26:30Z",
+    "kind": "unrelated_public_post",
+    "url": "https://x.com/thsottiaux/status/2114030784625647855",
+    "basis": "Public primary page retrieved; SF hangout/coffee question, not reset claim"
+  },
+  {
+    "event_id": "tibo-one-day-20261024",
+    "time": "2026-10-24T16:53:18Z",
+    "kind": "ambiguous_social_reply_not_reset_announcement",
+    "url": "https://x.com/thsottiaux/status/2114037527598576003",
+    "parent_url": "https://x.com/vishalsingh2972/status/2114031587549659162",
+    "basis": "Parent says RESET PARK in SF hangout conversation. One day is not explicit tomorrow,24h deadline, reset completion or eligibility. Do not infer a reset commitment."
+  }
+]

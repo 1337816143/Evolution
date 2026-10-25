@@ -1,0 +1,116 @@
+{
+  "nominal_round_utc": "2026-10-23T06:00:00Z",
+  "original_target": {
+    "id": "china-2026-10-22",
+    "time_zone": "Asia/Shanghai",
+    "start_at_utc": "2026-10-21T16:00:00Z",
+    "end_at_utc": "2026-10-22T16:00:00Z",
+    "status": "closed",
+    "probability": null,
+    "outcome": null,
+    "reason": "The original calendar-day target ended before these observations. No probability or outcome is backfilled."
+  },
+  "events": [
+    {
+      "id": "2026-10-23-day18-reset-announcement",
+      "event_type": "reset_announcement",
+      "reported_main_post_time_utc": "2026-10-23T04:46:19Z",
+      "reported_reply_time_utc": "2026-10-23T04:47:34Z",
+      "source_urls": [
+        "https://x.com/thsottiaux/status/2113492187770175603",
+        "https://x.com/thsottiaux/status/2113492502355562875"
+      ],
+      "readable_secondary_urls": [
+        "https://codex-reset.com/api/feed",
+        "https://codex-reset.com/api/forecast",
+        "https://nextreset.ai/api/forecast",
+        "https://codex.gussuriworks.com/en"
+      ],
+      "summary_zh": "Day18主帖公开转引提到新的reset；同线程回复指向当地次日上午、并伴随小更新。它是预告，不是已完成发放。",
+      "verification_status": "source_linked_secondary_only",
+      "original_retrieval_status": "403_forbidden_no_retry",
+      "completed": null,
+      "confirmation_url": null,
+      "global_completed": null,
+      "banked_grant_confirmed": null,
+      "paid_reset_change_confirmed": null,
+      "eligible_accounts": null,
+      "reset_scope": null,
+      "deduplication_key": "thsottiaux-thread-2113492187770175603",
+      "timing": {
+        "published_at_utc": "2026-10-23T04:47:34Z",
+        "published_at_los_angeles": "2026-10-22T21:47:34-07:00",
+        "reported_reply_excerpt": "Landing tomorrow before 10am PST together with a small ship.",
+        "local_tomorrow_date": "2026-10-23",
+        "authoritative_deadline_utc": null,
+        "site_interpretation": {
+          "time_zone": "America/Los_Angeles",
+          "deadline_utc": "2026-10-23T17:00:00Z",
+          "deadline_beijing": "2026-10-24T01:00:00+08:00"
+        },
+        "literal_pst_alternative": {
+          "utc_offset": "-08:00",
+          "deadline_utc": "2026-10-23T18:00:00Z",
+          "deadline_beijing": "2026-10-24T02:00:00+08:00"
+        },
+        "caveat": "Original reply was not directly readable. PST wording and actual PDT offset differ; 17:00Z is a site inference, not an independently established official deadline.",
+        "gussuri_estimated_window_utc": [
+          "2026-10-23T15:00:00Z",
+          "2026-10-23T18:00:00Z"
+        ],
+        "gussuri_window_caveat": "Site prediction window, not the text of a Tibo commitment."
+      },
+      "evidence_observed_at_utc": "2026-10-23T06:06:36.330Z",
+      "quality_flags": [
+        "All cited trackers repeat the same announcement thread; source count is not independent evidence count.",
+        "No directly verified completion statement or account credit observation in this round.",
+        "Main-post reset language does not establish all-user eligibility or distinguish banked versus automatic.",
+        "The feed top-level signal still names Day17 while its visible tweet list begins with Day18; preserve the conflict rather than trusting a single header."
+      ]
+    },
+    {
+      "id": "2026-10-23-day17-catalogue-evidence-review",
+      "event_type": "evidence_review_not_new_reset",
+      "related_event_id": "2026-10-22-day17-operator-reset-report",
+      "source_url": "https://nextreset.ai/api/forecast",
+      "source_record": {
+        "date": "2026-10-22T17:00:00.000Z",
+        "type": "automatic",
+        "title": "A new Codex reset was recorded",
+        "description": "Catalogued from the public reset feed.\nFollow the original announcement for eligibility and rollout details.",
+        "scope": "Check the original for eligibility",
+        "source": "https://x.com/thsottiaux/status/2113162413008884099",
+        "review": "catalogued",
+        "timeBasis": "feed_observation",
+        "discoveredAt": "2026-10-23T02:40:21.686Z"
+      },
+      "source_reported_reset_time_utc": "2026-10-22T17:00:00Z",
+      "time_basis": "feed_observation",
+      "time_precision_interpretation": "Reported catalogue time, not independently measured execution time.",
+      "source_discovered_at_utc": "2026-10-23T02:40:21.686Z",
+      "reused_announcement_url": "https://x.com/thsottiaux/status/2113162413008884099",
+      "independent_completion_evidence": false,
+      "confirmation_url": null,
+      "outcome": null,
+      "other_site_last_reset_raw": "2026-10-22T17:10:01.000Z",
+      "other_site_time_caveat": "Preserve exact source string; do not convert it into second-precise measured execution. Prior operator-observed basis is not upgraded by this catalogue entry.",
+      "deduplication": "These timestamps are competing descriptions of Day17, not evidence for two separate resets."
+    },
+    {
+      "id": "2026-10-23-whenreset-day18-classification-conflict",
+      "event_type": "source_quality_conflict",
+      "source_url": "https://whenreset.app/",
+      "related_event_id": "2026-10-23-day18-reset-announcement",
+      "reported_last_official_reset_utc": "2026-10-23T04:46:00Z",
+      "reported_scope": "all_users",
+      "reported_last_recorded_event_utc": "2026-10-23T04:52:00Z",
+      "source_updated_at_utc": null,
+      "finding": "The homepage calls the Day18 main-post announcement a latest official completed reset while the same-thread reply schedules a later landing. Neither completion nor all-user scope is established by the retrieved evidence.",
+      "forecast_relay_affected": "codexreset_ai",
+      "ground_truth_outcome": null
+    }
+  ],
+  "no_ensemble_probability": true,
+  "fused_probability": null,
+  "same_event_same_window_comparison_group": null
+}

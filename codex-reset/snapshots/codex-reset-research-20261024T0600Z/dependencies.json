@@ -1,0 +1,47 @@
+{
+  "baseline": "../codex-reset-research-20261024T0000Z/dependencies.json",
+  "preserved": true,
+  "current_observations": [
+    {
+      "sources": [
+        "nextreset.ai",
+        "codex-resets.com"
+      ],
+      "relation": "Explicit feed dependency; Oct23 record now catalogued as feed_observation, old timing-reply source reused",
+      "evidence": "原采集证据未随展示副本提供"
+    },
+    {
+      "sources": [
+        "aiplanwatch",
+        "codex-resets.com"
+      ],
+      "relation": "Same old timing-reply ID and same replacement completion wording. Shared pipeline possible but not proven; not independent official confirmations.",
+      "evidence": [
+        "原采集证据未随展示副本提供",
+        "原采集证据未随展示副本提供"
+      ]
+    },
+    {
+      "sources": [
+        "resetbeacon",
+        "unknown second source"
+      ],
+      "relation": "Claims own account and second source. Identity/independence unresolved; do not multiply likelihoods.",
+      "evidence": "原采集证据未随展示副本提供"
+    },
+    {
+      "sources": [
+        "codexreset.ai",
+        "whenreset.app"
+      ],
+      "relation": "Explicit forecast upstream and historical codex-resets.com seed dependency",
+      "evidence": "原采集证据未随展示副本提供"
+    }
+  ],
+  "rules": [
+    "One Day18 event family, not independent votes",
+    "No averaged or consensus probability",
+    "Repository implementation is not independent event observation",
+    "Failure, missing records, retired URLs do not prove no reset"
+  ]
+}

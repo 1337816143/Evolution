@@ -1,0 +1,26 @@
+{
+  "inherited_catalog": "../codex-reset-research-20261024T1200Z/dependencies.json",
+  "new_or_rechecked": [
+    {
+      "source": "NextReset",
+      "upstream": "codex-resets.com history and status",
+      "independent_votes": false
+    },
+    {
+      "source": "codexreset.ai",
+      "upstream": "whenreset.app",
+      "independent_votes": false
+    },
+    {
+      "source": "whenreset.online",
+      "upstream": "Oct23 Tibo post third-party aggregation; manual75%floor72h",
+      "independent_confirmation": false
+    },
+    {
+      "source": "AIPlanWatch",
+      "upstream": "sameOct23 timing-reply URL already disputed",
+      "independent_confirmation": false
+    }
+  ],
+  "unrefreshed_sources": "Retain12UTC source snapshots as historical, do not relabel fresh. Broad search results can be stale."
+}

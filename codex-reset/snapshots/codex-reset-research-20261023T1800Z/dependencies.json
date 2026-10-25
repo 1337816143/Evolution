@@ -1,0 +1,383 @@
+{
+  "direction": "consumer -> upstream/source",
+  "nodes": [
+    {
+      "id": "codex-reset-forecast",
+      "type": "unofficial_operator_observation_and_forecast",
+      "url": "https://codex-reset.com/api/forecast"
+    },
+    {
+      "id": "codex-reset-feed",
+      "type": "third_party_relay_of_official_posts",
+      "url": "https://codex-reset.com/api/feed"
+    },
+    {
+      "id": "nextreset-ai",
+      "type": "unofficial_forecast",
+      "url": "https://nextreset.ai/api/forecast"
+    },
+    {
+      "id": "lunarwerx",
+      "type": "unofficial_saved_forecast_with_reported_backtests",
+      "url": "https://codex.lunarwerx.com/api/v1/forecast"
+    },
+    {
+      "id": "codexreset-ai",
+      "type": "forecast_republisher",
+      "url": "https://codexreset.ai/api/v1/forecast.json"
+    },
+    {
+      "id": "codexlimits",
+      "type": "third_party_reset_observation",
+      "url": "https://codexlimits.com/"
+    },
+    {
+      "id": "gussuri",
+      "type": "third_party_reset_history_and_forecast",
+      "url": "https://codex.gussuriworks.com/en"
+    },
+    {
+      "id": "codex-resets-com",
+      "type": "public_reset_archive_and_feed",
+      "url": "https://codex-resets.com/"
+    },
+    {
+      "id": "whenreset-app",
+      "type": "public_history_and_unwindowed_forecast",
+      "url": "https://whenreset.app/"
+    },
+    {
+      "id": "whenreset-dev",
+      "type": "multi_product_public_tracker",
+      "url": "https://whenreset.dev/"
+    },
+    {
+      "id": "didcodexreset",
+      "type": "heuristic_signal_tracker",
+      "url": "https://didcodexreset.com/"
+    },
+    {
+      "id": "codex-resets-tracker",
+      "type": "poisson_history_forecast",
+      "url": "https://codex-resets-tracker.com/codex-reset-forecast/"
+    },
+    {
+      "id": "resetbeacon",
+      "type": "public_signal_classifier",
+      "url": "https://resetbeacon.com/"
+    },
+    {
+      "id": "nextreset-dev",
+      "type": "public_history_tracker",
+      "url": "https://nextreset.dev/en/codex/"
+    },
+    {
+      "id": "aiplanwatch",
+      "type": "empirical_history_forecast",
+      "url": "https://codex-reset.aiplanwatch.com/"
+    },
+    {
+      "id": "official-reset-help",
+      "type": "official_general_policy",
+      "url": "https://help.openai.com/en/articles/20001498-how-resets-work-in-codex"
+    },
+    {
+      "id": "official-paid-help",
+      "type": "official_general_policy",
+      "url": "https://help.openai.com/en/articles/20001507-paid-weekly-work-and-codex-rate-limit-resets"
+    },
+    {
+      "id": "official-speed-help",
+      "type": "official_general_policy",
+      "url": "https://help.openai.com/en/articles/20001596-response-speed-and-usage-resets-in-work-and-codex"
+    },
+    {
+      "id": "openai-status",
+      "type": "official_service_status",
+      "url": "https://status.openai.com/"
+    },
+    {
+      "id": "official-changelog",
+      "type": "official_product_changelog",
+      "url": "https://learn.chatgpt.com/docs/changelog"
+    },
+    {
+      "id": "reset-history-repository",
+      "type": "dated_dataset_snapshot",
+      "url": "https://github.com/7and1/codex-reset-history"
+    },
+    {
+      "id": "will-tibo-reset",
+      "type": "heuristic_prompt_method",
+      "url": "https://github.com/RyuuMeow/Will-Tibo-Reset"
+    },
+    {
+      "id": "reset-radar-repository",
+      "type": "local_extension_method",
+      "url": "https://github.com/whmc76/codex-reset-radar"
+    },
+    {
+      "id": "quota-forecast-repository",
+      "type": "behavioral_recreation_of_heuristic",
+      "url": "https://github.com/MadanChaollaPark/codex-quota-reset-forecast"
+    },
+    {
+      "id": "gussuri-repository",
+      "type": "implementation_and_commit_evidence",
+      "url": "https://github.com/gussuri/codex-reset-observatory"
+    },
+    {
+      "id": "day18-announcement",
+      "type": "official_post_identity_relayed",
+      "url": "https://x.com/thsottiaux/status/2113492187770175603"
+    },
+    {
+      "id": "day18-timing-reply",
+      "type": "official_post_identity_relayed",
+      "url": "https://x.com/thsottiaux/status/2113492502355562875"
+    },
+    {
+      "id": "codex-reset-canonical-dataset",
+      "type": "canonical_event_dataset_partial_capture",
+      "url": "https://codex-reset.com/data/codex-resets.json"
+    }
+  ],
+  "edges": [
+    {
+      "from": "codex-reset-forecast",
+      "to": "day18-timing-reply",
+      "relation": "reuses_same_post_not_independent_official_evidence",
+      "evidence": [
+        "原采集证据未随展示副本提供"
+      ],
+      "evidence_strength": "explicit_saved_url_or_identifier"
+    },
+    {
+      "from": "codex-reset-feed",
+      "to": "day18-announcement",
+      "relation": "reuses_same_post_not_independent_official_evidence",
+      "evidence": [
+        "原采集证据未随展示副本提供"
+      ],
+      "evidence_strength": "explicit_saved_url_or_identifier"
+    },
+    {
+      "from": "codex-reset-feed",
+      "to": "day18-timing-reply",
+      "relation": "reuses_same_post_not_independent_official_evidence",
+      "evidence": [
+        "原采集证据未随展示副本提供"
+      ],
+      "evidence_strength": "explicit_saved_url_or_identifier"
+    },
+    {
+      "from": "nextreset-ai",
+      "to": "codex-resets-com",
+      "relation": "explicit_history_and_social_upstream",
+      "evidence": [
+        "原采集证据未随展示副本提供"
+      ],
+      "evidence_strength": "explicit_saved_url_or_identifier"
+    },
+    {
+      "from": "nextreset-ai",
+      "to": "openai-status",
+      "relation": "shared_source_or_method_dependency",
+      "evidence": [
+        "原采集证据未随展示副本提供"
+      ],
+      "evidence_strength": "explicit_saved_url_or_identifier"
+    },
+    {
+      "from": "nextreset-ai",
+      "to": "day18-timing-reply",
+      "relation": "reuses_same_post_not_independent_official_evidence",
+      "evidence": [
+        "原采集证据未随展示副本提供"
+      ],
+      "evidence_strength": "explicit_saved_url_or_identifier"
+    },
+    {
+      "from": "lunarwerx",
+      "to": "openai-status",
+      "relation": "shared_source_or_method_dependency",
+      "evidence": [
+        "原采集证据未随展示副本提供"
+      ],
+      "evidence_strength": "explicit_service_name_not_saved_upstream_url"
+    },
+    {
+      "from": "codexreset-ai",
+      "to": "whenreset-app",
+      "relation": "explicit_live_forecast_upstream",
+      "evidence": [
+        "原采集证据未随展示副本提供"
+      ],
+      "evidence_strength": "explicit_saved_url_or_identifier"
+    },
+    {
+      "from": "codexreset-ai",
+      "to": "codex-resets-com",
+      "relation": "explicit_early_history_seed_attribution",
+      "evidence": [
+        "原采集证据未随展示副本提供"
+      ],
+      "evidence_strength": "explicit_saved_url_or_identifier"
+    },
+    {
+      "from": "gussuri",
+      "to": "day18-announcement",
+      "relation": "reuses_same_post_not_independent_official_evidence",
+      "evidence": [
+        "原采集证据未随展示副本提供",
+        "原采集证据未随展示副本提供",
+        "原采集证据未随展示副本提供",
+        "原采集证据未随展示副本提供",
+        "原采集证据未随展示副本提供"
+      ],
+      "evidence_strength": "explicit_saved_url_or_identifier"
+    },
+    {
+      "from": "gussuri",
+      "to": "gussuri-repository",
+      "relation": "shared_source_or_method_dependency",
+      "evidence": [
+        "原采集证据未随展示副本提供",
+        "原采集证据未随展示副本提供",
+        "原采集证据未随展示副本提供",
+        "原采集证据未随展示副本提供",
+        "原采集证据未随展示副本提供"
+      ],
+      "evidence_strength": "explicit_saved_url_or_identifier"
+    },
+    {
+      "from": "codex-resets-com",
+      "to": "day18-timing-reply",
+      "relation": "indirect_reply_linkage_via_nextreset_api",
+      "evidence": [
+        "原采集证据未随展示副本提供",
+        "原采集证据未随展示副本提供",
+        "原采集证据未随展示副本提供"
+      ],
+      "evidence_strength": "indirect_republisher_attribution"
+    },
+    {
+      "from": "whenreset-app",
+      "to": "day18-announcement",
+      "relation": "inferred_same_event_from_matching_content_or_time",
+      "evidence": [
+        "原采集证据未随展示副本提供",
+        "原采集证据未随展示副本提供"
+      ],
+      "evidence_strength": "content_or_timestamp_match_not_saved_destination_url"
+    },
+    {
+      "from": "didcodexreset",
+      "to": "day18-announcement",
+      "relation": "inferred_same_event_from_matching_content_or_time",
+      "evidence": [
+        "原采集证据未随展示副本提供"
+      ],
+      "evidence_strength": "content_or_timestamp_match_not_saved_destination_url"
+    },
+    {
+      "from": "codex-resets-tracker",
+      "to": "day18-announcement",
+      "relation": "inferred_same_event_from_matching_content_or_time",
+      "evidence": [
+        "原采集证据未随展示副本提供"
+      ],
+      "evidence_strength": "content_or_timestamp_match_not_saved_destination_url"
+    },
+    {
+      "from": "codex-resets-tracker",
+      "to": "day18-timing-reply",
+      "relation": "inferred_same_event_from_matching_content_or_time",
+      "evidence": [
+        "原采集证据未随展示副本提供"
+      ],
+      "evidence_strength": "content_or_timestamp_match_not_saved_destination_url"
+    },
+    {
+      "from": "resetbeacon",
+      "to": "day18-announcement",
+      "relation": "inferred_same_event_from_matching_content_or_time",
+      "evidence": [
+        "原采集证据未随展示副本提供"
+      ],
+      "evidence_strength": "content_or_timestamp_match_not_saved_destination_url"
+    },
+    {
+      "from": "resetbeacon",
+      "to": "day18-timing-reply",
+      "relation": "inferred_same_event_from_matching_content_or_time",
+      "evidence": [
+        "原采集证据未随展示副本提供"
+      ],
+      "evidence_strength": "content_or_timestamp_match_not_saved_destination_url"
+    },
+    {
+      "from": "nextreset-dev",
+      "to": "day18-timing-reply",
+      "relation": "inferred_same_event_from_matching_content_or_time",
+      "evidence": [
+        "原采集证据未随展示副本提供"
+      ],
+      "evidence_strength": "content_or_timestamp_match_not_saved_destination_url"
+    },
+    {
+      "from": "reset-history-repository",
+      "to": "codex-reset-canonical-dataset",
+      "relation": "dated_snapshot_of_canonical_dataset",
+      "evidence": [
+        "原采集证据未随展示副本提供",
+        "原采集证据未随展示副本提供"
+      ],
+      "evidence_strength": "explicit_saved_url_or_identifier"
+    },
+    {
+      "from": "reset-radar-repository",
+      "to": "codex-resets-com",
+      "relation": "shared_source_or_method_dependency",
+      "evidence": [
+        "原采集证据未随展示副本提供",
+        "原采集证据未随展示副本提供"
+      ],
+      "evidence_strength": "explicit_saved_url_or_identifier"
+    },
+    {
+      "from": "reset-radar-repository",
+      "to": "openai-status",
+      "relation": "shared_source_or_method_dependency",
+      "evidence": [
+        "原采集证据未随展示副本提供",
+        "原采集证据未随展示副本提供"
+      ],
+      "evidence_strength": "explicit_saved_url_or_identifier"
+    }
+  ],
+  "unresolved": [
+    {
+      "sources": [
+        "codex-reset-forecast",
+        "codexlimits",
+        "gussuri"
+      ],
+      "question": "Were observations independently generated by distinct monitoring accounts?",
+      "answer": "Not established by saved evidence; do not multiply likelihoods or count three independent confirmations."
+    },
+    {
+      "sources": [
+        "didcodexreset"
+      ],
+      "question": "Does its expected deadline derive from the exact Day18 timing-reply post?",
+      "answer": "Not explicit in the saved excerpt. No dependency edge to that exact post is asserted."
+    }
+  ],
+  "rules": [
+    "Day18 announcement and timing reply belong to one planned-event source family.",
+    "Repeated tracker labels are not new official completion posts.",
+    "A source-code repository and the site implementing it are not independent event observations.",
+    "No averaged or consensus reset probability is computed."
+  ]
+}

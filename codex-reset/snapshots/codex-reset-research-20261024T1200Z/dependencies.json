@@ -1,0 +1,21 @@
+{
+  "baseline": "../codex-reset-research-20261024T0600Z/dependencies.json",
+  "explicit_shared_sources": [
+    {
+      "consumer": "nextreset.ai",
+      "history_and_social": "codex-resets.com/api/v1/resets and /status"
+    },
+    {
+      "consumer": "codexreset.ai",
+      "forecast": "whenreset.app/api/forecast",
+      "early_archive": "codex-resets.com"
+    }
+  ],
+  "same_original_or_wording_not_independent": [
+    "codex-resets.com",
+    "AIPlanWatch",
+    "whenreset.site"
+  ],
+  "operator_monitor_independence": "unresolved",
+  "new_gussuri_commit": "3d9408be874b8f1abecdefad5442ac13274e10f9 maintenance migration filename alignment, not event/receipt proof"
+}

@@ -1,0 +1,169 @@
+[
+  {
+    "id": "codex_reset",
+    "url": "https://codex-reset.com/api/forecast",
+    "status": "checked_current_round",
+    "record_kind": "forecast",
+    "source_updated_at_utc": "2026-10-23T05:51:50.555Z",
+    "retrieved_at_utc": "2026-10-23T06:06:36.330Z",
+    "snapshot_id": "codex_reset-20261023T0600Z",
+    "source_id_mapping": "Verified matching ID in recovered 10-21 HTML",
+    "limitations": [
+      "Active Day18 promise conflicts with QUIET/no-new-hint/history-only context copy.",
+      "The historical last-reset timestamp is a site assertion, not newly verified official completion.",
+      "Source reports low confidence and has not beaten both backtest baselines."
+    ]
+  },
+  {
+    "id": "nextreset",
+    "url": "https://nextreset.ai/api/forecast",
+    "status": "checked_current_round",
+    "record_kind": "forecast",
+    "source_updated_at_utc": "2026-10-23T06:00:21.705Z",
+    "retrieved_at_utc": "2026-10-23T06:07:48.606Z",
+    "snapshot_id": "nextreset-20261023T0600Z",
+    "source_id_mapping": "Verified matching ID in recovered 10-21 HTML",
+    "limitations": [
+      "Newly catalogued Day17 record uses feed_observation time and reuses the old timing reply, not a completion post.",
+      "Current announcement shares the same Day18 reply as other trackers; no independent signal vote."
+    ]
+  },
+  {
+    "id": "lunarwerx",
+    "url": "https://codex.lunarwerx.com/api/v1/forecast",
+    "status": "checked_current_round",
+    "record_kind": "forecast",
+    "source_updated_at_utc": "2026-10-23T06:00:29.040Z",
+    "retrieved_at_utc": "2026-10-23T06:07:48.606Z",
+    "snapshot_id": "lunarwerx-20261023T0600Z",
+    "source_id_mapping": "Verified matching ID in recovered 10-21 HTML",
+    "limitations": [
+      "Last reset remains Oct20 in this source.",
+      "Event-scope classification is from recovered 10-21 HTML, not freshly reverified method text.",
+      "Refresh cadence is not an independently verified expiry duration. Self-published accuracy is not ensemble calibration."
+    ]
+  },
+  {
+    "id": "codexreset_ai",
+    "url": "https://codexreset.ai/api/v1/forecast.json",
+    "status": "checked_current_round",
+    "record_kind": "forecast_relay",
+    "source_updated_at_utc": "2026-10-23T05:10:39Z",
+    "retrieved_at_utc": "2026-10-23T06:07:48.606Z",
+    "snapshot_id": "codexreset_ai-20261023T0600Z",
+    "source_id_mapping": "Verified matching ID in recovered 10-21 HTML",
+    "limitations": [
+      "Exact whenreset.app forecast relay, not an independent probability.",
+      "Upstream homepage classifies the new Day18 announcement as an already completed reset; future reply contradicts that interpretation."
+    ]
+  },
+  {
+    "id": "codex_resets",
+    "url": "https://codex-resets.com/",
+    "status": "checked_current_round",
+    "record_kind": "tracker_or_forecast",
+    "source_updated_at_utc": null,
+    "retrieved_at_utc": "2026-10-23T06:06:36.330Z",
+    "observation": "Archive shows 65 mixed records, latest Oct22 17:00 and next schedule Oct23 17:00. Catalogue status is not official completion.",
+    "source_id_mapping": "Verified matching ID in recovered 10-21 HTML",
+    "probabilities": null,
+    "raw_evidence_path": "原采集证据未随展示副本提供"
+  },
+  {
+    "id": "whenreset_app",
+    "url": "https://whenreset.app/",
+    "status": "checked_current_round",
+    "record_kind": "tracker_or_forecast",
+    "source_updated_at_utc": null,
+    "retrieved_at_utc": "2026-10-23T06:08:58.556Z",
+    "observation": "New Day18 announcement misclassified as latest completed reset; exact source generation time not exposed. Forecast is relayed by codexreset.ai.",
+    "source_id_mapping": "Verified matching ID in recovered 10-21 HTML",
+    "probabilities": null,
+    "raw_evidence_path": "原采集证据未随展示副本提供"
+  },
+  {
+    "id": "gussuri",
+    "url": "https://codex.gussuriworks.com/en",
+    "status": "checked_current_round",
+    "record_kind": "tracker_or_forecast",
+    "source_updated_at_utc": "2026-10-23T05:36:00Z",
+    "retrieved_at_utc": "2026-10-23T06:08:58.556Z",
+    "observation": "Displayed next24h 86%, next48h 94%; source-linked Day18 promise; planned UTC15:00-18:00 range is site inference.",
+    "source_id_mapping": "Verified matching ID in recovered 10-21 HTML",
+    "probabilities": {
+      "p24": 0.86,
+      "p48": 0.94
+    },
+    "raw_evidence_path": "原采集证据未随展示副本提供"
+  },
+  {
+    "id": "aiplanwatch",
+    "url": "https://codex-reset.aiplanwatch.com/",
+    "status": "checked_current_round",
+    "record_kind": "tracker_or_forecast",
+    "source_updated_at_utc": null,
+    "retrieved_at_utc": "2026-10-23T06:08:58.556Z",
+    "observation": "Next schedule Oct23 17:00. Numeric probability absent. Generic latest reset text is not a newly verified completion original.",
+    "source_id_mapping": "Verified matching ID in recovered 10-21 HTML",
+    "probabilities": null,
+    "raw_evidence_path": "原采集证据未随展示副本提供"
+  },
+  {
+    "id": "openai_how_resets_work",
+    "url": "https://help.openai.com/en/articles/20001498-how-resets-work-in-codex",
+    "status": "checked_current_round",
+    "record_kind": "official_rules",
+    "source_updated_at_utc": null,
+    "displayed_updated": "22 hours ago",
+    "retrieved_at_utc": "2026-10-23T06:08:04.327Z",
+    "findings_zh": [
+      "官方将促销reset区分为banked与automatic/global，并另列paid instant reset；三者均独立于常规自动额度刷新，不永久增额，也不添加usage credits。",
+      "Global免费自动应用于活动选择的账号和额度，并不意味着覆盖所有账号/所有额度；不入banked余额，不消耗未用banked，不退回此前已用banked，两者不叠加至200%。",
+      "Banked免费保存供稍后使用，收到不代表额度已刷新；兑换前看覆盖范围和过期时间。手动使用需至少一项覆盖额度剩余低于80%；助手兑换另需主5小时或周额度剩余不高于10%且逐次确认。",
+      "Banked full reset覆盖Go月额度、Plus/Business Standard的5小时及周额度、Pro 100/200/500的周额度；已100%的覆盖额度不重启。独立模型/功能额度不变。",
+      "30天History只显示banked received/used，不记录paid或global；缺失记录不能否认global，个人额度或刷新时间变化也不能单独识别某次global。",
+      "活动适用账号、时间和范围需看原公告；无固定免费发放保证。可见正文未出现可登记为本轮新发放的具体公告。"
+    ],
+    "source_id_mapping": "Match canonical URL in recovered latest base before assigning production ID",
+    "new_issuance_confirmed": false,
+    "scope_note": "Rules/method snapshot only; no exact prior-document diff and no inference of no event."
+  },
+  {
+    "id": "openai_paid_weekly_resets",
+    "url": "https://help.openai.com/en/articles/20001507-paid-weekly-work-and-codex-rate-limit-resets",
+    "status": "checked_current_round",
+    "record_kind": "official_rules",
+    "source_updated_at_utc": null,
+    "displayed_updated": "22 hours ago",
+    "retrieved_at_utc": "2026-10-23T06:08:04.327Z",
+    "findings_zh": [
+      "Paid reset只向符合条件的Plus/Pro个人账号提供，可能因账号/账单国家不同而异；Free、Go、Business、Enterprise、Edu不适用。",
+      "购买成功立即恢复适用额度，正文Overview明确写到5小时及周额度；不能bank、延后或先等剩余额度用完。",
+      "新周周期从reset应用后在Work/Codex的首次请求起算，下一次常规周刷新在该请求7天后，不一定是付款7天后；这是把正常周额度提前，而非额外独立权益。",
+      "桌面Usage购买入口可在已消耗部分额度后出现；周耗尽才触发单独付费banner，单独5小时耗尽不触发它。",
+      "Paid不同于usage credits和banked；一般不退款。本文为产品规则，并非某次免费global发放公告。"
+    ],
+    "source_id_mapping": "Match canonical URL in recovered latest base before assigning production ID",
+    "new_issuance_confirmed": false,
+    "scope_note": "Rules/method snapshot only; no exact prior-document diff and no inference of no event."
+  },
+  {
+    "id": "willtibo_skill",
+    "url": "https://github.com/RyuuMeow/Will-Tibo-Reset",
+    "status": "checked_current_round",
+    "record_kind": "heuristic_project",
+    "source_updated_at_utc": null,
+    "displayed_updated": null,
+    "retrieved_at_utc": "2026-10-23T06:08:19.374Z",
+    "findings_zh": [
+      "这是公开的预测提示词/skill项目，不是官方发放公告，也未提供本次观察时点的实际预测快照。",
+      "SKILL使用7天35%基线和人为信号加减分，限制到5–95%；其正文明确称其是推理辅助而非统计模型，没有提供校准证据。",
+      "默认要求24小时和个人周额度自然刷新前两个窗口；未知个人自然刷新时间则用7天。7天基线不可直接当作24小时概率。",
+      "声明输入包括Tibo原帖/回复、官方信息、竞争者和历史模式；依赖这些共同上游，不能因独立仓库就视为独立概率证据。",
+      "仅只读检查方法，不安装、不运行，不请求其中链接的X内容。"
+    ],
+    "source_id_mapping": "Verified matching ID in recovered 10-21 HTML",
+    "new_issuance_confirmed": false,
+    "scope_note": "Rules/method snapshot only; no exact prior-document diff and no inference of no event."
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "day18": {
+    "status": "Operator observations and fulfilled labels; no new official completion established",
+    "event_family": "Oct23 Day18 direct/shared reset",
+    "official_completion_url": null,
+    "all_account_eligibility_verified": false,
+    "account_receipt_checked": false
+  },
+  "new_post": {
+    "url": "https://x.com/thsottiaux/status/2113838156193894447",
+    "published_at_utc": "2026-10-24T03:41:04Z",
+    "classification": "Unrelated aphorism; third-party reset comment not Tibo statement"
+  },
+  "definitions": {
+    "shared_global_extra_reset": "Vendor-initiated usage refresh for eligible covered accounts, not necessarily every account",
+    "banked_grant": "Credit received; usage does not refresh until redeemed",
+    "paid_reset": "Purchased immediate refresh; not an extra shared event",
+    "personal_cycle": "Individual scheduled reset, excluded from shared-event predictions"
+  }
+}

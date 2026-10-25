@@ -1,0 +1,144 @@
+[
+  {
+    "source": "codex-reset.com",
+    "url": "https://codex-reset.com/api/forecast",
+    "source_timestamp_utc": "2026-10-24T23:33:49.037Z",
+    "percent_by_horizon_hours": {
+      "24": 38.90401292986312,
+      "48": 62.67280363925667
+    },
+    "method_limits": "Experimental model; not beating both baselines; no new official signal",
+    "expired_or_cadence_stale": null,
+    "account_delivery_probability": false,
+    "independently_calibrated": false,
+    "same_event_same_origin_comparable": false,
+    "nominal_rolling_window_ends": {
+      "24": "2026-10-25T23:33:49.037000Z",
+      "48": "2026-10-26T23:33:49.037000Z"
+    },
+    "freshness_status": "unknown",
+    "freshness_reason": "TTL or expiration not established; absence of expiry proof does not establish freshness."
+  },
+  {
+    "source": "NextReset",
+    "url": "https://nextreset.ai/api/forecast",
+    "source_timestamp_utc": "2026-10-24T23:35:22.061Z",
+    "percent_by_horizon_hours": {
+      "24": 19.967149153534525,
+      "48": 42.093780951577386,
+      "72": 60.45646324822492
+    },
+    "method_limits": "NR-1.7; depends on codex-resets.com; expires 23:50:22.061Z, already expired at retrieval",
+    "expired_or_cadence_stale": true,
+    "account_delivery_probability": false,
+    "independently_calibrated": false,
+    "same_event_same_origin_comparable": false,
+    "nominal_rolling_window_ends": {
+      "24": "2026-10-25T23:35:22.061000Z",
+      "48": "2026-10-26T23:35:22.061000Z",
+      "72": "2026-10-27T23:35:22.061000Z"
+    },
+    "freshness_status": "expired"
+  },
+  {
+    "source": "Lunarwerx",
+    "url": "https://codex.lunarwerx.com/api/v1/forecast",
+    "source_timestamp_utc": "2026-10-24T23:35:28.882Z",
+    "percent_by_horizon_hours": {
+      "6": 7.8,
+      "24": 33.1
+    },
+    "method_limits": "Self-reported replay and saved-forecast scores; not independently reproduced; refreshIntervalSeconds=300, older than expected cadence",
+    "expired_or_cadence_stale": true,
+    "account_delivery_probability": false,
+    "independently_calibrated": false,
+    "same_event_same_origin_comparable": false,
+    "nominal_rolling_window_ends": {
+      "6": "2026-10-25T05:35:28.882000Z",
+      "24": "2026-10-25T23:35:28.882000Z"
+    },
+    "freshness_status": "cadence_stale"
+  },
+  {
+    "source": "Gussuri",
+    "url": "https://codex.gussuriworks.com/en",
+    "source_timestamp_utc": "2026-10-24T22:49:00Z",
+    "percent_by_horizon_hours": {
+      "24": 23,
+      "48": 51
+    },
+    "method_limits": "Source update Oct25 07:49 JST converted to UTC; minute precision, model origin not separately supplied",
+    "expired_or_cadence_stale": null,
+    "account_delivery_probability": false,
+    "independently_calibrated": false,
+    "same_event_same_origin_comparable": false,
+    "origin_unknown": true,
+    "freshness_status": "unknown"
+  },
+  {
+    "source": "AIPlanWatch",
+    "url": "https://codex-reset.aiplanwatch.com/",
+    "source_timestamp_utc": null,
+    "percent_by_horizon_hours": {
+      "24": 26.8,
+      "48": 46.3,
+      "72": 61
+    },
+    "method_limits": "52 total intervals/41 comparable vs previous 42; cause unknown; old reset-completed paraphrase remains disputed",
+    "expired_or_cadence_stale": null,
+    "account_delivery_probability": false,
+    "independently_calibrated": false,
+    "same_event_same_origin_comparable": false,
+    "origin_unknown": true,
+    "freshness_status": "unknown"
+  },
+  {
+    "source": "Tracker",
+    "url": "https://codex-resets-tracker.com/codex-reset-forecast/",
+    "source_timestamp_utc": null,
+    "percent_by_horizon_hours": {
+      "24": 20,
+      "48": 36,
+      "72": 49
+    },
+    "method_limits": "Poisson model, 20 included records; source-check label Oct24 13:50 is not forecast origin and lacks timezone",
+    "expired_or_cadence_stale": null,
+    "account_delivery_probability": false,
+    "independently_calibrated": false,
+    "same_event_same_origin_comparable": false,
+    "origin_unknown": true,
+    "freshness_status": "unknown"
+  },
+  {
+    "source": "whenreset.online",
+    "url": "https://whenreset.online/?lang=en",
+    "source_timestamp_utc": null,
+    "percent_by_horizon_hours": {
+      "24": 75
+    },
+    "method_limits": "Mixed extra-reset ANNOUNCEMENT incl banked; manually imposed 75% floor, uncalibrated, not backtested; collected Oct24 23:45UTC not forecast origin",
+    "expired_or_cadence_stale": null,
+    "account_delivery_probability": false,
+    "independently_calibrated": false,
+    "same_event_same_origin_comparable": false,
+    "origin_unknown": true,
+    "freshness_status": "unknown",
+    "collection_cadence_stale": true,
+    "collection_timestamp_utc": "2026-10-24T23:45:00Z",
+    "collection_interval_seconds": 900,
+    "collection_cadence_evidence": "原采集证据未随展示副本提供 来源摘录 原摘录位置 and 原摘录位置; read after 00:03 UTC exceeds 15-minute cadence",
+    "forecast_freshness": "unknown"
+  },
+  {
+    "source": "codexreset.ai",
+    "url": "https://codexreset.ai/api/v1/forecast.json",
+    "source_timestamp_utc": "2026-10-24T20:50:33Z",
+    "percent_24h_48h_7d": [
+      12.96,
+      29.63,
+      72.22
+    ],
+    "method_limits": "Historical gap CDF, unwindowed; not forward conditional probability; whenreset.app upstream and codex-resets.com seed archive",
+    "same_event_same_origin_comparable": false
+  }
+]

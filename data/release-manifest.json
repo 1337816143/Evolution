@@ -1,9 +1,9 @@
 {
-  "version": "release-c337ac1adce9",
+  "version": "release-484c6beb027d",
   "mode": "site",
   "sourceRepository": "1337816143/My-Evolution",
-  "sourceCommit": "c337ac1adce9b27bd517678a53f69bf07c386c17",
-  "generatedAt": "2026-10-25T10:03:28+08:00",
+  "sourceCommit": "484c6beb027da87468569521c43a0f9f2433ac85",
+  "generatedAt": "2026-10-25T15:23:20+08:00",
   "modules": [
     "01-identity",
     "02-career-education",
@@ -41,6 +41,7 @@
     "ai-3d-lab",
     "career-workbench",
     "chatgpt-supply",
+    "codex-reset",
     "conversation-archive",
     "dot-records",
     "real-time-vector-keyframe",
@@ -358,6 +359,31 @@
     "updatedAt": "2026-10-23",
     "productCount": 41
   },
+  "codexReset": {
+    "status": "recovery-draft",
+    "complete58SourceRecovery": false,
+    "snapshotRound": "2026-10-25T06:00:00Z",
+    "entry": "pages/codex-reset.html",
+    "report": "codex-reset/read/index.html",
+    "appendedObservation": {
+      "path": "observations/20261025T0700Z.json",
+      "sha256": "ef4063a9bde9aea109dfe34cac068931260ca03074f6c871a24d3935b3131512"
+    },
+    "displayCopies": [
+      {
+        "path": "read/index.html",
+        "source": "index.html",
+        "sourceSha256": "319de913a083326e1acf4cdf1820b8e1d3248f4912397a1d036ba9e215f44f4e",
+        "sha256": "910700b521d8f8259b0aa8fd66c1a3b31339bee98574e7afcaef4f7a7b984ab0"
+      },
+      {
+        "path": "read/codex-reset-column-20261021-responsive.html",
+        "source": "historical/codex-reset-column-20261021-original.html",
+        "sourceSha256": "854db501efaa5e83e501e0600d8c13868088ff9a1d4e1d4c22b055405e533c37",
+        "sha256": "951e955099fd67bf339994516ee6f0414e02bd3c75446971e77c52d3607744df"
+      }
+    ]
+  },
   "promptLibrary": {
     "count": 16,
     "categories": [
@@ -443,6 +469,146 @@
       "sha256": "8a8b5b33c3d1234559f7d08ca999b6ee92f5a85d9613044ed12a47f0fa8bf88f"
     },
     {
+      "path": "codex-reset/historical/codex-reset-46-source-calls.html",
+      "sha256": "112d5216c820bc4ddc3ef71220446043e5445e92d9af9e3efabc0e376bb278ca"
+    },
+    {
+      "path": "codex-reset/historical/codex-reset-column-20261021-original.html",
+      "sha256": "854db501efaa5e83e501e0600d8c13868088ff9a1d4e1d4c22b055405e533c37"
+    },
+    {
+      "path": "codex-reset/historical/source-index-from-original-html.json",
+      "sha256": "d518eda5741ea91b5a301ab4ae8aa90db620523ae702fe9056931cb9db27695b"
+    },
+    {
+      "path": "codex-reset/index.html",
+      "sha256": "319de913a083326e1acf4cdf1820b8e1d3248f4912397a1d036ba9e215f44f4e"
+    },
+    {
+      "path": "codex-reset/observations/20261025T0700Z.json",
+      "sha256": "ef4063a9bde9aea109dfe34cac068931260ca03074f6c871a24d3935b3131512"
+    },
+    {
+      "path": "codex-reset/read/codex-reset-column-20261021-responsive.html",
+      "sha256": "951e955099fd67bf339994516ee6f0414e02bd3c75446971e77c52d3607744df"
+    },
+    {
+      "path": "codex-reset/read/index.html",
+      "sha256": "910700b521d8f8259b0aa8fd66c1a3b31339bee98574e7afcaef4f7a7b984ab0"
+    },
+    {
+      "path": "codex-reset/snapshots/codex-reset-research-20261023T0600Z/candidate-data/core-api-snapshots-increment.json",
+      "sha256": "fce32463435b97fede72eeba4acad6200fecd8a311aff505db6b9b81c7ef2a68"
+    },
+    {
+      "path": "codex-reset/snapshots/codex-reset-research-20261023T0600Z/candidate-data/dependencies-increment.json",
+      "sha256": "8e2ed1fc7ed2bff0e16c5b12e1ce801ff52ad543dbdad30ef7033bde6eb207c2"
+    },
+    {
+      "path": "codex-reset/snapshots/codex-reset-research-20261023T0600Z/candidate-data/events-increment.json",
+      "sha256": "35479ac40e98edeac1ecc7bd397ef17dd7cf5cfe7eee974a1c8e00642695e99c"
+    },
+    {
+      "path": "codex-reset/snapshots/codex-reset-research-20261023T0600Z/candidate-data/inventory-increment.json",
+      "sha256": "39f4bca0a92837c109587dbebc7f3b7785eb0de8aa8185516440946c707b7e73"
+    },
+    {
+      "path": "codex-reset/snapshots/codex-reset-research-20261023T1200Z/candidate-data/core-api-snapshots-increment.json",
+      "sha256": "6efe810ba8bf1a493881dcbd1ce9f152aa2238cd40eb77d1e7f5577e1624171c"
+    },
+    {
+      "path": "codex-reset/snapshots/codex-reset-research-20261023T1200Z/candidate-data/dependencies-increment.json",
+      "sha256": "44670c6b8e5e4e17a2347732d42e50a767bf7abb0612d1359b42dc112c86ca0a"
+    },
+    {
+      "path": "codex-reset/snapshots/codex-reset-research-20261023T1200Z/candidate-data/events-increment.json",
+      "sha256": "6f41c40a92992c3dc8a4cd4a46a79d4873add8b91bdef9603cfebc49010e1226"
+    },
+    {
+      "path": "codex-reset/snapshots/codex-reset-research-20261023T1200Z/candidate-data/inventory-increment.json",
+      "sha256": "0dc935613dfc0621dfa19fe0dbaf6fe050526b8322e42077006f2ffe3c11f23a"
+    },
+    {
+      "path": "codex-reset/snapshots/codex-reset-research-20261023T1800Z/dependencies.json",
+      "sha256": "ee150ca05f097c1ca758b47eb6a2e20a6a1374b4c328f470ea101233fc49400f"
+    },
+    {
+      "path": "codex-reset/snapshots/codex-reset-research-20261023T1800Z/events.json",
+      "sha256": "d9275fe2c49c958047e9108577769444a76c9357c1c17a3488042983b6646a63"
+    },
+    {
+      "path": "codex-reset/snapshots/codex-reset-research-20261024T0000Z/dependencies.json",
+      "sha256": "ca796d1aaf7d5da8156a205edf68a9d5bc52a017bd0bced0bbde15b0bafb0416"
+    },
+    {
+      "path": "codex-reset/snapshots/codex-reset-research-20261024T0000Z/events.json",
+      "sha256": "78655f53f790716d0a33220ae2ee98cbbff2138ed2f24b4f0e5b4ef4495b4b4d"
+    },
+    {
+      "path": "codex-reset/snapshots/codex-reset-research-20261024T0000Z/prediction-snapshots.json",
+      "sha256": "8e72395be1e5498dfdc9c6d363d759489a26574ff560f7a877e40f9c82060631"
+    },
+    {
+      "path": "codex-reset/snapshots/codex-reset-research-20261024T0600Z/dependencies.json",
+      "sha256": "c78412ac093709f89fa9655dd96463ed4509aa94f93ac3d8f741434b630d697b"
+    },
+    {
+      "path": "codex-reset/snapshots/codex-reset-research-20261024T0600Z/events.json",
+      "sha256": "92fa413c8eb6089948614f5aef2646521c680a2cfac6303c75fa739c2c631cfd"
+    },
+    {
+      "path": "codex-reset/snapshots/codex-reset-research-20261024T0600Z/prediction-snapshots.json",
+      "sha256": "673b19f6a42a2f5f7f8ad9ed908c4e7fea8a0e6327db8def732c71ab2fb3c233"
+    },
+    {
+      "path": "codex-reset/snapshots/codex-reset-research-20261024T1200Z/dependencies.json",
+      "sha256": "3ff3d3ff23bec6c5cc760f7c2a06b49c3bda5846e1e6a05959c892e0b10576cc"
+    },
+    {
+      "path": "codex-reset/snapshots/codex-reset-research-20261024T1200Z/events.json",
+      "sha256": "7581e27e300d2d08996d6577a619ebfb928b0aa2d7aed5a25a12ec96131f3fe8"
+    },
+    {
+      "path": "codex-reset/snapshots/codex-reset-research-20261024T1200Z/prediction-snapshots.json",
+      "sha256": "3f0a45434fee3f23e63cb8b36622085871df92e1d6d437073d50526fee51c1f8"
+    },
+    {
+      "path": "codex-reset/snapshots/codex-reset-research-20261024T1800Z/dependencies.json",
+      "sha256": "ffde058896004379ba5fb334c288ce0e2b31a63d2fd071e1dd4daf757a2346f5"
+    },
+    {
+      "path": "codex-reset/snapshots/codex-reset-research-20261024T1800Z/events.json",
+      "sha256": "7919d838d16f52c7a1758642aac3dc0a117aa9e0e9007e453bb045b37cb1f6fd"
+    },
+    {
+      "path": "codex-reset/snapshots/codex-reset-research-20261024T1800Z/prediction-snapshots.json",
+      "sha256": "c6fee148c6d17e213cc5957e916a9653167f669917dc2fb348f7c77e9007702a"
+    },
+    {
+      "path": "codex-reset/snapshots/codex-reset-research-20261025T0000Z/dependencies.json",
+      "sha256": "3cc78c74f537e20aacfad605e11a804577147cd080a60a7aba5c665058b9700b"
+    },
+    {
+      "path": "codex-reset/snapshots/codex-reset-research-20261025T0000Z/events.json",
+      "sha256": "c9f8e3a664ecb147d87122941c583b77e1cb1b37dc854c6b1fd0d5d9724f24dc"
+    },
+    {
+      "path": "codex-reset/snapshots/codex-reset-research-20261025T0000Z/prediction-snapshots.json",
+      "sha256": "8eb9f48f8d420fe306551457d5ac21c7015d038eff3891322b05609194469471"
+    },
+    {
+      "path": "codex-reset/snapshots/codex-reset-research-20261025T0600Z/dependencies.json",
+      "sha256": "d1dd3cfd99851bfe2253026369a58a76759a04a4fc5832a81585d8688d4bf478"
+    },
+    {
+      "path": "codex-reset/snapshots/codex-reset-research-20261025T0600Z/events.json",
+      "sha256": "501a1b6da917e87b370fa178b45034b0342457df936ef68af3e34b3a03f8cf8e"
+    },
+    {
+      "path": "codex-reset/snapshots/codex-reset-research-20261025T0600Z/prediction-snapshots.json",
+      "sha256": "5261f97c56c575000f400e49446c9d6d7139e8252c9a6045440982cd6a62b22b"
+    },
+    {
       "path": "data/ai-3d-prompts.json",
       "sha256": "8f89994970fe26e8995d1c55b2e0c7d33b3364a1d48f38f119e263b0f8f9993f"
     },
@@ -484,11 +650,11 @@
     },
     {
       "path": "data/prompts.json",
-      "sha256": "062778b7596a866e2002bfb29a2801a231c60c34875bbb4f6676c73fcb9f9ddd"
+      "sha256": "a122bdb8cc3a75f5d265950a6fa852fcc1d93535199c8d989c6f89472157b625"
     },
     {
       "path": "data/search-index.json",
-      "sha256": "2148ba5ab0296346f7c7c969a9c06a7af6b468ceec5e0ded6800513d62ca49a4"
+      "sha256": "ec67d0009601bd4f110e5809426682cd74a80d04482b84a18cab85d3737672b2"
     },
     {
       "path": "data/smartdrop-project.json",
@@ -504,7 +670,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "29e73755de6cf21ea265bd1250c50908900f4d033c64631707aa7657c97a3bf9"
+      "sha256": "6b433cf89aba8f06620169a8a677acd21d273484cabf755f56a38fcc0d2854d3"
     },
     {
       "path": "mydotwork/chat/coverage.json",
@@ -636,119 +802,123 @@
     },
     {
       "path": "pages/01-identity.html",
-      "sha256": "794525ad495bf0f4f3fdad310c636a63c2e4138fb4ce043b0bf3455d1ff3c696"
+      "sha256": "b61fbef6c28c90d38ef6728e3b99100472569011a6c651640118b654f52099b8"
     },
     {
       "path": "pages/02-career-education.html",
-      "sha256": "267cb315830cc0b81976c68ddf1fc91320391c74d299ed31d4489fe8e5828dfd"
+      "sha256": "461d45ad762966741b6534aa67719c21534f658118cf5a460cf4cc2fe2f52b20"
     },
     {
       "path": "pages/03-knowledge-learning.html",
-      "sha256": "4f00892864d899457a472cd311b907012c35eede9f468d969f0d20a99c14f9e2"
+      "sha256": "dc5ad566e8bed03ab0f70fc675c9609e7534f9ffc8b320a958b8b34eed56d310"
     },
     {
       "path": "pages/04-health-energy.html",
-      "sha256": "4a592679638fed9ef67af1f6019869d9baa90c1d7a8f2c550e762ecf8a2f05f5"
+      "sha256": "9731c40c842ad8d69e7ed366afb5a8cce1e14f7b3ed5b07598ddf6b35b5b837f"
     },
     {
       "path": "pages/05-relationships-family.html",
-      "sha256": "c1b62dd40cf0c9d513046bef06a13600560d2a36279e0066f42f652a16a4fa09"
+      "sha256": "d0fe0e67c76911dff2c173d4914930d165f3962279914b63f4afe5dada0d286f"
     },
     {
       "path": "pages/06-finance-assets.html",
-      "sha256": "72a889a636bcd3ce51febc304bb21c2c99c3d36293bd439bda23b3eaca3776e3"
+      "sha256": "30ea5756211b942f6697ee7864da611dbb70b6b783f4d70aaca2dbcddafef1b9"
     },
     {
       "path": "pages/07-projects-products.html",
-      "sha256": "1a820ce215d8967f71378e0692bd549b884e5555d336b1888087d337c7308b1e"
+      "sha256": "89de6b000b97967f65ee2cafc3b9814d785e31e93b9220de570eb6541241d3c6"
     },
     {
       "path": "pages/08-ai-digital-systems.html",
-      "sha256": "fa8c56d5d73628de07ce4824a8478e860fd9cdf03aeebb1360254b3fcc70124b"
+      "sha256": "72f93da455d167d8c3b424cba0510bb9ab7f5b4e3fc46aaab1d8f48c86e0a9a7"
     },
     {
       "path": "pages/09-communication-language.html",
-      "sha256": "f4ddd71304f08e1f11b922a201137f8be95cf964b711538c09344987f6a6d6f1"
+      "sha256": "e85143f93b41bec21a526f652b5e852006e7fcfa6d51f509f021fb1b1ce3f8c2"
     },
     {
       "path": "pages/10-creativity-design.html",
-      "sha256": "b390e7baf87fd57519871d06af337e03488d68535698b30d846bdc10b3ab6a81"
+      "sha256": "8bd2eec6e41230ff93e719ffe8337111cecb8d1f0450ff99d8ad8ce233ec509f"
     },
     {
       "path": "pages/11-travel-experience.html",
-      "sha256": "dfb907c76e74837fe92e1114c2fe2848496d3f0bdbdea7eef403b39a80034f17"
+      "sha256": "613c4a007c21fef854b3673ee32beccf1c5716f1007c185bcf1cf4d5eafcf3f1"
     },
     {
       "path": "pages/12-habits-productivity.html",
-      "sha256": "d085613af1cf898c2903a4e1c6df7f0c50a1e0c67c2c02c3089e4d12a6299ce0"
+      "sha256": "7ca1c4a94481838cc5c67dccd879a6faac914544772cead34514b6ede5c348c3"
     },
     {
       "path": "pages/13-values-meaning.html",
-      "sha256": "c2f0a9d737a75d74e9de0caabce39b0cc4dc094568815f23c49d52236dc6aac3"
+      "sha256": "3e5ec7d9f888ada70c8bfa03da58c932b7a557ca87f5ea3b292ceae08bd17702"
     },
     {
       "path": "pages/14-network-reputation.html",
-      "sha256": "cdafc9a404d8aab1ae9a996f41d9d02046151f96d0e586f045470c87fae1a0f8"
+      "sha256": "b48adbae4c656b6c9c0b1975745680a0361dd9698659aea94b74b79859d5922f"
     },
     {
       "path": "pages/15-review-evolution.html",
-      "sha256": "76ebf0cb60baaa5add9b5e331821c55495f9f8a8c91e420cc53f879b66f140c0"
+      "sha256": "45ff43fac3648bcb9baa2fa30c566fc66e455a061714cc109eab074487d01e9c"
     },
     {
       "path": "pages/ai-3d-lab.html",
-      "sha256": "7977b056f84fe7bdc9153ab6221c9d7b70aa25ad7aa802b479e4c4c409eddd06"
+      "sha256": "b330cf3239a1806a6cf5b9e6c30230e65c65347455ac0d2e21aca6abbc62cfeb"
     },
     {
       "path": "pages/ai-glasses-preview.html",
-      "sha256": "466a50b13b920b4407531f17e20783d864c182271866311de461fcf622082a55"
+      "sha256": "45a5667c1dd0627ade79b850a42cffedfc3871e80bf93eb065c305ddcb698a82"
     },
     {
       "path": "pages/ai-glasses.html",
-      "sha256": "f2fdc03c09243f5045040fb0c4dc36fe8a941c12377830082d0ea76719f85a8a"
+      "sha256": "ca2b763f1d5aaa6c40307c36f4e3518d135f56fba66068c833955d66b44f7436"
     },
     {
       "path": "pages/architecture.html",
-      "sha256": "4dbd67e2b950fa58f2e93823e36c449034c14fd053adf012e5cdafec44162b48"
+      "sha256": "7e661c1a0d3fc3c6ccf91b6a5e164ec07c2689c0edbdde30c5444a7912b8d4f3"
     },
     {
       "path": "pages/career-decision-method.html",
-      "sha256": "a345cc2264f48d484249d2211245aa0dda4dc16c94b38ebbce63f3b0be3116a0"
+      "sha256": "4dccd90869dd1109ad16dbdecd58f786e2defdf9df9eb018410c596d011174d9"
     },
     {
       "path": "pages/career-workbench.html",
-      "sha256": "2f8fa7f19296d57ecfe6abbcc36ab39097f51142d24484b5e337460c5b74e56c"
+      "sha256": "d22017896c86efb2c1daefd42d7df7cfe731506f74b0a2844b664e02c40e6957"
     },
     {
       "path": "pages/chatgpt-supply.html",
-      "sha256": "7f7ef9612161af7466017696585800c9f4648e451bc41bc436750428fe276eef"
+      "sha256": "67f520fdca0d7f2d9c31612a11da47823cb616474a1d75fc2de0c5538200b9de"
+    },
+    {
+      "path": "pages/codex-reset.html",
+      "sha256": "7e765f2d1d2273257ccd17fd3a790f6fc84838a9d9a17488891e05fac6b4bcaa"
     },
     {
       "path": "pages/conversation-archive.html",
-      "sha256": "85eb37e8802a24b4c8925f05b76a6666b7d8f82bf17d77716f5649c0c0c5f1c5"
+      "sha256": "e30af94d5438eb8b06cdd439e41d7693a86c168ff6a6d610dea021c86de9b976"
     },
     {
       "path": "pages/dot-records.html",
-      "sha256": "1c360eed8e3ce675e27ee3904277ac7aa87b1d7be59007041e2091473e7fa0ac"
+      "sha256": "6b3f2146a02dbc0c66be37afdeb2ebd7e02a00139a5eeff69c1c333fe6ab353f"
     },
     {
       "path": "pages/my-prompts.html",
-      "sha256": "dcecbc856685ca43ec5dee15a937a0e6c7dbf1e6f831f53bcc0ec792a2952a0d"
+      "sha256": "7bad34d94bb39538f8514a5726c2188ff65be6cee582f6ff02a90f79519e0fb2"
     },
     {
       "path": "pages/privacy.html",
-      "sha256": "d86d1564cc6ebe41505fabec58af4b688a5336b30017957d35613a142ad6d9a6"
+      "sha256": "29daf227279f8123d944371dcf70f64b832b38580744758c959dc801d6cc45ad"
     },
     {
       "path": "pages/real-time-vector-keyframe.html",
-      "sha256": "8e56c53a8d9590a579b6e006abf67da8425adfe5d290ed48cf65c9370ab04bc9"
+      "sha256": "abd18e767dae3bacc6acdd723746c407bb67c23f0531fc907f37e7e05921682a"
     },
     {
       "path": "pages/smartdrop.html",
-      "sha256": "a635ba71186048ba63499c479082632666a9ae4e056ad8fd35c0652e83eb5fb2"
+      "sha256": "0f97f4ad07a382b6c2067316aacdfe3452bb1ba5def1f74423981ccfe2fd4f4a"
     },
     {
       "path": "pages/system-dashboard.html",
-      "sha256": "bef5de4798b47ed02062920edf2b3bcfcb4ae788bc56cc15dc75d0c85cb752e8"
+      "sha256": "9fe9caa8883790ba33aa09d35ca1e981265f0f5d2005d60d50f068f28ed64346"
     },
     {
       "path": "paper/.nojekyll",
@@ -3388,7 +3558,7 @@
     }
   ],
   "searchIndex": {
-    "count": 174,
+    "count": 180,
     "types": [
       "module",
       "page",
