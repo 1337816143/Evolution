@@ -35,9 +35,23 @@ async function digest(value){
 function create(gates){
   let db=null,opening=null;
   const listeners=new Set();let channel=null;
-  try{if(globalThis.BroadcastChannel){channel=new BroadcastChannel(DB);channel.onmessage=()=>listeners.forEach(fn=>fn())}}catch{}
-  if(globalThis.addEventListener)globalThis.addEventListener('storage',event=>{if(event.key===SIGNAL||event.key===LEGACY)listeners.forEach(fn=>fn())});
-  function notify(){try{channel?.postMessage('changed')}catch{}try{localStorage.setItem(SIGNAL,crypto.randomUUID())}catch{}listeners.forEach(fn=>fn())}
+  // Notification failures must not turn an already committed add into a rejected save.
+  // Keep failures observable without letting one subscriber block the others.
+  function reportListenerError(){
+    // Subscriber exceptions may contain private record data. Never forward them.
+    const diagnostic=new Error('SmartDrop record change subscriber failed');
+    diagnostic.code='SMARTDROP_SUBSCRIBER_FAILED';
+    try{if(typeof globalThis.reportError==='function'){globalThis.reportError(diagnostic);return}}catch{}
+    try{globalThis.console?.error('SMARTDROP_SUBSCRIBER_FAILED: SmartDrop record change subscriber failed')}catch{}
+  }
+  function notifyListeners(){
+    for(const fn of [...listeners]){
+      try{Promise.resolve(fn()).catch(reportListenerError)}catch(error){reportListenerError(error)}
+    }
+  }
+  try{if(globalThis.BroadcastChannel){channel=new BroadcastChannel(DB);channel.onmessage=notifyListeners}}catch{}
+  if(globalThis.addEventListener)globalThis.addEventListener('storage',event=>{if(event.key===SIGNAL||event.key===LEGACY)notifyListeners()});
+  function notify(){try{channel?.postMessage('changed')}catch{}try{localStorage.setItem(SIGNAL,crypto.randomUUID())}catch{}notifyListeners()}
   function legacyText(){try{return localStorage.getItem(LEGACY)}catch{throw Error('浏览器拒绝读取旧记录，不能把它当作空白；旧存储未修改，请检查网站存储权限后重试')}}
   async function open(){
     if(db)return db;
@@ -49,7 +63,13 @@ function create(gates){
       request.onupgradeneeded=()=>{for(const [name,keyPath] of [['records','id'],['quarantine','id'],['imports','id']])if(!request.result.objectStoreNames.contains(name))request.result.createObjectStore(name,{keyPath})};
       request.onblocked=()=>{blocked=true;reject(Error('存储升级被其他页面阻挡，请关闭旧页面后重试；旧记录未修改'))};
       request.onerror=()=>reject(request.error||Error('无法打开本机事务存储'));
-      request.onsuccess=()=>{if(blocked){request.result.close();return}db=request.result;db.onversionchange=()=>{db.close();db=null;opening=null};resolve(db)};
+      request.onsuccess=()=>{if(blocked){request.result.close();return}const connection=request.result;
+        const forget=()=>{if(db===connection){db=null;opening=null}};
+        connection.onversionchange=()=>{connection.close();forget()};
+        // An unexpected close invalidates only this cached connection. Never retry
+        // a write automatically: its commit outcome may not be known to this page.
+        connection.onclose=forget;
+        db=connection;resolve(connection)};
     }).catch(error=>{opening=null;throw error});
     return opening;
   }
