@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "observed_at_utc": "2026-10-26T06:04:07Z",
+  "source_published_at_utc": "2026-10-26T05:21:22Z",
+  "event_key": "2114588174249071102",
+  "campaign_day": 21,
+  "status": "relayed_commitment_unverified_primary",
+  "title_zh": "Day21出现新的重置信号，完成仍待核验",
+  "summary_zh": "公开追踪站转述Tibo的Day21帖称今天会有重置。原帖读取受限，本轮未直接核验原文，也未建立已完成重置或实际账户到账。",
+  "primary_url": "https://x.com/thsottiaux/status/2114588174249071102",
+  "primary_access": "403; no retry or bypass",
+  "supporting_urls": [
+    "https://codex-reset.com/api/forecast",
+    "https://codex-reset.aiplanwatch.com/",
+    "https://nextreset.ai/api/forecast"
+  ],
+  "deduplication": "同一原帖的多个转述，不是多次事件或独立概率",
+  "completion_verified": false,
+  "eligibility": "unknown",
+  "official_deadline_utc": null,
+  "forecast_probability": null,
+  "caveat_zh": "预测与公开信号不保证实际账户到账；不将第三方时间推导写成官方截止。",
+  "source_published_at_utc_provenance": "第三方报告的原帖时间，未直接核验原帖",
+  "historical_forecast_policy_zh": "旧预测只作历史快照，不代表当前概率；本条不发布概率或官方截止时间。"
+}
