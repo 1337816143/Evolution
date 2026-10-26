@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "nominal_round": "2026-10-26T12:00:00Z",
+  "retrieved_start_utc": "2026-10-26T11:57:13Z",
+  "retrieved_end_utc": "2026-10-26T11:58:36Z",
+  "first_observed_this_research_utc": "2026-10-26T11:57:19Z",
+  "event_key": "2114588174249071102",
+  "campaign_day": 21,
+  "status": "third_party_operator_observed_recovery_pending_official_completion",
+  "new_event": false,
+  "operator_observed_at_utc": "2026-10-26T06:08:46Z",
+  "operator_source": "https://codex-reset.com/api/forecast",
+  "confirmed_at": null,
+  "confirmation_url": null,
+  "primary_url": "https://x.com/thsottiaux/status/2114588174249071102",
+  "primary_access": "Previously 403; not retried or bypassed",
+  "completion_verified": false,
+  "official_completion_verified": false,
+  "personal_account_delivery_verified": false,
+  "eligibility": "unknown",
+  "official_deadline_utc": null,
+  "forecast_probability": null,
+  "nextreset": {
+    "url": "https://nextreset.ai/api/forecast",
+    "history_events": 58,
+    "previous_history_events": 57,
+    "catalogued_at_utc": "2026-10-26T07:00:00Z",
+    "timeBasis": "feed_observation",
+    "discovered_at_utc": "2026-10-26T07:05:22.154Z",
+    "not_universal_delivery_time": true
+  },
+  "supporting_observations": [
+    {
+      "url": "https://resetbeacon.com/",
+      "interpretation": "运营方自有账号恢复及未具名的另一来源；独立性未建立，非用户账号到账证明。"
+    },
+    {
+      "url": "https://didcodexreset.com/history/1792995000000.html",
+      "interpretation": "无X完成帖的站方分类；90%是分类置信度，不是重置或个人到账概率。"
+    },
+    {
+      "url": "https://codex.gussuriworks.com/en",
+      "interpretation": "第三方监测周限额恢复，报告06:09 UTC；非统一到账时刻。"
+    }
+  ],
+  "deduplication": "同一Day21原帖的状态更新，不新增事件。NextReset依赖codex-resets feed；TiboReset与Reset NE沿用codex-reset数据；同源转述不计独立证据。",
+  "classification_zh": "追踪站归类为自动/全局恢复；不代表所有方案或账户。未建立新增banked发放、兑换、付费重置或个人周期刷新。",
+  "historical_policy_zh": "保留0600冻结记录；06:08:46为来源回报的运营方观测时间，不是本研究当时已核验。事件后滚动预测不能倒填早先预测命中。NextReset本轮预测于12:10:22.209 UTC过期，本条不发布当前概率。",
+  "caveat_zh": "第三方运营方观测恢复；官方完成及个人账户到账未核验，预测与公开信号不保证实际账户到账。"
+}
