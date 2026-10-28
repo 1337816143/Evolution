@@ -1,0 +1,441 @@
+{
+  "schema_version": 1,
+  "nominal_round": "2026-10-28T06:00:00Z",
+  "retrieved_start_utc": "2026-10-28T06:05:30Z",
+  "retrieved_end_utc": "2026-10-28T06:07:27Z",
+  "retrieval_precision": "bounded tool-retrieval interval, not per-call exact timestamps",
+  "campaign_day": 23,
+  "event_key": "2115273064481218829",
+  "status": "relayed_commitment_with_conflicting_completion_classifications",
+  "primary_originals": [
+    {
+      "url": "https://x.com/thsottiaux/status/2115273064481218829",
+      "reported_publication_utc": "2026-10-28T02:42:53Z",
+      "http_status": 403,
+      "original_verified": false
+    },
+    {
+      "url": "https://x.com/thsottiaux/status/2115273253711409208",
+      "reported_publication_utc": "2026-10-28T02:43:38Z",
+      "http_status": 403,
+      "original_verified": false
+    },
+    {
+      "url": "https://x.com/thsottiaux/status/2115297093879472332",
+      "reported_publication_utc": "2026-10-28T04:18:00Z",
+      "http_status": 403,
+      "original_verified": false
+    }
+  ],
+  "completion_verified": false,
+  "official_completion_verified": false,
+  "personal_account_delivery_verified": false,
+  "confirmed_at": null,
+  "confirmation_url": null,
+  "official_deadline_utc": null,
+  "forecast_probability": null,
+  "eligibility": "unknown",
+  "delivery_type": "unverified_from_original",
+  "event_definition_zh": "公开追踪站转述的Day23重置承诺；额外全局自动重置的具体范围与实际执行未核实。没有建立banked发放或兑换、付费重置、个人周期刷新的新增证据。",
+  "deadline_interpretations": [
+    {
+      "basis": "实际洛杉矶当地午夜（PDT，UTC−7）",
+      "utc": "2026-10-28T07:00:00Z",
+      "beijing": "2026-10-28T15:00:00+08:00"
+    },
+    {
+      "basis": "原转述字面PST固定UTC−8",
+      "utc": "2026-10-28T08:00:00Z",
+      "beijing": "2026-10-28T16:00:00+08:00"
+    }
+  ],
+  "completion_conflict": {
+    "reported_post_utc": "2026-10-28T04:18:00Z",
+    "completion_labels": [
+      "https://codex-reset.aiplanwatch.com/",
+      "https://codex-reset.today/"
+    ],
+    "ordinary_or_pending_labels": [
+      "https://tiboreset.com/forecast",
+      "https://codex-reset.com/api/forecast"
+    ],
+    "short_link_referent_verified": false,
+    "interpretation_zh": "部分站点把含has landed的短链接帖归为完成，另一些仍归为普通动态或待执行。原帖与短链接指向未核验，不能据分类确认重置完成。"
+  },
+  "source_urls": [
+    "https://codex-reset.com/api/forecast",
+    "https://github.com/PengZoneLab/thsottiaux-Tibo-x-monitor/blob/master/latest.md",
+    "https://codex.gussuriworks.com/en",
+    "https://codex-reset.aiplanwatch.com/",
+    "https://codex-reset.today/",
+    "https://tiboreset.com/forecast",
+    "https://nextreset.ai/api/forecast"
+  ],
+  "deduplication_zh": "同一Day23原帖及回复的转载只是一组共同信号；多站数目不等于独立官方证据或独立概率。NextReset使用codex-resets.com历史/状态；共享输入须去重。",
+  "forecast_policy_zh": "不发布本研究综合概率。信号分、主观数值、模型值不能互换；不同目标、起点、窗口不求平均。NextReset从历史不可用恢复不是由0上升，本轮来源快照06:10:22.122 UTC到期，不沿用为当前概率。",
+  "history_policy_zh": "追加保存本轮，旧Day21/Day20观察和所有原预测字节不变。来源报告的发帖时间不是本研究当时已核验；失败抓取不是没有发生。",
+  "caveat_zh": "原文未核验、完成未核验、适用范围未知；预测和公开信号不保证实际账户到账。",
+  "frozen_prediction_snapshots": [
+    {
+      "source": "NextReset",
+      "url": "https://nextreset.ai/api/forecast",
+      "values": {
+        "24h": 96.35340397661369,
+        "48h": 97.52328411729194,
+        "72h": 98
+      },
+      "forecast_origin_utc": "2026-10-28T05:55:22.122Z",
+      "source_updated_at_utc": "2026-10-28T05:55:22.122Z",
+      "method": "NR1.7 announcement-conditioned prior0.95; codex-resets.com history/status",
+      "limitations": "Recovered from00Zunavailable, notincreasefromzero; expires06:10:22.122Z. SharedDay23signal, independentlyuncalibrated.",
+      "status": "announced",
+      "same_window_revision_established": false,
+      "independently_calibrated": false,
+      "account_delivery_probability": false,
+      "display_use": "frozen_source_snapshot_only_not_current_probability",
+      "expires_at_utc": "2026-10-28T06:10:22.122Z",
+      "freshness_at_candidate_build": "expired"
+    },
+    {
+      "source": "codex-reset",
+      "url": "https://codex-reset.com/api/forecast",
+      "values": {
+        "raw24h": 52.83236586701121,
+        "raw48h": 77.7521429029651,
+        "display24h": 46,
+        "display48h": 71,
+        "commitment_score_not_probability": 93
+      },
+      "forecast_origin_utc": null,
+      "source_updated_at_utc": "2026-10-28T05:43:48.667Z",
+      "method": "rate-v3 plus datedcommitmentscore",
+      "limitations": "Sourceupdated_at notprovenforecastorigin; 93notcalibratedprobability; deadline07Z adoptslocalPT interpretation.",
+      "status": "announced",
+      "same_window_revision_established": false,
+      "independently_calibrated": false,
+      "account_delivery_probability": false,
+      "display_use": "frozen_source_snapshot_only_not_current_probability"
+    },
+    {
+      "source": "CodexResetNews",
+      "url": "https://www.codexreset-news.com/?lang=en",
+      "values": {
+        "BeijingOct28remaining": 99,
+        "BeijingOct29": 5
+      },
+      "forecast_origin_utc": null,
+      "source_updated_at_utc": "2026-10-28T04:06:00Z",
+      "method": "99user-setsubjective;5GLMscenarioheuristic",
+      "limitations": "99updated03:19Z;5updated04:06Z. Neitherpercentagecalibrated. Genericcompletebannersconflictwith explicitnocompletiondetail. Remainingwindowchanged, notsamewindow23→99.",
+      "status": "announced_conflicting_banner",
+      "same_window_revision_established": false,
+      "independently_calibrated": false,
+      "account_delivery_probability": false,
+      "display_use": "frozen_source_snapshot_only_not_current_probability"
+    },
+    {
+      "source": "ResetNE",
+      "url": "https://codex-reset-index.vercel.app/en",
+      "values": {
+        "72h": 80
+      },
+      "forecast_origin_utc": "2026-10-27T02:22:00Z",
+      "source_updated_at_utc": "2026-10-27T02:22:00Z",
+      "method": "retained72hforecast",
+      "limitations": "EndsOct30 02:22Z unchanged; announceddeadlinePSTlabel separate; completionnotconfirmed.",
+      "status": "forecast",
+      "same_window_revision_established": false,
+      "independently_calibrated": false,
+      "account_delivery_probability": false,
+      "display_use": "frozen_source_snapshot_only_not_current_probability"
+    },
+    {
+      "source": "TiboReset",
+      "url": "https://tiboreset.com/forecast",
+      "values": {
+        "24h": 99,
+        "48h": 99
+      },
+      "forecast_origin_utc": null,
+      "source_updated_at_utc": null,
+      "method": "promise-conditioned displayedestimate",
+      "limitations": "99notindependentlycalibrated; quotePromisedplusstaleNotapromiseyet conflict;04:18haslanded classifiedordinaryPost.",
+      "status": "promised",
+      "same_window_revision_established": false,
+      "independently_calibrated": false,
+      "account_delivery_probability": false,
+      "display_use": "frozen_source_snapshot_only_not_current_probability"
+    },
+    {
+      "source": "ResetRadar",
+      "url": "https://resetradar.wiki/en/",
+      "values": {
+        "ETOct27": 33,
+        "ETOct28": 21
+      },
+      "forecast_origin_utc": null,
+      "source_updated_at_utc": null,
+      "method": "Bayesianlognormal n10",
+      "limitations": "Samefixedcalendardaysunchanged; lastcompletionOct25; ET=America/New_York.",
+      "status": "forecast",
+      "same_window_revision_established": false,
+      "independently_calibrated": false,
+      "account_delivery_probability": false,
+      "display_use": "frozen_source_snapshot_only_not_current_probability"
+    },
+    {
+      "source": "AIPlanWatch",
+      "url": "https://codex-reset.aiplanwatch.com/",
+      "values": null,
+      "forecast_origin_utc": null,
+      "source_updated_at_utc": null,
+      "method": "displayedeventclassification",
+      "limitations": "04:18GlobalReset claimusesambiguoushaslandedpost;07Zschedulealsodisplayed. Original403, completionnotverified; currentforecastpercentnotreturned.",
+      "status": "conflicting_completion_claim",
+      "same_window_revision_established": false,
+      "independently_calibrated": false,
+      "account_delivery_probability": false,
+      "display_use": "frozen_source_snapshot_only_not_current_probability"
+    },
+    {
+      "source": "Lunarwerx",
+      "url": "https://codex.lunarwerx.com/api/v1/forecast",
+      "values": {
+        "6h": 3.4,
+        "24h": 28.3
+      },
+      "forecast_origin_utc": "2026-10-28T05:30:29.646Z",
+      "source_updated_at_utc": "2026-10-28T05:30:29.646Z",
+      "method": "savedforecast/historicalreplay",
+      "limitations": "LastResetOct23; rollingwindowshift, notsamewindowrevision. Selfreportedcurrentmodel24h24windows8events; independentreplaynotdone.",
+      "status": "forecast",
+      "same_window_revision_established": false,
+      "independently_calibrated": false,
+      "account_delivery_probability": false,
+      "display_use": "frozen_source_snapshot_only_not_current_probability"
+    },
+    {
+      "source": "Gussuri",
+      "url": "https://codex.gussuriworks.com/en",
+      "values": {
+        "24h": 87,
+        "48h": 94
+      },
+      "forecast_origin_utc": null,
+      "source_updated_at_utc": "2026-10-28T05:29:00Z",
+      "method": "noticeconditioned",
+      "limitations": "Planned05–08Z, first3hsiteestimate notofficialwindow;08ZliteralPST, compared07Zothers. SameDay23original.",
+      "status": "announced",
+      "same_window_revision_established": false,
+      "independently_calibrated": false,
+      "account_delivery_probability": false,
+      "display_use": "frozen_source_snapshot_only_not_current_probability"
+    },
+    {
+      "source": "codexreset.ai",
+      "url": "https://codexreset.ai/api/v1/forecast.json",
+      "values": {
+        "24h": null,
+        "48h": null,
+        "7d": null
+      },
+      "forecast_origin_utc": null,
+      "source_updated_at_utc": "2026-10-28T04:18:36Z",
+      "method": "whenreset.appsharedAPI",
+      "limitations": "availablefalse, nozero. SearchcacheYES/rollingout isannouncementclassification, notcompletion.",
+      "status": "unavailable",
+      "same_window_revision_established": false,
+      "independently_calibrated": false,
+      "account_delivery_probability": false,
+      "display_use": "frozen_source_snapshot_only_not_current_probability"
+    },
+    {
+      "source": "recodex",
+      "url": "https://recodex.lol/",
+      "values": {
+        "24h": 1,
+        "72h": 3,
+        "7d": 7
+      },
+      "forecast_origin_utc": null,
+      "source_updated_at_utc": "2026-10-28T05:50:00Z",
+      "method": "post-recordnext-resetestimate",
+      "limitations": "02:42announcementclassifiedlastreset;02:43stillannouncednotyethappened. Forecastanotherreset notcomparablewithpendingDay23completion.",
+      "status": "forecast",
+      "same_window_revision_established": false,
+      "independently_calibrated": false,
+      "account_delivery_probability": false,
+      "display_use": "frozen_source_snapshot_only_not_current_probability"
+    },
+    {
+      "source": "QuotaResetWatch",
+      "url": "https://quotaresetwatch.com/en/",
+      "values": {
+        "24h": 9.2,
+        "48h": 17.4
+      },
+      "forecast_origin_utc": "2026-10-28T05:29:00Z",
+      "source_updated_at_utc": "2026-10-28T05:29:00Z",
+      "method": "GammaPoisson8intervals88.1days",
+      "limitations": "lastcompletionOct2,latestannouncementOct23 stalecoverage;calibrationnotestablished.",
+      "status": "forecast",
+      "same_window_revision_established": false,
+      "independently_calibrated": false,
+      "account_delivery_probability": false,
+      "display_use": "frozen_source_snapshot_only_not_current_probability"
+    },
+    {
+      "source": "codex-reset.today",
+      "url": "https://codex-reset.today/",
+      "values": {
+        "48h": null
+      },
+      "forecast_origin_utc": null,
+      "source_updated_at_utc": null,
+      "method": "freshsourcerequired",
+      "limitations": "unavailable; targetendOct30 05:01Z displayed;04:18haslandedcompletionclaimunverified.",
+      "status": "unavailable_conflicting_history",
+      "same_window_revision_established": false,
+      "independently_calibrated": false,
+      "account_delivery_probability": false,
+      "display_use": "frozen_source_snapshot_only_not_current_probability"
+    },
+    {
+      "source": "Tracker",
+      "url": "https://codex-resets-tracker.com/codex-reset-forecast/",
+      "values": {
+        "24h": 19,
+        "48h": 34,
+        "72h": 47
+      },
+      "forecast_origin_utc": null,
+      "source_updated_at_utc": "2026-10-28T06:00:00Z",
+      "method": "Poisson19confirmed90days",
+      "limitations": "Sourcecheckednotorigin; announced07Z separatefromlastconfirmedOct25.",
+      "status": "forecast",
+      "same_window_revision_established": false,
+      "independently_calibrated": false,
+      "account_delivery_probability": false,
+      "display_use": "frozen_source_snapshot_only_not_current_probability"
+    },
+    {
+      "source": "WillReset",
+      "url": "https://willreset.com/",
+      "values": {
+        "24h": 93,
+        "48h": 95
+      },
+      "forecast_origin_utc": null,
+      "source_updated_at_utc": "2026-10-28T05:47:00Z",
+      "method": "promisedforecast",
+      "limitations": "Old00ZstaleAug31 replacedOct26anchor; notsamewindowrevision, archivepreviousratherthanoverwrite. Noresetconfirmedtodayexplicit.",
+      "status": "promised",
+      "same_window_revision_established": false,
+      "independently_calibrated": false,
+      "account_delivery_probability": false,
+      "display_use": "frozen_source_snapshot_only_not_current_probability"
+    },
+    {
+      "source": "whenReset",
+      "url": "https://whenreset.online/?lang=en",
+      "values": null,
+      "forecast_origin_utc": null,
+      "source_updated_at_utc": null,
+      "method": "heuristic",
+      "limitations": "Pageopenedbutforecastnumbernotinreturnedexcerpt; prior90notcarriedforwardascurrent. HistoricalreviewthroughDay11.",
+      "status": "partial_read",
+      "same_window_revision_established": false,
+      "independently_calibrated": false,
+      "account_delivery_probability": false,
+      "display_use": "frozen_source_snapshot_only_not_current_probability"
+    },
+    {
+      "source": "codexreset.app",
+      "url": "https://codexreset.app/",
+      "values": {
+        "24h": 67,
+        "48h": 85
+      },
+      "forecast_origin_utc": null,
+      "source_updated_at_utc": "2026-10-28T01:51:00Z",
+      "method": "weightedpublicsignals",
+      "limitations": "Direct67/85 vs searchcached72/89 atsameasof; oldJuly25anchor. Noquiet/freshsignalconsistency. No trustedexactrevision.",
+      "status": "forecast",
+      "same_window_revision_established": false,
+      "independently_calibrated": false,
+      "account_delivery_probability": false,
+      "display_use": "frozen_source_snapshot_only_not_current_probability"
+    },
+    {
+      "source": "codex-resets.site",
+      "url": "https://codex-resets.site/",
+      "values": {
+        "24h": 83,
+        "48h": 83
+      },
+      "forecast_origin_utc": "2026-10-28T06:04:00Z",
+      "source_updated_at_utc": "2026-10-28T06:04:00Z",
+      "method": "displayedhistoricalbaseline/teaser",
+      "limitations": "Both24h/48hlabels withdeadline07Zonly56minlater; excludeincomparablewindows andzero-vote50%.",
+      "status": "forecast",
+      "same_window_revision_established": false,
+      "independently_calibrated": false,
+      "account_delivery_probability": false,
+      "display_use": "frozen_source_snapshot_only_not_current_probability"
+    },
+    {
+      "source": "codexlimits",
+      "url": "https://codexlimits.com/",
+      "values": null,
+      "forecast_origin_utc": null,
+      "source_updated_at_utc": null,
+      "method": "lowconfidenceOct28,rangeOct27–30",
+      "limitations": "Noquantitativeprobability; historicalOct13anchor whilecurrentobservedOct26. Day23announced. Marketpriceunknownnotzero.",
+      "status": "forecast",
+      "same_window_revision_established": false,
+      "independently_calibrated": false,
+      "account_delivery_probability": false,
+      "display_use": "frozen_source_snapshot_only_not_current_probability"
+    }
+  ],
+  "snapshot_reading_zh": "以下是读取区间内各来源的历史快照，不是当前预测或本研究概率。百分数、承诺评分、分类置信度、投票与间隔CDF不能混算；窗口起点未知则保持null。站点自己的user-set值不是本用户设定。后续结果不反写这些记录。",
+  "source_catalog": {
+    "current_forecast_urls": [
+      "https://nextreset.ai/api/forecast",
+      "https://codex-reset.com/api/forecast",
+      "https://www.codexreset-news.com/?lang=en",
+      "https://codex-reset-index.vercel.app/en",
+      "https://tiboreset.com/forecast",
+      "https://resetradar.wiki/en/",
+      "https://codex-reset.aiplanwatch.com/",
+      "https://codex.lunarwerx.com/api/v1/forecast",
+      "https://codex.gussuriworks.com/en",
+      "https://codexreset.ai/api/v1/forecast.json",
+      "https://recodex.lol/",
+      "https://quotaresetwatch.com/en/",
+      "https://codex-reset.today/",
+      "https://codex-resets-tracker.com/codex-reset-forecast/",
+      "https://willreset.com/",
+      "https://whenreset.online/?lang=en",
+      "https://codexreset.app/",
+      "https://codex-resets.site/",
+      "https://codexlimits.com/"
+    ],
+    "additional_direct": [
+      "https://github.com/7and1/codex-reset-history",
+      "https://github.com/gdutxiaoxu/codex-reset-radar",
+      "https://github.com/PengZoneLab/thsottiaux-Tibo-x-monitor/blob/master/latest.md",
+      "https://help.openai.com/en/articles/20001498-how-resets-work-in-codex",
+      "https://status.openai.com/"
+    ],
+    "new_search_only_candidates": [
+      "https://opentherank.com/codex-reset/",
+      "https://codex-reset.app/",
+      "https://whenreset.cn/",
+      "https://codex-resets.org/",
+      "https://codexreset.dev/",
+      "https://codexusage.app/"
+    ],
+    "search_only_caveat_zh": "仅搜索发现的候选并非已直接核验来源，不计独立预测数量。"
+  }
+}
