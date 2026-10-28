@@ -1,0 +1,125 @@
+{
+  "event_id": "day23-reset",
+  "status": "operator_observed_and_relayed_completion_original_unverified",
+  "new_same_event_not_second_reset": true,
+  "operator": {
+    "source": "https://codex-reset.com/api/forecast",
+    "observed_at": "2026-10-28T06:35:38Z",
+    "source_updated_at": "2026-10-28T06:44:48.821Z",
+    "confirmation_source": "operator_observed",
+    "official_confirmed_at": null,
+    "official_confirmation_url": null
+  },
+  "completion_relay": {
+    "post_id": "2115330127886463244",
+    "url": "https://x.com/thsottiaux/status/2115330127886463244",
+    "reported_publication_at": "2026-10-28T06:29:38Z",
+    "sources": [
+      "https://tiboreset.com/forecast",
+      "https://codex-reset-index.vercel.app/en",
+      "https://nextreset.ai/api/forecast"
+    ],
+    "short_quote": "And it's done.",
+    "original_fetch": "403 once; no retry/reroute",
+    "referent": "Trackers interpret as reset; original thread and shortened-link referent not independently verified.",
+    "independent_evidence_count": null
+  },
+  "time_difference_seconds": 360,
+  "deadlines_utc": [
+    "2026-10-28T07:00:00Z",
+    "2026-10-28T08:00:00Z"
+  ],
+  "first_deadline_passed": true,
+  "second_deadline_pending_at_observation": true,
+  "lapse_implies_failure_or_no_reset": false,
+  "primary_completion_verified": false,
+  "account_arrival_verified": false,
+  "guarantee": false,
+  "prior0418_claim_still_unverified": true,
+  "Gussuri_event_date_conflict": "Day21-labelled row nowOct28 15:35JST while notice87/94 persists; not independentcorroboration.",
+  "schema_version": 1,
+  "event_key": "2115273064481218829",
+  "campaign_day": 23,
+  "eligibility": "unknown",
+  "delivery_type": "unverified_from_original",
+  "forecast_probability": null,
+  "retrieved_intervals_utc": [
+    [
+      "2026-10-28T07:05:03.875Z",
+      "2026-10-28T07:05:06.097Z"
+    ],
+    [
+      "2026-10-28T07:05:17.783Z",
+      "2026-10-28T07:05:18.653Z"
+    ]
+  ],
+  "observation_round": "20261028T0700Z",
+  "frozen_prediction_snapshots": [
+    {
+      "source": "NextReset",
+      "asof": "2026-10-28T06:55:21.844Z",
+      "expires": "2026-10-28T07:10:21.844Z",
+      "24h": 20.31316563553194,
+      "48h": 38.91969581743092,
+      "72h": 56.56636791420752,
+      "comparison": "New rollingforecast aftercataloguedcompletion, notsameevent96to20 revision",
+      "display_use": "historical_snapshot_not_current_probability",
+      "independently_calibrated": false,
+      "account_delivery_probability": false,
+      "same_window_revision_established": false
+    },
+    {
+      "source": "ResetNE",
+      "start": "2026-10-28T06:30:00Z",
+      "end": "2026-10-31T06:30:00Z",
+      "72h": 74,
+      "comparison": "Newwindow aftercompletionrelay, notsamewindow80to74",
+      "display_use": "historical_snapshot_not_current_probability",
+      "independently_calibrated": false,
+      "account_delivery_probability": false,
+      "same_window_revision_established": false
+    },
+    {
+      "source": "codex-reset.com",
+      "forecast_origin": null,
+      "updated_at": "2026-10-28T06:44:48.821Z",
+      "display24h": 46,
+      "display48h": 71,
+      "commitment": null,
+      "backtest": "experimental,notbeatenbothbaselines",
+      "display_use": "historical_snapshot_not_current_probability",
+      "independently_calibrated": false,
+      "account_delivery_probability": false,
+      "same_window_revision_established": false
+    },
+    {
+      "source": "TiboReset",
+      "24h": 49,
+      "48h": 76,
+      "forecast_origin": null,
+      "comparison": "wait0.0d,retainedPromisedemptylabelsconflict",
+      "display_use": "historical_snapshot_not_current_probability",
+      "independently_calibrated": false,
+      "account_delivery_probability": false,
+      "same_window_revision_established": false
+    },
+    {
+      "source": "Gussuri",
+      "24h": 87,
+      "48h": 94,
+      "updated_at": "2026-10-28T06:39:00Z",
+      "comparison": "Noticeunchanged,eventdateinconsistent",
+      "display_use": "historical_snapshot_not_current_probability",
+      "independently_calibrated": false,
+      "account_delivery_probability": false,
+      "same_window_revision_established": false
+    }
+  ],
+  "source_urls": [
+    "https://codex-reset.com/api/forecast",
+    "https://nextreset.ai/api/forecast",
+    "https://tiboreset.com/forecast",
+    "https://codex-reset-index.vercel.app/en",
+    "https://codex.gussuriworks.com/en"
+  ]
+}
